@@ -55,13 +55,14 @@ def create_app() -> FastAPI:
     async def health() -> dict:
         return {"status": "ok", "env": settings.app_env}
 
-    # API routes — wired in Tier B
+    # API routes — wire all routers from app.api.router
     try:
         from app.api.router import router as api_router
 
         app.include_router(api_router, prefix="/api")
-    except ImportError:
-        logger.warning("API router not yet available — Tier B will add it")
+    except Exception as e:
+        logger.exception("Failed to load API router: %s", e)
+        raise
 
     return app
 
