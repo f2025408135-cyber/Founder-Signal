@@ -68,7 +68,13 @@ export default function FounderDetailPage() {
 
   const agg = memo.aggregator_output;
   const recColor = recommendationColor(agg.overall_recommendation);
-  const isColdStart = memo.score_history.some((s) => s.cold_start);
+  // Use the LATEST snapshot's cold_start flag (score_history is sorted oldest-first
+  // per founders.py:181 — `order_by(FounderScoreSnapshot.computed_at.asc())`).
+  // Spec §9.2: banner renders when the current run is cold-start.
+  const latestSnapshot = memo.score_history.length > 0
+    ? memo.score_history[memo.score_history.length - 1]
+    : null;
+  const isColdStart = latestSnapshot?.cold_start === true;
 
   // Extract section headings from memo for the nav rail
   const sections = agg.memo_markdown
@@ -145,16 +151,10 @@ export default function FounderDetailPage() {
 
           {/* Memo body */}
           <div className="px-6 py-8 max-w-3xl mx-auto">
-            {/* Cold-start banner (spec §9.2) */}
-            {isColdStart && (
-              <div className="mb-6 p-4 rounded-md border-2 border-[var(--color-cold-start)] bg-[var(--color-cold-start)]/5 text-sm">
-                <div className="font-semibold text-[var(--color-cold-start)] mb-1">⚠️ Cold-start founder.</div>
-                <div className="text-[var(--color-muted-foreground)]">
-                  External signals absent. All scores carry wide confidence bands. Recommend
-                  deep_dive, not fast_pass, regardless of headline numbers.
-                </div>
-              </div>
-            )}
+            {/* Cold-start banner is rendered by MemoView from memo_markdown
+                (aggregator.py:222-225 embeds it as a blockquote at the top).
+                Per spec §9.2: RED border, exact spec text. We do NOT render a
+                duplicate banner here — MemoView handles it. */}
 
             {/* Rescore reason */}
             {memo.rescore_reason && (

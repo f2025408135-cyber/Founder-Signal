@@ -116,6 +116,25 @@ async def run_idea_vs_market_agent(
                 new_high = min(100.0, new_low + 30)
             out.confidence_band = (new_low, new_high)
 
+    # R2: differentiation must be non-empty and at least 2 sentences.
+    # Spec §4.4 R2. If the LLM emitted a single-sentence differentiation, append
+    # the fallback text to ensure ≥2 sentences.
+    diff_text = (out.differentiation or "").strip()
+    if not diff_text:
+        out.differentiation = (
+            "Differentiation unclear — insufficient competitive evidence. "
+            "Cannot name closest competitors without verified competitive claims."
+        )
+    else:
+        # Count sentences — split on . ! ? followed by space/newline/end
+        import re
+        sentences = [s for s in re.split(r'[.!?]+(?:\s|$)', diff_text) if s.strip()]
+        if len(sentences) < 2:
+            out.differentiation = (
+                diff_text.rstrip(".!?") + ". "
+                "Insufficient competitive evidence to fully characterize differentiation."
+            )
+
     return out
 
 

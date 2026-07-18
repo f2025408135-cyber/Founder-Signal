@@ -7,11 +7,12 @@ from datetime import datetime
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, status
 from pydantic import BaseModel, Field
-from sqlalchemy import select
+from sqlalchemy import desc, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.db.models import ThesisConfig
+from app.db.models import CachedAggregator, ThesisConfig
 from app.deps import get_db
+from app.db.session import async_session
 from app.schemas.thesis import RiskAppetite, Thesis
 
 logger = logging.getLogger(__name__)
@@ -119,15 +120,37 @@ async def update_thesis(
     await db.commit()
     await db.refresh(row)
 
-    # NOTE: per spec §9.3, "Saving will re-evaluate all 24 founders in the inbox. Continue?"
-    # The re-score confirmation modal is a frontend concern. The backend re-score trigger
-    # fires automatically because should_rescore() will detect the new thesis via the
-    # cached_aggregator TTL expiry on next card view. We do NOT trigger a bulk re-score
-    # here — it would be expensive and the user may not actually want it.
-    # The frontend SHOULD show the modal and call this endpoint only after confirmation.
-    # background_tasks.add_task(_trigger_inbox_rescore, thesis_id=row.id)
+    # Per spec §9.3: "Saving will re-evaluate all 24 founders in the inbox. Continue?"
+    # The frontend shows a confirmation modal before calling POST /thesis.
+    # Once we receive the POST, we invalidate the cached_aggregator rows for all
+    # founders so the next card view triggers a fresh pipeline run with the new thesis.
+    background_tasks.add_task(_invalidate_inbox_cache)
 
     return _orm_to_schema(row)
+
+
+async def _invalidate_inbox_cache() -> None:
+    """Invalidate cached_aggregator rows for all founders.
+
+    Per spec §9.3: saving the thesis triggers a re-score of the entire inbox.
+    We don't bulk-run N pipelines here (expensive). Instead, we delete the cached
+    rows so the next card view for each founder sees `cache_miss` and re-runs
+    the pipeline via `get_or_compute()`.
+    """
+    try:
+        async with async_session() as s:
+            # Delete all cached_aggregator rows — next card view will re-run the pipeline.
+            result = await s.execute(
+                select(CachedAggregator)
+            )
+            rows = result.scalars().all()
+            count = len(rows)
+            for row in rows:
+                await s.delete(row)
+            await s.commit()
+        logger.info("Invalidated %d cached_aggregator rows after thesis update", count)
+    except Exception as e:
+        logger.warning("Failed to invalidate inbox cache after thesis update: %s", e)
 
 
 def _orm_to_schema(row: ThesisConfig) -> Thesis:

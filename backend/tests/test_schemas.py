@@ -157,7 +157,13 @@ def test_thesis_defaults():
 
 
 def test_founder_agent_output_composite_score():
-    """composite_score is a geometric mean — never exceeds max axis."""
+    """composite_score is a geometric mean — never exceeds max axis.
+
+    Per spec §4.6 (2): NO max(v, 1.0) clamping. A 0 axis yields composite_score=0
+    to reveal the weakness (spec example: 95/10/95/95 arithmetic mean = 73.75
+    looks investible; geometric mean = 52.5 reveals the weakness).
+    """
+    # All axes 80 → composite 80
     out = FounderAgentOutput(
         founder_id=uuid.uuid4(),
         technical_score=80.0,
@@ -172,6 +178,24 @@ def test_founder_agent_output_composite_score():
         trend="stable",
     )
     assert out.composite_score == pytest.approx(80.0, abs=0.1)
+
+    # One axis 0 → composite 0 (reveals weakness, no clamping)
+    out_zero = FounderAgentOutput(
+        founder_id=uuid.uuid4(),
+        technical_score=80.0,
+        market_fit_score=80.0,
+        network_score=0.0,  # cold-start: no network
+        momentum_score=0.0,  # cold-start: no momentum
+        cold_start=True,
+        confidence_band=(20.0, 80.0),
+        supporting_claim_ids=[],
+        reasoning="Cold-start test",
+        flags=["no_github", "no_arxiv"],
+        trend="insufficient_data",
+    )
+    assert out_zero.composite_score == 0.0, (
+        f"Expected composite_score=0 when any axis is 0 (no clamping); got {out_zero.composite_score}"
+    )
 
 
 def test_market_agent_output_numeric_score():

@@ -367,7 +367,6 @@ async def _trigger_pipeline_for_outbound(
     signal_type: str,
 ) -> None:
     """Run the pipeline for an outbound-sourced founder."""
-    from app.graph.pipeline import build_pipeline
     from app.schemas.thesis import RiskAppetite
 
     async with async_session() as s:
@@ -404,7 +403,9 @@ async def _trigger_pipeline_for_outbound(
     raw_inputs = [{"source": source, "content": signal["payload"]}]
 
     try:
-        pipeline = build_pipeline(checkpointer=None)
+        from app.graph.pipeline import get_pipeline, get_thread_config
+
+        pipeline = await get_pipeline()
         state = await pipeline.ainvoke(
             {
                 "founder_id": founder_id,
@@ -416,7 +417,8 @@ async def _trigger_pipeline_for_outbound(
                 "market_descriptors": market_descriptors,
                 "validator_outputs": [],
                 "errors": [],
-            }
+            },
+            config=get_thread_config(founder_id),
         )
         agg = state.get("aggregator_output")
         if agg:

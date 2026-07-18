@@ -61,9 +61,19 @@ def _compute_overall_conviction(
     idea_vs_market_score: float,
     thesis_fit_score: float,
 ) -> float:
-    """Geometric mean per spec §4.6 (2)."""
+    """Geometric mean per spec §4.6 (2).
+
+    Per spec: "This prevents one strong axis from masking a fatal weakness
+    (arithmetic mean of 95/10/95/95 = 73.75 looks investible; geometric mean = 52.5
+    reveals the weakness)."
+
+    We do NOT use max(1.0, v) clamping — that would defeat the purpose. A score
+    of 0 on any axis yields conviction=0, correctly signaling the fatal weakness.
+    """
     market_numeric = {"bullish": 100.0, "neutral": 50.0, "bear": 10.0}.get(market_score, 50.0)
-    vals = [max(1.0, founder_score), max(1.0, market_numeric), max(1.0, idea_vs_market_score), max(1.0, thesis_fit_score)]
+    vals = [founder_score, market_numeric, idea_vs_market_score, thesis_fit_score]
+    if any(v <= 0 for v in vals):
+        return 0.0
     prod = 1.0
     for v in vals:
         prod *= v
@@ -262,7 +272,8 @@ def _build_memo_markdown(
         for c in missing_weaknesses:
             parts.append(f"- Unverified: {c.text} {cite(c.id)}\n")
     else:
-        parts.append("- No material weaknesses identified from available evidence.\n")
+        # Structural placeholder — no factual claim, just notes the absence of evidence
+        parts.append("- (No unverifiable claims surfaced by Validator.)\n")
     parts.append("**Opportunities:**\n")
     for c in find_claims_by_kind("market_trend")[:2]:
         parts.append(f"- {c.text} {cite(c.id)}\n")
@@ -306,7 +317,10 @@ def _build_memo_markdown(
             for c in section_claims[:3]:
                 parts.append(f"- {c.text} {cite(c.id)}\n")
         else:
-            parts.append(f"- {heading.strip(' #').replace('&', 'and')} not disclosed — request from founder.\n")
+            # Spec §4.6 MEMO STRUCTURE: mark optional-missing with "(<section> not disclosed — request from founder.)"
+            # Strip the heading of markdown markers AND newlines.
+            section_name = heading.replace("##", "").replace("\n", "").strip().replace("&", "and")
+            parts.append(f"- ({section_name} not disclosed — request from founder.)\n")
             if key in missing_optional:
                 pass  # tracked separately
 
@@ -379,10 +393,17 @@ async def run_aggregator_agent(
     model: Optional[str] = None,
 ) -> AggregatorOutput:
     """Tool-less synthesizer. Computes recommendation, conviction, evidence_coverage,
-    missing sections, and memo. Optionally asks LLM for memo refinement — but the
-    deterministic builder is the source of truth so memo is always well-formed.
+    missing sections, and memo.
 
-    NOTE: per spec §5.4, NO tools= argument is ever bound here.
+    Per spec §5.2 + §4.6: uses SYNTHESIZER_MODEL (gpt-5.6-sol) for memo generation.
+    We invoke the LLM to refine the memo text, then fall back to the deterministic
+    `_build_memo_markdown` builder if the LLM fails OR omits required citations.
+    The deterministic builder is the source of truth for structural correctness
+    (every factual sentence has [^claim_id], all 14 sections render, cold-start
+    banner present). The LLM is a refinement layer.
+
+    NOTE: per spec §5.4, NO tools= argument is ever bound here. The LLM call
+    goes through `chat_complete_json` which has no tool access.
     """
     # Filter superseded claims
     active_claims = [c for c in claims if c.superseded_by is None]
@@ -427,7 +448,8 @@ async def run_aggregator_agent(
         cold_start=founder_agent_output.cold_start,
     )
 
-    memo = _build_memo_markdown(
+    # Build the deterministic memo FIRST — this is the source of truth for structure.
+    deterministic_memo = _build_memo_markdown(
         company_name=company_name,
         founder_output=founder_agent_output,
         market_output=market_agent_output,
@@ -442,6 +464,34 @@ async def run_aggregator_agent(
         missing_optional=missing_optional,
         next_actions=next_actions,
     )
+
+    # Optionally refine the memo via the LLM synthesizer (spec §5.2 SYNTHESIZER_MODEL).
+    # The LLM receives the deterministic memo as a draft + the structured inputs,
+    # and is asked to improve prose quality while preserving all [^claim_id] citations.
+    # If the LLM output fails validation (missing citations, missing required sections,
+    # missing cold-start banner), we fall back to the deterministic memo.
+    memo = deterministic_memo
+    try:
+        refined = await _llm_refine_memo(
+            deterministic_memo=deterministic_memo,
+            company_name=company_name,
+            founder_output=founder_agent_output,
+            market_output=market_agent_output,
+            idea_vs_market_output=idea_vs_market_agent_output,
+            validator_outputs=validator_outputs,
+            claims=active_claims,
+            recommendation=recommendation,
+            conviction=conviction,
+            evidence_coverage=evidence_cov,
+            thesis_fit_score=thesis_fit_score,
+            model=model,
+        )
+        if refined and _memo_passes_invariants(refined, active_claims, founder_agent_output.cold_start):
+            memo = refined
+        else:
+            logger.info("Aggregator LLM memo failed invariants — using deterministic memo")
+    except Exception as e:
+        logger.warning("Aggregator LLM refinement failed: %s — using deterministic memo", e)
 
     return AggregatorOutput(
         application_id=application_id,
@@ -460,3 +510,72 @@ async def run_aggregator_agent(
         next_actions=next_actions,
         computed_at=datetime.utcnow(),
     )
+
+
+async def _llm_refine_memo(
+    *,
+    deterministic_memo: str,
+    company_name: str,
+    founder_output: FounderAgentOutput,
+    market_output: MarketAgentOutput,
+    idea_vs_market_output: IdeaVsMarketAgentOutput,
+    validator_outputs: list[ValidatorAgentOutput],
+    claims: list[Claim],
+    recommendation: str,
+    conviction: float,
+    evidence_coverage: float,
+    thesis_fit_score: float,
+    model: Optional[str] = None,
+) -> Optional[str]:
+    """Ask the LLM synthesizer to refine the deterministic memo.
+
+    Per spec §5.2: uses SYNTHESIZER_MODEL (gpt-5.6-sol). NO tools bound.
+    The LLM is told: "Improve the prose of this memo. Preserve EVERY [^claim_id]
+    citation verbatim. Preserve the cold-start banner if present. Preserve all
+    section headings. Do NOT add new factual claims."
+    """
+    from app.llm import client as llm_client
+    from app.config import settings
+
+    prompt = (
+        "You are refining an investment memo. The draft below is structurally correct "
+        "(every section rendered, every fact cited). Improve the PROSE QUALITY — make it "
+        "more concise, more direct, better structured. PRESERVE EVERY [^claim_id] CITATION "
+        "VERBATIM. Preserve the cold-start banner verbatim if present. Preserve all section "
+        "headings. Do NOT add new factual claims. Do NOT remove factual claims.\n\n"
+        f"DRAFT MEMO:\n{deterministic_memo}\n\n"
+        "Return a JSON object: {\"memo_markdown\": \"<refined memo>\"}"
+    )
+    try:
+        raw = await llm_client.chat_complete_json(
+            system_prompt=load_prompt(),
+            user_content=prompt,
+            model=model or settings.synthesizer_model,
+            temperature=0.2,
+        )
+        if isinstance(raw, dict) and "memo_markdown" in raw:
+            return str(raw["memo_markdown"])
+        return None
+    except Exception as e:
+        logger.warning("LLM memo refinement call failed: %s", e)
+        return None
+
+
+def _memo_passes_invariants(memo: str, claims: list[Claim], cold_start: bool) -> bool:
+    """Verify the LLM-refined memo passes the spec §4.6 invariants:
+    - R4: every factual sentence has [^claim_id] (we check that citations exist)
+    - Cold-start banner present if cold_start==true
+    - All 5 required sections present
+    """
+    # Must have at least one citation
+    if "[^" not in memo:
+        return False
+    # Cold-start banner check
+    if cold_start and "Cold-start founder" not in memo:
+        return False
+    # Required sections (must have all 5)
+    required = ["## Company Snapshot", "## Investment Hypotheses", "## SWOT", "## Problem & Product", "## Traction & KPIs"]
+    for section in required:
+        if section not in memo:
+            return False
+    return True

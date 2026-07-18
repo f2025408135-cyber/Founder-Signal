@@ -230,13 +230,29 @@ async def thesis_fit_node(state: dict) -> dict:
 
 @observe(name="validator")
 async def validator_node(state: dict) -> dict:
-    """Per-claim verification. Runs AFTER fetch_external_evidence."""
+    """Per-claim verification. Runs AFTER fetch_external_evidence.
+
+    Writes validator_complete_at timestamp on the Application row per spec §10 B10.
+    """
     outputs = await run_validator_agent(
         claims=state["claims"],
         external_evidence=state.get("external_evidence") or {},
     )
     # Apply outputs back onto claim objects in state
     claims = apply_validator_outputs(state["claims"], outputs)
+
+    # Write validator_complete_at timestamp (spec §10 B10)
+    application_id = state.get("application_id")
+    if application_id:
+        try:
+            async with async_session() as s:
+                app = await s.get(ApplicationORM, application_id)
+                if app and not app.validator_complete_at:
+                    app.validator_complete_at = datetime.utcnow()
+                    await s.commit()
+        except Exception as e:
+            logger.warning("Could not write validator_complete_at for app %s: %s", application_id, e)
+
     return {"validator_outputs": outputs, "claims": claims}
 
 
@@ -267,7 +283,11 @@ async def market_node(state: dict) -> dict:
 
 @observe(name="idea_vs_market")
 async def idea_vs_market_node(state: dict) -> dict:
-    """Runs AFTER market — reads market_output.reasoning."""
+    """Runs AFTER market — reads market_output.reasoning.
+
+    Writes scoring_complete_at timestamp on the Application row per spec §10 B10
+    (this is the last scoring node before the aggregator fan-in).
+    """
     market_output: MarketAgentOutput = state["market_output"]
     out = await run_idea_vs_market_agent(
         company_id=state["company_id"],
@@ -275,6 +295,19 @@ async def idea_vs_market_node(state: dict) -> dict:
         market_reasoning=market_output.reasoning,
         thesis=state["thesis"],
     )
+
+    # Write scoring_complete_at timestamp (spec §10 B10)
+    application_id = state.get("application_id")
+    if application_id:
+        try:
+            async with async_session() as s:
+                app = await s.get(ApplicationORM, application_id)
+                if app and not app.scoring_complete_at:
+                    app.scoring_complete_at = datetime.utcnow()
+                    await s.commit()
+        except Exception as e:
+            logger.warning("Could not write scoring_complete_at for app %s: %s", application_id, e)
+
     return {"idea_vs_market_output": out}
 
 

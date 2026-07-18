@@ -33,14 +33,24 @@ class FounderAgentOutput(BaseModel):
         NOTE: this is NOT a blind average. The agent's `reasoning` field explains
         which axes are most diagnostic given the available evidence. We expose a
         simple geometric mean here for card display; the reasoning is the source of truth.
+
+        Per spec §4.6 (2): geometric mean MUST NOT use max(v, 1.0) clamping —
+        clamping defeats the "reveal weakness" purpose. A cold-start founder with
+        network_score=0 and momentum_score=0 SHOULD get composite_score=0 to
+        signal the absence of those signals to the investor.
+
+        We use 0 as the multiplicative identity (any product involving 0 is 0).
+        To avoid NaN on all-zero input, we return 0 explicitly.
         """
-        # Geometric mean to prevent one strong axis from masking a fatal weakness.
-        # Use max(v, 1.0) to avoid zeros killing the product (cold-start founders
-        # legitimately have network_score=0 and momentum_score=0).
         vals = [self.technical_score, self.market_fit_score, self.network_score, self.momentum_score]
+        if all(v == 0 for v in vals):
+            return 0.0
         prod = 1.0
         for v in vals:
-            prod *= max(v, 1.0)
+            prod *= v
+        # Geometric mean of 4 values. If any is 0, the product is 0 → return 0.
+        if prod <= 0:
+            return 0.0
         return round(prod ** (1 / 4), 2)
 
 

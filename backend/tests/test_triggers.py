@@ -59,12 +59,17 @@ async def test_should_rescore_new_application():
     app_id = uuid.uuid4()
     mock_app = MagicMock()
     mock_app.received_at = datetime.utcnow()  # within TTL
+    mock_app.founder_id = uuid.uuid4()
 
     mock_session = AsyncMock()
     mock_session.get = AsyncMock(return_value=mock_app)
-    mock_session.execute = AsyncMock(return_value=MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=None), all=MagicMock(return_value=[])))))
+    # The new implementation uses select(...) for trigger #1 — mock execute to return the app
+    app_result = MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=mock_app))))
+    sig_result = MagicMock(scalars=MagicMock(return_value=MagicMock(all=MagicMock(return_value=[]))))
+    score_result = MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=None))))
+    mock_session.execute = AsyncMock(side_effect=[app_result, sig_result, score_result])
 
-    should, reason = await should_rescore(uuid.uuid4(), app_id, session=mock_session)
+    should, reason = await should_rescore(mock_app.founder_id, app_id, session=mock_session)
     assert should is True
     assert reason == "new_application"
 
@@ -75,9 +80,11 @@ async def test_should_rescore_signal_threshold():
     from app.triggers.rescore import should_rescore
 
     app_id = uuid.uuid4()
+    founder_id = uuid.uuid4()
     # Application is OLD (outside TTL)
     mock_app = MagicMock()
     mock_app.received_at = datetime.utcnow() - timedelta(hours=2)
+    mock_app.founder_id = founder_id
 
     # FounderSignal with delta > 5
     mock_signal = MagicMock()
@@ -90,12 +97,15 @@ async def test_should_rescore_signal_threshold():
 
     mock_session = AsyncMock()
     mock_session.get = AsyncMock(return_value=mock_app)
-    # First execute: signals query; second: last_score query
+    # First execute: app query (returns None — old app outside TTL)
+    # Second execute: signals query (returns mock_signal)
+    # Third execute: last_score query (returns mock_score)
+    app_result = MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=None))))
     sig_result = MagicMock(scalars=MagicMock(return_value=MagicMock(all=MagicMock(return_value=[mock_signal]))))
     score_result = MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=mock_score))))
-    mock_session.execute = AsyncMock(side_effect=[sig_result, score_result])
+    mock_session.execute = AsyncMock(side_effect=[app_result, sig_result, score_result])
 
-    should, reason = await should_rescore(uuid.uuid4(), app_id, session=mock_session)
+    should, reason = await should_rescore(founder_id, app_id, session=mock_session)
     assert should is True
     assert reason == "signal_threshold_crossed"
 
@@ -106,6 +116,7 @@ async def test_should_rescore_stale_cache_24h():
     from app.triggers.rescore import should_rescore
 
     app_id = uuid.uuid4()
+    founder_id = uuid.uuid4()
     mock_app = MagicMock()
     mock_app.received_at = datetime.utcnow() - timedelta(hours=2)  # old app
 
@@ -114,11 +125,12 @@ async def test_should_rescore_stale_cache_24h():
 
     mock_session = AsyncMock()
     mock_session.get = AsyncMock(return_value=mock_app)
+    app_result = MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=None))))
     sig_result = MagicMock(scalars=MagicMock(return_value=MagicMock(all=MagicMock(return_value=[]))))
     score_result = MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=mock_score))))
-    mock_session.execute = AsyncMock(side_effect=[sig_result, score_result])
+    mock_session.execute = AsyncMock(side_effect=[app_result, sig_result, score_result])
 
-    should, reason = await should_rescore(uuid.uuid4(), app_id, session=mock_session)
+    should, reason = await should_rescore(founder_id, app_id, session=mock_session)
     assert should is True
     assert reason == "stale_cache_24h"
 
@@ -129,6 +141,7 @@ async def test_should_rescore_cache_hit():
     from app.triggers.rescore import should_rescore
 
     app_id = uuid.uuid4()
+    founder_id = uuid.uuid4()
     mock_app = MagicMock()
     mock_app.received_at = datetime.utcnow() - timedelta(hours=2)  # old app
 
@@ -137,10 +150,11 @@ async def test_should_rescore_cache_hit():
 
     mock_session = AsyncMock()
     mock_session.get = AsyncMock(return_value=mock_app)
+    app_result = MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=None))))
     sig_result = MagicMock(scalars=MagicMock(return_value=MagicMock(all=MagicMock(return_value=[]))))
     score_result = MagicMock(scalars=MagicMock(return_value=MagicMock(first=MagicMock(return_value=mock_score))))
-    mock_session.execute = AsyncMock(side_effect=[sig_result, score_result])
+    mock_session.execute = AsyncMock(side_effect=[app_result, sig_result, score_result])
 
-    should, reason = await should_rescore(uuid.uuid4(), app_id, session=mock_session)
+    should, reason = await should_rescore(founder_id, app_id, session=mock_session)
     assert should is False
     assert reason == "cache_hit"

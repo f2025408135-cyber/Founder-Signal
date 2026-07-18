@@ -63,15 +63,17 @@ async def get_founder_card(
     # Get the latest aggregator output (cache or DB)
     agg = await get_latest_aggregator_output(founder_id)
     if agg is None:
-        # No prior run — return minimal card with "no data yet" status
+        # No prior run — return minimal card with all InboxCard fields present (nullable)
         return {
             "founder_id": str(founder_id),
             "founder_name": founder.name,
+            "company_id": None,
             "company_name": None,
             "geography": None,
             "sector": None,
             "received_at": None,
             "founder_score": None,
+            "founder_trend": "insufficient_data",
             "market_score": None,
             "idea_vs_market_score": None,
             "thesis_fit_score": None,
@@ -81,6 +83,8 @@ async def get_founder_card(
             "recommendation": None,
             "cold_start": False,
             "trend": "insufficient_data",
+            "trace_id": None,
+            "computed_at": None,
             "rescore_reason": reason,
         }
 
@@ -112,6 +116,7 @@ async def get_founder_card(
     return {
         "founder_id": str(founder_id),
         "founder_name": founder.name,
+        "company_id": str(company.id) if company else None,
         "company_name": company.name if company else None,
         "geography": company.hq_country if company else None,
         "sector": company.sector_self_reported if company else None,

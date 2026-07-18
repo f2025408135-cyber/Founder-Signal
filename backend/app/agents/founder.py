@@ -231,24 +231,58 @@ async def run_founder_agent(
     # Enforce cold-start rule deterministically (R1, R2, R3)
     if is_cold_start:
         out.cold_start = True
-        # R2: confidence_band width >= 50
+        # R2: confidence_band width >= 50, clamped to [0, 100].
+        # Widen in BOTH directions — if high is clamped at 100, lower low to achieve width.
         low, high = out.confidence_band
         if high - low < 50:
-            new_high = min(100.0, low + 50)
-            out.confidence_band = (low, new_high)
-        # R3: flags contain >= 3 of the 5 cold-start flags
+            # Try widening upward first
+            new_high = min(100.0, low + 50.0)
+            if new_high - low < 50:
+                # high clamped at 100 — lower low to achieve width
+                new_low = max(0.0, 100.0 - 50.0)
+                out.confidence_band = (new_low, 100.0)
+            else:
+                out.confidence_band = (low, new_high)
+        # R3: flags contain >= 3 of the 5 cold-start flags (machine-checkable rule).
+        # Spec rule 5: "Explicitly enumerate in `flags` every missing signal" — we
+        # add ALL missing flags, not just enough to reach 3.
         required_flags = {"no_github", "no_arxiv", "no_ph_launch", "no_accelerator", "no_prior_vc"}
         present = set(out.flags) & required_flags
-        if len(present) < 3:
-            missing = required_flags - present
-            # Add missing flags (up to 3 total required)
-            for f in sorted(missing):
-                if len(set(out.flags) & required_flags) >= 3:
-                    break
+        missing = required_flags - present
+        for f in sorted(missing):
+            if f not in out.flags:
                 out.flags.append(f)
 
-    # R5: compute trend against prior_score
-    out.trend = _compute_trend(out.technical_score, prior_score).value  # type: ignore[assignment]
+    # R5: compute trend against prior_score — use composite_score (what gets persisted)
+    out.trend = _compute_trend(out.composite_score, prior_score).value  # type: ignore[assignment]
+
+    # R4: every non-zero axis score must have at least one supporting_claim_id.
+    # If the LLM emitted a non-zero axis without citing a claim, zero the axis
+    # (cannot justify a score without evidence — spec §4.2 R4).
+    axes_to_claims = {
+        "technical": ("technical_score", out.technical_score),
+        "market_fit": ("market_fit_score", out.market_fit_score),
+        "network": ("network_score", out.network_score),
+        "momentum": ("momentum_score", out.momentum_score),
+    }
+    if not out.supporting_claim_ids:
+        # No supporting claims at all — zero all axes
+        out.technical_score = 0.0
+        out.market_fit_score = 0.0
+        out.network_score = 0.0
+        out.momentum_score = 0.0
+    else:
+        # For each non-zero axis, ensure we have at least one supporting claim.
+        # We can't easily map claim_ids back to axes (the LLM doesn't tag them),
+        # so we approximate: if technical_score > 0 and no supporting_claim_ids, zero it.
+        # This is a conservative check — the LLM is supposed to cite per-axis.
+        for axis_name, (field_name, value) in axes_to_claims.items():
+            if value > 0 and not out.supporting_claim_ids:
+                setattr(out, field_name, 0.0)
+                logger.warning(
+                    "Founder R4: zeroed %s=%.1f — no supporting_claim_ids cited",
+                    field_name, value,
+                )
 
     return out
 

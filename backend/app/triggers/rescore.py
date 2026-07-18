@@ -65,11 +65,21 @@ async def should_rescore(
     stale_cutoff = now - timedelta(hours=STALE_CACHE_HOURS)
 
     async def _check(s: AsyncSession) -> tuple[bool, str]:
-        # 1. New application within TTL window?
-        if application_id is not None:
-            app = await s.get(ApplicationORM, application_id)
-            if app and app.received_at >= ttl_cutoff:
-                return True, "new_application"
+        # 1. New application within TTL window? (spec §8 trigger 1: "New application
+        # received FROM THIS FOUNDER" — we check ALL the founder's applications,
+        # not just the passed-in application_id.)
+        app_q = (
+            select(ApplicationORM)
+            .where(
+                ApplicationORM.founder_id == founder_id,
+                ApplicationORM.received_at >= ttl_cutoff,
+            )
+            .order_by(desc(ApplicationORM.received_at))
+            .limit(1)
+        )
+        recent_app = (await s.execute(app_q)).scalars().first()
+        if recent_app is not None:
+            return True, "new_application"
 
         # 2. New external signal crossing conviction threshold (>5)?
         sig_q = (
@@ -204,11 +214,11 @@ async def get_or_compute(
             return latest, reason if reason != "cache_miss" else "fallback_latest"
         return None, reason
 
-    # Re-run pipeline. thread_id = founder_id so LangGraph resumes from checkpoint
-    # if interrupted.
-    from app.graph.pipeline import build_pipeline
+    # Re-run pipeline with AsyncPostgresSaver checkpointer (spec §10 A6 + B7).
+    # thread_id = founder_id so LangGraph resumes from checkpoint if interrupted.
+    from app.graph.pipeline import get_pipeline, get_thread_config
 
-    pipeline = build_pipeline(checkpointer=None)
+    pipeline = await get_pipeline()
     state = await pipeline.ainvoke(
         {
             "founder_id": founder_id,
@@ -220,7 +230,8 @@ async def get_or_compute(
             "market_descriptors": market_descriptors or [],
             "validator_outputs": [],
             "errors": [],
-        }
+        },
+        config=get_thread_config(founder_id),
     )
     out: Optional[AggregatorOutput] = state.get("aggregator_output")
     if out is None:

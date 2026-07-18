@@ -4,6 +4,9 @@ Per spec §5.3:
 - 8 nodes: ingestion → (fetch_external_evidence || thesis_fit) → validator →
   (founder || market) → idea_vs_market (after market) → aggregator
 - AsyncPostgresSaver checkpointer with thread_id = founder_id
+
+Per spec §10 A6 + B7: production paths MUST use the checkpointer so that
+interrupted pipelines can resume and `langgraph_checkpoints` rows are written.
 """
 from __future__ import annotations
 
@@ -81,14 +84,22 @@ async def build_pipeline_with_postgres_saver():
 
     Per spec §10 A6: `pipeline.ainvoke({...})` runs end-to-end on a fixture founder
     and writes a checkpoint row to Postgres `langgraph_checkpoints` table.
-    """
-    from sqlalchemy.ext.asyncio import create_async_engine
 
-    # AsyncPostgresSaver needs a psycopg connection string (no +asyncpg)
-    sync_url = settings.database_sync_url
-    checkpointer = AsyncPostgresSaver.from_conn_string(sync_url)
+    Per spec §8 + B7: thread_id = founder_id so LangGraph resumes from checkpoint
+    if interrupted.
+    """
+    checkpointer = AsyncPostgresSaver.from_conn_string(settings.database_sync_url)
     await checkpointer.setup()  # creates langgraph_checkpoints + langgraph_writes tables
     return build_pipeline(checkpointer=checkpointer)
+
+
+def get_thread_config(founder_id) -> dict:
+    """Return the LangGraph config dict with thread_id = founder_id.
+
+    Per spec §8: "thread_id = founder_id so LangGraph resumes from checkpoint
+    if interrupted."
+    """
+    return {"configurable": {"thread_id": str(founder_id)}}
 
 
 # Convenience singleton — built lazily on first use
@@ -96,8 +107,21 @@ _pipeline_singleton = None
 
 
 async def get_pipeline():
-    """Returns the singleton pipeline instance, building it on first call."""
+    """Returns the singleton pipeline instance, building it on first call.
+
+    Per spec §10 A6 + B7: production paths MUST use the checkpointer.
+    Falls back to no-checkpointer if Postgres is unavailable (test env).
+    """
     global _pipeline_singleton
     if _pipeline_singleton is None:
-        _pipeline_singleton = await build_pipeline_with_postgres_saver()
+        try:
+            _pipeline_singleton = await build_pipeline_with_postgres_saver()
+            logger.info("Pipeline built with AsyncPostgresSaver checkpointer")
+        except Exception as e:
+            logger.warning(
+                "Failed to build pipeline with Postgres checkpointer (%s) — "
+                "falling back to no-checkpointer (interrupted pipelines cannot resume)",
+                e,
+            )
+            _pipeline_singleton = build_pipeline(checkpointer=None)
     return _pipeline_singleton

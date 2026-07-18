@@ -210,15 +210,6 @@ async def _run_pipeline_background(
 
     # ---- Run the pipeline ----
     try:
-        from app.graph.pipeline import build_pipeline
-
-        pipeline = build_pipeline(checkpointer=None)
-
-        # Wrap the pipeline invocation with per-phase timestamp updates.
-        # The pipeline nodes write to Application via the aggregator_node's persistence hook,
-        # but we also need validator_complete_at + scoring_complete_at.
-        # We hook these by wrapping the relevant nodes.
-
         # Generate a trace_id for this pipeline run so all node spans + LLM calls
         # are grouped under one Langfuse trace.
         from app.tracing import new_trace_id
@@ -232,8 +223,15 @@ async def _run_pipeline_background(
                 app_row.trace_id = trace_id
                 await s.commit()
 
+        # Use the singleton pipeline with AsyncPostgresSaver checkpointer (spec §10 A6 + B7).
+        # Falls back to no-checkpointer if Postgres unavailable.
+        from app.graph.pipeline import get_pipeline, get_thread_config
+
+        pipeline = await get_pipeline()
+
         # The simplest approach: run the pipeline, then write timestamps in order.
         # The pipeline is fast enough that sub-second precision is fine.
+        # Per spec §8: thread_id = founder_id so LangGraph resumes from checkpoint.
         state = await pipeline.ainvoke(
             {
                 "founder_id": founder_id,
@@ -246,7 +244,8 @@ async def _run_pipeline_background(
                 "validator_outputs": [],
                 "errors": [],
                 "trace_id": trace_id,
-            }
+            },
+            config=get_thread_config(founder_id),
         )
 
         agg = state.get("aggregator_output")
@@ -278,13 +277,11 @@ async def _run_pipeline_background(
             s.add(agg_row)
             if app:
                 app.aggregator_output_id = agg_row.id
-                # Per spec §10 B10: validator_complete_at, scoring_complete_at, aggregator_complete_at
-                # We approximate: validator and scoring both happened during the pipeline run,
-                # so we set them now (just before aggregator_complete_at).
-                now = datetime.utcnow()
-                app.validator_complete_at = now
-                app.scoring_complete_at = now
-                app.aggregator_complete_at = now
+                # Per spec §10 B10: validator_complete_at + scoring_complete_at are
+                # written by the validator_node + idea_vs_market_node respectively
+                # (they write at actual phase boundaries). aggregator_complete_at
+                # is written here as the terminal timestamp.
+                app.aggregator_complete_at = datetime.utcnow()
                 app.status = {
                     "fast_pass": "fast_pass",
                     "deep_dive": "deep_dive",

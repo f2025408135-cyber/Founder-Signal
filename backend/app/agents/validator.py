@@ -294,6 +294,15 @@ async def run_validator_agent(
             out = _enforce_rules(out, claim=c, contradictions=contradictions, external_evidence=external_evidence)
         final.append(out)
 
+    # R1 enforcement: log extras (outputs whose claim_id doesn't match any input claim)
+    claim_ids = {c.id for c in claims}
+    extras = [o for o in outputs if o.claim_id not in claim_ids]
+    if extras:
+        logger.warning(
+            "Validator R1 violation: %d extra outputs (claim_ids not in input): %s",
+            len(extras), [str(o.claim_id)[:8] for o in extras],
+        )
+
     return final
 
 
@@ -315,7 +324,8 @@ def _enforce_rules(
             out.notes = "Cold-start inferred claim; no external corroboration available."
         return out
 
-    # Cross-claim contradiction wins
+    # Cross-claim contradiction (deterministic) wins — these have real counter_evidence
+    # from other claims in the same input set.
     if claim.id in contradictions:
         ce, ces = contradictions[claim.id]
         return _contradicted(claim.id, counter_evidence=ce, counter_evidence_source=ces)
@@ -323,10 +333,15 @@ def _enforce_rules(
     # R2: no external_evidence AND not cold_start → unverifiable
     evidence_list = (external_evidence or {}).get(claim.id) or []
     if not evidence_list:
-        if out.status == "verified":
+        # If the LLM said "verified" or "contradicted" without external evidence,
+        # downgrade to "unverifiable" — there's nothing to verify against.
+        if out.status in {"verified", "contradicted"}:
             out.status = "unverifiable"
             out.confidence = min(out.confidence, 0.5)
-            out.notes = "Downgraded to unverifiable — no external evidence provided."
+            out.notes = (
+                f"Downgraded to unverifiable — no external evidence provided "
+                f"(LLM had asserted {out.status})."
+            )
         return out
 
     # R4: verified requires external (non-self-reported) source

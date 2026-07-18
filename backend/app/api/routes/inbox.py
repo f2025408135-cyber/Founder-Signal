@@ -82,19 +82,21 @@ async def get_inbox(
         if recommendation and agg.overall_recommendation != recommendation:
             continue
 
-        # Cold-start filter — need to check the FounderScoreSnapshot
-        cold_start_val = None
-        if cold_start is not None:
-            snap_q = (
-                select(FounderScoreSnapshot)
-                .where(FounderScoreSnapshot.founder_id == founder.id)
-                .order_by(desc(FounderScoreSnapshot.computed_at))
-                .limit(1)
-            )
-            snap = (await db.execute(snap_q)).scalars().first()
-            cold_start_val = snap.cold_start if snap else False
-            if cold_start_val != cold_start:
-                continue
+        # Always populate cold_start from the latest FounderScoreSnapshot
+        # (spec §9.1: cold_start drives the amber border + ❄ icon — must reflect
+        # actual founder status, not just the filter toggle).
+        snap_q = (
+            select(FounderScoreSnapshot)
+            .where(FounderScoreSnapshot.founder_id == founder.id)
+            .order_by(desc(FounderScoreSnapshot.computed_at))
+            .limit(1)
+        )
+        snap = (await db.execute(snap_q)).scalars().first()
+        cold_start_val = snap.cold_start if snap else False
+
+        # If the cold_start filter is active, skip non-matching founders
+        if cold_start is not None and cold_start_val != cold_start:
+            continue
 
         seen_founders[founder.id] = {
             "founder_id": str(founder.id),

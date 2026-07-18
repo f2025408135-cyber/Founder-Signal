@@ -144,7 +144,7 @@ async def get_outbound_queue(
             "sourcing_channel": channel,
             "signal_detected_at": sig["detected_at"].isoformat() if sig["detected_at"] else None,
             "conviction_delta": round(sig["conviction_delta"], 2),
-            # Card fields
+            # Card fields — match InboxCard shape (spec §9.1)
             "founder_score": round(agg.axes.get("founder", 0.0), 1) if agg else None,
             "founder_trend": agg.axes_trends.get("founder", "insufficient_data") if agg else "insufficient_data",
             "market_score": _market_score_to_label(agg.axes.get("market", 0.0)) if agg else None,
@@ -155,8 +155,11 @@ async def get_outbound_queue(
             "open_contradictions": len(agg.open_contradictions or []) if agg else 0,
             "recommendation": agg.overall_recommendation if agg else None,
             "cold_start": snap.cold_start if snap else False,
+            "trend": agg.axes_trends.get("founder", "insufficient_data") if agg else "insufficient_data",
             "trace_id": agg.trace_id if agg else None,
             "computed_at": agg.computed_at.isoformat() if agg and agg.computed_at else None,
+            # received_at — outbound founders don't have an application; use signal_detected_at
+            "received_at": sig["detected_at"].isoformat() if sig["detected_at"] else None,
         })
 
     # Sort by conviction delta desc, then by conviction desc

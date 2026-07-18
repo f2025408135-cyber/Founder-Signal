@@ -102,6 +102,10 @@ export function evidenceChip(status: string | null | undefined): { color: string
       return { color: "text-[var(--color-contradicted)] bg-[var(--color-contradicted)]/10", label: "contradicted" };
     case "not_disclosed":
       return { color: "text-[var(--color-not-disclosed)] bg-[var(--color-not-disclosed)]/10", label: "missing" };
+    case "low_evidence":
+      return { color: "text-[var(--color-unverified)] bg-[var(--color-unverified)]/10", label: "low evidence" };
+    case "cold_start_inferred":
+      return { color: "text-[var(--color-cold-start)] bg-[var(--color-cold-start)]/10", label: "cold-start" };
     default:
       return { color: "text-[var(--color-muted-foreground)] bg-[var(--color-muted)]", label: "—" };
   }

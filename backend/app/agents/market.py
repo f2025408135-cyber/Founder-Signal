@@ -96,6 +96,27 @@ async def run_market_agent(
     # R2: if no verified claim → neutral
     if not any(c.validator_status == "verified" for c in market_claims if c.validator_status):
         out.market_score = "neutral"
+    # R3: if both bullish-evidence AND bear-evidence verified claims exist → neutral
+    # + contradictions non-empty. Spec §4.3 R3.
+    bullish_claims = [
+        c for c in market_claims
+        if c.validator_status == "verified"
+        and (c.kind.value if hasattr(c.kind, "value") else str(c.kind)) == "market_trend"
+        and any(w in c.text.lower() for w in ["growing", "expanding", "rising", "bullish", "increasing"])
+    ]
+    bear_claims = [
+        c for c in market_claims
+        if c.validator_status == "verified"
+        and (c.kind.value if hasattr(c.kind, "value") else str(c.kind)) == "market_trend"
+        and any(w in c.text.lower() for w in ["shrinking", "contracting", "declining", "bearish", "decreasing"])
+    ]
+    if bullish_claims and bear_claims:
+        out.market_score = "neutral"
+        if not out.contradictions:
+            out.contradictions = [
+                f"Claim {bullish_claims[0].id} (bullish) vs Claim {bear_claims[0].id} (bear) — both verified."
+            ]
+
     return out
 
 

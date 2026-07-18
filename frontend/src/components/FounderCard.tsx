@@ -41,7 +41,7 @@ export default function FounderCard({ card, sourcingChannel }: FounderCardProps)
     <Card
       className={cn(
         "p-4 transition-shadow hover:shadow-md cursor-pointer",
-        coldStart && "border-[var(--color-cold-start)] border-2"
+        coldStart && "border-[var(--color-cold-start)]"
       )}
     >
       {/* Row 1: header */}

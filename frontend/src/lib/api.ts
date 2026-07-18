@@ -8,7 +8,7 @@ const BASE = "/api";
 export interface InboxCard {
   founder_id: string;
   founder_name: string;
-  company_id: string;
+  company_id: string | null;
   company_name: string | null;
   geography: string | null;
   sector: string | null;
@@ -173,6 +173,34 @@ export interface LatencyResponse {
   acceptance_90s: boolean;
 }
 
+export interface ApplicationCreatePayload {
+  founder_name: string;
+  founder_email: string;
+  founder_bio_text: string;
+  company_name: string;
+  company_website_url?: string | null;
+  deck_url?: string | null;
+  github_repo_slugs?: string[];
+  accelerator?: string | null;
+  hq_country: string;
+  sector_self_reported: string;
+}
+
+export interface ApplicationResponse {
+  id: string;
+  founder_id: string;
+  company_id: string;
+  received_at: string;
+  status: string;
+  raw_payload: Record<string, unknown>;
+  aggregator_output_id: string | null;
+  trace_id: string | null;
+  ingestion_complete_at: string | null;
+  validator_complete_at: string | null;
+  scoring_complete_at: string | null;
+  aggregator_complete_at: string | null;
+}
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const r = await fetch(`${BASE}${path}`, {
     headers: { "Content-Type": "application/json" },
@@ -252,8 +280,8 @@ export const api = {
   getLatency: (hours = 24) => request<LatencyResponse>(`/admin/latency?hours=${hours}`),
 
   // Applications
-  createApplication: (payload: unknown) =>
-    request<unknown>(`/applications`, {
+  createApplication: (payload: ApplicationCreatePayload) =>
+    request<ApplicationResponse>(`/applications`, {
       method: "POST",
       body: JSON.stringify(payload),
     }),

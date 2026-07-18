@@ -66,16 +66,25 @@ def _parse_claim_obj(
 ) -> Optional[Claim]:
     """Convert a raw dict from the LLM into a validated Claim object.
 
-    Returns None if the dict is malformed or fails R1/R5.
+    Returns None if the dict is malformed OR fails R1/R5.
+    R1: raw_payload_hash MUST match an input payload hash — claims with missing/wrong
+    hashes are DROPPED (not backfilled) per spec §4.1.
     """
     try:
-        # Source can come as a nested dict or be reconstructed
         source_raw = raw.get("source") or {}
-        # R1: raw_payload_hash must match an input payload hash (when present)
+        # R1: raw_payload_hash must match an input payload hash. If missing or unknown,
+        # drop the claim rather than backfilling (spec §4.1 R1 is a machine-checkable
+        # invariant — backfilling would silently "fix" violations).
         raw_hash = source_raw.get("raw_payload_hash") or ""
-        # If hash is missing/empty, try to backfill from expected hashes by source kind match
-        if not raw_hash and expected_payload_hashes:
-            raw_hash = next(iter(expected_payload_hashes))
+        if not raw_hash:
+            logger.warning("Ingestion R1 violation: claim has empty raw_payload_hash; dropping. text=%r", raw.get("text", "")[:80])
+            return None
+        if expected_payload_hashes and raw_hash not in expected_payload_hashes:
+            logger.warning(
+                "Ingestion R1 violation: raw_payload_hash %s not in expected input hashes; dropping. text=%r",
+                raw_hash[:16], raw.get("text", "")[:80],
+            )
+            return None
 
         kind_str = raw.get("kind", "cold_start_inferred")
         if isinstance(kind_str, ClaimKind):
@@ -106,11 +115,19 @@ def _parse_claim_obj(
         text = (raw.get("text") or "").strip()
         if not text:
             return None
-        # R4: text length [10, 400]
+        # R4: text length [10, 400] — enforced, not padded. Drop too-short claims.
         if len(text) < 10:
-            text = text + " " * (10 - len(text))  # rare; pad rather than drop
+            logger.warning(
+                "Ingestion R4 violation: claim text length %d < 10; dropping. text=%r",
+                len(text), text,
+            )
+            return None
         if len(text) > 400:
             text = text[:397] + "..."
+
+        # R7: initial confidence MUST be 0.5 — the Validator overwrites it. Force 0.5
+        # regardless of LLM output (spec §4.1 R7).
+        confidence = 0.5
 
         claim = Claim(
             founder_id=founder_id,
@@ -119,7 +136,7 @@ def _parse_claim_obj(
             kind=kind,
             text=text,
             source=source,
-            confidence=float(raw.get("confidence", 0.5)),
+            confidence=confidence,
         )
         return claim
     except Exception as e:

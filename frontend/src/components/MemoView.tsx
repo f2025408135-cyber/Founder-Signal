@@ -37,10 +37,11 @@ export default function MemoView({ markdown, claims }: MemoViewProps) {
 }
 
 function Line({ line, claimsById }: { line: string; claimsById: Map<string, ClaimRow> }) {
-  // Cold-start banner (blockquote at the top)
+  // Cold-start banner (blockquote at the top) — per spec §9.2: RED border.
+  // The backend embeds this as "> ⚠️ Cold-start founder..." in memo_markdown.
   if (line.startsWith("> ⚠️") || line.startsWith("> ⚠")) {
     return (
-      <div className="my-4 p-3 rounded-md border-2 border-[var(--color-cold-start)] bg-[var(--color-cold-start)]/5 text-sm">
+      <div className="my-4 p-3 rounded-md border-2 border-[var(--color-contradicted)] bg-[var(--color-contradicted)]/5 text-sm">
         {renderInline(line.replace(/^>\s*/, ""), claimsById)}
       </div>
     );
