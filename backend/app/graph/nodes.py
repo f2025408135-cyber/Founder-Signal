@@ -1,6 +1,11 @@
 """LangGraph node functions — each wraps one agent.
 
 Per spec §5.2. Pipeline wiring lives in pipeline.py.
+
+Tracing (spec §10 C1): every node is decorated with @observe() from app.tracing,
+which delegates to langfuse.observe when Langfuse is configured and is a no-op
+otherwise. LLM calls inside the agents are auto-traced via the langfuse.openai
+wrapper in app/llm/client.py.
 """
 from __future__ import annotations
 
@@ -35,6 +40,7 @@ from app.schemas.agent_outputs import (
 )
 from app.schemas.claim import Claim, SourceKind
 from app.schemas.founder_score import FounderScore, ScoreSnapshot
+from app.tracing import observe, new_trace_id
 from app.utils.embeddings import cosine_similarity, embed_text
 
 logger = logging.getLogger(__name__)
@@ -163,6 +169,7 @@ async def persist_founder_score_snapshot(
 # ---- Node functions ----
 
 
+@observe(name="ingestion")
 async def ingestion_node(state: dict) -> dict:
     """Fan-in raw_inputs -> atomic Claims. Runs dedupe before writing to state."""
     claims = await run_ingestion_agent(
@@ -181,6 +188,7 @@ async def ingestion_node(state: dict) -> dict:
     return {"claims": claims}
 
 
+@observe(name="fetch_external_evidence")
 async def fetch_external_evidence_node(state: dict) -> dict:
     """For each claim, fetch external evidence (web search, Crunchbase mock).
 
@@ -191,6 +199,7 @@ async def fetch_external_evidence_node(state: dict) -> dict:
     return {"external_evidence": evidence}
 
 
+@observe(name="thesis_fit")
 async def thesis_fit_node(state: dict) -> dict:
     """Compute founder-market-fit cosine similarity + thesis_fit_score.
 
@@ -219,6 +228,7 @@ async def thesis_fit_node(state: dict) -> dict:
     }
 
 
+@observe(name="validator")
 async def validator_node(state: dict) -> dict:
     """Per-claim verification. Runs AFTER fetch_external_evidence."""
     outputs = await run_validator_agent(
@@ -230,6 +240,7 @@ async def validator_node(state: dict) -> dict:
     return {"validator_outputs": outputs, "claims": claims}
 
 
+@observe(name="founder")
 async def founder_node(state: dict) -> dict:
     """Reads Validator-flagged claims. Runs in parallel with market + idea_vs_market."""
     out = await run_founder_agent(
@@ -244,6 +255,7 @@ async def founder_node(state: dict) -> dict:
     return {"founder_output": out}
 
 
+@observe(name="market")
 async def market_node(state: dict) -> dict:
     out = await run_market_agent(
         company_id=state["company_id"],
@@ -253,6 +265,7 @@ async def market_node(state: dict) -> dict:
     return {"market_output": out}
 
 
+@observe(name="idea_vs_market")
 async def idea_vs_market_node(state: dict) -> dict:
     """Runs AFTER market — reads market_output.reasoning."""
     market_output: MarketAgentOutput = state["market_output"]
@@ -265,6 +278,7 @@ async def idea_vs_market_node(state: dict) -> dict:
     return {"idea_vs_market_output": out}
 
 
+@observe(name="aggregator")
 async def aggregator_node(state: dict) -> dict:
     """TOOL-LESS SYNTHESIZER. Receives only pre-verified structured state.
 
@@ -340,7 +354,7 @@ async def aggregator_node(state: dict) -> dict:
         application_id=application_id,
     )
 
-    # Mark aggregator_complete_at on the Application row
+    # Mark aggregator_complete_at + write trace_id on the Application row
     if application_id:
         try:
             async with async_session() as s:
@@ -353,11 +367,18 @@ async def aggregator_node(state: dict) -> dict:
                         "pass": "passed",
                         "reject": "rejected",
                     }.get(out.overall_recommendation, "screened")
+                    # Spec §10 C1: trace_id written to Application.trace_id for cross-linking
+                    if not app.trace_id:
+                        app.trace_id = state.get("trace_id") or new_trace_id()
                     await s.commit()
         except Exception as e:
             logger.warning(
                 "Could not update Application %s status (%s) — aggregator output is still returned",
                 application_id, e
             )
+
+    # Propagate trace_id onto the aggregator output
+    if not out.trace_id:
+        out.trace_id = state.get("trace_id")
 
     return {"aggregator_output": out}

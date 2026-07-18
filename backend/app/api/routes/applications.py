@@ -219,6 +219,19 @@ async def _run_pipeline_background(
         # but we also need validator_complete_at + scoring_complete_at.
         # We hook these by wrapping the relevant nodes.
 
+        # Generate a trace_id for this pipeline run so all node spans + LLM calls
+        # are grouped under one Langfuse trace.
+        from app.tracing import new_trace_id
+        trace_id = new_trace_id()
+
+        # Write the trace_id onto the Application row immediately so it's available
+        # for the Langfuse trace panel link before the pipeline finishes.
+        async with async_session() as s:
+            app_row = await s.get(ApplicationORM, application_id)
+            if app_row and not app_row.trace_id:
+                app_row.trace_id = trace_id
+                await s.commit()
+
         # The simplest approach: run the pipeline, then write timestamps in order.
         # The pipeline is fast enough that sub-second precision is fine.
         state = await pipeline.ainvoke(
@@ -232,6 +245,7 @@ async def _run_pipeline_background(
                 "market_descriptors": market_descriptors,
                 "validator_outputs": [],
                 "errors": [],
+                "trace_id": trace_id,
             }
         )
 

@@ -77,11 +77,15 @@ def _verified(claim_id: uuid.UUID, *, counter_evidence_source: str) -> Validator
 def detect_cross_claim_contradictions(claims: list[Claim]) -> dict[uuid.UUID, tuple[str, str]]:
     """Heuristic cross-claim contradiction detection (spec §4.5 CONTRADICTION DETECTION).
 
-    For each (founder_id, kind) block, look at claim text for numerical assertions
-    that differ by >2x. Returns dict[claim_id -> (counter_evidence, counter_evidence_source)].
+    For each (founder_id, kind) block, look at claim text for:
+    1. Numerical assertions that differ by >2x (e.g. "$5B vs $500M" market size)
+    2. Mutually-exclusive qualitative assertions (e.g. "growing" vs "shrinking")
+    3. Sentiment opposition on the same kind (e.g. "leader" vs "laggard" in competitive)
+
+    Returns dict[claim_id -> (counter_evidence, counter_evidence_source)].
 
     This is the deterministic part of contradiction detection — the LLM Validator
-    can add more nuanced ones, but this catches the obvious "$5B vs $500M" cases.
+    can add more nuanced ones, but this catches the obvious cases.
     """
     import re
 
@@ -91,43 +95,123 @@ def detect_cross_claim_contradictions(claims: list[Claim]) -> dict[uuid.UUID, tu
         kind_val = c.kind.value if hasattr(c.kind, "value") else str(c.kind)
         blocks.setdefault((c.founder_id, kind_val), []).append(c)
 
-    number_re = re.compile(r"\$?\s*(\d+(?:\.\d+)?)\s*(?:B|M|K|billion|million|thousand)?", re.IGNORECASE)
+    number_re = re.compile(
+        r"\$?\s*(\d+(?:\.\d+)?)\s*(B|M|K|billion|million|thousand|%)?",
+        re.IGNORECASE,
+    )
+
+    # Mutually-exclusive qualitative term pairs — checked per kind.
+    # Each tuple is (term_a, term_b) — if claim1 matches term_a and claim2 matches term_b,
+    # they contradict.
+    QUALITATIVE_OPPOSITES: dict[str, list[tuple[str, str]]] = {
+        "market_trend": [
+            ("growing", "shrinking"),
+            ("expanding", "contracting"),
+            ("rising", "declining"),
+            ("bullish", "bearish"),
+            ("increasing", "decreasing"),
+        ],
+        "market_size": [
+            ("large", "small"),
+            ("massive", "tiny"),
+        ],
+        "competitive": [
+            ("leader", "laggard"),
+            ("dominant", "marginal"),
+            ("first mover", "late entrant"),
+        ],
+        "traction": [
+            ("viral", "stagnant"),
+            ("accelerating", "stalling"),
+        ],
+    }
 
     for (fid, kind), block in blocks.items():
-        if kind not in {"market_size", "traction", "financial"}:
-            continue
         if len(block) < 2:
             continue
-        # Extract first numerical value from each claim
-        for i, c1 in enumerate(block):
-            m1 = number_re.search(c1.text)
-            if not m1:
-                continue
-            try:
-                v1 = float(m1.group(1))
-            except ValueError:
-                continue
-            for c2 in block[i + 1 :]:
-                m2 = number_re.search(c2.text)
-                if not m2:
+
+        # --- Pass 1: numerical mismatches ---
+        if kind in {"market_size", "traction", "financial", "market_trend"}:
+            for i, c1 in enumerate(block):
+                m1 = number_re.search(c1.text)
+                if not m1:
                     continue
                 try:
-                    v2 = float(m2.group(1))
+                    v1 = float(m1.group(1))
                 except ValueError:
                     continue
-                if v1 == 0 or v2 == 0:
-                    continue
-                ratio = max(v1, v2) / min(v1, v2)
-                if ratio >= 2.0:  # 2x difference = contradiction
-                    out[c1.id] = (
-                        f'Claim {c2.id} says: "{c2.text}" (source: {c2.source.ref})',
-                        c2.source.ref,
-                    )
-                    out[c2.id] = (
-                        f'Claim {c1.id} says: "{c1.text}" (source: {c1.source.ref})',
-                        c1.source.ref,
-                    )
+                # Normalize unit
+                unit1 = (m1.group(2) or "").lower()
+                v1_norm = _normalize_value(v1, unit1)
+                for c2 in block[i + 1 :]:
+                    m2 = number_re.search(c2.text)
+                    if not m2:
+                        continue
+                    try:
+                        v2 = float(m2.group(1))
+                    except ValueError:
+                        continue
+                    if v1 == 0 or v2 == 0:
+                        continue
+                    unit2 = (m2.group(2) or "").lower()
+                    v2_norm = _normalize_value(v2, unit2)
+                    if v1_norm == 0 or v2_norm == 0:
+                        continue
+                    ratio = max(v1_norm, v2_norm) / min(v1_norm, v2_norm)
+                    if ratio >= 2.0:  # 2x difference = contradiction
+                        out[c1.id] = (
+                            f'Claim {c2.id} says: "{c2.text}" (source: {c2.source.ref})',
+                            c2.source.ref,
+                        )
+                        out[c2.id] = (
+                            f'Claim {c1.id} says: "{c1.text}" (source: {c1.source.ref})',
+                            c1.source.ref,
+                        )
+
+        # --- Pass 2: qualitative oppositions ---
+        opposites = QUALITATIVE_OPPOSITES.get(kind, [])
+        for term_a, term_b in opposites:
+            a_claims = [c for c in block if term_a.lower() in c.text.lower()]
+            b_claims = [c for c in block if term_b.lower() in c.text.lower()]
+            for ca in a_claims:
+                for cb in b_claims:
+                    if ca.id == cb.id:
+                        continue
+                    # Don't overwrite a numerical contradiction already detected
+                    if ca.id in out and cb.id in out:
+                        continue
+                    if ca.id not in out:
+                        out[ca.id] = (
+                            f'Claim {cb.id} says opposite ("{term_b}"): "{cb.text}" (source: {cb.source.ref})',
+                            cb.source.ref,
+                        )
+                    if cb.id not in out:
+                        out[cb.id] = (
+                            f'Claim {ca.id} says opposite ("{term_a}"): "{ca.text}" (source: {ca.source.ref})',
+                            ca.source.ref,
+                        )
+
     return out
+
+
+def _normalize_value(value: float, unit: str) -> float:
+    """Normalize a numeric value with its unit (B/M/K/%) to a common scale.
+
+    For market_size/traction/financial: normalize to absolute units (e.g. 5B = 5_000_000_000).
+    For percentages (unit='%'): leave as-is (we don't normalize % across kinds).
+
+    The ratio comparison still works regardless of unit because both values
+    in a pair go through the same normalization.
+    """
+    unit = unit.lower().strip()
+    if unit in {"b", "billion"}:
+        return value * 1_000_000_000
+    if unit in {"m", "million"}:
+        return value * 1_000_000
+    if unit in {"k", "thousand"}:
+        return value * 1_000
+    # No unit or '%' — return as-is
+    return value
 
 
 async def run_validator_agent(
