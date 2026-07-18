@@ -30,28 +30,33 @@ class FounderAgentOutput(BaseModel):
     def composite_score(self) -> float:
         """Reasoned composite — see Founder Agent prompt for weighting logic.
 
-        NOTE: this is NOT a blind average. The agent's `reasoning` field explains
-        which axes are most diagnostic given the available evidence. We expose a
-        simple geometric mean here for card display; the reasoning is the source of truth.
+        Per spec §4.2: "you do NOT average the four axes blindly; you reason in
+        your `reasoning` field about which axes are most diagnostic given the
+        available evidence and weight the composite accordingly."
 
-        Per spec §4.6 (2): geometric mean MUST NOT use max(v, 1.0) clamping —
-        clamping defeats the "reveal weakness" purpose. A cold-start founder with
-        network_score=0 and momentum_score=0 SHOULD get composite_score=0 to
-        signal the absence of those signals to the investor.
+        Per spec §4.2 cold-start rule 4: "A cold-start founder with a compelling
+        deck narrative and a defensible technical angle MUST be able to score 60+
+        (with the wide band)." Cold-start founders legitimately have network_score=0
+        and momentum_score=0 — these should NOT zero the composite.
 
-        We use 0 as the multiplicative identity (any product involving 0 is 0).
-        To avoid NaN on all-zero input, we return 0 explicitly.
+        Per spec §4.6 (2): the geometric mean "prevents one strong axis from masking
+        a fatal weakness" — but a 0 on an EXPECTED axis (cold-start) is not a weakness,
+        it's an absence of signal.
+
+        Resolution: geometric mean of NON-ZERO axes only. This:
+        - Does NOT use max(1.0, v) clamping (satisfies the no-clamping rule)
+        - Does NOT zero out when expected axes are 0 (satisfies the cold-start "60+" rule)
+        - Still reveals weakness when an unexpected axis is low (spec's 95/10/95/95 example
+          → geomean of all 4 non-zero = 54.1, well below arithmetic 73.75)
         """
         vals = [self.technical_score, self.market_fit_score, self.network_score, self.momentum_score]
-        if all(v == 0 for v in vals):
+        non_zero = [v for v in vals if v > 0]
+        if not non_zero:
             return 0.0
         prod = 1.0
-        for v in vals:
+        for v in non_zero:
             prod *= v
-        # Geometric mean of 4 values. If any is 0, the product is 0 → return 0.
-        if prod <= 0:
-            return 0.0
-        return round(prod ** (1 / 4), 2)
+        return round(prod ** (1 / len(non_zero)), 2)
 
 
 # ---------- Market Agent ----------

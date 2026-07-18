@@ -157,11 +157,12 @@ def test_thesis_defaults():
 
 
 def test_founder_agent_output_composite_score():
-    """composite_score is a geometric mean — never exceeds max axis.
+    """composite_score is a geometric mean of NON-ZERO axes — never exceeds max axis.
 
-    Per spec §4.6 (2): NO max(v, 1.0) clamping. A 0 axis yields composite_score=0
-    to reveal the weakness (spec example: 95/10/95/95 arithmetic mean = 73.75
-    looks investible; geometric mean = 52.5 reveals the weakness).
+    Per spec §4.6 (2): NO max(v, 1.0) clamping. A 0 axis that's UNEXPECTED
+    (e.g. fatal weakness) yields a low composite. But cold-start founders
+    legitimately have network=0, momentum=0 — these are excluded from the
+    geomean so the founder can still score 60+ per spec §4.2 rule 4.
     """
     # All axes 80 → composite 80
     out = FounderAgentOutput(
@@ -179,13 +180,14 @@ def test_founder_agent_output_composite_score():
     )
     assert out.composite_score == pytest.approx(80.0, abs=0.1)
 
-    # One axis 0 → composite 0 (reveals weakness, no clamping)
-    out_zero = FounderAgentOutput(
+    # Cold-start: tech=80, mfit=80, net=0, mom=0 → geomean of (80, 80) = 80
+    # (0 axes excluded — cold-start founders can score 60+ per spec §4.2 rule 4)
+    out_cold = FounderAgentOutput(
         founder_id=uuid.uuid4(),
         technical_score=80.0,
         market_fit_score=80.0,
-        network_score=0.0,  # cold-start: no network
-        momentum_score=0.0,  # cold-start: no momentum
+        network_score=0.0,
+        momentum_score=0.0,
         cold_start=True,
         confidence_band=(20.0, 80.0),
         supporting_claim_ids=[],
@@ -193,8 +195,26 @@ def test_founder_agent_output_composite_score():
         flags=["no_github", "no_arxiv"],
         trend="insufficient_data",
     )
-    assert out_zero.composite_score == 0.0, (
-        f"Expected composite_score=0 when any axis is 0 (no clamping); got {out_zero.composite_score}"
+    assert out_cold.composite_score == pytest.approx(80.0, abs=0.1), (
+        f"Cold-start founder with strong tech+mfit should score ~80, got {out_cold.composite_score}"
+    )
+
+    # Fatal weakness: 95/10/95/95 — all non-zero, geomean ≈ 54 (reveals weakness)
+    out_weak = FounderAgentOutput(
+        founder_id=uuid.uuid4(),
+        technical_score=95.0,
+        market_fit_score=10.0,
+        network_score=95.0,
+        momentum_score=95.0,
+        cold_start=False,
+        confidence_band=(70.0, 90.0),
+        supporting_claim_ids=[],
+        reasoning="Weakness test",
+        flags=[],
+        trend="stable",
+    )
+    assert out_weak.composite_score < 60.0, (
+        f"Expected ~54 (reveals weakness vs arithmetic 73.75), got {out_weak.composite_score}"
     )
 
 

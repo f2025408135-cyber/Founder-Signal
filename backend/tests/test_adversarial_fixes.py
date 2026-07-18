@@ -56,11 +56,11 @@ os.environ["DATABASE_SYNC_URL"] = "postgresql://vcbrain:vcbrain@localhost:5432/v
 
 def test_c1_geometric_mean_no_clamping():
     """Per spec §4.6 (2): geometric mean MUST NOT use max(v, 1.0) clamping.
-    A 0 axis yields composite_score=0 to reveal the weakness."""
+    Uses geometric mean of NON-ZERO axes (cold-start 0 axes are excluded, not clamped)."""
     from app.schemas.agent_outputs import FounderAgentOutput
 
     # 95/10/95/95 — spec example. Arithmetic mean = 73.75, geometric ≈ 54.1
-    # (spec text says 52.5 which is an approximation; actual = (95*10*95*95)^0.25 ≈ 54.11)
+    # All non-zero → geomean of all 4 reveals the weakness
     out = FounderAgentOutput(
         founder_id=uuid.uuid4(),
         technical_score=95.0,
@@ -80,8 +80,9 @@ def test_c1_geometric_mean_no_clamping():
     )
     assert out.composite_score > 50.0, f"Expected ~54, got {out.composite_score}"
 
-    # 0 axis → composite 0 (no clamping)
-    out_zero = FounderAgentOutput(
+    # Cold-start: tech=80, mfit=80, net=0, mom=0 → geomean of (80, 80) = 80
+    # (0 axes excluded, NOT clamped — cold-start founders can score 60+ per spec §4.2 rule 4)
+    out_cold = FounderAgentOutput(
         founder_id=uuid.uuid4(),
         technical_score=80.0,
         market_fit_score=80.0,
@@ -94,7 +95,9 @@ def test_c1_geometric_mean_no_clamping():
         flags=["no_github"],
         trend="insufficient_data",
     )
-    assert out_zero.composite_score == 0.0
+    assert out_cold.composite_score == pytest.approx(80.0, abs=0.1), (
+        f"Cold-start with strong tech+mfit should score ~80 (0 axes excluded), got {out_cold.composite_score}"
+    )
 
 
 def test_c1_aggregator_conviction_no_clamping():
