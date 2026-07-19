@@ -8,6 +8,7 @@ import { FounderCard } from "@/components/founder/founder-card";
 import { Button, Input, Badge, Skeleton } from "@/components/ui/primitives";
 import { api } from "@/lib/api";
 import type { QueryMatch } from "@/lib/types";
+import { AgentWorkflowPanel, ViewAgentWorkflowButton } from "@/components/agents/agent-workflow";
 
 // Lazy-load SignalRadar so it never blocks the founder card list
 const SignalRadarLazy = lazy(() =>
@@ -32,6 +33,7 @@ function InboxContent() {
   const [recFilter, setRecFilter] = useState("");
   const [coldStartOnly, setColdStartOnly] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
+  const [showWorkflow, setShowWorkflow] = useState(false);
 
   // Read ?q= param from URL (set by the hero/landing page)
   useEffect(() => {
@@ -112,6 +114,7 @@ function InboxContent() {
             <SlidersHorizontal className="w-3 h-3 mr-1.5" />
             Filters
           </Button>
+          <ViewAgentWorkflowButton onClick={() => setShowWorkflow(!showWorkflow)} label={showWorkflow ? "Hide Agents" : "View Agent Workflow"} />
           {recFilter && <FilterChip label={recFilter} onClear={() => setRecFilter("")} />}
           {coldStartOnly && <FilterChip label="cold-start only" onClear={() => setColdStartOnly(false)} />}
           {sector && <FilterChip label={`sector: ${sector}`} onClear={() => setSector("")} />}
@@ -234,6 +237,13 @@ function InboxContent() {
             </div>
           )}
         </section>
+
+        {/* Agent Workflow Panel (collapsible) */}
+        {showWorkflow && (
+          <section className="mt-6" aria-label="Agent workflow visualization">
+            <AgentWorkflowPanel onClose={() => setShowWorkflow(false)} />
+          </section>
+        )}
 
         <section className="mt-10" aria-label="Pipeline telemetry">
           <div className="mb-3 flex items-end justify-between gap-4">

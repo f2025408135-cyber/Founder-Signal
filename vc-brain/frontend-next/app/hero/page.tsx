@@ -1,8 +1,9 @@
 "use client";
 import { useState, useRef, useEffect, Suspense, lazy } from "react";
 import { useRouter } from "next/navigation";
-import { Search, ArrowRight, Loader2, Send, Sparkles, RotateCcw } from "lucide-react";
+import { Search, ArrowRight, Loader2, Send, Sparkles, RotateCcw, Activity } from "lucide-react";
 import { Button, Input, Card, Badge } from "@/components/ui/primitives";
+import { AgentWorkflowPanel, ViewAgentWorkflowButton } from "@/components/agents/agent-workflow";
 
 // Lazy-load the particle sphere
 const ParticleSphereWithFallback = lazy(() =>
@@ -46,6 +47,7 @@ export default function HeroPage() {
   const [pipelineStarted, setPipelineStarted] = useState(false);
   const [dashboardUrl, setDashboardUrl] = useState<string | null>(null);
   const [showChat, setShowChat] = useState(false); // toggle between hero + chat mode
+  const [showWorkflow, setShowWorkflow] = useState(false); // agent workflow panel
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -141,7 +143,15 @@ export default function HeroPage() {
               Skip to dashboard →
             </button>
             <button type="button" onClick={resetConversation} className="rounded-sm border border-transparent p-1.5 text-text-muted transition-colors hover:border-border-strong hover:text-text-primary" aria-label="Start a new investment thesis" title="Start a new thesis"><RotateCcw className="h-3.5 w-3.5" /></button>
+            <ViewAgentWorkflowButton onClick={() => setShowWorkflow(!showWorkflow)} label={showWorkflow ? "Hide" : "Agents"} />
           </div>
+
+          {/* Agent Workflow Panel (collapsible) */}
+          {showWorkflow && (
+            <div className="mb-4">
+              <AgentWorkflowPanel onClose={() => setShowWorkflow(false)} />
+            </div>
+          )}
 
           {/* Messages */}
           <div className="flex-1 overflow-y-auto space-y-4 mb-4" style={{ maxHeight: "calc(100vh - 200px)" }}>
