@@ -41,6 +41,8 @@ class Settings(BaseSettings):
     # ---- External APIs ----
     github_token: str = Field(default="", alias="GITHUB_TOKEN")
     producthunt_token: str = Field(default="", alias="PRODUCTHUNT_TOKEN")
+    gemini_api_key: str = Field(default="", alias="GEMINI_API_KEY")
+    tavily_api_key: str = Field(default="", alias="TAVILY_API_KEY")
 
     # ---- App ----
     app_env: str = Field(default="development", alias="APP_ENV")
