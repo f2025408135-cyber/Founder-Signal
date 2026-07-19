@@ -6,6 +6,7 @@ import { useState } from "react";
 import { ArrowLeft, Loader2, AlertCircle, ChevronRight, ChevronDown } from "lucide-react";
 import { AppShell } from "@/components/layout/app-shell";
 import { MemoView } from "@/components/memo/memo-view";
+import { Verdict } from "@/components/memo/verdict";
 import { PipelineTrace } from "@/components/trace/pipeline-trace";
 import { Badge, Card, Skeleton } from "@/components/ui/primitives";
 import { api } from "@/lib/api";
@@ -173,6 +174,14 @@ export default function FounderDetailPage() {
             )}
 
             <MemoView markdown={agg.memo_markdown} claims={memo.claims} />
+
+            <Verdict
+              key={memo.founder_id}
+              founderId={memo.founder_id}
+              founderName={memo.founder_name}
+              claims={memo.claims}
+              memoMarkdown={agg.memo_markdown}
+            />
 
             {/* Score history sparkline */}
             <ScoreHistory history={memo.score_history} />
