@@ -1,0 +1,181 @@
+{
+  "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+  "company_id": "df9f6ea0-44d6-4ae9-a84d-663e9c7ee83b",
+  "application_id": "d0eec89f-c02d-42e2-870e-1a3d6eeedde0",
+  "name": "Dmitri Park",
+  "company_name": "OrbitFinance",
+  "sector": "DevTools",
+  "stage": "series-a",
+  "geography": "GB",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "ETH Zurich",
+    "degree": "BSc Mathematics",
+    "year": 2018
+  },
+  "prior_experience": "Previously worked at DeepMind.",
+  "github_profile": {
+    "username": "dmitripark",
+    "repo_count": 8,
+    "primary_language": "Go",
+    "commit_activity": "8 commits in last 30 days",
+    "stars": 58
+  },
+  "deck_summary": "OrbitFinance is building: A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+  "claims": [
+    {
+      "id": "786fdbd8-6dc9-4f2b-83e4-e719d5473dd0",
+      "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+      "company_id": "df9f6ea0-44d6-4ae9-a84d-663e9c7ee83b",
+      "application_id": "d0eec89f-c02d-42e2-870e-1a3d6eeedde0",
+      "kind": "founder_background",
+      "text": "Founder Dmitri Park studied at ETH Zurich.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:d0eec89f-c02d-42e2-870e-1a3d6eeedde0",
+        "ingested_at": "2026-07-19T04:17:17.348616",
+        "raw_payload_hash": "b1ef0599218f8f7377d2bc172dc1dea39e740d6b1c69e8bc90372ed939e26bc2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.348696",
+      "superseded_by": null
+    },
+    {
+      "id": "5ff6cecd-438f-4044-b823-2892943646e4",
+      "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+      "company_id": "df9f6ea0-44d6-4ae9-a84d-663e9c7ee83b",
+      "application_id": "d0eec89f-c02d-42e2-870e-1a3d6eeedde0",
+      "kind": "product",
+      "text": "OrbitFinance addresses: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:17.348702",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.348717",
+      "superseded_by": null
+    },
+    {
+      "id": "377bdb63-25f4-4ef2-b0f4-0cd3aa1aa2ad",
+      "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+      "company_id": "df9f6ea0-44d6-4ae9-a84d-663e9c7ee83b",
+      "application_id": "d0eec89f-c02d-42e2-870e-1a3d6eeedde0",
+      "kind": "product",
+      "text": "Solution: A CI/CD-native onboarding platform that reduces ramp time to 3 days.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:17.348720",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.348729",
+      "superseded_by": null
+    },
+    {
+      "id": "96699648-b7e2-4a31-b68b-4ca23c4527df",
+      "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+      "company_id": "df9f6ea0-44d6-4ae9-a84d-663e9c7ee83b",
+      "application_id": "d0eec89f-c02d-42e2-870e-1a3d6eeedde0",
+      "kind": "market_trend",
+      "text": "The DevTools sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:DevTools-trend",
+        "ingested_at": "2026-07-19T04:17:17.348732",
+        "raw_payload_hash": "3ee7b4ebb1680e336f96481c44f9bcac8321c8d0fcd8f9255f5a362008e5a194",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.348741",
+      "superseded_by": null
+    },
+    {
+      "id": "710d9e0d-cb14-49be-8f6d-0b452b32a7cf",
+      "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+      "company_id": "df9f6ea0-44d6-4ae9-a84d-663e9c7ee83b",
+      "application_id": "d0eec89f-c02d-42e2-870e-1a3d6eeedde0",
+      "kind": "technical_depth",
+      "text": "Repository dmitripark/orbitfinance-core has 58 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "dmitripark/orbitfinance-core",
+        "ingested_at": "2026-07-19T04:17:17.348750",
+        "raw_payload_hash": "a3cb8a4e2275a1b6e644f8dbb16ab9c5c6f7583667f77436f4bac713282833eb",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.348759",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+    "score_history": [
+      {
+        "id": "fffa1046-419f-4d37-ab24-e548aa4191c4",
+        "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+        "score": 54.625229594563734,
+        "confidence_band": [
+          34.625229594563734,
+          74.62522959456373
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:17.348847",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 40.9689221959228,
+          "market_fit": 32.77513775673824,
+          "network": 21.850091837825495,
+          "momentum": 27.312614797281867
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "fffa1046-419f-4d37-ab24-e548aa4191c4",
+      "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+      "score": 54.625229594563734,
+      "confidence_band": [
+        34.625229594563734,
+        74.62522959456373
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:17.348847",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 40.9689221959228,
+        "market_fit": 32.77513775673824,
+        "network": 21.850091837825495,
+        "momentum": 27.312614797281867
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:17.348906",
+    "last_updated_at": "2026-07-19T04:17:17.348907"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/67.jpg"
+}

@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
 import { Search, Loader2, AlertCircle, SlidersHorizontal } from "lucide-react";
 import { AppShell } from "@/components/layout/app-shell";
@@ -9,6 +10,15 @@ import { api } from "@/lib/api";
 import type { QueryMatch } from "@/lib/types";
 
 export default function InboxPage() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center py-24 text-sm text-text-muted">Loading…</div>}>
+      <InboxContent />
+    </Suspense>
+  );
+}
+
+function InboxContent() {
+  const searchParams = useSearchParams();
   const [search, setSearch] = useState("");
   const [submittedQuery, setSubmittedQuery] = useState("");
   const [sector, setSector] = useState("");
@@ -16,6 +26,15 @@ export default function InboxPage() {
   const [recFilter, setRecFilter] = useState("");
   const [coldStartOnly, setColdStartOnly] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
+
+  // Read ?q= param from URL (set by the hero/landing page)
+  useEffect(() => {
+    const q = searchParams.get("q");
+    if (q && !submittedQuery) {
+      setSearch(q);
+      setSubmittedQuery(q);
+    }
+  }, [searchParams, submittedQuery]);
 
   const { data, isLoading, error } = useQuery({
     queryKey: ["inbox", sector, geography, recFilter, coldStartOnly],

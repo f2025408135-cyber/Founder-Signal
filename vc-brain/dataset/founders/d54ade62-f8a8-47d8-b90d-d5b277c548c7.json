@@ -1,0 +1,181 @@
+{
+  "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+  "company_id": "3fe92970-a62f-4488-a735-967111326352",
+  "application_id": "93e125e8-ce59-4383-98f3-6f798a9c4c8c",
+  "name": "Kenji Adebayo",
+  "company_name": "OrbitEnergy",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "GB",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "University of Oxford",
+    "degree": "MSc Robotics",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at Shopify.",
+  "github_profile": {
+    "username": "kenjiadebayo",
+    "repo_count": 10,
+    "primary_language": "Python",
+    "commit_activity": "8 commits in last 30 days",
+    "stars": 127
+  },
+  "deck_summary": "OrbitEnergy is building: A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: AI model deployment lacks observability; teams fly blind in production.",
+  "claims": [
+    {
+      "id": "a27fc034-d604-4382-8a99-dc74646b6ee9",
+      "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+      "company_id": "3fe92970-a62f-4488-a735-967111326352",
+      "application_id": "93e125e8-ce59-4383-98f3-6f798a9c4c8c",
+      "kind": "founder_background",
+      "text": "Founder Kenji Adebayo studied at University of Oxford.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:93e125e8-ce59-4383-98f3-6f798a9c4c8c",
+        "ingested_at": "2026-07-19T04:17:19.640128",
+        "raw_payload_hash": "106308deae35fac83159793c41774a890f6edd484debae154d12e2cc9022a663",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.640222",
+      "superseded_by": null
+    },
+    {
+      "id": "b2f7763d-b120-48cf-9752-499e257d8bec",
+      "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+      "company_id": "3fe92970-a62f-4488-a735-967111326352",
+      "application_id": "93e125e8-ce59-4383-98f3-6f798a9c4c8c",
+      "kind": "product",
+      "text": "OrbitEnergy addresses: AI model deployment lacks observability; teams fly blind in production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:19.640229",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.640244",
+      "superseded_by": null
+    },
+    {
+      "id": "3a52b80f-daff-46bf-9ef2-2c64cb776952",
+      "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+      "company_id": "3fe92970-a62f-4488-a735-967111326352",
+      "application_id": "93e125e8-ce59-4383-98f3-6f798a9c4c8c",
+      "kind": "product",
+      "text": "Solution: A supply chain carbon ledger with automated Scope 3 emissions tracking.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:19.640247",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.640256",
+      "superseded_by": null
+    },
+    {
+      "id": "c0282938-aa03-441d-aa05-d215fc3c0637",
+      "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+      "company_id": "3fe92970-a62f-4488-a735-967111326352",
+      "application_id": "93e125e8-ce59-4383-98f3-6f798a9c4c8c",
+      "kind": "market_trend",
+      "text": "The Healthtech sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-trend",
+        "ingested_at": "2026-07-19T04:17:19.640260",
+        "raw_payload_hash": "1e283eb4dc911e1b94f7be66bb0e1d193ce98cd9a89704b2daa9d9647ccdaa3d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.640268",
+      "superseded_by": null
+    },
+    {
+      "id": "c32849ff-45e6-425a-bc31-4752c7f47efc",
+      "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+      "company_id": "3fe92970-a62f-4488-a735-967111326352",
+      "application_id": "93e125e8-ce59-4383-98f3-6f798a9c4c8c",
+      "kind": "technical_depth",
+      "text": "Repository kenjiadebayo/orbitenergy-core has 127 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "kenjiadebayo/orbitenergy-core",
+        "ingested_at": "2026-07-19T04:17:19.640277",
+        "raw_payload_hash": "89de21f42327836d023af250483dc1bf8ba87c981ccbec5be5c7bb036c985b86",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.640285",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+    "score_history": [
+      {
+        "id": "8371292e-60d2-44ec-aed6-16aae7a825e8",
+        "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+        "score": 55.04543063564761,
+        "confidence_band": [
+          35.04543063564761,
+          75.04543063564762
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:19.640368",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 41.28407297673571,
+          "market_fit": 33.02725838138856,
+          "network": 22.018172254259046,
+          "momentum": 27.522715317823806
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "8371292e-60d2-44ec-aed6-16aae7a825e8",
+      "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+      "score": 55.04543063564761,
+      "confidence_band": [
+        35.04543063564761,
+        75.04543063564762
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:19.640368",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 41.28407297673571,
+        "market_fit": 33.02725838138856,
+        "network": 22.018172254259046,
+        "momentum": 27.522715317823806
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:19.640389",
+    "last_updated_at": "2026-07-19T04:17:19.640390"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/61.jpg"
+}

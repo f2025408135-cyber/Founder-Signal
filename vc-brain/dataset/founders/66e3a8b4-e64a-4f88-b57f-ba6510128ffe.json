@@ -1,0 +1,241 @@
+{
+  "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+  "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+  "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+  "name": "Adaeze Khan",
+  "company_name": "PrismEnergy",
+  "sector": "Consumer",
+  "stage": "pre-seed",
+  "geography": "IN",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "Carnegie Mellon University",
+    "degree": "MSc Data Science",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at Anthropic.",
+  "github_profile": {
+    "username": "adaezekhan",
+    "repo_count": 25,
+    "primary_language": "Go",
+    "commit_activity": "12 commits in last 30 days",
+    "stars": 746
+  },
+  "deck_summary": "PrismEnergy is building: An open-source evaluation harness with auditable test suites. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "24d3cbc3-b9e1-44d5-88ad-0b69f59ae847",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+      "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+      "kind": "founder_background",
+      "text": "Founder Adaeze Khan holds a MSc Data Science from Carnegie Mellon University.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:44f5b337-7015-4308-b1c0-1e7641674aa7",
+        "ingested_at": "2026-07-19T04:17:03.077192",
+        "raw_payload_hash": "9b926250fa341b7f67f592e91f55dd310d0fa9eac7f6cfe0eb205bbceba2977a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.077269",
+      "superseded_by": null
+    },
+    {
+      "id": "19e677dc-1ff5-49a1-8945-2a03e7f9f25e",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+      "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+      "kind": "technical_depth",
+      "text": "Repository adaezekhan/prismenergy-core has 746 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "adaezekhan/prismenergy-core",
+        "ingested_at": "2026-07-19T04:17:03.077274",
+        "raw_payload_hash": "7b5fcca287fda3a54a19c215afb2f7693282caa2a90072b0978b737131aae340",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.077287",
+      "superseded_by": null
+    },
+    {
+      "id": "6c400580-53c2-4d91-8c36-829dd8b078b7",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+      "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+      "kind": "technical_depth",
+      "text": "Repository adaezekhan/prismenergy-core received 12 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "adaezekhan/prismenergy-core/commits",
+        "ingested_at": "2026-07-19T04:17:03.077290",
+        "raw_payload_hash": "b6a9c2ed3347eeec3e6e71239ddb4f1c68874b4defc86a09e515ea09230ec1bb",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.077300",
+      "superseded_by": null
+    },
+    {
+      "id": "65815ef9-1c8b-4f64-96f0-3ddd4565d8a0",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+      "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+      "kind": "founder_network",
+      "text": "Repository adaezekhan/prismenergy-core has 12 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "adaezekhan/prismenergy-core/contributors",
+        "ingested_at": "2026-07-19T04:17:03.077303",
+        "raw_payload_hash": "d337361388a4f49e4e8159836ace76a87ff3d322581fafbb2f4638e3934d5747",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.077311",
+      "superseded_by": null
+    },
+    {
+      "id": "6763d414-b59c-4d4f-85f5-411589b4a9ea",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+      "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+      "kind": "traction",
+      "text": "Hacker News post about PrismEnergy received 245 points.",
+      "source": {
+        "kind": "hackernews",
+        "ref": "item:38749320",
+        "ingested_at": "2026-07-19T04:17:03.077317",
+        "raw_payload_hash": "3d4a399ad6332423e694640d2b36e967b55f64200ab3dcf349f109315e3458e1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.077325",
+      "superseded_by": null
+    },
+    {
+      "id": "553e6680-563e-44a3-adc8-bc557d332929",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+      "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+      "kind": "founder_network",
+      "text": "Founder is a member of YC S23 accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:YC:S23",
+        "ingested_at": "2026-07-19T04:17:03.077329",
+        "raw_payload_hash": "982c35961b78b8ed697131eb23f385997dbe263d19fff8464da8a4750bf2717a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.077337",
+      "superseded_by": null
+    },
+    {
+      "id": "48c03859-d645-4d18-bdb7-d656b69425e8",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+      "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+      "kind": "market_trend",
+      "text": "The Consumer market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Consumer-market",
+        "ingested_at": "2026-07-19T04:17:03.077339",
+        "raw_payload_hash": "8ab717515ff3d3632c51a4dc748698bdcaf40fc48d3a68a5130bb170fc5ab8c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.077347",
+      "superseded_by": null
+    },
+    {
+      "id": "d09bc2ab-22b2-4171-8e55-663e5f306ec9",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "company_id": "c09f9ed8-b577-4acc-9839-d96c75a96dda",
+      "application_id": "44f5b337-7015-4308-b1c0-1e7641674aa7",
+      "kind": "product",
+      "text": "PrismEnergy addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:03.077350",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.077358",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+    "score_history": [
+      {
+        "id": "d6ac4745-bc0e-44aa-86ba-edeab59e2209",
+        "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+        "score": 76.67667851589948,
+        "confidence_band": [
+          56.67667851589948,
+          96.67667851589948
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:03.077443",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 69.00901066430954,
+          "market_fit": 61.34134281271959,
+          "network": 57.50750888692461,
+          "momentum": 53.673674961129635
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "d6ac4745-bc0e-44aa-86ba-edeab59e2209",
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "score": 76.67667851589948,
+      "confidence_band": [
+        56.67667851589948,
+        96.67667851589948
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:03.077443",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 69.00901066430954,
+        "market_fit": 61.34134281271959,
+        "network": 57.50750888692461,
+        "momentum": 53.673674961129635
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:03.077462",
+    "last_updated_at": "2026-07-19T04:17:03.077463"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/24.jpg"
+}

@@ -1,0 +1,181 @@
+{
+  "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+  "company_id": "c433b3b7-72d6-4d3e-aea3-053be9b24cb5",
+  "application_id": "77520354-61f9-42c4-b653-52154915ec7a",
+  "name": "Camila Novak",
+  "company_name": "NexusClimate",
+  "sector": "Climate",
+  "stage": "seed",
+  "geography": "IN",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "EPFL",
+    "degree": "BSc Mathematics",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at Meta.",
+  "github_profile": {
+    "username": "camilanovak",
+    "repo_count": 2,
+    "primary_language": "Rust",
+    "commit_activity": "9 commits in last 30 days",
+    "stars": 26
+  },
+  "deck_summary": "NexusClimate is building: A code review tool specialized for ML pipeline correctness. The problem: Code review for ML pipelines lacks tooling; bugs ship to production.",
+  "claims": [
+    {
+      "id": "e460f0b5-dc15-4df4-bfc8-0592748c4cab",
+      "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+      "company_id": "c433b3b7-72d6-4d3e-aea3-053be9b24cb5",
+      "application_id": "77520354-61f9-42c4-b653-52154915ec7a",
+      "kind": "founder_background",
+      "text": "Founder Camila Novak studied at EPFL.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:77520354-61f9-42c4-b653-52154915ec7a",
+        "ingested_at": "2026-07-19T04:17:19.074035",
+        "raw_payload_hash": "a1e84af32f2b31ddb0a32e7cec211d4bb4dbb13d7ec62b0a63dfc9695e529198",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.074132",
+      "superseded_by": null
+    },
+    {
+      "id": "72dabacc-8338-499b-94f8-378dc84a228b",
+      "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+      "company_id": "c433b3b7-72d6-4d3e-aea3-053be9b24cb5",
+      "application_id": "77520354-61f9-42c4-b653-52154915ec7a",
+      "kind": "product",
+      "text": "NexusClimate addresses: Code review for ML pipelines lacks tooling; bugs ship to production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:19.074141",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.074159",
+      "superseded_by": null
+    },
+    {
+      "id": "e327fedc-921b-44c6-a742-46ede5191c57",
+      "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+      "company_id": "c433b3b7-72d6-4d3e-aea3-053be9b24cb5",
+      "application_id": "77520354-61f9-42c4-b653-52154915ec7a",
+      "kind": "product",
+      "text": "Solution: A code review tool specialized for ML pipeline correctness.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:19.074162",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.074172",
+      "superseded_by": null
+    },
+    {
+      "id": "61418ea4-c6d2-48a4-8a29-3b465f3547ae",
+      "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+      "company_id": "c433b3b7-72d6-4d3e-aea3-053be9b24cb5",
+      "application_id": "77520354-61f9-42c4-b653-52154915ec7a",
+      "kind": "market_trend",
+      "text": "The Climate sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Climate-trend",
+        "ingested_at": "2026-07-19T04:17:19.074176",
+        "raw_payload_hash": "23a9ba5e38b7791261d71e8b69c8e115086d0aa265b6dfcd5915e8ce431d3705",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.074184",
+      "superseded_by": null
+    },
+    {
+      "id": "4de38804-d2bf-4f46-8c47-8da97d91e589",
+      "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+      "company_id": "c433b3b7-72d6-4d3e-aea3-053be9b24cb5",
+      "application_id": "77520354-61f9-42c4-b653-52154915ec7a",
+      "kind": "technical_depth",
+      "text": "Repository camilanovak/nexusclimate-core has 26 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "camilanovak/nexusclimate-core",
+        "ingested_at": "2026-07-19T04:17:19.074193",
+        "raw_payload_hash": "59e6b5dbb521e6a4b5aa2e1e42cd0e054d3979c61799c2ff882939ca36474d1c",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:19.074201",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+    "score_history": [
+      {
+        "id": "81bcb698-616d-4f2c-94b5-075a9f0645fa",
+        "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+        "score": 51.678949243240005,
+        "confidence_band": [
+          31.678949243240005,
+          71.67894924324
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:19.074310",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 38.759211932430006,
+          "market_fit": 31.007369545944,
+          "network": 20.671579697296004,
+          "momentum": 25.839474621620003
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "81bcb698-616d-4f2c-94b5-075a9f0645fa",
+      "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+      "score": 51.678949243240005,
+      "confidence_band": [
+        31.678949243240005,
+        71.67894924324
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:19.074310",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 38.759211932430006,
+        "market_fit": 31.007369545944,
+        "network": 20.671579697296004,
+        "momentum": 25.839474621620003
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:19.074333",
+    "last_updated_at": "2026-07-19T04:17:19.074334"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/35.jpg"
+}

@@ -1,0 +1,135 @@
+{
+  "founder_id": "103349b7-a5c5-47b9-8018-8161c4fff092",
+  "company_id": "5f61c4ca-63ad-466f-a05c-5b115f38f2ed",
+  "application_id": "fa63505d-2368-4b14-adec-1f420c6e23af",
+  "name": "Dario M\u00fcller",
+  "company_name": "DriftRobotics",
+  "sector": "Fintech",
+  "stage": "seed",
+  "geography": "IN",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "University of Toronto",
+    "degree": "MSc Robotics",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at Microsoft.",
+  "github_profile": null,
+  "deck_summary": "DriftRobotics is building: A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "fc1b7eee-9a4d-4272-a351-1e01cbdf530b",
+      "founder_id": "103349b7-a5c5-47b9-8018-8161c4fff092",
+      "company_id": "5f61c4ca-63ad-466f-a05c-5b115f38f2ed",
+      "application_id": "fa63505d-2368-4b14-adec-1f420c6e23af",
+      "kind": "founder_background",
+      "text": "Founder Dario M\u00fcller holds a BEng Software Engineering from University of Toronto.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:fa63505d-2368-4b14-adec-1f420c6e23af",
+        "ingested_at": "2026-07-19T04:17:21.361809",
+        "raw_payload_hash": "523759b34b9f944ba994c6260904c40bb0b8465a48177e1e8e778885160d156e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:21.361934",
+      "superseded_by": null
+    },
+    {
+      "id": "075dbbba-09b2-4bf7-b7ab-d85dbbe91e4a",
+      "founder_id": "103349b7-a5c5-47b9-8018-8161c4fff092",
+      "company_id": "5f61c4ca-63ad-466f-a05c-5b115f38f2ed",
+      "application_id": "fa63505d-2368-4b14-adec-1f420c6e23af",
+      "kind": "product",
+      "text": "DriftRobotics addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:21.361942",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:21.361958",
+      "superseded_by": null
+    },
+    {
+      "id": "cd1d869d-ca31-45f4-9c31-096853b69ccb",
+      "founder_id": "103349b7-a5c5-47b9-8018-8161c4fff092",
+      "company_id": "5f61c4ca-63ad-466f-a05c-5b115f38f2ed",
+      "application_id": "fa63505d-2368-4b14-adec-1f420c6e23af",
+      "kind": "product",
+      "text": "Solution: A CI/CD-native onboarding platform that reduces ramp time to 3 days.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:21.361965",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:21.361974",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "103349b7-a5c5-47b9-8018-8161c4fff092",
+    "score_history": [
+      {
+        "id": "c31b3442-b270-4497-9812-1ba1606387ab",
+        "founder_id": "103349b7-a5c5-47b9-8018-8161c4fff092",
+        "score": 63.00570203977546,
+        "confidence_band": [
+          43.00570203977546,
+          83.00570203977546
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:21.362080",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 50.40456163182037,
+          "market_fit": 44.103991427842814,
+          "network": 31.50285101988773,
+          "momentum": 37.80342122386527
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "c31b3442-b270-4497-9812-1ba1606387ab",
+      "founder_id": "103349b7-a5c5-47b9-8018-8161c4fff092",
+      "score": 63.00570203977546,
+      "confidence_band": [
+        43.00570203977546,
+        83.00570203977546
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:21.362080",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 50.40456163182037,
+        "market_fit": 44.103991427842814,
+        "network": 31.50285101988773,
+        "momentum": 37.80342122386527
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:21.362104",
+    "last_updated_at": "2026-07-19T04:17:21.362106"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/22.jpg"
+}

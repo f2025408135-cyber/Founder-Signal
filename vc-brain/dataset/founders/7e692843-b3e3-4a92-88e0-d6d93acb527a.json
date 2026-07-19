@@ -1,0 +1,155 @@
+{
+  "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+  "company_id": "087d4eec-45c7-4d7e-87eb-92d6de7a99bf",
+  "application_id": "704c19cd-4246-4b1f-9bb5-98c46d108017",
+  "name": "Nadia Sharma",
+  "company_name": "ZenithEnergy",
+  "sector": "Climate",
+  "stage": "seed",
+  "geography": "PK",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "NUS Singapore",
+    "degree": "PhD Machine Learning",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at ByteDance.",
+  "github_profile": null,
+  "deck_summary": "ZenithEnergy is building: An automated privacy compliance scanner for codebases. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "1826e938-0364-4d6f-81ee-62334c70f160",
+      "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+      "company_id": "087d4eec-45c7-4d7e-87eb-92d6de7a99bf",
+      "application_id": "704c19cd-4246-4b1f-9bb5-98c46d108017",
+      "kind": "founder_background",
+      "text": "Founder Nadia Sharma holds a PhD Machine Learning from NUS Singapore.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:704c19cd-4246-4b1f-9bb5-98c46d108017",
+        "ingested_at": "2026-07-19T04:17:21.938821",
+        "raw_payload_hash": "ed72f69da89f385fc7c3a6cdca678f8e919c04111bfa0175f7278b16921d266e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:21.938943",
+      "superseded_by": null
+    },
+    {
+      "id": "ab8b6d61-b1df-4db4-8c81-7f574cd3efc9",
+      "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+      "company_id": "087d4eec-45c7-4d7e-87eb-92d6de7a99bf",
+      "application_id": "704c19cd-4246-4b1f-9bb5-98c46d108017",
+      "kind": "product",
+      "text": "ZenithEnergy addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:21.938952",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:21.938968",
+      "superseded_by": null
+    },
+    {
+      "id": "2a63246d-e50a-4560-b5ad-1931f93b6ed5",
+      "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+      "company_id": "087d4eec-45c7-4d7e-87eb-92d6de7a99bf",
+      "application_id": "704c19cd-4246-4b1f-9bb5-98c46d108017",
+      "kind": "product",
+      "text": "Solution: An automated privacy compliance scanner for codebases.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:21.938972",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:21.938982",
+      "superseded_by": null
+    },
+    {
+      "id": "54e8bfca-702e-4f5f-ab56-46d08e3c2ff6",
+      "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+      "company_id": "087d4eec-45c7-4d7e-87eb-92d6de7a99bf",
+      "application_id": "704c19cd-4246-4b1f-9bb5-98c46d108017",
+      "kind": "market_trend",
+      "text": "The Climate market is growing at 17% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Climate-market",
+        "ingested_at": "2026-07-19T04:17:21.938994",
+        "raw_payload_hash": "0443d2fc14a16d9108e4de9e0b02645653c4dd8a3d5ad98a5bce572d96e32ebf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:21.939004",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+    "score_history": [
+      {
+        "id": "ada14ab8-1f10-41f5-9f97-9429509783ed",
+        "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+        "score": 63.52406000581311,
+        "confidence_band": [
+          43.52406000581311,
+          83.52406000581311
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:21.939091",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 50.81924800465049,
+          "market_fit": 44.46684200406918,
+          "network": 31.762030002906556,
+          "momentum": 38.11443600348787
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "ada14ab8-1f10-41f5-9f97-9429509783ed",
+      "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+      "score": 63.52406000581311,
+      "confidence_band": [
+        43.52406000581311,
+        83.52406000581311
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:21.939091",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 50.81924800465049,
+        "market_fit": 44.46684200406918,
+        "network": 31.762030002906556,
+        "momentum": 38.11443600348787
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:21.939121",
+    "last_updated_at": "2026-07-19T04:17:21.939123"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/2.jpg"
+}

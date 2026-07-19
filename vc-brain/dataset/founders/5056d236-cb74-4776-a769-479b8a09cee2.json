@@ -1,0 +1,241 @@
+{
+  "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+  "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+  "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+  "name": "Dario Silva",
+  "company_name": "StrataStack",
+  "sector": "AI infra",
+  "stage": "pre-seed",
+  "geography": "FR",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "ETH Zurich",
+    "degree": "MSc Data Science",
+    "year": 2020
+  },
+  "prior_experience": "Previously worked at a Series B startup.",
+  "github_profile": {
+    "username": "dariosilva",
+    "repo_count": 28,
+    "primary_language": "TypeScript",
+    "commit_activity": "39 commits in last 30 days",
+    "stars": 191
+  },
+  "deck_summary": "StrataStack is building: A battery optimization platform using reinforcement learning. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "50dffd06-33e3-4dad-ab0a-b60306e66bc2",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+      "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+      "kind": "founder_background",
+      "text": "Founder Dario Silva holds a MSc Data Science from ETH Zurich.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:5f128d02-647b-4909-8bb0-39635d86e6cc",
+        "ingested_at": "2026-07-19T04:17:04.235565",
+        "raw_payload_hash": "2baa0612014788f3a2f858eb67613602f5a1e2c8040d54b588b4e45cc733b9d1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:04.235669",
+      "superseded_by": null
+    },
+    {
+      "id": "5ddbe538-a270-41c7-a3b8-e097583706d4",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+      "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+      "kind": "technical_depth",
+      "text": "Repository dariosilva/stratastack-core has 191 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "dariosilva/stratastack-core",
+        "ingested_at": "2026-07-19T04:17:04.235677",
+        "raw_payload_hash": "c830068d84815848a43e5b5e6795c87418f110a8ff452c6a5e23df643548fbd0",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:04.235693",
+      "superseded_by": null
+    },
+    {
+      "id": "9e0e54c8-9de2-4695-8677-6e8a7bbb7d3d",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+      "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+      "kind": "technical_depth",
+      "text": "Repository dariosilva/stratastack-core received 39 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "dariosilva/stratastack-core/commits",
+        "ingested_at": "2026-07-19T04:17:04.235696",
+        "raw_payload_hash": "3aa6cf625d30e2c5d32885015fa29287e295e2adba3e31e05e0a2bfee0cafe9f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:04.235706",
+      "superseded_by": null
+    },
+    {
+      "id": "5852ac53-fc28-4168-9f26-af22e570e0f9",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+      "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+      "kind": "founder_network",
+      "text": "Repository dariosilva/stratastack-core has 7 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "dariosilva/stratastack-core/contributors",
+        "ingested_at": "2026-07-19T04:17:04.235709",
+        "raw_payload_hash": "01666b7cc8802c6ed60a7b6b3f9381d79de03ddd8acb48eb67a70dcd9b6ddc93",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:04.235718",
+      "superseded_by": null
+    },
+    {
+      "id": "e907078f-a8b3-4ff6-9db2-71408b844d0a",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+      "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+      "kind": "traction",
+      "text": "Hacker News post about StrataStack received 273 points.",
+      "source": {
+        "kind": "hackernews",
+        "ref": "item:40544239",
+        "ingested_at": "2026-07-19T04:17:04.235729",
+        "raw_payload_hash": "b4c057aebd8dbf2d2d3eab93cc1ba7bdf0f6cd9020a17a260589b502b2f41efc",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:04.235738",
+      "superseded_by": null
+    },
+    {
+      "id": "18691430-a1f3-4084-aec4-200488d5ead5",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+      "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+      "kind": "founder_network",
+      "text": "Founder is a member of 500 Global accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:500:Global",
+        "ingested_at": "2026-07-19T04:17:04.235742",
+        "raw_payload_hash": "489184f7bdc3a381a34cdaed9f6586d897ac84263c11e5df1309d5991da65cbc",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:04.235752",
+      "superseded_by": null
+    },
+    {
+      "id": "1aa55273-cd88-4b20-a7ae-9ea0e698fd7e",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+      "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+      "kind": "market_trend",
+      "text": "The AI infra market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AI infra-market",
+        "ingested_at": "2026-07-19T04:17:04.235756",
+        "raw_payload_hash": "f655e1a7ba0fb19404eda1d2d49fc1eca07956ac2cce954d3276598ca6e3b33d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:04.235777",
+      "superseded_by": null
+    },
+    {
+      "id": "58d605a7-33dd-4cec-93e1-2c8de04e0bf3",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "company_id": "2786d342-42b8-415d-a936-adbe0455141e",
+      "application_id": "5f128d02-647b-4909-8bb0-39635d86e6cc",
+      "kind": "product",
+      "text": "StrataStack addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:04.235782",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:04.235792",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+    "score_history": [
+      {
+        "id": "70035699-880a-46f1-86b1-a5d289187e3e",
+        "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+        "score": 74.7321726246204,
+        "confidence_band": [
+          54.732172624620404,
+          94.7321726246204
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:04.235913",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 67.25895536215836,
+          "market_fit": 59.785738099696324,
+          "network": 56.0491294684653,
+          "momentum": 52.31252083723428
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "70035699-880a-46f1-86b1-a5d289187e3e",
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "score": 74.7321726246204,
+      "confidence_band": [
+        54.732172624620404,
+        94.7321726246204
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:04.235913",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 67.25895536215836,
+        "market_fit": 59.785738099696324,
+        "network": 56.0491294684653,
+        "momentum": 52.31252083723428
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:04.235937",
+    "last_updated_at": "2026-07-19T04:17:04.235938"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/42.jpg"
+}

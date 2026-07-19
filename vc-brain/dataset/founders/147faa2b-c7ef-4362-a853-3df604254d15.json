@@ -1,0 +1,241 @@
+{
+  "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+  "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+  "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+  "name": "Yelena Singh",
+  "company_name": "QuantumTools",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "PK",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "LUMS",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2012
+  },
+  "prior_experience": "Previously worked at Meta.",
+  "github_profile": {
+    "username": "yelenasingh",
+    "repo_count": 17,
+    "primary_language": "C++",
+    "commit_activity": "11 commits in last 30 days",
+    "stars": 1177
+  },
+  "deck_summary": "QuantumTools is building: A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "9c91eaba-3a90-4702-99c0-c92821782cc0",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+      "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+      "kind": "founder_background",
+      "text": "Founder Yelena Singh holds a PhD Artificial Intelligence from LUMS.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+        "ingested_at": "2026-07-19T04:17:06.521893",
+        "raw_payload_hash": "ef69216d43e793e733f1dea89b6a436af32071f93536c67cd7526c3f1ae65ed9",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:06.522002",
+      "superseded_by": null
+    },
+    {
+      "id": "00ed2066-98e1-4355-84bd-cbe91e3656de",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+      "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+      "kind": "technical_depth",
+      "text": "Repository yelenasingh/quantumtools-core has 1177 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "yelenasingh/quantumtools-core",
+        "ingested_at": "2026-07-19T04:17:06.522011",
+        "raw_payload_hash": "597e04a8084d48ff0eda634a805908171c5fcd120f652f15aedf11a58e58a698",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:06.522025",
+      "superseded_by": null
+    },
+    {
+      "id": "7d8bc000-f0bc-4049-b3b0-314427438577",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+      "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+      "kind": "technical_depth",
+      "text": "Repository yelenasingh/quantumtools-core received 11 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "yelenasingh/quantumtools-core/commits",
+        "ingested_at": "2026-07-19T04:17:06.522028",
+        "raw_payload_hash": "941e7f6a9fa4018fdf81db5d12ed114cc57a2b76677add72ad5f67ac2811772b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:06.522042",
+      "superseded_by": null
+    },
+    {
+      "id": "f22c0870-4491-476d-bd40-d8cc8680eca3",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+      "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+      "kind": "founder_network",
+      "text": "Repository yelenasingh/quantumtools-core has 4 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "yelenasingh/quantumtools-core/contributors",
+        "ingested_at": "2026-07-19T04:17:06.522045",
+        "raw_payload_hash": "6cfdde42c18fa7a5d07eb4925f5c0211858fcc48cdaa7a96a250fd5f7a90acc1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:06.522055",
+      "superseded_by": null
+    },
+    {
+      "id": "116103c6-037b-4194-acca-92834d9a286e",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+      "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+      "kind": "technical_depth",
+      "text": "Founder authored arxiv paper 2509.73653 on DevTools techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2509.73653",
+        "ingested_at": "2026-07-19T04:17:06.522063",
+        "raw_payload_hash": "0f0f1b29ca5d725b6f5d1e356397d55698244d14c7134b5bf07ad45cc7af57af",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:06.522074",
+      "superseded_by": null
+    },
+    {
+      "id": "b32ca81b-e7df-419d-ac9b-7a0d9f8c8a53",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+      "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+      "kind": "founder_network",
+      "text": "Founder is a member of Antler accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:Antler",
+        "ingested_at": "2026-07-19T04:17:06.522078",
+        "raw_payload_hash": "78f6e08d4ed90e61625e983eb6e1916120ebb0b44d343929db3c5be49a82e4e7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:06.522090",
+      "superseded_by": null
+    },
+    {
+      "id": "ea64f4e2-d780-40c5-bb0b-da34749d34e4",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+      "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+      "kind": "market_trend",
+      "text": "The DevTools market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:DevTools-market",
+        "ingested_at": "2026-07-19T04:17:06.522094",
+        "raw_payload_hash": "1afe6abeffd0158758034bb039ba9f21f020ca4fcd6ff6eb90f5670f18e14cb8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:06.522102",
+      "superseded_by": null
+    },
+    {
+      "id": "74ce116a-3635-4f67-991b-69663b0311cc",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "company_id": "33476a6f-cbd4-4af9-bc21-e7c474d611aa",
+      "application_id": "bf61feb0-567f-4c60-8a9b-ea29a692bfe2",
+      "kind": "product",
+      "text": "QuantumTools addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:06.522105",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:06.522114",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+    "score_history": [
+      {
+        "id": "a9014df3-5e9d-429f-b3a8-205eac97c25d",
+        "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+        "score": 76.0712436133339,
+        "confidence_band": [
+          56.071243613333905,
+          96.0712436133339
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:06.522219",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 68.46411925200051,
+          "market_fit": 60.856994890667124,
+          "network": 57.05343271000043,
+          "momentum": 53.249870529333734
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "a9014df3-5e9d-429f-b3a8-205eac97c25d",
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "score": 76.0712436133339,
+      "confidence_band": [
+        56.071243613333905,
+        96.0712436133339
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:06.522219",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 68.46411925200051,
+        "market_fit": 60.856994890667124,
+        "network": 57.05343271000043,
+        "momentum": 53.249870529333734
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:06.522243",
+    "last_updated_at": "2026-07-19T04:17:06.522244"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/3.jpg"
+}

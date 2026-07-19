@@ -1,0 +1,161 @@
+{
+  "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+  "company_id": "1c135a0a-9676-4a94-ba06-84578de7390d",
+  "application_id": "e203a9f5-2d60-47c3-b21c-cd7ccae6acb8",
+  "name": "Priya Larsen",
+  "company_name": "QuantumClimate",
+  "sector": "Healthtech",
+  "stage": "series-a",
+  "geography": "US",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "Imperial College London",
+    "degree": "MBA",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at Nvidia.",
+  "github_profile": {
+    "username": null,
+    "repo_count": 9,
+    "primary_language": "Go",
+    "commit_activity": "16 commits in last 30 days",
+    "stars": 236
+  },
+  "deck_summary": "QuantumClimate is building: A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "0e249934-72fb-40f7-9862-243c93af79e6",
+      "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+      "company_id": "1c135a0a-9676-4a94-ba06-84578de7390d",
+      "application_id": "e203a9f5-2d60-47c3-b21c-cd7ccae6acb8",
+      "kind": "founder_background",
+      "text": "Founder Priya Larsen holds a BSc Computer Science from Imperial College London.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:e203a9f5-2d60-47c3-b21c-cd7ccae6acb8",
+        "ingested_at": "2026-07-19T04:17:24.801435",
+        "raw_payload_hash": "5396f69834ffa70560a51dce46e8433c6f6e5064ddf36340429c685179645063",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.801539",
+      "superseded_by": null
+    },
+    {
+      "id": "3eb04f53-606c-4957-b170-84864ac64733",
+      "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+      "company_id": "1c135a0a-9676-4a94-ba06-84578de7390d",
+      "application_id": "e203a9f5-2d60-47c3-b21c-cd7ccae6acb8",
+      "kind": "product",
+      "text": "QuantumClimate addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:24.801548",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.801565",
+      "superseded_by": null
+    },
+    {
+      "id": "462e1b3e-1b45-403c-9cb0-da34444898c6",
+      "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+      "company_id": "1c135a0a-9676-4a94-ba06-84578de7390d",
+      "application_id": "e203a9f5-2d60-47c3-b21c-cd7ccae6acb8",
+      "kind": "product",
+      "text": "Solution: A CI/CD-native onboarding platform that reduces ramp time to 3 days.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:24.801569",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.801579",
+      "superseded_by": null
+    },
+    {
+      "id": "ff678bf9-d09e-4475-9792-aafdd7c6ea6e",
+      "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+      "company_id": "1c135a0a-9676-4a94-ba06-84578de7390d",
+      "application_id": "e203a9f5-2d60-47c3-b21c-cd7ccae6acb8",
+      "kind": "market_trend",
+      "text": "The Healthtech market is growing at 24% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T04:17:24.801589",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.801599",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+    "score_history": [
+      {
+        "id": "1d4a5721-2029-43a7-a359-ee56e1986180",
+        "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+        "score": 57.44572865630349,
+        "confidence_band": [
+          37.44572865630349,
+          77.44572865630349
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:24.801686",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 45.956582925042795,
+          "market_fit": 40.212010059412435,
+          "network": 28.722864328151744,
+          "momentum": 34.46743719378209
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "1d4a5721-2029-43a7-a359-ee56e1986180",
+      "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+      "score": 57.44572865630349,
+      "confidence_band": [
+        37.44572865630349,
+        77.44572865630349
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:24.801686",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 45.956582925042795,
+        "market_fit": 40.212010059412435,
+        "network": 28.722864328151744,
+        "momentum": 34.46743719378209
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:24.801710",
+    "last_updated_at": "2026-07-19T04:17:24.801711"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/1.jpg"
+}

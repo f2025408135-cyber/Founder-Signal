@@ -1,0 +1,181 @@
+{
+  "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+  "company_id": "6aacd9c9-7823-4ea4-bd64-e308379bcd29",
+  "application_id": "27695aa3-3f1c-492c-a12f-0819f7a2c7b6",
+  "name": "Yuki Garc\u00eda",
+  "company_name": "QuantumTools",
+  "sector": "Healthtech",
+  "stage": "seed",
+  "geography": "IN",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at ByteDance.",
+  "github_profile": {
+    "username": "yukigarc\u00eda",
+    "repo_count": 14,
+    "primary_language": "Python",
+    "commit_activity": "8 commits in last 30 days",
+    "stars": 406
+  },
+  "deck_summary": "QuantumTools is building: A code review tool specialized for ML pipeline correctness. The problem: AI model deployment lacks observability; teams fly blind in production.",
+  "claims": [
+    {
+      "id": "02447530-0351-4608-a283-88597fa748ec",
+      "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+      "company_id": "6aacd9c9-7823-4ea4-bd64-e308379bcd29",
+      "application_id": "27695aa3-3f1c-492c-a12f-0819f7a2c7b6",
+      "kind": "founder_background",
+      "text": "Founder Yuki Garc\u00eda studied at University of Cambridge.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:27695aa3-3f1c-492c-a12f-0819f7a2c7b6",
+        "ingested_at": "2026-07-19T04:17:15.636551",
+        "raw_payload_hash": "06289aab97c673e98532cbdcbc4fd9d1c1e060e1119352875fb5ecba0cb9fa83",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.636630",
+      "superseded_by": null
+    },
+    {
+      "id": "7cd7de94-51ae-4b95-990d-de410f896c59",
+      "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+      "company_id": "6aacd9c9-7823-4ea4-bd64-e308379bcd29",
+      "application_id": "27695aa3-3f1c-492c-a12f-0819f7a2c7b6",
+      "kind": "product",
+      "text": "QuantumTools addresses: AI model deployment lacks observability; teams fly blind in production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:15.636637",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.636651",
+      "superseded_by": null
+    },
+    {
+      "id": "8217e4fa-debf-401e-84c7-a181274c0b8d",
+      "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+      "company_id": "6aacd9c9-7823-4ea4-bd64-e308379bcd29",
+      "application_id": "27695aa3-3f1c-492c-a12f-0819f7a2c7b6",
+      "kind": "financial",
+      "text": "QuantumTools raised a $5M seed round in 2025.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=5",
+        "ingested_at": "2026-07-19T04:17:15.636654",
+        "raw_payload_hash": "6a40fdad361b73c1aaf1d90a58a543a9a66d88feb1966f81e272d296626dde13",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.636664",
+      "superseded_by": null
+    },
+    {
+      "id": "59bafbcf-4fb4-4d5a-ad4d-08542178c515",
+      "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+      "company_id": "6aacd9c9-7823-4ea4-bd64-e308379bcd29",
+      "application_id": "27695aa3-3f1c-492c-a12f-0819f7a2c7b6",
+      "kind": "financial",
+      "text": "No public record of funding for QuantumTools.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:QuantumTools-funding",
+        "ingested_at": "2026-07-19T04:17:15.636666",
+        "raw_payload_hash": "bb8217e0d33cbb2f88b34a37b61bcacbcd3249fcaee13a868f74fbbc4ee58916",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.636675",
+      "superseded_by": null
+    },
+    {
+      "id": "91ac2c86-3b20-44b5-92a9-bab25589ebbd",
+      "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+      "company_id": "6aacd9c9-7823-4ea4-bd64-e308379bcd29",
+      "application_id": "27695aa3-3f1c-492c-a12f-0819f7a2c7b6",
+      "kind": "technical_depth",
+      "text": "Repository yukigarc\u00eda/quantumtools-core has 406 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "yukigarc\u00eda/quantumtools-core",
+        "ingested_at": "2026-07-19T04:17:15.636685",
+        "raw_payload_hash": "3a73d68141c0473e297e5c8894f1ec310655a81434b54fb134104ed317211efb",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.636694",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+    "score_history": [
+      {
+        "id": "1335b26f-237d-4253-8496-da33863c4d75",
+        "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+        "score": 49.599461684818785,
+        "confidence_band": [
+          29.599461684818785,
+          69.59946168481878
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:15.636790",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 39.67956934785503,
+          "market_fit": 24.799730842409392,
+          "network": 29.75967701089127,
+          "momentum": 24.799730842409392
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "1335b26f-237d-4253-8496-da33863c4d75",
+      "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+      "score": 49.599461684818785,
+      "confidence_band": [
+        29.599461684818785,
+        69.59946168481878
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:15.636790",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 39.67956934785503,
+        "market_fit": 24.799730842409392,
+        "network": 29.75967701089127,
+        "momentum": 24.799730842409392
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:15.636811",
+    "last_updated_at": "2026-07-19T04:17:15.636812"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/72.jpg"
+}

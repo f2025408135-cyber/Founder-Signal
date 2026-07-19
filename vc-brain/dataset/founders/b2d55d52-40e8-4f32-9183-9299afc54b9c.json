@@ -1,0 +1,241 @@
+{
+  "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+  "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+  "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+  "name": "Yuki Ibrahim",
+  "company_name": "VoltData",
+  "sector": "AI infra",
+  "stage": "pre-seed",
+  "geography": "SG",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "TU Munich",
+    "degree": "MBA",
+    "year": 2012
+  },
+  "prior_experience": "Previously worked at Amazon.",
+  "github_profile": {
+    "username": "yukiibrahim",
+    "repo_count": 24,
+    "primary_language": "TypeScript",
+    "commit_activity": "25 commits in last 30 days",
+    "stars": 1120
+  },
+  "deck_summary": "VoltData is building: An AI-powered patient matching engine for clinical trials. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "92d471dd-4627-4fc3-94be-ea352c585cce",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+      "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+      "kind": "founder_background",
+      "text": "Founder Yuki Ibrahim holds a MBA from TU Munich.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:7aa2b91a-bdb2-45a9-82bc-f27123148149",
+        "ingested_at": "2026-07-19T04:17:08.216296",
+        "raw_payload_hash": "67c591905e6f9da002d9062a4b5cb383bec7b8f7cbe8270c5652177ed7d40700",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.216389",
+      "superseded_by": null
+    },
+    {
+      "id": "40e61404-a5d6-428a-a023-2ae548504904",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+      "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+      "kind": "technical_depth",
+      "text": "Repository yukiibrahim/voltdata-core has 1120 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "yukiibrahim/voltdata-core",
+        "ingested_at": "2026-07-19T04:17:08.216396",
+        "raw_payload_hash": "7ee7a97c4073af7fc42adaaf09db68155f9421616d8b91fc9383815f9e69a7d1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.216411",
+      "superseded_by": null
+    },
+    {
+      "id": "dff9dd4c-6037-4a13-828c-ce30f48cd5c2",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+      "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+      "kind": "technical_depth",
+      "text": "Repository yukiibrahim/voltdata-core received 25 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "yukiibrahim/voltdata-core/commits",
+        "ingested_at": "2026-07-19T04:17:08.216414",
+        "raw_payload_hash": "57550926dfbba914909c1eade1f1d421e0c2841f1598963d953b65e77d08c259",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.216424",
+      "superseded_by": null
+    },
+    {
+      "id": "b87c3dba-7828-4c1e-b5a9-8fb6f8c56f38",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+      "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+      "kind": "founder_network",
+      "text": "Repository yukiibrahim/voltdata-core has 11 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "yukiibrahim/voltdata-core/contributors",
+        "ingested_at": "2026-07-19T04:17:08.216426",
+        "raw_payload_hash": "d7061f0163a6c9c30e23c548da219039b7abd8761e6b828be07306cba4735647",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.216438",
+      "superseded_by": null
+    },
+    {
+      "id": "95a20e1a-7ba9-4fee-aaa2-c777aeeee735",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+      "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+      "kind": "technical_depth",
+      "text": "Founder authored arxiv paper 2454.69929 on AI infra techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2454.69929",
+        "ingested_at": "2026-07-19T04:17:08.216446",
+        "raw_payload_hash": "43c9bfe3109358ba6db3d8e1f289cc4ec7fbb4041205aad87db044655e0e8762",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.216474",
+      "superseded_by": null
+    },
+    {
+      "id": "395ac2f2-3b7a-4b5f-9fc0-529bcac9dd15",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+      "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+      "kind": "founder_network",
+      "text": "Founder is a member of 500 Global accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:500:Global",
+        "ingested_at": "2026-07-19T04:17:08.216483",
+        "raw_payload_hash": "489184f7bdc3a381a34cdaed9f6586d897ac84263c11e5df1309d5991da65cbc",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.216495",
+      "superseded_by": null
+    },
+    {
+      "id": "7b744386-b076-4113-8883-de980994dad0",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+      "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+      "kind": "market_trend",
+      "text": "The AI infra market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AI infra-market",
+        "ingested_at": "2026-07-19T04:17:08.216498",
+        "raw_payload_hash": "f655e1a7ba0fb19404eda1d2d49fc1eca07956ac2cce954d3276598ca6e3b33d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.216506",
+      "superseded_by": null
+    },
+    {
+      "id": "c8e34a37-e01a-4d49-a8d7-963b8f89c5d7",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "company_id": "6ec815bb-79bc-4030-90df-d65c9a57a4a1",
+      "application_id": "7aa2b91a-bdb2-45a9-82bc-f27123148149",
+      "kind": "product",
+      "text": "VoltData addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:08.216510",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.216518",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+    "score_history": [
+      {
+        "id": "03cfc622-e687-4d71-ae82-db3d73ba03da",
+        "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+        "score": 72.27207551425265,
+        "confidence_band": [
+          52.27207551425265,
+          92.27207551425265
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:08.216607",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 65.04486796282738,
+          "market_fit": 57.81766041140212,
+          "network": 54.20405663568948,
+          "momentum": 50.59045285997685
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "03cfc622-e687-4d71-ae82-db3d73ba03da",
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "score": 72.27207551425265,
+      "confidence_band": [
+        52.27207551425265,
+        92.27207551425265
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:08.216607",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 65.04486796282738,
+        "market_fit": 57.81766041140212,
+        "network": 54.20405663568948,
+        "momentum": 50.59045285997685
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:08.216629",
+    "last_updated_at": "2026-07-19T04:17:08.216629"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/95.jpg"
+}

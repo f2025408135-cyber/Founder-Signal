@@ -1,0 +1,195 @@
+{
+  "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+  "company_id": "54c177f3-7225-41b8-97cd-79037b914bab",
+  "application_id": "33b8091f-b63e-4817-9aa9-2fe83d257145",
+  "name": "Kavya Kowalski",
+  "company_name": "EchoFinance",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "IN",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "University of Toronto",
+    "degree": "MSc Robotics",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at a Series B startup.",
+  "github_profile": null,
+  "deck_summary": "EchoFinance is building: A real-time payment rail optimized for SMB cross-border transactions. The problem: Clinical trial recruitment is bottlenecked by manual patient matching.",
+  "claims": [
+    {
+      "id": "1ffaf749-6aea-4093-b155-8989c7fff68b",
+      "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+      "company_id": "54c177f3-7225-41b8-97cd-79037b914bab",
+      "application_id": "33b8091f-b63e-4817-9aa9-2fe83d257145",
+      "kind": "founder_background",
+      "text": "Founder Kavya Kowalski holds a MSc Robotics from University of Toronto, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:33b8091f-b63e-4817-9aa9-2fe83d257145",
+        "ingested_at": "2026-07-19T04:17:01.898287",
+        "raw_payload_hash": "c3fd5080b7d4f4496e405afd291e9fbf7affb5e5466812bd461066ea1a95bf5d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.898383",
+      "superseded_by": null
+    },
+    {
+      "id": "8dfcf92d-431c-469d-a3c7-51b4a4630343",
+      "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+      "company_id": "54c177f3-7225-41b8-97cd-79037b914bab",
+      "application_id": "33b8091f-b63e-4817-9aa9-2fe83d257145",
+      "kind": "founder_background",
+      "text": "Founder Kavya Kowalski previously worked at a Series B startup.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:01.898390",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.898408",
+      "superseded_by": null
+    },
+    {
+      "id": "01a26b8d-91fb-4c69-9bab-791b3a84542c",
+      "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+      "company_id": "54c177f3-7225-41b8-97cd-79037b914bab",
+      "application_id": "33b8091f-b63e-4817-9aa9-2fe83d257145",
+      "kind": "product",
+      "text": "EchoFinance addresses: Clinical trial recruitment is bottlenecked by manual patient matching.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:01.898412",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.898422",
+      "superseded_by": null
+    },
+    {
+      "id": "cf7eea85-d818-435c-b36e-9009ec5b6d31",
+      "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+      "company_id": "54c177f3-7225-41b8-97cd-79037b914bab",
+      "application_id": "33b8091f-b63e-4817-9aa9-2fe83d257145",
+      "kind": "product",
+      "text": "Solution: A real-time payment rail optimized for SMB cross-border transactions.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:17:01.898424",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.898432",
+      "superseded_by": null
+    },
+    {
+      "id": "25ac8b78-0c97-4eda-bd44-3ff5c8c1d479",
+      "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+      "company_id": "54c177f3-7225-41b8-97cd-79037b914bab",
+      "application_id": "33b8091f-b63e-4817-9aa9-2fe83d257145",
+      "kind": "market_size",
+      "text": "The Healthtech market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:17:01.898436",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.898444",
+      "superseded_by": null
+    },
+    {
+      "id": "6c21ac74-82a0-4436-a166-343296a317dc",
+      "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+      "company_id": "54c177f3-7225-41b8-97cd-79037b914bab",
+      "application_id": "33b8091f-b63e-4817-9aa9-2fe83d257145",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:33b8091f-b63e-4817-9aa9-2fe83d257145",
+        "ingested_at": "2026-07-19T04:17:01.898448",
+        "raw_payload_hash": "c3fd5080b7d4f4496e405afd291e9fbf7affb5e5466812bd461066ea1a95bf5d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.898459",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+    "score_history": [
+      {
+        "id": "18c45452-bd88-4d28-86ad-8f8a8b59ca4e",
+        "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+        "score": 45.94232750849469,
+        "confidence_band": [
+          15.942327508494692,
+          75.94232750849469
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:01.898541",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 36.75386200679576,
+          "market_fit": 32.159629255946285,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "18c45452-bd88-4d28-86ad-8f8a8b59ca4e",
+      "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+      "score": 45.94232750849469,
+      "confidence_band": [
+        15.942327508494692,
+        75.94232750849469
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:01.898541",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 36.75386200679576,
+        "market_fit": 32.159629255946285,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:01.898563",
+    "last_updated_at": "2026-07-19T04:17:01.898564"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/94.jpg"
+}

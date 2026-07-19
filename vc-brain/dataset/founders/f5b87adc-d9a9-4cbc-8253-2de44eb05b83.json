@@ -1,0 +1,175 @@
+{
+  "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+  "company_id": "82616efd-f90e-4a42-b1f0-909d90328bf8",
+  "application_id": "0194bb42-7810-430a-97fd-b55ac4f1a24a",
+  "name": "Sofia Chen",
+  "company_name": "ApexHealth",
+  "sector": "Consumer",
+  "stage": "seed",
+  "geography": "IN",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "University of Toronto",
+    "degree": "MSc Robotics",
+    "year": 2020
+  },
+  "prior_experience": "Previously worked at Amazon.",
+  "github_profile": null,
+  "deck_summary": "ApexHealth is building: An open-source evaluation harness with auditable test suites. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "6aad9a89-6265-42d2-b67d-78074f7ad9e4",
+      "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+      "company_id": "82616efd-f90e-4a42-b1f0-909d90328bf8",
+      "application_id": "0194bb42-7810-430a-97fd-b55ac4f1a24a",
+      "kind": "founder_background",
+      "text": "Founder Sofia Chen holds a MSc Data Science from University of Toronto.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:0194bb42-7810-430a-97fd-b55ac4f1a24a",
+        "ingested_at": "2026-07-19T04:17:24.225703",
+        "raw_payload_hash": "d5b89d29b5fbdedad93012ebfe9a349dd88c2b1dd769cfed4b8affe37d587fae",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.225812",
+      "superseded_by": null
+    },
+    {
+      "id": "b94f0a5e-6af0-44e0-ba64-8f319cbf694a",
+      "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+      "company_id": "82616efd-f90e-4a42-b1f0-909d90328bf8",
+      "application_id": "0194bb42-7810-430a-97fd-b55ac4f1a24a",
+      "kind": "product",
+      "text": "ApexHealth addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:24.225820",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.225836",
+      "superseded_by": null
+    },
+    {
+      "id": "55e64339-3340-4cb7-90ec-812d897a7251",
+      "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+      "company_id": "82616efd-f90e-4a42-b1f0-909d90328bf8",
+      "application_id": "0194bb42-7810-430a-97fd-b55ac4f1a24a",
+      "kind": "product",
+      "text": "Solution: An open-source evaluation harness with auditable test suites.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:24.225839",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.225848",
+      "superseded_by": null
+    },
+    {
+      "id": "076826fe-ed92-4629-9946-23afceed3efc",
+      "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+      "company_id": "82616efd-f90e-4a42-b1f0-909d90328bf8",
+      "application_id": "0194bb42-7810-430a-97fd-b55ac4f1a24a",
+      "kind": "technical_depth",
+      "text": "Repository sofiachen/apexhealth-core has 74 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "sofiachen/apexhealth-core",
+        "ingested_at": "2026-07-19T04:17:24.225881",
+        "raw_payload_hash": "eb1d2b579fadc0c2ddc2552a71c45be5b9ca140c58cab72c5be81f944a9a7b43",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.225894",
+      "superseded_by": null
+    },
+    {
+      "id": "151938e9-a425-4524-bf1f-5e32bdc47bd6",
+      "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+      "company_id": "82616efd-f90e-4a42-b1f0-909d90328bf8",
+      "application_id": "0194bb42-7810-430a-97fd-b55ac4f1a24a",
+      "kind": "market_trend",
+      "text": "The Consumer market is growing at 30% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Consumer-market",
+        "ingested_at": "2026-07-19T04:17:24.225899",
+        "raw_payload_hash": "8ab717515ff3d3632c51a4dc748698bdcaf40fc48d3a68a5130bb170fc5ab8c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:24.225907",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+    "score_history": [
+      {
+        "id": "11a36b04-e5a1-49b4-a0cf-e0c4f8b45d9c",
+        "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+        "score": 50.36796210126524,
+        "confidence_band": [
+          30.367962101265242,
+          70.36796210126525
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:24.226002",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 40.2943696810122,
+          "market_fit": 35.25757347088567,
+          "network": 25.18398105063262,
+          "momentum": 30.220777260759142
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "11a36b04-e5a1-49b4-a0cf-e0c4f8b45d9c",
+      "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+      "score": 50.36796210126524,
+      "confidence_band": [
+        30.367962101265242,
+        70.36796210126525
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:24.226002",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 40.2943696810122,
+        "market_fit": 35.25757347088567,
+        "network": 25.18398105063262,
+        "momentum": 30.220777260759142
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:24.226024",
+    "last_updated_at": "2026-07-19T04:17:24.226026"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/16.jpg"
+}

@@ -1,0 +1,195 @@
+{
+  "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+  "company_id": "ad316096-0654-40f2-b75b-610e47a4e53a",
+  "application_id": "4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+  "name": "Dario Kowalski",
+  "company_name": "StrataClimate",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "FR",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "TU Munich",
+    "degree": "BSc Mathematics",
+    "year": 2018
+  },
+  "prior_experience": "Previously worked at Shopify.",
+  "github_profile": null,
+  "deck_summary": "StrataClimate is building: A real-time payment rail optimized for SMB cross-border transactions. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "79c146dd-ddf2-4b65-b785-9f1468a5c78b",
+      "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+      "company_id": "ad316096-0654-40f2-b75b-610e47a4e53a",
+      "application_id": "4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+      "kind": "founder_background",
+      "text": "Founder Dario Kowalski holds a BSc Mathematics from TU Munich, graduating in 2018.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+        "ingested_at": "2026-07-19T04:17:01.333583",
+        "raw_payload_hash": "0c488a70a4fff1fd0ee9fa6b89df614fbbd13f68d56cf66f569a30f9e60e35f2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.333681",
+      "superseded_by": null
+    },
+    {
+      "id": "9d7420c5-85cb-4d59-b04a-1ff6bafe3d7b",
+      "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+      "company_id": "ad316096-0654-40f2-b75b-610e47a4e53a",
+      "application_id": "4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+      "kind": "founder_background",
+      "text": "Founder Dario Kowalski previously worked at Shopify.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:01.333689",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.333703",
+      "superseded_by": null
+    },
+    {
+      "id": "904c59aa-c281-4550-bed1-34998b65f4ee",
+      "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+      "company_id": "ad316096-0654-40f2-b75b-610e47a4e53a",
+      "application_id": "4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+      "kind": "product",
+      "text": "StrataClimate addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:01.333707",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.333717",
+      "superseded_by": null
+    },
+    {
+      "id": "5e9119ce-0d3e-4470-bc1c-dac57fccf101",
+      "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+      "company_id": "ad316096-0654-40f2-b75b-610e47a4e53a",
+      "application_id": "4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+      "kind": "product",
+      "text": "Solution: A real-time payment rail optimized for SMB cross-border transactions.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:17:01.333723",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.333732",
+      "superseded_by": null
+    },
+    {
+      "id": "38df31e7-3a28-4ed3-8361-79ea7da2e52b",
+      "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+      "company_id": "ad316096-0654-40f2-b75b-610e47a4e53a",
+      "application_id": "4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+      "kind": "market_size",
+      "text": "The DevTools market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:17:01.333735",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.333743",
+      "superseded_by": null
+    },
+    {
+      "id": "7497f1cc-11cd-46b8-b641-72dd05364e34",
+      "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+      "company_id": "ad316096-0654-40f2-b75b-610e47a4e53a",
+      "application_id": "4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:4c0745b0-c8a8-419f-933a-bfc70d61ead9",
+        "ingested_at": "2026-07-19T04:17:01.333748",
+        "raw_payload_hash": "0c488a70a4fff1fd0ee9fa6b89df614fbbd13f68d56cf66f569a30f9e60e35f2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:01.333756",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+    "score_history": [
+      {
+        "id": "76f42403-d0b0-4f9e-9311-a439560978d1",
+        "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+        "score": 56.22736268326302,
+        "confidence_band": [
+          26.227362683263017,
+          86.22736268326301
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:01.333886",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 44.98189014661042,
+          "market_fit": 39.35915387828411,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "76f42403-d0b0-4f9e-9311-a439560978d1",
+      "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+      "score": 56.22736268326302,
+      "confidence_band": [
+        26.227362683263017,
+        86.22736268326301
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:01.333886",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 44.98189014661042,
+        "market_fit": 39.35915387828411,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:01.333915",
+    "last_updated_at": "2026-07-19T04:17:01.333916"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/44.jpg"
+}

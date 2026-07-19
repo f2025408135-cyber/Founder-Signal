@@ -1,0 +1,181 @@
+{
+  "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+  "company_id": "f8f64842-3529-4568-b011-3b5368b7edc4",
+  "application_id": "f46c6ff9-34b9-4bde-9a38-5daf8f63acce",
+  "name": "Leila Kowalski",
+  "company_name": "DriftTech",
+  "sector": "Climate",
+  "stage": "pre-seed",
+  "geography": "DE",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "IIT Bombay",
+    "degree": "MSc Electrical Engineering",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at a Series B startup.",
+  "github_profile": {
+    "username": "leilakowalski",
+    "repo_count": 11,
+    "primary_language": "Julia",
+    "commit_activity": "18 commits in last 30 days",
+    "stars": 233
+  },
+  "deck_summary": "DriftTech is building: A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "4233997a-b317-4c21-a40d-fc7c086761e4",
+      "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+      "company_id": "f8f64842-3529-4568-b011-3b5368b7edc4",
+      "application_id": "f46c6ff9-34b9-4bde-9a38-5daf8f63acce",
+      "kind": "founder_background",
+      "text": "Founder Leila Kowalski studied at IIT Bombay.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:f46c6ff9-34b9-4bde-9a38-5daf8f63acce",
+        "ingested_at": "2026-07-19T04:17:10.522294",
+        "raw_payload_hash": "067e8e81dd09aa01df187d35ee6fa55e5c24a5df41c486a5b95f8fd48a1bdaf3",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:10.522386",
+      "superseded_by": null
+    },
+    {
+      "id": "4e0f52ee-c49a-4530-88b7-7b14c423d70f",
+      "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+      "company_id": "f8f64842-3529-4568-b011-3b5368b7edc4",
+      "application_id": "f46c6ff9-34b9-4bde-9a38-5daf8f63acce",
+      "kind": "product",
+      "text": "DriftTech addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:10.522394",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:10.522412",
+      "superseded_by": null
+    },
+    {
+      "id": "6101d0c6-1f22-4110-bb1f-fc25cb83177a",
+      "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+      "company_id": "f8f64842-3529-4568-b011-3b5368b7edc4",
+      "application_id": "f46c6ff9-34b9-4bde-9a38-5daf8f63acce",
+      "kind": "market_size",
+      "text": "The Climate market is $5B in 2026.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:17:10.522417",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:10.522428",
+      "superseded_by": null
+    },
+    {
+      "id": "09fa7d25-41bb-49cd-92e7-19760000f668",
+      "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+      "company_id": "f8f64842-3529-4568-b011-3b5368b7edc4",
+      "application_id": "f46c6ff9-34b9-4bde-9a38-5daf8f63acce",
+      "kind": "market_size",
+      "text": "The Climate market is $500M in 2026.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Climate-market",
+        "ingested_at": "2026-07-19T04:17:10.522431",
+        "raw_payload_hash": "0443d2fc14a16d9108e4de9e0b02645653c4dd8a3d5ad98a5bce572d96e32ebf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:10.522450",
+      "superseded_by": null
+    },
+    {
+      "id": "7d8f3faa-2ba5-4e99-b19a-07a6de2f15d8",
+      "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+      "company_id": "f8f64842-3529-4568-b011-3b5368b7edc4",
+      "application_id": "f46c6ff9-34b9-4bde-9a38-5daf8f63acce",
+      "kind": "technical_depth",
+      "text": "Repository leilakowalski/drifttech-core has 233 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "leilakowalski/drifttech-core",
+        "ingested_at": "2026-07-19T04:17:10.522465",
+        "raw_payload_hash": "7fc3d7179feed1905748a7048b353876a8d323405670c5e63a9e0f4b2b2d0dee",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:10.522475",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+    "score_history": [
+      {
+        "id": "5fc53f93-ed55-40cc-81f4-94d91a70366b",
+        "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+        "score": 45.25191345849385,
+        "confidence_band": [
+          25.251913458493853,
+          65.25191345849385
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:10.522565",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 36.20153076679508,
+          "market_fit": 22.625956729246926,
+          "network": 27.151148075096312,
+          "momentum": 22.625956729246926
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "5fc53f93-ed55-40cc-81f4-94d91a70366b",
+      "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+      "score": 45.25191345849385,
+      "confidence_band": [
+        25.251913458493853,
+        65.25191345849385
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:10.522565",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 36.20153076679508,
+        "market_fit": 22.625956729246926,
+        "network": 27.151148075096312,
+        "momentum": 22.625956729246926
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:10.522585",
+    "last_updated_at": "2026-07-19T04:17:10.522586"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/6.jpg"
+}

@@ -1,0 +1,175 @@
+{
+  "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+  "company_id": "cfc7ec22-b43c-4d85-ab40-f6d75cecf609",
+  "application_id": "e61e7265-be49-4f67-aaf9-f35d1b5e19bd",
+  "name": "Arjun Volkov",
+  "company_name": "ForgeHealth",
+  "sector": "Healthtech",
+  "stage": "seed",
+  "geography": "FR",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "Tsinghua University",
+    "degree": "MSc Data Science",
+    "year": 2017
+  },
+  "prior_experience": "Previously worked at Stripe.",
+  "github_profile": null,
+  "deck_summary": "ForgeHealth is building: A discovery platform using behavioral signals instead of ASO keywords. The problem: Code review for ML pipelines lacks tooling; bugs ship to production.",
+  "claims": [
+    {
+      "id": "f3ae0ad3-47bc-4215-96bd-332b6cadef70",
+      "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+      "company_id": "cfc7ec22-b43c-4d85-ab40-f6d75cecf609",
+      "application_id": "e61e7265-be49-4f67-aaf9-f35d1b5e19bd",
+      "kind": "founder_background",
+      "text": "Founder Arjun Volkov holds a BSc Physics from Tsinghua University.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:e61e7265-be49-4f67-aaf9-f35d1b5e19bd",
+        "ingested_at": "2026-07-19T04:17:23.078305",
+        "raw_payload_hash": "885b8f177c922e01c9e96f814c74f18b96786cf844676a83ac1fda95a3d98fbe",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:23.078401",
+      "superseded_by": null
+    },
+    {
+      "id": "dc148af0-3981-407f-99a3-7091c47ec3f7",
+      "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+      "company_id": "cfc7ec22-b43c-4d85-ab40-f6d75cecf609",
+      "application_id": "e61e7265-be49-4f67-aaf9-f35d1b5e19bd",
+      "kind": "product",
+      "text": "ForgeHealth addresses: Code review for ML pipelines lacks tooling; bugs ship to production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:23.078409",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:23.078425",
+      "superseded_by": null
+    },
+    {
+      "id": "9170d160-4921-43ac-bca5-fbc62884b333",
+      "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+      "company_id": "cfc7ec22-b43c-4d85-ab40-f6d75cecf609",
+      "application_id": "e61e7265-be49-4f67-aaf9-f35d1b5e19bd",
+      "kind": "product",
+      "text": "Solution: A discovery platform using behavioral signals instead of ASO keywords.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:23.078428",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:23.078437",
+      "superseded_by": null
+    },
+    {
+      "id": "25e8c742-79c9-48d7-b0b8-74bd0eb9c79f",
+      "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+      "company_id": "cfc7ec22-b43c-4d85-ab40-f6d75cecf609",
+      "application_id": "e61e7265-be49-4f67-aaf9-f35d1b5e19bd",
+      "kind": "technical_depth",
+      "text": "Repository arjunvolkov/forgehealth-core has 227 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "arjunvolkov/forgehealth-core",
+        "ingested_at": "2026-07-19T04:17:23.078449",
+        "raw_payload_hash": "b4d21529826dc3615c01ed50f1fd5bb92083fef72aebcdd485b933470d50da8d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:23.078459",
+      "superseded_by": null
+    },
+    {
+      "id": "f21a92c9-8109-42c3-872b-3269374c9175",
+      "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+      "company_id": "cfc7ec22-b43c-4d85-ab40-f6d75cecf609",
+      "application_id": "e61e7265-be49-4f67-aaf9-f35d1b5e19bd",
+      "kind": "market_trend",
+      "text": "The Healthtech market is growing at 32% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T04:17:23.078465",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:23.078473",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+    "score_history": [
+      {
+        "id": "f68f83cc-4dac-49a6-b4ca-b5e58e875281",
+        "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+        "score": 71.08564826557307,
+        "confidence_band": [
+          51.08564826557307,
+          91.08564826557307
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:23.078552",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 56.86851861245846,
+          "market_fit": 49.759953785901146,
+          "network": 35.542824132786535,
+          "momentum": 42.65138895934384
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "f68f83cc-4dac-49a6-b4ca-b5e58e875281",
+      "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+      "score": 71.08564826557307,
+      "confidence_band": [
+        51.08564826557307,
+        91.08564826557307
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:23.078552",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 56.86851861245846,
+        "market_fit": 49.759953785901146,
+        "network": 35.542824132786535,
+        "momentum": 42.65138895934384
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:23.078571",
+    "last_updated_at": "2026-07-19T04:17:23.078572"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/8.jpg"
+}

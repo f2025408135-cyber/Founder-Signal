@@ -1,0 +1,181 @@
+{
+  "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+  "company_id": "581976f9-6a0e-47e3-ae73-cc77c6714805",
+  "application_id": "3f5180cf-95db-4338-95c5-25314e5b303a",
+  "name": "Bastian Ivanov",
+  "company_name": "ZenithEnergy",
+  "sector": "Healthtech",
+  "stage": "seed",
+  "geography": "IN",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "Tsinghua University",
+    "degree": "BSc Computer Science",
+    "year": 2021
+  },
+  "prior_experience": "Previously worked at OpenAI.",
+  "github_profile": {
+    "username": "bastianivanov",
+    "repo_count": 8,
+    "primary_language": "C++",
+    "commit_activity": "5 commits in last 30 days",
+    "stars": 76
+  },
+  "deck_summary": "ZenithEnergy is building: An AI-powered patient matching engine for clinical trials. The problem: Code review for ML pipelines lacks tooling; bugs ship to production.",
+  "claims": [
+    {
+      "id": "423f4e9c-eebc-4c64-a2bc-b45a85c4f829",
+      "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+      "company_id": "581976f9-6a0e-47e3-ae73-cc77c6714805",
+      "application_id": "3f5180cf-95db-4338-95c5-25314e5b303a",
+      "kind": "founder_background",
+      "text": "Founder Bastian Ivanov studied at Tsinghua University.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:3f5180cf-95db-4338-95c5-25314e5b303a",
+        "ingested_at": "2026-07-19T04:17:18.505656",
+        "raw_payload_hash": "1bfb7f096f6fc571fb43129bea886355c8de70dcdae4208f008fc8cabbafd846",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:18.505775",
+      "superseded_by": null
+    },
+    {
+      "id": "4b2136ca-b55f-49dd-825d-b9f014df62a3",
+      "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+      "company_id": "581976f9-6a0e-47e3-ae73-cc77c6714805",
+      "application_id": "3f5180cf-95db-4338-95c5-25314e5b303a",
+      "kind": "product",
+      "text": "ZenithEnergy addresses: Code review for ML pipelines lacks tooling; bugs ship to production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:18.505787",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:18.505811",
+      "superseded_by": null
+    },
+    {
+      "id": "a8bb005b-6bcd-4bf9-bf94-e8de9aefc85e",
+      "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+      "company_id": "581976f9-6a0e-47e3-ae73-cc77c6714805",
+      "application_id": "3f5180cf-95db-4338-95c5-25314e5b303a",
+      "kind": "product",
+      "text": "Solution: An AI-powered patient matching engine for clinical trials.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:18.505814",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:18.505824",
+      "superseded_by": null
+    },
+    {
+      "id": "99d1c02e-ad12-4f66-8f6c-2a820f8a1df5",
+      "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+      "company_id": "581976f9-6a0e-47e3-ae73-cc77c6714805",
+      "application_id": "3f5180cf-95db-4338-95c5-25314e5b303a",
+      "kind": "market_trend",
+      "text": "The Healthtech sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-trend",
+        "ingested_at": "2026-07-19T04:17:18.505827",
+        "raw_payload_hash": "1e283eb4dc911e1b94f7be66bb0e1d193ce98cd9a89704b2daa9d9647ccdaa3d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:18.505835",
+      "superseded_by": null
+    },
+    {
+      "id": "f249575e-2836-417a-b359-00522b3028dc",
+      "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+      "company_id": "581976f9-6a0e-47e3-ae73-cc77c6714805",
+      "application_id": "3f5180cf-95db-4338-95c5-25314e5b303a",
+      "kind": "technical_depth",
+      "text": "Repository bastianivanov/zenithenergy-core has 76 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "bastianivanov/zenithenergy-core",
+        "ingested_at": "2026-07-19T04:17:18.505845",
+        "raw_payload_hash": "025f7ed87ac03d44ee4be11179436c748626f1942cb40ea3b2787b0d09822cff",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:18.505885",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+    "score_history": [
+      {
+        "id": "c25ca9de-4cf7-4a2f-a7db-36bdb4e87bc2",
+        "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+        "score": 55.45870623526513,
+        "confidence_band": [
+          35.45870623526513,
+          75.45870623526514
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:18.505985",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 41.59402967644885,
+          "market_fit": 33.27522374115908,
+          "network": 22.183482494106055,
+          "momentum": 27.729353117632566
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "c25ca9de-4cf7-4a2f-a7db-36bdb4e87bc2",
+      "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+      "score": 55.45870623526513,
+      "confidence_band": [
+        35.45870623526513,
+        75.45870623526514
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:18.505985",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 41.59402967644885,
+        "market_fit": 33.27522374115908,
+        "network": 22.183482494106055,
+        "momentum": 27.729353117632566
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:18.506010",
+    "last_updated_at": "2026-07-19T04:17:18.506011"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/43.jpg"
+}

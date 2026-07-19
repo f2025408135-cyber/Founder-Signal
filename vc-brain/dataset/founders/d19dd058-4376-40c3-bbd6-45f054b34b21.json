@@ -1,0 +1,241 @@
+{
+  "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+  "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+  "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+  "name": "Priya Volkov",
+  "company_name": "OrbitLabs",
+  "sector": "AI infra",
+  "stage": "seed",
+  "geography": "US",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "ETH Zurich",
+    "degree": "PhD Machine Learning",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at DeepMind.",
+  "github_profile": {
+    "username": "priyavolkov",
+    "repo_count": 8,
+    "primary_language": "C++",
+    "commit_activity": "20 commits in last 30 days",
+    "stars": 1102
+  },
+  "deck_summary": "OrbitLabs is building: A battery optimization platform using reinforcement learning. The problem: Clinical trial recruitment is bottlenecked by manual patient matching.",
+  "claims": [
+    {
+      "id": "cabde00a-b0f6-4627-b8a0-0ac9049fe758",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+      "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+      "kind": "founder_background",
+      "text": "Founder Priya Volkov holds a PhD Machine Learning from ETH Zurich.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+        "ingested_at": "2026-07-19T04:17:05.387404",
+        "raw_payload_hash": "6843eeac3b75c56317a4b3504dc4638ef30e40602a0f859dadbeefae44ee1659",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.387493",
+      "superseded_by": null
+    },
+    {
+      "id": "6e44e058-8036-4d3d-b2c2-22826aae6022",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+      "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+      "kind": "technical_depth",
+      "text": "Repository priyavolkov/orbitlabs-core has 1102 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "priyavolkov/orbitlabs-core",
+        "ingested_at": "2026-07-19T04:17:05.387500",
+        "raw_payload_hash": "d3900b5840b0ab99ce4849dd81d63c235291c4f61a0c21f76f283602254da66e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.387515",
+      "superseded_by": null
+    },
+    {
+      "id": "603b1749-7362-405b-8ece-16cd05a4c283",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+      "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+      "kind": "technical_depth",
+      "text": "Repository priyavolkov/orbitlabs-core received 20 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "priyavolkov/orbitlabs-core/commits",
+        "ingested_at": "2026-07-19T04:17:05.387519",
+        "raw_payload_hash": "50182782af0860c724ebec58f1e490ef554a180dded87da45fbf0b79411ab5c1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.387528",
+      "superseded_by": null
+    },
+    {
+      "id": "82987d85-3048-4dcd-a926-c3fe04b42918",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+      "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+      "kind": "founder_network",
+      "text": "Repository priyavolkov/orbitlabs-core has 11 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "priyavolkov/orbitlabs-core/contributors",
+        "ingested_at": "2026-07-19T04:17:05.387530",
+        "raw_payload_hash": "df8a78edbe8ce97338da1c9940ff829e535192351df43a30b7fa8371e3c1a245",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.387538",
+      "superseded_by": null
+    },
+    {
+      "id": "c552d23d-eb2d-41c0-a80c-c8fd5c2354e9",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+      "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+      "kind": "traction",
+      "text": "Hacker News post about OrbitLabs received 171 points.",
+      "source": {
+        "kind": "hackernews",
+        "ref": "item:39019204",
+        "ingested_at": "2026-07-19T04:17:05.387546",
+        "raw_payload_hash": "595894b24e50ae5be2c84790812e01e4852a6f15ef1eb341f93b12a941bb93ed",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.387554",
+      "superseded_by": null
+    },
+    {
+      "id": "1e473c48-2fe5-4bcc-a6dd-4081ab85549f",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+      "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+      "kind": "founder_network",
+      "text": "Founder is a member of Seedcamp accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:Seedcamp",
+        "ingested_at": "2026-07-19T04:17:05.387558",
+        "raw_payload_hash": "897bb9e7f092f71e52c532bd26071b7445e534dcd6b6fa113e4e820862364df1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.387584",
+      "superseded_by": null
+    },
+    {
+      "id": "18c7034f-39be-4308-aeea-4e5d82680a13",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+      "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+      "kind": "market_trend",
+      "text": "The AI infra market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AI infra-market",
+        "ingested_at": "2026-07-19T04:17:05.387588",
+        "raw_payload_hash": "f655e1a7ba0fb19404eda1d2d49fc1eca07956ac2cce954d3276598ca6e3b33d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.387598",
+      "superseded_by": null
+    },
+    {
+      "id": "9355f003-b86a-4d34-bbfd-2b4adc110d4d",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "company_id": "2c779adb-0fe4-4224-8dc0-ad7896d4f610",
+      "application_id": "77c780b1-8f8a-478f-8f0a-23e9a55ab0d5",
+      "kind": "product",
+      "text": "OrbitLabs addresses: Clinical trial recruitment is bottlenecked by manual patient matching.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:05.387602",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.387609",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+    "score_history": [
+      {
+        "id": "7e05413d-d568-41a7-9cb7-8bda8047ef00",
+        "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+        "score": 83.04624675868733,
+        "confidence_band": [
+          63.04624675868733,
+          100.0
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:05.387711",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 74.7416220828186,
+          "market_fit": 66.43699740694987,
+          "network": 62.284685069015495,
+          "momentum": 58.13237273108113
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "7e05413d-d568-41a7-9cb7-8bda8047ef00",
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "score": 83.04624675868733,
+      "confidence_band": [
+        63.04624675868733,
+        100.0
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:05.387711",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 74.7416220828186,
+        "market_fit": 66.43699740694987,
+        "network": 62.284685069015495,
+        "momentum": 58.13237273108113
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:05.387735",
+    "last_updated_at": "2026-07-19T04:17:05.387736"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/15.jpg"
+}

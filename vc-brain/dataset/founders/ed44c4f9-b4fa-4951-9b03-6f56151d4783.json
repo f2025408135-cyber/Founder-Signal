@@ -1,0 +1,175 @@
+{
+  "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+  "company_id": "82bf4d63-2c3e-4333-9220-72c12cd7e9dc",
+  "application_id": "c1676909-ac14-4e06-bd96-c855dac4b73a",
+  "name": "Sofia Kowalski",
+  "company_name": "VoltData",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "GB",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "Carnegie Mellon University",
+    "degree": "BSc Physics",
+    "year": 2014
+  },
+  "prior_experience": "Previously worked at Meta.",
+  "github_profile": null,
+  "deck_summary": "VoltData is building: A code review tool specialized for ML pipeline correctness. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "a293850e-7692-4e79-a2bd-b375137a4b84",
+      "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+      "company_id": "82bf4d63-2c3e-4333-9220-72c12cd7e9dc",
+      "application_id": "c1676909-ac14-4e06-bd96-c855dac4b73a",
+      "kind": "founder_background",
+      "text": "Founder Sofia Kowalski holds a MSc Electrical Engineering from Carnegie Mellon University.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c1676909-ac14-4e06-bd96-c855dac4b73a",
+        "ingested_at": "2026-07-19T04:17:25.366203",
+        "raw_payload_hash": "052b38cf736c6664a00afb8a9b6caf222f1e66d796b90bc23f6819d55200d3c4",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:25.366286",
+      "superseded_by": null
+    },
+    {
+      "id": "9fde89c2-df6c-48b3-8a47-f0464672ce82",
+      "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+      "company_id": "82bf4d63-2c3e-4333-9220-72c12cd7e9dc",
+      "application_id": "c1676909-ac14-4e06-bd96-c855dac4b73a",
+      "kind": "product",
+      "text": "VoltData addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:25.366293",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:25.366308",
+      "superseded_by": null
+    },
+    {
+      "id": "3d5aa0b7-b47c-4f90-b696-dd5f359a30d7",
+      "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+      "company_id": "82bf4d63-2c3e-4333-9220-72c12cd7e9dc",
+      "application_id": "c1676909-ac14-4e06-bd96-c855dac4b73a",
+      "kind": "product",
+      "text": "Solution: A code review tool specialized for ML pipeline correctness.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:25.366311",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:25.366321",
+      "superseded_by": null
+    },
+    {
+      "id": "00619e1e-5b11-4ce0-b18f-1e31a5ad7119",
+      "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+      "company_id": "82bf4d63-2c3e-4333-9220-72c12cd7e9dc",
+      "application_id": "c1676909-ac14-4e06-bd96-c855dac4b73a",
+      "kind": "technical_depth",
+      "text": "Repository sofiakowalski/voltdata-core has 116 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "sofiakowalski/voltdata-core",
+        "ingested_at": "2026-07-19T04:17:25.366331",
+        "raw_payload_hash": "e8135a7cd6cc7e657851f95194249ea092bb02e30f84dc4d73bf3ab6aca27f4b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:25.366340",
+      "superseded_by": null
+    },
+    {
+      "id": "befdd4b8-649b-4862-851d-e64c2a89134f",
+      "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+      "company_id": "82bf4d63-2c3e-4333-9220-72c12cd7e9dc",
+      "application_id": "c1676909-ac14-4e06-bd96-c855dac4b73a",
+      "kind": "market_trend",
+      "text": "The Healthtech market is growing at 23% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T04:17:25.366344",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:25.366352",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+    "score_history": [
+      {
+        "id": "58263e12-c83d-44e4-b049-d8a8d266b501",
+        "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+        "score": 54.711712801426316,
+        "confidence_band": [
+          34.711712801426316,
+          74.71171280142632
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:25.366429",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 43.769370241141054,
+          "market_fit": 38.29819896099842,
+          "network": 27.355856400713158,
+          "momentum": 32.827027680855785
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "58263e12-c83d-44e4-b049-d8a8d266b501",
+      "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+      "score": 54.711712801426316,
+      "confidence_band": [
+        34.711712801426316,
+        74.71171280142632
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:25.366429",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 43.769370241141054,
+        "market_fit": 38.29819896099842,
+        "network": 27.355856400713158,
+        "momentum": 32.827027680855785
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:25.366449",
+    "last_updated_at": "2026-07-19T04:17:25.366450"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/33.jpg"
+}

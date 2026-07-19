@@ -1,0 +1,195 @@
+{
+  "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+  "company_id": "26da7ead-3874-48c4-b294-56d89c8163b0",
+  "application_id": "e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+  "name": "Elena Yamamoto",
+  "company_name": "MeshLabs",
+  "sector": "Consumer",
+  "stage": "pre-seed",
+  "geography": "SG",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "Imperial College London",
+    "degree": "MSc Robotics",
+    "year": 2023
+  },
+  "prior_experience": "Previously worked at Anthropic.",
+  "github_profile": null,
+  "deck_summary": "MeshLabs is building: A model observability platform with drift detection and alerting. The problem: AI model deployment lacks observability; teams fly blind in production.",
+  "claims": [
+    {
+      "id": "f195eef5-c5cc-4624-a18e-f19e0e18b9d6",
+      "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+      "company_id": "26da7ead-3874-48c4-b294-56d89c8163b0",
+      "application_id": "e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+      "kind": "founder_background",
+      "text": "Founder Elena Yamamoto holds a MSc Robotics from Imperial College London, graduating in 2023.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+        "ingested_at": "2026-07-19T04:17:02.478547",
+        "raw_payload_hash": "b65c80147e245e598d469d2f1bf21f2a1f6f1963a3411f189783ceb2cca2a795",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:02.478633",
+      "superseded_by": null
+    },
+    {
+      "id": "7cd82592-9bbd-409c-8c51-8b4f4626b1fb",
+      "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+      "company_id": "26da7ead-3874-48c4-b294-56d89c8163b0",
+      "application_id": "e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+      "kind": "founder_background",
+      "text": "Founder Elena Yamamoto previously worked at Anthropic.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:02.478639",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:02.478654",
+      "superseded_by": null
+    },
+    {
+      "id": "a194cc0e-a2ce-4c22-a3d3-c40ad151644e",
+      "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+      "company_id": "26da7ead-3874-48c4-b294-56d89c8163b0",
+      "application_id": "e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+      "kind": "product",
+      "text": "MeshLabs addresses: AI model deployment lacks observability; teams fly blind in production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:02.478657",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:02.478667",
+      "superseded_by": null
+    },
+    {
+      "id": "308c578b-72b6-4301-a87b-bac7357ebae3",
+      "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+      "company_id": "26da7ead-3874-48c4-b294-56d89c8163b0",
+      "application_id": "e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+      "kind": "product",
+      "text": "Solution: A model observability platform with drift detection and alerting.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:17:02.478670",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:02.478681",
+      "superseded_by": null
+    },
+    {
+      "id": "5ce366d3-f51b-4f0b-91d9-1bf1c89a1d8a",
+      "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+      "company_id": "26da7ead-3874-48c4-b294-56d89c8163b0",
+      "application_id": "e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+      "kind": "market_size",
+      "text": "The Consumer market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:17:02.478683",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:02.478700",
+      "superseded_by": null
+    },
+    {
+      "id": "43dbfa6d-62a4-47cc-9775-71f9e88bdcc0",
+      "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+      "company_id": "26da7ead-3874-48c4-b294-56d89c8163b0",
+      "application_id": "e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:e48645e7-6691-4cc6-bb96-f7eed7deffa1",
+        "ingested_at": "2026-07-19T04:17:02.478705",
+        "raw_payload_hash": "b65c80147e245e598d469d2f1bf21f2a1f6f1963a3411f189783ceb2cca2a795",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:02.483328",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+    "score_history": [
+      {
+        "id": "3d5c97c6-32a0-4214-9bed-80e6b4b102cd",
+        "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+        "score": 64.42156755227236,
+        "confidence_band": [
+          34.421567552272364,
+          94.42156755227236
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:02.483428",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 51.537254041817896,
+          "market_fit": 45.09509728659065,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "3d5c97c6-32a0-4214-9bed-80e6b4b102cd",
+      "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+      "score": 64.42156755227236,
+      "confidence_band": [
+        34.421567552272364,
+        94.42156755227236
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:02.483428",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 51.537254041817896,
+        "market_fit": 45.09509728659065,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:02.483455",
+    "last_updated_at": "2026-07-19T04:17:02.483456"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/96.jpg"
+}

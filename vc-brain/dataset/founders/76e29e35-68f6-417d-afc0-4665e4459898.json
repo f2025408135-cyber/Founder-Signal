@@ -1,0 +1,195 @@
+{
+  "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+  "company_id": "5be716be-649a-4880-9117-f036e6c4e12e",
+  "application_id": "42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+  "name": "Marcus Silva",
+  "company_name": "NovaData",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "DE",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "degree": "BSc Physics",
+    "year": 2021
+  },
+  "prior_experience": "Previously worked at Stripe.",
+  "github_profile": null,
+  "deck_summary": "NovaData is building: A battery optimization platform using reinforcement learning. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "97931358-a4b8-47b8-8acb-5c017d596a57",
+      "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+      "company_id": "5be716be-649a-4880-9117-f036e6c4e12e",
+      "application_id": "42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+      "kind": "founder_background",
+      "text": "Founder Marcus Silva holds a BSc Physics from University of Cambridge, graduating in 2021.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+        "ingested_at": "2026-07-19T04:16:57.404058",
+        "raw_payload_hash": "239141c786d570c98242dc36c03e4ca7e40e3098d30e609a43528a6760e4e9e1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.404151",
+      "superseded_by": null
+    },
+    {
+      "id": "508d354e-3ea7-4c62-afef-96c47eecc215",
+      "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+      "company_id": "5be716be-649a-4880-9117-f036e6c4e12e",
+      "application_id": "42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+      "kind": "founder_background",
+      "text": "Founder Marcus Silva previously worked at Stripe.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:16:57.404157",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.404172",
+      "superseded_by": null
+    },
+    {
+      "id": "ae1c40aa-5c6c-430f-9472-0e2b94ec7793",
+      "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+      "company_id": "5be716be-649a-4880-9117-f036e6c4e12e",
+      "application_id": "42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+      "kind": "product",
+      "text": "NovaData addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:16:57.404176",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.404187",
+      "superseded_by": null
+    },
+    {
+      "id": "240aaf56-76e2-4775-9005-148bdf016be1",
+      "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+      "company_id": "5be716be-649a-4880-9117-f036e6c4e12e",
+      "application_id": "42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+      "kind": "product",
+      "text": "Solution: A battery optimization platform using reinforcement learning.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:16:57.404189",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.404198",
+      "superseded_by": null
+    },
+    {
+      "id": "e957df94-cf86-4653-9061-83ed436bf596",
+      "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+      "company_id": "5be716be-649a-4880-9117-f036e6c4e12e",
+      "application_id": "42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+      "kind": "market_size",
+      "text": "The DevTools market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:16:57.404200",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.404209",
+      "superseded_by": null
+    },
+    {
+      "id": "7455b4ba-fccb-4855-bdc5-d109e3ef0697",
+      "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+      "company_id": "5be716be-649a-4880-9117-f036e6c4e12e",
+      "application_id": "42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:42ae21a1-3ad9-4034-b42f-8b1e642a9d5f",
+        "ingested_at": "2026-07-19T04:16:57.404214",
+        "raw_payload_hash": "239141c786d570c98242dc36c03e4ca7e40e3098d30e609a43528a6760e4e9e1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.404224",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+    "score_history": [
+      {
+        "id": "125321f5-184d-4ee0-ac6d-61ea5da76c5a",
+        "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+        "score": 53.98418092567707,
+        "confidence_band": [
+          23.984180925677073,
+          83.98418092567707
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:16:57.404305",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 43.18734474054166,
+          "market_fit": 37.78892664797395,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "125321f5-184d-4ee0-ac6d-61ea5da76c5a",
+      "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+      "score": 53.98418092567707,
+      "confidence_band": [
+        23.984180925677073,
+        83.98418092567707
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:16:57.404305",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 43.18734474054166,
+        "market_fit": 37.78892664797395,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:16:57.404341",
+    "last_updated_at": "2026-07-19T04:16:57.404342"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/98.jpg"
+}

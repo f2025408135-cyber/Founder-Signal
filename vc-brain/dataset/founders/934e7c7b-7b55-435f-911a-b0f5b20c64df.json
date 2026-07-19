@@ -1,0 +1,195 @@
+{
+  "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+  "company_id": "81057455-44f4-403d-93ab-b22dfb83db73",
+  "application_id": "c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+  "name": "Aisha Yamamoto",
+  "company_name": "OrbitHealth",
+  "sector": "Consumer",
+  "stage": "seed",
+  "geography": "SG",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "University of Oxford",
+    "degree": "BEng Software Engineering",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at DeepMind.",
+  "github_profile": null,
+  "deck_summary": "OrbitHealth is building: An AI-powered patient matching engine for clinical trials. The problem: Cross-border payments remain slow and expensive for SMBs.",
+  "claims": [
+    {
+      "id": "a0a3f823-34ea-4701-8968-28a9ffd542ff",
+      "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+      "company_id": "81057455-44f4-403d-93ab-b22dfb83db73",
+      "application_id": "c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+      "kind": "founder_background",
+      "text": "Founder Aisha Yamamoto holds a BEng Software Engineering from University of Oxford, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+        "ingested_at": "2026-07-19T04:16:57.966284",
+        "raw_payload_hash": "43c1046a668bba9d66185b8a8e97de0ceaad13735f9c5d15b3de7f21e01839db",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.966370",
+      "superseded_by": null
+    },
+    {
+      "id": "d4063b8d-33f4-4abd-8564-68af316a6a56",
+      "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+      "company_id": "81057455-44f4-403d-93ab-b22dfb83db73",
+      "application_id": "c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+      "kind": "founder_background",
+      "text": "Founder Aisha Yamamoto previously worked at DeepMind.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:16:57.966378",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.966392",
+      "superseded_by": null
+    },
+    {
+      "id": "4b34d831-7edf-44c7-89a3-122c61c9d4f8",
+      "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+      "company_id": "81057455-44f4-403d-93ab-b22dfb83db73",
+      "application_id": "c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+      "kind": "product",
+      "text": "OrbitHealth addresses: Cross-border payments remain slow and expensive for SMBs.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:16:57.966396",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.966405",
+      "superseded_by": null
+    },
+    {
+      "id": "1961016e-634f-4148-9c31-c3b10d46a4ed",
+      "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+      "company_id": "81057455-44f4-403d-93ab-b22dfb83db73",
+      "application_id": "c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+      "kind": "product",
+      "text": "Solution: An AI-powered patient matching engine for clinical trials.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:16:57.966407",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.966419",
+      "superseded_by": null
+    },
+    {
+      "id": "d101fb60-7c51-4c17-a499-e550852f361d",
+      "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+      "company_id": "81057455-44f4-403d-93ab-b22dfb83db73",
+      "application_id": "c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+      "kind": "market_size",
+      "text": "The Consumer market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:16:57.966421",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.966429",
+      "superseded_by": null
+    },
+    {
+      "id": "27081478-4877-4e0d-aa06-78b7eb6119ba",
+      "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+      "company_id": "81057455-44f4-403d-93ab-b22dfb83db73",
+      "application_id": "c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c912b79b-4c0a-4b5a-93ed-9bdaaf0208cb",
+        "ingested_at": "2026-07-19T04:16:57.966433",
+        "raw_payload_hash": "43c1046a668bba9d66185b8a8e97de0ceaad13735f9c5d15b3de7f21e01839db",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:57.966441",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+    "score_history": [
+      {
+        "id": "45ab252d-d84b-4c8d-b7ea-6a104526f643",
+        "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+        "score": 52.598546012746745,
+        "confidence_band": [
+          22.598546012746745,
+          82.59854601274674
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:16:57.966540",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 42.0788368101974,
+          "market_fit": 36.81898220892272,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "45ab252d-d84b-4c8d-b7ea-6a104526f643",
+      "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+      "score": 52.598546012746745,
+      "confidence_band": [
+        22.598546012746745,
+        82.59854601274674
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:16:57.966540",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 42.0788368101974,
+        "market_fit": 36.81898220892272,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:16:57.966565",
+    "last_updated_at": "2026-07-19T04:16:57.966567"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/73.jpg"
+}

@@ -1,0 +1,181 @@
+{
+  "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+  "company_id": "438b3070-0b52-463e-8b2a-8bf054c65fa0",
+  "application_id": "9930dc20-f4b4-417c-84a7-564fba4cc012",
+  "name": "Olamide Almeida",
+  "company_name": "NovaTools",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "DE",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "degree": "BSc Physics",
+    "year": 2023
+  },
+  "prior_experience": "Previously worked at Nvidia.",
+  "github_profile": {
+    "username": "olamidealmeida",
+    "repo_count": 7,
+    "primary_language": "Julia",
+    "commit_activity": "10 commits in last 30 days",
+    "stars": 51
+  },
+  "deck_summary": "NovaTools is building: A battery optimization platform using reinforcement learning. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "86a89d3a-7cbc-4592-b215-10836d4061e4",
+      "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+      "company_id": "438b3070-0b52-463e-8b2a-8bf054c65fa0",
+      "application_id": "9930dc20-f4b4-417c-84a7-564fba4cc012",
+      "kind": "founder_background",
+      "text": "Founder Olamide Almeida studied at University of Cambridge.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:9930dc20-f4b4-417c-84a7-564fba4cc012",
+        "ingested_at": "2026-07-19T04:17:16.212667",
+        "raw_payload_hash": "96ffab815c01bd63f3349047fa193e96c8780e7af9c4bee8f299f2d8a85d0a1b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.212777",
+      "superseded_by": null
+    },
+    {
+      "id": "75159879-2db6-4fa8-b555-8e4271a12a50",
+      "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+      "company_id": "438b3070-0b52-463e-8b2a-8bf054c65fa0",
+      "application_id": "9930dc20-f4b4-417c-84a7-564fba4cc012",
+      "kind": "product",
+      "text": "NovaTools addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:16.212785",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.212802",
+      "superseded_by": null
+    },
+    {
+      "id": "a8655c16-9191-4309-a85a-764f05d14319",
+      "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+      "company_id": "438b3070-0b52-463e-8b2a-8bf054c65fa0",
+      "application_id": "9930dc20-f4b4-417c-84a7-564fba4cc012",
+      "kind": "product",
+      "text": "Solution: A battery optimization platform using reinforcement learning.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:16.212805",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.212815",
+      "superseded_by": null
+    },
+    {
+      "id": "c17d617b-d711-4fab-a909-d62cf15f7357",
+      "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+      "company_id": "438b3070-0b52-463e-8b2a-8bf054c65fa0",
+      "application_id": "9930dc20-f4b4-417c-84a7-564fba4cc012",
+      "kind": "market_trend",
+      "text": "The DevTools sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:DevTools-trend",
+        "ingested_at": "2026-07-19T04:17:16.212818",
+        "raw_payload_hash": "3ee7b4ebb1680e336f96481c44f9bcac8321c8d0fcd8f9255f5a362008e5a194",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.212827",
+      "superseded_by": null
+    },
+    {
+      "id": "38bad699-d257-44d5-8a19-ed2c0cacefac",
+      "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+      "company_id": "438b3070-0b52-463e-8b2a-8bf054c65fa0",
+      "application_id": "9930dc20-f4b4-417c-84a7-564fba4cc012",
+      "kind": "technical_depth",
+      "text": "Repository olamidealmeida/novatools-core has 51 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "olamidealmeida/novatools-core",
+        "ingested_at": "2026-07-19T04:17:16.212839",
+        "raw_payload_hash": "869a2cb5d62f4da2d57461b4d7180ca4072fe48c03e343a3786aa928c5e3ca75",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.212857",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+    "score_history": [
+      {
+        "id": "44a3df22-fa6b-4e0f-819c-ec3a2d7e5783",
+        "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+        "score": 59.129236509403455,
+        "confidence_band": [
+          39.129236509403455,
+          79.12923650940346
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:16.212959",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 44.34692738205259,
+          "market_fit": 35.47754190564207,
+          "network": 23.651694603761385,
+          "momentum": 29.564618254701728
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "44a3df22-fa6b-4e0f-819c-ec3a2d7e5783",
+      "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+      "score": 59.129236509403455,
+      "confidence_band": [
+        39.129236509403455,
+        79.12923650940346
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:16.212959",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 44.34692738205259,
+        "market_fit": 35.47754190564207,
+        "network": 23.651694603761385,
+        "momentum": 29.564618254701728
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:16.212981",
+    "last_updated_at": "2026-07-19T04:17:16.212982"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/55.jpg"
+}

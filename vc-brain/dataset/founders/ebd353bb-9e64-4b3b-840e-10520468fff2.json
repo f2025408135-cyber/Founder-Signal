@@ -1,0 +1,181 @@
+{
+  "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+  "company_id": "3b7e0b3e-d307-4f76-a531-00954bb7558f",
+  "application_id": "a888dea7-f2f0-4a95-aef3-7152314734ad",
+  "name": "Saanvi O'Brien",
+  "company_name": "LumenEnergy",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "PK",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "MIT",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2018
+  },
+  "prior_experience": "Previously worked at Meta.",
+  "github_profile": {
+    "username": "saanvio'brien",
+    "repo_count": 15,
+    "primary_language": "C++",
+    "commit_activity": "8 commits in last 30 days",
+    "stars": 427
+  },
+  "deck_summary": "LumenEnergy is building: A model observability platform with drift detection and alerting. The problem: Cross-border payments remain slow and expensive for SMBs.",
+  "claims": [
+    {
+      "id": "ceb8c178-0304-4d13-91b5-1203641f4de0",
+      "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+      "company_id": "3b7e0b3e-d307-4f76-a531-00954bb7558f",
+      "application_id": "a888dea7-f2f0-4a95-aef3-7152314734ad",
+      "kind": "founder_background",
+      "text": "Founder Saanvi O'Brien studied at MIT.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:a888dea7-f2f0-4a95-aef3-7152314734ad",
+        "ingested_at": "2026-07-19T04:17:11.088428",
+        "raw_payload_hash": "8066b4c36f5d010ebe34730d970201adf08b51ca3480e0d35f5a98e8c288cc4f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.088517",
+      "superseded_by": null
+    },
+    {
+      "id": "6114069e-21b8-463d-a6a8-d98d9ec251c3",
+      "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+      "company_id": "3b7e0b3e-d307-4f76-a531-00954bb7558f",
+      "application_id": "a888dea7-f2f0-4a95-aef3-7152314734ad",
+      "kind": "product",
+      "text": "LumenEnergy addresses: Cross-border payments remain slow and expensive for SMBs.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:11.088526",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.088540",
+      "superseded_by": null
+    },
+    {
+      "id": "f4f9c4f1-f257-4ce1-a3a6-6cd8c1e69a22",
+      "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+      "company_id": "3b7e0b3e-d307-4f76-a531-00954bb7558f",
+      "application_id": "a888dea7-f2f0-4a95-aef3-7152314734ad",
+      "kind": "market_size",
+      "text": "The DevTools market is $5B in 2026.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:17:11.088544",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.088554",
+      "superseded_by": null
+    },
+    {
+      "id": "0bab9675-0aa3-4b37-91fc-c8b35f4e7f96",
+      "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+      "company_id": "3b7e0b3e-d307-4f76-a531-00954bb7558f",
+      "application_id": "a888dea7-f2f0-4a95-aef3-7152314734ad",
+      "kind": "market_size",
+      "text": "The DevTools market is $500M in 2026.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:DevTools-market",
+        "ingested_at": "2026-07-19T04:17:11.088558",
+        "raw_payload_hash": "1afe6abeffd0158758034bb039ba9f21f020ca4fcd6ff6eb90f5670f18e14cb8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.088567",
+      "superseded_by": null
+    },
+    {
+      "id": "bd46b413-0365-4b30-ad07-bb97bdedb68c",
+      "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+      "company_id": "3b7e0b3e-d307-4f76-a531-00954bb7558f",
+      "application_id": "a888dea7-f2f0-4a95-aef3-7152314734ad",
+      "kind": "technical_depth",
+      "text": "Repository saanvio'brien/lumenenergy-core has 427 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "saanvio'brien/lumenenergy-core",
+        "ingested_at": "2026-07-19T04:17:11.088587",
+        "raw_payload_hash": "535c0ca948b82adbe5f814aaed68287d935cb53e8248224597f74d2325c666dd",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.088598",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+    "score_history": [
+      {
+        "id": "08cbe8ea-9d8c-4329-9832-98a18a33fa1e",
+        "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+        "score": 63.112182381038636,
+        "confidence_band": [
+          43.112182381038636,
+          83.11218238103864
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:11.088679",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 50.48974590483091,
+          "market_fit": 31.556091190519318,
+          "network": 37.86730942862318,
+          "momentum": 31.556091190519318
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "08cbe8ea-9d8c-4329-9832-98a18a33fa1e",
+      "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+      "score": 63.112182381038636,
+      "confidence_band": [
+        43.112182381038636,
+        83.11218238103864
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:11.088679",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 50.48974590483091,
+        "market_fit": 31.556091190519318,
+        "network": 37.86730942862318,
+        "momentum": 31.556091190519318
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:11.088700",
+    "last_updated_at": "2026-07-19T04:17:11.088701"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/32.jpg"
+}

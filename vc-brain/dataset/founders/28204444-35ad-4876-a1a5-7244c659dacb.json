@@ -1,0 +1,241 @@
+{
+  "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+  "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+  "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+  "name": "Aisha Ivanov",
+  "company_name": "PulseHealth",
+  "sector": "Fintech",
+  "stage": "pre-seed",
+  "geography": "PK",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "degree": "MSc Data Science",
+    "year": 2017
+  },
+  "prior_experience": "Previously worked at Google.",
+  "github_profile": {
+    "username": "aishaivanov",
+    "repo_count": 6,
+    "primary_language": "C++",
+    "commit_activity": "49 commits in last 30 days",
+    "stars": 916
+  },
+  "deck_summary": "PulseHealth is building: A real-time payment rail optimized for SMB cross-border transactions. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "41a064f9-6d8a-42e3-8063-2d6f53435e11",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+      "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+      "kind": "founder_background",
+      "text": "Founder Aisha Ivanov holds a MSc Data Science from University of Cambridge.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+        "ingested_at": "2026-07-19T04:17:07.094196",
+        "raw_payload_hash": "c64159514075e3e06f0101dee6204138c6771287cbed7e4b5417839332307ed8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:07.094290",
+      "superseded_by": null
+    },
+    {
+      "id": "ba99d5d0-de3e-42c5-b58d-5420b8e9a30f",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+      "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+      "kind": "technical_depth",
+      "text": "Repository aishaivanov/pulsehealth-core has 916 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "aishaivanov/pulsehealth-core",
+        "ingested_at": "2026-07-19T04:17:07.094297",
+        "raw_payload_hash": "4e797f0e5e7c1feb148bf5d884a9bbf70bf345d9bf66dfc8a1e48920dabbb4c9",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:07.094312",
+      "superseded_by": null
+    },
+    {
+      "id": "d4c10423-da08-4855-894f-caa875174927",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+      "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+      "kind": "technical_depth",
+      "text": "Repository aishaivanov/pulsehealth-core received 49 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "aishaivanov/pulsehealth-core/commits",
+        "ingested_at": "2026-07-19T04:17:07.094315",
+        "raw_payload_hash": "6c3f8591c7aeef63e6eb4bebde5ef0c86034bdbbef194a399365a2743e302995",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:07.094325",
+      "superseded_by": null
+    },
+    {
+      "id": "53f3eb67-e596-49ab-b9ea-02192bdd4dc9",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+      "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+      "kind": "founder_network",
+      "text": "Repository aishaivanov/pulsehealth-core has 20 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "aishaivanov/pulsehealth-core/contributors",
+        "ingested_at": "2026-07-19T04:17:07.094327",
+        "raw_payload_hash": "e014cc014019bca4f063bd5c99bb5ecc0f1e714d5a65936b765e2bca733171e5",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:07.094341",
+      "superseded_by": null
+    },
+    {
+      "id": "fa14d1b6-710d-41f7-a727-98217060eb08",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+      "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+      "kind": "technical_depth",
+      "text": "Founder authored arxiv paper 2330.85914 on Fintech techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2330.85914",
+        "ingested_at": "2026-07-19T04:17:07.094348",
+        "raw_payload_hash": "1fc624916062501803df4a794cbc3dd8a3c6a8d1372391636816c4fb4bff071c",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:07.094360",
+      "superseded_by": null
+    },
+    {
+      "id": "f0597a89-685a-442b-9f0b-e4ee53490622",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+      "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+      "kind": "founder_network",
+      "text": "Founder is a member of 500 Global accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:500:Global",
+        "ingested_at": "2026-07-19T04:17:07.094364",
+        "raw_payload_hash": "489184f7bdc3a381a34cdaed9f6586d897ac84263c11e5df1309d5991da65cbc",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:07.094373",
+      "superseded_by": null
+    },
+    {
+      "id": "13e7cef1-9e16-4c8f-982a-8431f156c220",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+      "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+      "kind": "market_trend",
+      "text": "The Fintech market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Fintech-market",
+        "ingested_at": "2026-07-19T04:17:07.094376",
+        "raw_payload_hash": "d031372273d232c2ae6efc13550b5dc8b6e8cfda386f5007df981fb1c331dfc8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:07.094384",
+      "superseded_by": null
+    },
+    {
+      "id": "56d0815b-b8ff-459e-bf24-d083a9b7e619",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "company_id": "4f0a1b2a-abdb-4a8f-8236-1cdf2d5819e0",
+      "application_id": "a243a6b8-f5fd-47cd-9448-46e8ac6c2f80",
+      "kind": "product",
+      "text": "PulseHealth addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:07.094387",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:07.094399",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+    "score_history": [
+      {
+        "id": "07414705-d112-4494-b5c9-0c2793081673",
+        "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+        "score": 81.921955112148,
+        "confidence_band": [
+          61.921955112148,
+          100.0
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:07.094491",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 73.7297596009332,
+          "market_fit": 65.5375640897184,
+          "network": 61.441466334111,
+          "momentum": 57.345368578503596
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "07414705-d112-4494-b5c9-0c2793081673",
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "score": 81.921955112148,
+      "confidence_band": [
+        61.921955112148,
+        100.0
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:07.094491",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 73.7297596009332,
+        "market_fit": 65.5375640897184,
+        "network": 61.441466334111,
+        "momentum": 57.345368578503596
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:07.094517",
+    "last_updated_at": "2026-07-19T04:17:07.094518"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/6.jpg"
+}

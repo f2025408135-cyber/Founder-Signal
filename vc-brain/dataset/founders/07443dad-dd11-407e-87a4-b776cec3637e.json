@@ -1,0 +1,241 @@
+{
+  "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+  "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+  "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+  "name": "Dario Andersson",
+  "company_name": "CipherCloud",
+  "sector": "AI infra",
+  "stage": "series-a",
+  "geography": "IN",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "ETH Zurich",
+    "degree": "MSc Robotics",
+    "year": 2020
+  },
+  "prior_experience": "Previously worked at Google.",
+  "github_profile": {
+    "username": "darioandersson",
+    "repo_count": 26,
+    "primary_language": "Python",
+    "commit_activity": "13 commits in last 30 days",
+    "stars": 593
+  },
+  "deck_summary": "CipherCloud is building: A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "1234e79f-a927-46a3-9b88-1bc5b5bc0ecf",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+      "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+      "kind": "founder_background",
+      "text": "Founder Dario Andersson holds a MSc Robotics from ETH Zurich.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:82cbe1f8-4103-470f-9707-5da66e84980e",
+        "ingested_at": "2026-07-19T04:17:08.780275",
+        "raw_payload_hash": "f850025df0ab8241d29ccacbd04dd8263e65395852b44fd60e8dc9715b8105a3",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.780360",
+      "superseded_by": null
+    },
+    {
+      "id": "b47f3acd-aa6a-4f5d-a91b-2d5e27894c01",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+      "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+      "kind": "technical_depth",
+      "text": "Repository darioandersson/ciphercloud-core has 593 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "darioandersson/ciphercloud-core",
+        "ingested_at": "2026-07-19T04:17:08.780368",
+        "raw_payload_hash": "a1deb01ce5dd79566a1f7a0130cd84c29b66f28d936dd0cebbb17a79783dbced",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.780382",
+      "superseded_by": null
+    },
+    {
+      "id": "f856147e-561b-4928-bfed-bdc8f1e54919",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+      "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+      "kind": "technical_depth",
+      "text": "Repository darioandersson/ciphercloud-core received 13 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "darioandersson/ciphercloud-core/commits",
+        "ingested_at": "2026-07-19T04:17:08.780386",
+        "raw_payload_hash": "2c3dbf39c752e6d548841eeef3f00bc8ad03269c994397a9a0b6da76e42bc45f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.780396",
+      "superseded_by": null
+    },
+    {
+      "id": "a4fb5cb6-9eb6-41d1-ad93-89d33412ec4f",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+      "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+      "kind": "founder_network",
+      "text": "Repository darioandersson/ciphercloud-core has 14 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "darioandersson/ciphercloud-core/contributors",
+        "ingested_at": "2026-07-19T04:17:08.780399",
+        "raw_payload_hash": "411dd4885498a064692e598dc5b475faf01732c4fa0409cdd6c7e91ac4328baf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.780407",
+      "superseded_by": null
+    },
+    {
+      "id": "70f52a5c-0796-49ee-8e60-0dcf2f8eb9e8",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+      "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+      "kind": "traction",
+      "text": "Hacker News post about CipherCloud received 230 points.",
+      "source": {
+        "kind": "hackernews",
+        "ref": "item:39268848",
+        "ingested_at": "2026-07-19T04:17:08.780415",
+        "raw_payload_hash": "3097d6e55d78dae0561ce6389b0dbd5615b349ddfeb322e6c32de8b00289c29c",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.780424",
+      "superseded_by": null
+    },
+    {
+      "id": "7e38cd2c-e93d-4925-b2d7-37f171aaf506",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+      "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+      "kind": "founder_network",
+      "text": "Founder is a member of YC S23 accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:YC:S23",
+        "ingested_at": "2026-07-19T04:17:08.780428",
+        "raw_payload_hash": "982c35961b78b8ed697131eb23f385997dbe263d19fff8464da8a4750bf2717a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.780436",
+      "superseded_by": null
+    },
+    {
+      "id": "84437ed1-4e1a-42c2-9e1a-7354d673e4c0",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+      "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+      "kind": "market_trend",
+      "text": "The AI infra market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AI infra-market",
+        "ingested_at": "2026-07-19T04:17:08.780439",
+        "raw_payload_hash": "f655e1a7ba0fb19404eda1d2d49fc1eca07956ac2cce954d3276598ca6e3b33d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.780447",
+      "superseded_by": null
+    },
+    {
+      "id": "a9bbf7ab-e6df-4cad-9b67-6f71a651854f",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "company_id": "25a09925-3339-4f46-8c7f-e481be2f2c83",
+      "application_id": "82cbe1f8-4103-470f-9707-5da66e84980e",
+      "kind": "product",
+      "text": "CipherCloud addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:08.780459",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:08.780471",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+    "score_history": [
+      {
+        "id": "603e4381-60cc-4943-905b-a7e4740196da",
+        "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+        "score": 79.06858861169685,
+        "confidence_band": [
+          59.06858861169685,
+          99.06858861169685
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:08.780560",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 71.16172975052717,
+          "market_fit": 63.254870889357484,
+          "network": 59.30144145877264,
+          "momentum": 55.348012028187796
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "603e4381-60cc-4943-905b-a7e4740196da",
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "score": 79.06858861169685,
+      "confidence_band": [
+        59.06858861169685,
+        99.06858861169685
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:08.780560",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 71.16172975052717,
+        "market_fit": 63.254870889357484,
+        "network": 59.30144145877264,
+        "momentum": 55.348012028187796
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:08.780582",
+    "last_updated_at": "2026-07-19T04:17:08.780583"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/9.jpg"
+}

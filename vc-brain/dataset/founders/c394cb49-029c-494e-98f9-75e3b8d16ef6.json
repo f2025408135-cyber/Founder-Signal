@@ -1,0 +1,141 @@
+{
+  "founder_id": "c394cb49-029c-494e-98f9-75e3b8d16ef6",
+  "company_id": "285e22a9-a81e-4fd0-807f-174c5d343840",
+  "application_id": "cc7fb023-4d6c-4de8-a06a-aed62fe0d867",
+  "name": "Ravi Bauer",
+  "company_name": "VertexSystems",
+  "sector": "Healthtech",
+  "stage": "series-a",
+  "geography": "GB",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "Carnegie Mellon University",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at DeepMind.",
+  "github_profile": {
+    "username": "ravibauer",
+    "repo_count": 5,
+    "primary_language": "Julia",
+    "commit_activity": "6 commits in last 30 days",
+    "stars": 46
+  },
+  "deck_summary": "VertexSystems is building: A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "2a02cc4b-cb26-4dc4-bc2d-2b0e001c23e3",
+      "founder_id": "c394cb49-029c-494e-98f9-75e3b8d16ef6",
+      "company_id": "285e22a9-a81e-4fd0-807f-174c5d343840",
+      "application_id": "cc7fb023-4d6c-4de8-a06a-aed62fe0d867",
+      "kind": "founder_background",
+      "text": "Founder Ravi Bauer holds a MSc Robotics from Carnegie Mellon University.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:cc7fb023-4d6c-4de8-a06a-aed62fe0d867",
+        "ingested_at": "2026-07-19T04:17:25.933196",
+        "raw_payload_hash": "251ec32f7bf8bc58f4620282f8ca11c717af4dae976d9b784125b243b71f4fb6",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:25.933283",
+      "superseded_by": null
+    },
+    {
+      "id": "ebec487a-bd65-49aa-925a-9e7fbd79fd72",
+      "founder_id": "c394cb49-029c-494e-98f9-75e3b8d16ef6",
+      "company_id": "285e22a9-a81e-4fd0-807f-174c5d343840",
+      "application_id": "cc7fb023-4d6c-4de8-a06a-aed62fe0d867",
+      "kind": "product",
+      "text": "VertexSystems addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:25.933290",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:25.933305",
+      "superseded_by": null
+    },
+    {
+      "id": "af4477f0-2fa8-409f-82f9-e89858bd4625",
+      "founder_id": "c394cb49-029c-494e-98f9-75e3b8d16ef6",
+      "company_id": "285e22a9-a81e-4fd0-807f-174c5d343840",
+      "application_id": "cc7fb023-4d6c-4de8-a06a-aed62fe0d867",
+      "kind": "product",
+      "text": "Solution: A supply chain carbon ledger with automated Scope 3 emissions tracking.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:25.933309",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:25.933319",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "c394cb49-029c-494e-98f9-75e3b8d16ef6",
+    "score_history": [
+      {
+        "id": "003646aa-236c-445a-86fa-c0e1a7270145",
+        "founder_id": "c394cb49-029c-494e-98f9-75e3b8d16ef6",
+        "score": 73.73743235134884,
+        "confidence_band": [
+          53.73743235134884,
+          93.73743235134884
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:25.933402",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 58.98994588107908,
+          "market_fit": 51.616202645944185,
+          "network": 36.86871617567442,
+          "momentum": 44.2424594108093
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "003646aa-236c-445a-86fa-c0e1a7270145",
+      "founder_id": "c394cb49-029c-494e-98f9-75e3b8d16ef6",
+      "score": 73.73743235134884,
+      "confidence_band": [
+        53.73743235134884,
+        93.73743235134884
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:25.933402",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 58.98994588107908,
+        "market_fit": 51.616202645944185,
+        "network": 36.86871617567442,
+        "momentum": 44.2424594108093
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:25.933424",
+    "last_updated_at": "2026-07-19T04:17:25.933425"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/59.jpg"
+}

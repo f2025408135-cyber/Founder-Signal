@@ -1,0 +1,195 @@
+{
+  "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+  "company_id": "0b2649c4-3615-47a1-b098-827dc4478748",
+  "application_id": "8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+  "name": "Saanvi Fern\u00e1ndez",
+  "company_name": "QuantumAI",
+  "sector": "Climate",
+  "stage": "series-a",
+  "geography": "DE",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "Stanford University",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at Microsoft.",
+  "github_profile": null,
+  "deck_summary": "QuantumAI is building: A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: Clinical trial recruitment is bottlenecked by manual patient matching.",
+  "claims": [
+    {
+      "id": "ddce898c-535d-4752-a0bb-58b300bff38a",
+      "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+      "company_id": "0b2649c4-3615-47a1-b098-827dc4478748",
+      "application_id": "8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+      "kind": "founder_background",
+      "text": "Founder Saanvi Fern\u00e1ndez holds a PhD Artificial Intelligence from Stanford University, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+        "ingested_at": "2026-07-19T04:16:59.150105",
+        "raw_payload_hash": "b97ccb6ddbbae6d6123a4934f9a5f7a1fd457dea4de20a90954f30e68c696f4b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.150189",
+      "superseded_by": null
+    },
+    {
+      "id": "b22cc94f-51c1-45ea-a4d7-89ab3c961660",
+      "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+      "company_id": "0b2649c4-3615-47a1-b098-827dc4478748",
+      "application_id": "8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+      "kind": "founder_background",
+      "text": "Founder Saanvi Fern\u00e1ndez previously worked at Microsoft.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:16:59.150196",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.150210",
+      "superseded_by": null
+    },
+    {
+      "id": "77bec5b6-3961-413a-936f-2654a0e4ecc3",
+      "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+      "company_id": "0b2649c4-3615-47a1-b098-827dc4478748",
+      "application_id": "8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+      "kind": "product",
+      "text": "QuantumAI addresses: Clinical trial recruitment is bottlenecked by manual patient matching.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:16:59.150215",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.150228",
+      "superseded_by": null
+    },
+    {
+      "id": "4138f5ef-7c6e-4e7a-99ab-802ce79d0dc4",
+      "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+      "company_id": "0b2649c4-3615-47a1-b098-827dc4478748",
+      "application_id": "8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+      "kind": "product",
+      "text": "Solution: A supply chain carbon ledger with automated Scope 3 emissions tracking.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:16:59.150230",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.150240",
+      "superseded_by": null
+    },
+    {
+      "id": "ca0676f2-a3b0-4354-a2a6-737d0d248177",
+      "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+      "company_id": "0b2649c4-3615-47a1-b098-827dc4478748",
+      "application_id": "8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+      "kind": "market_size",
+      "text": "The Climate market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:16:59.150242",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.150251",
+      "superseded_by": null
+    },
+    {
+      "id": "2a7323a4-d52f-4b39-ae37-ba23362ab836",
+      "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+      "company_id": "0b2649c4-3615-47a1-b098-827dc4478748",
+      "application_id": "8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:8a96aa53-f6bd-4752-8691-7e5aad3c1fdb",
+        "ingested_at": "2026-07-19T04:16:59.150256",
+        "raw_payload_hash": "b97ccb6ddbbae6d6123a4934f9a5f7a1fd457dea4de20a90954f30e68c696f4b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.150264",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+    "score_history": [
+      {
+        "id": "0ce3c161-4c90-47bd-a47c-46c2c665c403",
+        "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+        "score": 50.55947206220184,
+        "confidence_band": [
+          20.55947206220184,
+          80.55947206220185
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:16:59.150345",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 40.44757764976148,
+          "market_fit": 35.39163044354129,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "0ce3c161-4c90-47bd-a47c-46c2c665c403",
+      "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+      "score": 50.55947206220184,
+      "confidence_band": [
+        20.55947206220184,
+        80.55947206220185
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:16:59.150345",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 40.44757764976148,
+        "market_fit": 35.39163044354129,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:16:59.150366",
+    "last_updated_at": "2026-07-19T04:16:59.150368"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/77.jpg"
+}

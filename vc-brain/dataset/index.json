@@ -1,0 +1,556 @@
+{
+  "total": 50,
+  "generated_at": "2026-07-19T04:17:26.502356",
+  "founders": [
+    {
+      "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+      "name": "Pavel Khan",
+      "company_name": "PrismSystems",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "AI infra",
+      "geography": "FR",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "76e29e35-68f6-417d-afc0-4665e4459898",
+      "name": "Marcus Silva",
+      "company_name": "NovaData",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "DevTools",
+      "geography": "DE",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "934e7c7b-7b55-435f-911a-b0f5b20c64df",
+      "name": "Aisha Yamamoto",
+      "company_name": "OrbitHealth",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Consumer",
+      "geography": "SG",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "3f963b16-66c1-46c2-af3a-7d02563f32ac",
+      "name": "Viktor Bauer",
+      "company_name": "VertexBio",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Fintech",
+      "geography": "PK",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "0555497b-a8a4-4763-bc0a-78619033000b",
+      "name": "Saanvi Fern\u00e1ndez",
+      "company_name": "QuantumAI",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Climate",
+      "geography": "DE",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+      "name": "Leila Yamamoto",
+      "company_name": "CipherRobotics",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Fintech",
+      "geography": "GB",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+      "name": "Tobias Sharma",
+      "company_name": "ZenithSystems",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Consumer",
+      "geography": "FR",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "acf7c635-a0dc-4bfa-874b-93c4a50497d4",
+      "name": "Dario Kowalski",
+      "company_name": "StrataClimate",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "DevTools",
+      "geography": "FR",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "6c41f34b-644f-4d6d-b18d-0a19a5d60f34",
+      "name": "Kavya Kowalski",
+      "company_name": "EchoFinance",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Healthtech",
+      "geography": "IN",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "648b09b9-5519-4d5b-abc0-f5d1a0cfd329",
+      "name": "Elena Yamamoto",
+      "company_name": "MeshLabs",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Consumer",
+      "geography": "SG",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "66e3a8b4-e64a-4f88-b57f-ba6510128ffe",
+      "name": "Adaeze Khan",
+      "company_name": "PrismEnergy",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Consumer",
+      "geography": "IN",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "name": "Joaquin Bauer",
+      "company_name": "FluxEnergy",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "DevTools",
+      "geography": "DE",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "5056d236-cb74-4776-a769-479b8a09cee2",
+      "name": "Dario Silva",
+      "company_name": "StrataStack",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "AI infra",
+      "geography": "FR",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "8945dcd7-a483-450d-8490-f802251d5402",
+      "name": "Henrik Schmidt",
+      "company_name": "EchoRobotics",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Consumer",
+      "geography": "GB",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "d19dd058-4376-40c3-bbd6-45f054b34b21",
+      "name": "Priya Volkov",
+      "company_name": "OrbitLabs",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "AI infra",
+      "geography": "US",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "name": "Mikael Almeida",
+      "company_name": "DriftTools",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Fintech",
+      "geography": "SG",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "147faa2b-c7ef-4362-a853-3df604254d15",
+      "name": "Yelena Singh",
+      "company_name": "QuantumTools",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "DevTools",
+      "geography": "PK",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "28204444-35ad-4876-a1a5-7244c659dacb",
+      "name": "Aisha Ivanov",
+      "company_name": "PulseHealth",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Fintech",
+      "geography": "PK",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "0069f703-6634-45c7-ab85-4870d302b330",
+      "name": "Linnea Lindqvist",
+      "company_name": "NovaTech",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Climate",
+      "geography": "PK",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "b2d55d52-40e8-4f32-9183-9299afc54b9c",
+      "name": "Yuki Ibrahim",
+      "company_name": "VoltData",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "AI infra",
+      "geography": "SG",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "07443dad-dd11-407e-87a4-b776cec3637e",
+      "name": "Dario Andersson",
+      "company_name": "CipherCloud",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "AI infra",
+      "geography": "IN",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "name": "Yara Dubois",
+      "company_name": "ApexHealth",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Consumer",
+      "geography": "US",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "7fdf7535-9290-44d9-b649-7fa3e5c872cd",
+      "name": "Yelena M\u00fcller",
+      "company_name": "ApexRobotics",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "AI infra",
+      "geography": "GB",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "96232483-19e7-4ed5-bdae-7c08541928f3",
+      "name": "Leila Kowalski",
+      "company_name": "DriftTech",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Climate",
+      "geography": "DE",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "ebd353bb-9e64-4b3b-840e-10520468fff2",
+      "name": "Saanvi O'Brien",
+      "company_name": "LumenEnergy",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "DevTools",
+      "geography": "PK",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+      "name": "Tobias M\u00fcller",
+      "company_name": "CipherStack",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Healthtech",
+      "geography": "DE",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+      "name": "Viktor M\u00fcller",
+      "company_name": "ZenithFinance",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Healthtech",
+      "geography": "FR",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+      "name": "Adeola Bauer",
+      "company_name": "EchoData",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Climate",
+      "geography": "US",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+      "name": "Saanvi Kowalski",
+      "company_name": "HelixBio",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Consumer",
+      "geography": "PK",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+      "name": "Adaeze Rossi",
+      "company_name": "AtlasClimate",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Climate",
+      "geography": "IN",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+      "name": "Joaquin Lindqvist",
+      "company_name": "QuantumHealth",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Consumer",
+      "geography": "DE",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "75f9047d-a323-4bbb-a5e5-e74684ee6510",
+      "name": "Yuki Garc\u00eda",
+      "company_name": "QuantumTools",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Healthtech",
+      "geography": "IN",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "c1dd8c3a-c941-4dbc-90f6-3d85dbda0288",
+      "name": "Olamide Almeida",
+      "company_name": "NovaTools",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "DevTools",
+      "geography": "DE",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+      "name": "Saanvi M\u00fcller",
+      "company_name": "ZenithTools",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Healthtech",
+      "geography": "PK",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "78b5ad3c-a213-4597-b083-7b8b2614e311",
+      "name": "Dmitri Park",
+      "company_name": "OrbitFinance",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "DevTools",
+      "geography": "GB",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+      "name": "Stefan Singh",
+      "company_name": "CipherStack",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Healthtech",
+      "geography": "US",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "80769829-b292-416c-b073-13b572e00f85",
+      "name": "Bastian Ivanov",
+      "company_name": "ZenithEnergy",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Healthtech",
+      "geography": "IN",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "9f6a5b59-c9dc-4b97-bf30-3987c5df04d4",
+      "name": "Camila Novak",
+      "company_name": "NexusClimate",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Climate",
+      "geography": "IN",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "d54ade62-f8a8-47d8-b90d-d5b277c548c7",
+      "name": "Kenji Adebayo",
+      "company_name": "OrbitEnergy",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Healthtech",
+      "geography": "GB",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "75f1eff7-dc75-4c67-955f-46c9be832308",
+      "name": "Rafael Tanaka",
+      "company_name": "NexusSystems",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Consumer",
+      "geography": "US",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "25c40a40-49e6-4844-8cb0-8e438d11b192",
+      "name": "Kwame Bauer",
+      "company_name": "HelixEnergy",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Climate",
+      "geography": "FR",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "103349b7-a5c5-47b9-8018-8161c4fff092",
+      "name": "Dario M\u00fcller",
+      "company_name": "DriftRobotics",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Fintech",
+      "geography": "IN",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "7e692843-b3e3-4a92-88e0-d6d93acb527a",
+      "name": "Nadia Sharma",
+      "company_name": "ZenithEnergy",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Climate",
+      "geography": "PK",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+      "name": "Marcus Costa",
+      "company_name": "StrataSystems",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Fintech",
+      "geography": "DE",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "308e4a7a-87d2-4fc8-9ff6-45bfcb5b9e70",
+      "name": "Arjun Volkov",
+      "company_name": "ForgeHealth",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Healthtech",
+      "geography": "FR",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "4356f017-27c7-444f-a7b7-f0854261130d",
+      "name": "Sven Kowalski",
+      "company_name": "ZenithEnergy",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "AI infra",
+      "geography": "FR",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "f5b87adc-d9a9-4cbc-8253-2de44eb05b83",
+      "name": "Sofia Chen",
+      "company_name": "ApexHealth",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Consumer",
+      "geography": "IN",
+      "stage": "seed"
+    },
+    {
+      "founder_id": "dc01ed3e-0c83-4bdc-990c-4ad24a110fe7",
+      "name": "Priya Larsen",
+      "company_name": "QuantumClimate",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Healthtech",
+      "geography": "US",
+      "stage": "series-a"
+    },
+    {
+      "founder_id": "ed44c4f9-b4fa-4951-9b03-6f56151d4783",
+      "name": "Sofia Kowalski",
+      "company_name": "VoltData",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Healthtech",
+      "geography": "GB",
+      "stage": "pre-seed"
+    },
+    {
+      "founder_id": "c394cb49-029c-494e-98f9-75e3b8d16ef6",
+      "name": "Ravi Bauer",
+      "company_name": "VertexSystems",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Healthtech",
+      "geography": "GB",
+      "stage": "series-a"
+    }
+  ]
+}

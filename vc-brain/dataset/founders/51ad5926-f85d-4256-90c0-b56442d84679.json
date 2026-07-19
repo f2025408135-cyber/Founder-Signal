@@ -1,0 +1,195 @@
+{
+  "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+  "company_id": "8bcfe1e6-0d8a-46f7-ba19-e85809632a6a",
+  "application_id": "62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+  "name": "Tobias Sharma",
+  "company_name": "ZenithSystems",
+  "sector": "Consumer",
+  "stage": "pre-seed",
+  "geography": "FR",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "degree": "BSc Computer Science",
+    "year": 2020
+  },
+  "prior_experience": "Previously worked at Microsoft.",
+  "github_profile": null,
+  "deck_summary": "ZenithSystems is building: An open-source evaluation harness with auditable test suites. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "e40e90b3-77ae-4b1f-a3b8-bf3abb0fdc15",
+      "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+      "company_id": "8bcfe1e6-0d8a-46f7-ba19-e85809632a6a",
+      "application_id": "62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+      "kind": "founder_background",
+      "text": "Founder Tobias Sharma holds a BSc Computer Science from University of Cambridge, graduating in 2020.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+        "ingested_at": "2026-07-19T04:17:00.758945",
+        "raw_payload_hash": "00e1cb7794e08ba5996eeb586c54cdaa7843eaaacdf50d693a14567d7fe45d93",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:00.759060",
+      "superseded_by": null
+    },
+    {
+      "id": "28b22e2c-3718-41b6-a655-65b6c5a8821c",
+      "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+      "company_id": "8bcfe1e6-0d8a-46f7-ba19-e85809632a6a",
+      "application_id": "62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+      "kind": "founder_background",
+      "text": "Founder Tobias Sharma previously worked at Microsoft.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:00.759068",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:00.759082",
+      "superseded_by": null
+    },
+    {
+      "id": "7ded8f5d-b5d3-4735-87ce-bb3d67257fa9",
+      "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+      "company_id": "8bcfe1e6-0d8a-46f7-ba19-e85809632a6a",
+      "application_id": "62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+      "kind": "product",
+      "text": "ZenithSystems addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:00.759087",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:00.759097",
+      "superseded_by": null
+    },
+    {
+      "id": "fdc40e37-8b8f-4cc5-8d25-afd6d014ccba",
+      "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+      "company_id": "8bcfe1e6-0d8a-46f7-ba19-e85809632a6a",
+      "application_id": "62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+      "kind": "product",
+      "text": "Solution: An open-source evaluation harness with auditable test suites.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:17:00.759100",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:00.759112",
+      "superseded_by": null
+    },
+    {
+      "id": "ec247825-c4ae-4864-95fc-72d05d404def",
+      "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+      "company_id": "8bcfe1e6-0d8a-46f7-ba19-e85809632a6a",
+      "application_id": "62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+      "kind": "market_size",
+      "text": "The Consumer market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:17:00.759115",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:00.759122",
+      "superseded_by": null
+    },
+    {
+      "id": "812ca5f9-fad6-4ecf-9512-ba17deceb7ca",
+      "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+      "company_id": "8bcfe1e6-0d8a-46f7-ba19-e85809632a6a",
+      "application_id": "62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:62a26b2c-4059-4c53-9fb9-2ad1dbc66aa3",
+        "ingested_at": "2026-07-19T04:17:00.759127",
+        "raw_payload_hash": "00e1cb7794e08ba5996eeb586c54cdaa7843eaaacdf50d693a14567d7fe45d93",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:00.759135",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+    "score_history": [
+      {
+        "id": "1bb3a070-f362-448d-a28a-01872f1eaead",
+        "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+        "score": 50.35481751951406,
+        "confidence_band": [
+          20.354817519514057,
+          80.35481751951406
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:00.759235",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 40.28385401561125,
+          "market_fit": 35.24837226365984,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "1bb3a070-f362-448d-a28a-01872f1eaead",
+      "founder_id": "51ad5926-f85d-4256-90c0-b56442d84679",
+      "score": 50.35481751951406,
+      "confidence_band": [
+        20.354817519514057,
+        80.35481751951406
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:00.759235",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 40.28385401561125,
+        "market_fit": 35.24837226365984,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:00.759260",
+    "last_updated_at": "2026-07-19T04:17:00.759261"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/67.jpg"
+}

@@ -1,0 +1,195 @@
+{
+  "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+  "company_id": "703bcee3-90db-4a9a-a19f-48014890c02e",
+  "application_id": "7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+  "name": "Pavel Khan",
+  "company_name": "PrismSystems",
+  "sector": "AI infra",
+  "stage": "pre-seed",
+  "geography": "FR",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "Carnegie Mellon University",
+    "degree": "MSc Electrical Engineering",
+    "year": 2023
+  },
+  "prior_experience": "Previously worked at DeepMind.",
+  "github_profile": null,
+  "deck_summary": "PrismSystems is building: A real-time payment rail optimized for SMB cross-border transactions. The problem: Clinical trial recruitment is bottlenecked by manual patient matching.",
+  "claims": [
+    {
+      "id": "d171b600-dcd1-4d96-bf0e-3768f5e7cd5f",
+      "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+      "company_id": "703bcee3-90db-4a9a-a19f-48014890c02e",
+      "application_id": "7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+      "kind": "founder_background",
+      "text": "Founder Pavel Khan holds a MSc Electrical Engineering from Carnegie Mellon University, graduating in 2023.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+        "ingested_at": "2026-07-19T04:16:56.635361",
+        "raw_payload_hash": "c359b61934ebcff2e0e47c4787957d6fa3db2c41e47aa5f70ca9fbe099f103f1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:56.635673",
+      "superseded_by": null
+    },
+    {
+      "id": "954b7af4-68dd-45cd-954b-d5075d86209a",
+      "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+      "company_id": "703bcee3-90db-4a9a-a19f-48014890c02e",
+      "application_id": "7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+      "kind": "founder_background",
+      "text": "Founder Pavel Khan previously worked at DeepMind.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:16:56.635681",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:56.635705",
+      "superseded_by": null
+    },
+    {
+      "id": "3d08d511-950e-4f02-8135-78d1f6d0a78d",
+      "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+      "company_id": "703bcee3-90db-4a9a-a19f-48014890c02e",
+      "application_id": "7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+      "kind": "product",
+      "text": "PrismSystems addresses: Clinical trial recruitment is bottlenecked by manual patient matching.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:16:56.635709",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:56.635721",
+      "superseded_by": null
+    },
+    {
+      "id": "00d1a7b0-a4ed-4afa-b0c0-1ab563ebe485",
+      "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+      "company_id": "703bcee3-90db-4a9a-a19f-48014890c02e",
+      "application_id": "7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+      "kind": "product",
+      "text": "Solution: A real-time payment rail optimized for SMB cross-border transactions.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:16:56.635724",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:56.635733",
+      "superseded_by": null
+    },
+    {
+      "id": "e9ab74bf-535f-4b32-b63d-edd05b6d9c4c",
+      "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+      "company_id": "703bcee3-90db-4a9a-a19f-48014890c02e",
+      "application_id": "7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+      "kind": "market_size",
+      "text": "The AI infra market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:16:56.635736",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:56.635744",
+      "superseded_by": null
+    },
+    {
+      "id": "2fdb6362-9643-4a9f-8fc0-38270471b8d3",
+      "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+      "company_id": "703bcee3-90db-4a9a-a19f-48014890c02e",
+      "application_id": "7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:7b2a8775-422e-4ff4-a53e-65d79e44e3ac",
+        "ingested_at": "2026-07-19T04:16:56.635750",
+        "raw_payload_hash": "c359b61934ebcff2e0e47c4787957d6fa3db2c41e47aa5f70ca9fbe099f103f1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:56.635758",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+    "score_history": [
+      {
+        "id": "1a484f08-b3b9-4f44-ae0b-3e62e5ff23fa",
+        "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+        "score": 56.809850248980794,
+        "confidence_band": [
+          26.809850248980794,
+          86.8098502489808
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:16:56.635910",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 45.44788019918464,
+          "market_fit": 39.76689517428655,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "1a484f08-b3b9-4f44-ae0b-3e62e5ff23fa",
+      "founder_id": "a8dfee45-92e5-4416-8162-46c8f0f67428",
+      "score": 56.809850248980794,
+      "confidence_band": [
+        26.809850248980794,
+        86.8098502489808
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:16:56.635910",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 45.44788019918464,
+        "market_fit": 39.76689517428655,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:16:56.635943",
+    "last_updated_at": "2026-07-19T04:16:56.635948"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/58.jpg"
+}

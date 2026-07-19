@@ -1,0 +1,195 @@
+{
+  "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+  "company_id": "dd9113ab-e786-436d-bfc3-636000343c28",
+  "application_id": "359b4126-22e5-4502-a1a3-c9ef75d42143",
+  "name": "Leila Yamamoto",
+  "company_name": "CipherRobotics",
+  "sector": "Fintech",
+  "stage": "seed",
+  "geography": "GB",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "Imperial College London",
+    "degree": "BSc Mathematics",
+    "year": 2023
+  },
+  "prior_experience": "Previously worked at Shopify.",
+  "github_profile": null,
+  "deck_summary": "CipherRobotics is building: A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "95e082b7-b1be-4e9a-a312-bec92da93274",
+      "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+      "company_id": "dd9113ab-e786-436d-bfc3-636000343c28",
+      "application_id": "359b4126-22e5-4502-a1a3-c9ef75d42143",
+      "kind": "founder_background",
+      "text": "Founder Leila Yamamoto holds a BSc Mathematics from Imperial College London, graduating in 2023.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:359b4126-22e5-4502-a1a3-c9ef75d42143",
+        "ingested_at": "2026-07-19T04:16:59.710816",
+        "raw_payload_hash": "f1198e408bac61059bc57b1984f821017afc6476b2d03723f738532a6301d9c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.710941",
+      "superseded_by": null
+    },
+    {
+      "id": "8f668149-b7a2-4921-bb22-3d4bfcfe5351",
+      "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+      "company_id": "dd9113ab-e786-436d-bfc3-636000343c28",
+      "application_id": "359b4126-22e5-4502-a1a3-c9ef75d42143",
+      "kind": "founder_background",
+      "text": "Founder Leila Yamamoto previously worked at Shopify.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:16:59.710947",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.710967",
+      "superseded_by": null
+    },
+    {
+      "id": "3837d649-e006-4094-b890-a406e4c2881c",
+      "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+      "company_id": "dd9113ab-e786-436d-bfc3-636000343c28",
+      "application_id": "359b4126-22e5-4502-a1a3-c9ef75d42143",
+      "kind": "product",
+      "text": "CipherRobotics addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:16:59.710970",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.710981",
+      "superseded_by": null
+    },
+    {
+      "id": "64adcab1-d787-4832-ad34-992d77277455",
+      "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+      "company_id": "dd9113ab-e786-436d-bfc3-636000343c28",
+      "application_id": "359b4126-22e5-4502-a1a3-c9ef75d42143",
+      "kind": "product",
+      "text": "Solution: A CI/CD-native onboarding platform that reduces ramp time to 3 days.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:16:59.710984",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.710992",
+      "superseded_by": null
+    },
+    {
+      "id": "595eed8f-7690-4bc3-8ca4-faaf63b9d36a",
+      "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+      "company_id": "dd9113ab-e786-436d-bfc3-636000343c28",
+      "application_id": "359b4126-22e5-4502-a1a3-c9ef75d42143",
+      "kind": "market_size",
+      "text": "The Fintech market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:16:59.710996",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.711005",
+      "superseded_by": null
+    },
+    {
+      "id": "fc6f2ef0-bfdb-4450-9e2c-3b88bdf5b1b2",
+      "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+      "company_id": "dd9113ab-e786-436d-bfc3-636000343c28",
+      "application_id": "359b4126-22e5-4502-a1a3-c9ef75d42143",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arxiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:359b4126-22e5-4502-a1a3-c9ef75d42143",
+        "ingested_at": "2026-07-19T04:16:59.711014",
+        "raw_payload_hash": "f1198e408bac61059bc57b1984f821017afc6476b2d03723f738532a6301d9c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:16:59.711022",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+    "score_history": [
+      {
+        "id": "53619a0e-35fb-4de0-b0c6-6b84f4fab02f",
+        "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+        "score": 49.89621850302852,
+        "confidence_band": [
+          19.89621850302852,
+          79.89621850302852
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:16:59.711106",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 39.91697480242282,
+          "market_fit": 34.92735295211996,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "53619a0e-35fb-4de0-b0c6-6b84f4fab02f",
+      "founder_id": "8f29a123-5196-447c-a22b-7db9a1acd9c3",
+      "score": 49.89621850302852,
+      "confidence_band": [
+        19.89621850302852,
+        79.89621850302852
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:16:59.711106",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 39.91697480242282,
+        "market_fit": 34.92735295211996,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:16:59.711132",
+    "last_updated_at": "2026-07-19T04:16:59.711133"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/87.jpg"
+}

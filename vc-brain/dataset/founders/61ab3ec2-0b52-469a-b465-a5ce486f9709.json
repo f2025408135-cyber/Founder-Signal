@@ -1,0 +1,181 @@
+{
+  "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+  "company_id": "28c28860-d452-4e59-a9e9-747c70e18ac5",
+  "application_id": "86004b6f-46c8-403e-a0e6-0f9e6e13d65e",
+  "name": "Joaquin Lindqvist",
+  "company_name": "QuantumHealth",
+  "sector": "Consumer",
+  "stage": "pre-seed",
+  "geography": "DE",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "IIT Bombay",
+    "degree": "MSc Data Science",
+    "year": 2017
+  },
+  "prior_experience": "Previously worked at a Series B startup.",
+  "github_profile": {
+    "username": "joaquinlindqvis",
+    "repo_count": 6,
+    "primary_language": "TypeScript",
+    "commit_activity": "5 commits in last 30 days",
+    "stars": 469
+  },
+  "deck_summary": "QuantumHealth is building: A code review tool specialized for ML pipeline correctness. The problem: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+  "claims": [
+    {
+      "id": "a5dbf0a5-ed22-4532-9cd1-0bbbf347c532",
+      "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+      "company_id": "28c28860-d452-4e59-a9e9-747c70e18ac5",
+      "application_id": "86004b6f-46c8-403e-a0e6-0f9e6e13d65e",
+      "kind": "founder_background",
+      "text": "Founder Joaquin Lindqvist studied at IIT Bombay.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:86004b6f-46c8-403e-a0e6-0f9e6e13d65e",
+        "ingested_at": "2026-07-19T04:17:15.050835",
+        "raw_payload_hash": "9bcacdc17afea85e6ae314923a4a257db5973f6f555899935e823a9990cb50e2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.050969",
+      "superseded_by": null
+    },
+    {
+      "id": "77f1c7ad-a964-4dc4-96c5-d661c8399a3c",
+      "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+      "company_id": "28c28860-d452-4e59-a9e9-747c70e18ac5",
+      "application_id": "86004b6f-46c8-403e-a0e6-0f9e6e13d65e",
+      "kind": "product",
+      "text": "QuantumHealth addresses: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:15.050979",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.051000",
+      "superseded_by": null
+    },
+    {
+      "id": "6e1c4630-9f22-4b35-b9bb-17194b349fb7",
+      "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+      "company_id": "28c28860-d452-4e59-a9e9-747c70e18ac5",
+      "application_id": "86004b6f-46c8-403e-a0e6-0f9e6e13d65e",
+      "kind": "market_size",
+      "text": "The Consumer market is $5B in 2026.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:17:15.051005",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.051019",
+      "superseded_by": null
+    },
+    {
+      "id": "2aa04b29-709d-43a2-804c-78f00d1644de",
+      "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+      "company_id": "28c28860-d452-4e59-a9e9-747c70e18ac5",
+      "application_id": "86004b6f-46c8-403e-a0e6-0f9e6e13d65e",
+      "kind": "market_size",
+      "text": "The Consumer market is $500M in 2026.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Consumer-market",
+        "ingested_at": "2026-07-19T04:17:15.051024",
+        "raw_payload_hash": "8ab717515ff3d3632c51a4dc748698bdcaf40fc48d3a68a5130bb170fc5ab8c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.051037",
+      "superseded_by": null
+    },
+    {
+      "id": "27ead12d-4b0b-4eea-96f4-282bb1cd1a3d",
+      "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+      "company_id": "28c28860-d452-4e59-a9e9-747c70e18ac5",
+      "application_id": "86004b6f-46c8-403e-a0e6-0f9e6e13d65e",
+      "kind": "technical_depth",
+      "text": "Repository joaquinlindqvis/quantumhealth-core has 469 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "joaquinlindqvis/quantumhealth-core",
+        "ingested_at": "2026-07-19T04:17:15.051051",
+        "raw_payload_hash": "eba6aa2e871681d5f43276499454f73f766762c39a3e8216e42d261dd999bd34",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:15.051067",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+    "score_history": [
+      {
+        "id": "62277c42-dbde-4d98-a6e1-5a065413be27",
+        "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+        "score": 63.799991561311884,
+        "confidence_band": [
+          43.799991561311884,
+          83.79999156131188
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:15.051179",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 51.03999324904951,
+          "market_fit": 31.899995780655942,
+          "network": 38.279994936787126,
+          "momentum": 31.899995780655942
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "62277c42-dbde-4d98-a6e1-5a065413be27",
+      "founder_id": "61ab3ec2-0b52-469a-b465-a5ce486f9709",
+      "score": 63.799991561311884,
+      "confidence_band": [
+        43.799991561311884,
+        83.79999156131188
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:15.051179",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 51.03999324904951,
+        "market_fit": 31.899995780655942,
+        "network": 38.279994936787126,
+        "momentum": 31.899995780655942
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:15.051208",
+    "last_updated_at": "2026-07-19T04:17:15.051209"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/62.jpg"
+}

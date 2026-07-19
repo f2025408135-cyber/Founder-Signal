@@ -1,0 +1,241 @@
+{
+  "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+  "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+  "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+  "name": "Yara Dubois",
+  "company_name": "ApexHealth",
+  "sector": "Consumer",
+  "stage": "pre-seed",
+  "geography": "US",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "degree": "BEng Software Engineering",
+    "year": 2013
+  },
+  "prior_experience": "Previously worked at ByteDance.",
+  "github_profile": {
+    "username": "yaradubois",
+    "repo_count": 18,
+    "primary_language": "TypeScript",
+    "commit_activity": "11 commits in last 30 days",
+    "stars": 286
+  },
+  "deck_summary": "ApexHealth is building: A code review tool specialized for ML pipeline correctness. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "0bad99ab-b09c-4a04-9eab-87a0df217194",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+      "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+      "kind": "founder_background",
+      "text": "Founder Yara Dubois holds a BEng Software Engineering from University of Cambridge.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+        "ingested_at": "2026-07-19T04:17:09.355492",
+        "raw_payload_hash": "805934c791e1b0c38d9c1362e437c6c82e973a2bbc64cb9085f1dbff854db247",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:09.355602",
+      "superseded_by": null
+    },
+    {
+      "id": "5a6e9e9c-4d1b-4fd9-9916-f804f9426c39",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+      "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+      "kind": "technical_depth",
+      "text": "Repository yaradubois/apexhealth-core has 286 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "yaradubois/apexhealth-core",
+        "ingested_at": "2026-07-19T04:17:09.355612",
+        "raw_payload_hash": "da91d02bb94b234b2755bbd1e857093a4e3afd25bb3d8149e7b98d5221cd85a9",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:09.355633",
+      "superseded_by": null
+    },
+    {
+      "id": "97109359-4515-4583-b4ac-e6f9d41ec9be",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+      "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+      "kind": "technical_depth",
+      "text": "Repository yaradubois/apexhealth-core received 11 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "yaradubois/apexhealth-core/commits",
+        "ingested_at": "2026-07-19T04:17:09.355636",
+        "raw_payload_hash": "b2deef02977b7c59a4569d17bd62d21723211ba05f5d22be294161f6fad3cfd6",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:09.355650",
+      "superseded_by": null
+    },
+    {
+      "id": "661631b3-3b0a-4adf-92a8-478cf300f26f",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+      "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+      "kind": "founder_network",
+      "text": "Repository yaradubois/apexhealth-core has 20 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "yaradubois/apexhealth-core/contributors",
+        "ingested_at": "2026-07-19T04:17:09.355654",
+        "raw_payload_hash": "8cf5d5b1542f79c25cdb105f77d2af0deee49133ca044f7b46b8983a9073a334",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:09.355668",
+      "superseded_by": null
+    },
+    {
+      "id": "d7f630d0-9d3d-4117-83ff-a2c1fb73a14f",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+      "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+      "kind": "technical_depth",
+      "text": "Founder authored arxiv paper 2436.76244 on Consumer techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2436.76244",
+        "ingested_at": "2026-07-19T04:17:09.355679",
+        "raw_payload_hash": "367e9066a610564aad559d8c03ea998f3d5aea8a33856b688cf19c2ac5f113af",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:09.355694",
+      "superseded_by": null
+    },
+    {
+      "id": "a26053fe-a327-44c9-ac04-ed3d91e0ed3b",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+      "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+      "kind": "founder_network",
+      "text": "Founder is a member of Techstars accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:Techstars",
+        "ingested_at": "2026-07-19T04:17:09.355699",
+        "raw_payload_hash": "75d950c669c585b0bebed7bcae224c585c7c5aa5d42cf223a4473deb121f7016",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:09.355712",
+      "superseded_by": null
+    },
+    {
+      "id": "14fc067f-0fd9-40f2-9b47-17ef81833bad",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+      "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+      "kind": "market_trend",
+      "text": "The Consumer market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Consumer-market",
+        "ingested_at": "2026-07-19T04:17:09.355717",
+        "raw_payload_hash": "8ab717515ff3d3632c51a4dc748698bdcaf40fc48d3a68a5130bb170fc5ab8c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:09.355730",
+      "superseded_by": null
+    },
+    {
+      "id": "ff23334b-b4c4-45e8-8db6-6ada36cbd1be",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "company_id": "b54e8e17-70e2-4786-9610-6421f535d210",
+      "application_id": "35893faa-b3b9-4ec3-acf6-c5933e1ce2a3",
+      "kind": "product",
+      "text": "ApexHealth addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:09.355734",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:09.355747",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+    "score_history": [
+      {
+        "id": "10c8e658-7061-4b5f-9a99-4da88e0da2c7",
+        "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+        "score": 76.23623259943567,
+        "confidence_band": [
+          56.23623259943567,
+          96.23623259943567
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:09.355928",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 68.6126093394921,
+          "market_fit": 60.98898607954854,
+          "network": 57.17717444957675,
+          "momentum": 53.36536281960496
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "10c8e658-7061-4b5f-9a99-4da88e0da2c7",
+      "founder_id": "cef257f9-8595-4cdb-b460-6be7f86e05c4",
+      "score": 76.23623259943567,
+      "confidence_band": [
+        56.23623259943567,
+        96.23623259943567
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:09.355928",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 68.6126093394921,
+        "market_fit": 60.98898607954854,
+        "network": 57.17717444957675,
+        "momentum": 53.36536281960496
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:09.355965",
+    "last_updated_at": "2026-07-19T04:17:09.355967"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/21.jpg"
+}

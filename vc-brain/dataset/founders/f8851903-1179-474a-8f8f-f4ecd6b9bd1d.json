@@ -1,0 +1,241 @@
+{
+  "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+  "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+  "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+  "name": "Joaquin Bauer",
+  "company_name": "FluxEnergy",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "DE",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "MIT",
+    "degree": "MSc Electrical Engineering",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at Google.",
+  "github_profile": {
+    "username": "joaquinbauer",
+    "repo_count": 12,
+    "primary_language": "Python",
+    "commit_activity": "39 commits in last 30 days",
+    "stars": 380
+  },
+  "deck_summary": "FluxEnergy is building: An automated privacy compliance scanner for codebases. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "8804d711-675d-49fc-abd7-5bd0ec7d1e43",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+      "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+      "kind": "founder_background",
+      "text": "Founder Joaquin Bauer holds a MSc Electrical Engineering from MIT.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+        "ingested_at": "2026-07-19T04:17:03.655958",
+        "raw_payload_hash": "19ac67bfa809b1417203f416ce8c5afa4d394383a78dd2667790e36c6924dada",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.656187",
+      "superseded_by": null
+    },
+    {
+      "id": "15b26401-0f3d-46e5-8da3-ba1528918601",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+      "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+      "kind": "technical_depth",
+      "text": "Repository joaquinbauer/fluxenergy-core has 380 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "joaquinbauer/fluxenergy-core",
+        "ingested_at": "2026-07-19T04:17:03.656211",
+        "raw_payload_hash": "717cd369bb3f21ec3a969e32ba39527f7a4e4f6cabc3f97cfbb2f5cfc9e9adb9",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.656326",
+      "superseded_by": null
+    },
+    {
+      "id": "94c4f145-0e4d-4177-85c8-fce9c324f086",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+      "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+      "kind": "technical_depth",
+      "text": "Repository joaquinbauer/fluxenergy-core received 39 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "joaquinbauer/fluxenergy-core/commits",
+        "ingested_at": "2026-07-19T04:17:03.656342",
+        "raw_payload_hash": "85b55a321eba8d8a6a816810169ee866b3745f01f547dae07ad561a016b63847",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.656368",
+      "superseded_by": null
+    },
+    {
+      "id": "8b6cda64-893d-4192-9ae1-a09c79b4de48",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+      "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+      "kind": "founder_network",
+      "text": "Repository joaquinbauer/fluxenergy-core has 19 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "joaquinbauer/fluxenergy-core/contributors",
+        "ingested_at": "2026-07-19T04:17:03.656377",
+        "raw_payload_hash": "cc17d8737c007de3cafd8caef2f4672439cd951bd41dc164405a7b20ae7929d6",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.656396",
+      "superseded_by": null
+    },
+    {
+      "id": "253ea6eb-bd74-4fda-88d6-176d93ceabb8",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+      "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+      "kind": "traction",
+      "text": "Product Hunt launch 'FluxEnergy' received 499 upvotes.",
+      "source": {
+        "kind": "producthunt",
+        "ref": "post:3a3231b2",
+        "ingested_at": "2026-07-19T04:17:03.656428",
+        "raw_payload_hash": "193fc862fd7b516bd35ca16267f562c74fcf4e557f88cd42e6b79e218292ba61",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.656464",
+      "superseded_by": null
+    },
+    {
+      "id": "4351032e-e512-4a0a-8b48-77bbfad87bc2",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+      "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+      "kind": "founder_network",
+      "text": "Founder is a member of Antler accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:Antler",
+        "ingested_at": "2026-07-19T04:17:03.656479",
+        "raw_payload_hash": "78f6e08d4ed90e61625e983eb6e1916120ebb0b44d343929db3c5be49a82e4e7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.656505",
+      "superseded_by": null
+    },
+    {
+      "id": "c2dd2737-ba00-463f-b2ed-7a69a3387fa5",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+      "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+      "kind": "market_trend",
+      "text": "The DevTools market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:DevTools-market",
+        "ingested_at": "2026-07-19T04:17:03.656511",
+        "raw_payload_hash": "1afe6abeffd0158758034bb039ba9f21f020ca4fcd6ff6eb90f5670f18e14cb8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.656531",
+      "superseded_by": null
+    },
+    {
+      "id": "0da83206-1cfb-4f9f-8912-bd476092d5a5",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "company_id": "c4e92650-54f3-44ed-a79e-3415a8ef4766",
+      "application_id": "a69561c8-4b3f-41bc-842c-13fa7657e3d0",
+      "kind": "product",
+      "text": "FluxEnergy addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:03.656538",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:03.656566",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+    "score_history": [
+      {
+        "id": "8cd5c4cb-9a1e-4a11-abf1-a3ace070fced",
+        "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+        "score": 87.66239171570768,
+        "confidence_band": [
+          67.66239171570768,
+          100.0
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:03.656741",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 78.89615254413692,
+          "market_fit": 70.12991337256615,
+          "network": 65.74679378678076,
+          "momentum": 61.363674200995376
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "8cd5c4cb-9a1e-4a11-abf1-a3ace070fced",
+      "founder_id": "f8851903-1179-474a-8f8f-f4ecd6b9bd1d",
+      "score": 87.66239171570768,
+      "confidence_band": [
+        67.66239171570768,
+        100.0
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:03.656741",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 78.89615254413692,
+        "market_fit": 70.12991337256615,
+        "network": 65.74679378678076,
+        "momentum": 61.363674200995376
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:03.656799",
+    "last_updated_at": "2026-07-19T04:17:03.656801"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/76.jpg"
+}

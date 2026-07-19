@@ -1,0 +1,161 @@
+{
+  "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+  "company_id": "87081a5b-70fe-475b-91bd-0866900e2657",
+  "application_id": "7d2b9570-990f-461e-978c-39ee5cfa8a14",
+  "name": "Marcus Costa",
+  "company_name": "StrataSystems",
+  "sector": "Fintech",
+  "stage": "pre-seed",
+  "geography": "DE",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "IIT Bombay",
+    "degree": "MBA",
+    "year": 2020
+  },
+  "prior_experience": "Previously worked at Tesla.",
+  "github_profile": {
+    "username": "marcuscosta",
+    "repo_count": 8,
+    "primary_language": "Go",
+    "commit_activity": "2 commits in last 30 days",
+    "stars": 57
+  },
+  "deck_summary": "StrataSystems is building: A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "eb8ea4f4-ca9d-4384-bc1b-88646b115963",
+      "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+      "company_id": "87081a5b-70fe-475b-91bd-0866900e2657",
+      "application_id": "7d2b9570-990f-461e-978c-39ee5cfa8a14",
+      "kind": "founder_background",
+      "text": "Founder Marcus Costa holds a MSc Data Science from IIT Bombay.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:7d2b9570-990f-461e-978c-39ee5cfa8a14",
+        "ingested_at": "2026-07-19T04:17:22.515517",
+        "raw_payload_hash": "c7daa5dfb6fe09e4e55203dd92de8fccb307b80c218cc1b49c3fcbbf96c2643a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:22.515616",
+      "superseded_by": null
+    },
+    {
+      "id": "f98c8216-605e-43cc-ab0f-26ee763ed43f",
+      "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+      "company_id": "87081a5b-70fe-475b-91bd-0866900e2657",
+      "application_id": "7d2b9570-990f-461e-978c-39ee5cfa8a14",
+      "kind": "product",
+      "text": "StrataSystems addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:22.515625",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:22.515640",
+      "superseded_by": null
+    },
+    {
+      "id": "2b979955-b596-43ba-bd5f-8bff1ea7d564",
+      "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+      "company_id": "87081a5b-70fe-475b-91bd-0866900e2657",
+      "application_id": "7d2b9570-990f-461e-978c-39ee5cfa8a14",
+      "kind": "product",
+      "text": "Solution: A supply chain carbon ledger with automated Scope 3 emissions tracking.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:22.515644",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:22.515655",
+      "superseded_by": null
+    },
+    {
+      "id": "2a1b4d3e-f3f3-456f-b636-7d6a3765ab02",
+      "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+      "company_id": "87081a5b-70fe-475b-91bd-0866900e2657",
+      "application_id": "7d2b9570-990f-461e-978c-39ee5cfa8a14",
+      "kind": "technical_depth",
+      "text": "Repository marcuscosta/stratasystems-core has 151 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "marcuscosta/stratasystems-core",
+        "ingested_at": "2026-07-19T04:17:22.515673",
+        "raw_payload_hash": "8187b860df3d3f45b033a2d624a82d95182d89757d93fef3b5f2c81a9c77abce",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:22.515684",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+    "score_history": [
+      {
+        "id": "7a6f9616-8b98-4653-942b-c7e33108f4d9",
+        "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+        "score": 55.73169270581297,
+        "confidence_band": [
+          35.73169270581297,
+          75.73169270581297
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:22.515791",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 44.585354164650376,
+          "market_fit": 39.01218489406907,
+          "network": 27.865846352906484,
+          "momentum": 33.43901562348778
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "7a6f9616-8b98-4653-942b-c7e33108f4d9",
+      "founder_id": "96ed5e72-b650-4331-9f0d-7d8b6d96336a",
+      "score": 55.73169270581297,
+      "confidence_band": [
+        35.73169270581297,
+        75.73169270581297
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:22.515791",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 44.585354164650376,
+        "market_fit": 39.01218489406907,
+        "network": 27.865846352906484,
+        "momentum": 33.43901562348778
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:22.515821",
+    "last_updated_at": "2026-07-19T04:17:22.515823"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/15.jpg"
+}

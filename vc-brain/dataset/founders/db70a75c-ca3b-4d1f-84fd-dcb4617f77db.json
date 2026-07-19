@@ -1,0 +1,181 @@
+{
+  "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+  "company_id": "ed40c9cc-e3a5-4ce3-8870-ef52949ebc15",
+  "application_id": "9c1957e0-7d69-48eb-b86e-4d4051d27b26",
+  "name": "Saanvi M\u00fcller",
+  "company_name": "ZenithTools",
+  "sector": "Healthtech",
+  "stage": "series-a",
+  "geography": "PK",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "Tsinghua University",
+    "degree": "MSc Data Science",
+    "year": 2023
+  },
+  "prior_experience": "Previously worked at Amazon.",
+  "github_profile": {
+    "username": "saanvim\u00fcller",
+    "repo_count": 5,
+    "primary_language": "Rust",
+    "commit_activity": "10 commits in last 30 days",
+    "stars": 86
+  },
+  "deck_summary": "ZenithTools is building: An automated privacy compliance scanner for codebases. The problem: Cross-border payments remain slow and expensive for SMBs.",
+  "claims": [
+    {
+      "id": "cb72177c-41bb-4a86-8a51-a7dae548da0f",
+      "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+      "company_id": "ed40c9cc-e3a5-4ce3-8870-ef52949ebc15",
+      "application_id": "9c1957e0-7d69-48eb-b86e-4d4051d27b26",
+      "kind": "founder_background",
+      "text": "Founder Saanvi M\u00fcller studied at Tsinghua University.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:9c1957e0-7d69-48eb-b86e-4d4051d27b26",
+        "ingested_at": "2026-07-19T04:17:16.773661",
+        "raw_payload_hash": "bcfc883dd9659b24f3ca65e7ab998897d64ffe48722cb192f07d96de607a81bb",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.773750",
+      "superseded_by": null
+    },
+    {
+      "id": "71450a3a-0af4-4188-a88b-414b8d52f96a",
+      "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+      "company_id": "ed40c9cc-e3a5-4ce3-8870-ef52949ebc15",
+      "application_id": "9c1957e0-7d69-48eb-b86e-4d4051d27b26",
+      "kind": "product",
+      "text": "ZenithTools addresses: Cross-border payments remain slow and expensive for SMBs.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:16.773759",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.773786",
+      "superseded_by": null
+    },
+    {
+      "id": "f3a8cea2-bb00-4d2d-b3d7-62729857e39a",
+      "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+      "company_id": "ed40c9cc-e3a5-4ce3-8870-ef52949ebc15",
+      "application_id": "9c1957e0-7d69-48eb-b86e-4d4051d27b26",
+      "kind": "product",
+      "text": "Solution: An automated privacy compliance scanner for codebases.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:16.773790",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.773800",
+      "superseded_by": null
+    },
+    {
+      "id": "cc589e61-6903-4531-b16d-cce85e32b49a",
+      "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+      "company_id": "ed40c9cc-e3a5-4ce3-8870-ef52949ebc15",
+      "application_id": "9c1957e0-7d69-48eb-b86e-4d4051d27b26",
+      "kind": "market_trend",
+      "text": "The Healthtech sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-trend",
+        "ingested_at": "2026-07-19T04:17:16.773804",
+        "raw_payload_hash": "1e283eb4dc911e1b94f7be66bb0e1d193ce98cd9a89704b2daa9d9647ccdaa3d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.773814",
+      "superseded_by": null
+    },
+    {
+      "id": "4f5d2625-a796-46e3-bc99-e1ff1e6ad6aa",
+      "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+      "company_id": "ed40c9cc-e3a5-4ce3-8870-ef52949ebc15",
+      "application_id": "9c1957e0-7d69-48eb-b86e-4d4051d27b26",
+      "kind": "technical_depth",
+      "text": "Repository saanvim\u00fcller/zenithtools-core has 86 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "saanvim\u00fcller/zenithtools-core",
+        "ingested_at": "2026-07-19T04:17:16.773828",
+        "raw_payload_hash": "843d6c4b2bfe9dccbf76ee46a809158990b255c470044f3a8f6549a7e289bacf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:16.773837",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+    "score_history": [
+      {
+        "id": "ef9d3c7a-e2ef-40b9-ab39-e410ca6d35bf",
+        "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+        "score": 65.03553573001022,
+        "confidence_band": [
+          45.035535730010224,
+          85.03553573001022
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:16.773939",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 48.77665179750767,
+          "market_fit": 39.02132143800613,
+          "network": 26.01421429200409,
+          "momentum": 32.51776786500511
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "ef9d3c7a-e2ef-40b9-ab39-e410ca6d35bf",
+      "founder_id": "db70a75c-ca3b-4d1f-84fd-dcb4617f77db",
+      "score": 65.03553573001022,
+      "confidence_band": [
+        45.035535730010224,
+        85.03553573001022
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:16.773939",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 48.77665179750767,
+        "market_fit": 39.02132143800613,
+        "network": 26.01421429200409,
+        "momentum": 32.51776786500511
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:16.773963",
+    "last_updated_at": "2026-07-19T04:17:16.773965"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/14.jpg"
+}

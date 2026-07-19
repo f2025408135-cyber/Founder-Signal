@@ -1,0 +1,181 @@
+{
+  "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+  "company_id": "4f372a61-fc9d-4bb0-ac2f-13fc1760facc",
+  "application_id": "4b326b85-f7f2-44a3-8f71-32c39c5e0548",
+  "name": "Viktor M\u00fcller",
+  "company_name": "ZenithFinance",
+  "sector": "Healthtech",
+  "stage": "seed",
+  "geography": "FR",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "LUMS",
+    "degree": "BSc Computer Science",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at Nvidia.",
+  "github_profile": {
+    "username": "viktorm\u00fcller",
+    "repo_count": 9,
+    "primary_language": "Rust",
+    "commit_activity": "15 commits in last 30 days",
+    "stars": 141
+  },
+  "deck_summary": "ZenithFinance is building: A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "6831ac0f-0d48-4a8b-989e-c82663efa043",
+      "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+      "company_id": "4f372a61-fc9d-4bb0-ac2f-13fc1760facc",
+      "application_id": "4b326b85-f7f2-44a3-8f71-32c39c5e0548",
+      "kind": "founder_background",
+      "text": "Founder Viktor M\u00fcller studied at LUMS.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:4b326b85-f7f2-44a3-8f71-32c39c5e0548",
+        "ingested_at": "2026-07-19T04:17:12.259369",
+        "raw_payload_hash": "a7f5ed5db60b2dabe0178b4e6f79c700db31964cb400c9e7c90c06ce90fc79fa",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.259461",
+      "superseded_by": null
+    },
+    {
+      "id": "f60c824d-c493-4e63-b735-5417cde6bebd",
+      "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+      "company_id": "4f372a61-fc9d-4bb0-ac2f-13fc1760facc",
+      "application_id": "4b326b85-f7f2-44a3-8f71-32c39c5e0548",
+      "kind": "product",
+      "text": "ZenithFinance addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:12.259469",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.259482",
+      "superseded_by": null
+    },
+    {
+      "id": "5c36f0b7-6ce9-42b8-a782-70ba9c291ab9",
+      "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+      "company_id": "4f372a61-fc9d-4bb0-ac2f-13fc1760facc",
+      "application_id": "4b326b85-f7f2-44a3-8f71-32c39c5e0548",
+      "kind": "traction",
+      "text": "ZenithFinance has 50 paying enterprise customers.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:17:12.259486",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.259495",
+      "superseded_by": null
+    },
+    {
+      "id": "d63bf538-831a-466c-92fe-4ed4c91675e0",
+      "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+      "company_id": "4f372a61-fc9d-4bb0-ac2f-13fc1760facc",
+      "application_id": "4b326b85-f7f2-44a3-8f71-32c39c5e0548",
+      "kind": "traction",
+      "text": "ZenithFinance has 3 active pilot deployments.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:ZenithFinance",
+        "ingested_at": "2026-07-19T04:17:12.259499",
+        "raw_payload_hash": "94db67afb755ebaf431d96662ebaec06f98b14d65b21049b691516c9ebbb6ce4",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.259507",
+      "superseded_by": null
+    },
+    {
+      "id": "62496b6e-a9f0-407c-b7e1-9603a895b55f",
+      "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+      "company_id": "4f372a61-fc9d-4bb0-ac2f-13fc1760facc",
+      "application_id": "4b326b85-f7f2-44a3-8f71-32c39c5e0548",
+      "kind": "technical_depth",
+      "text": "Repository viktorm\u00fcller/zenithfinance-core has 141 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "viktorm\u00fcller/zenithfinance-core",
+        "ingested_at": "2026-07-19T04:17:12.259519",
+        "raw_payload_hash": "9d0d0d776c133101fb1de4a5024f39b02e1f636de00860ff058c61011eb51016",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.259527",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+    "score_history": [
+      {
+        "id": "becd3cfd-dd7b-4fab-8abb-a23b16a5275f",
+        "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+        "score": 54.5147433434677,
+        "confidence_band": [
+          34.5147433434677,
+          74.5147433434677
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:12.259609",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 43.61179467477416,
+          "market_fit": 27.25737167173385,
+          "network": 32.70884600608062,
+          "momentum": 27.25737167173385
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "becd3cfd-dd7b-4fab-8abb-a23b16a5275f",
+      "founder_id": "69150187-083e-4b09-a2d4-6e6e93a20d51",
+      "score": 54.5147433434677,
+      "confidence_band": [
+        34.5147433434677,
+        74.5147433434677
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:12.259609",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 43.61179467477416,
+        "market_fit": 27.25737167173385,
+        "network": 32.70884600608062,
+        "momentum": 27.25737167173385
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:12.259633",
+    "last_updated_at": "2026-07-19T04:17:12.259633"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/51.jpg"
+}

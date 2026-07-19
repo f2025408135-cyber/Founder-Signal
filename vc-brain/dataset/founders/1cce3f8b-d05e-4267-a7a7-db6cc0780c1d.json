@@ -1,0 +1,241 @@
+{
+  "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+  "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+  "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+  "name": "Mikael Almeida",
+  "company_name": "DriftTools",
+  "sector": "Fintech",
+  "stage": "seed",
+  "geography": "SG",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "Carnegie Mellon University",
+    "degree": "BEng Software Engineering",
+    "year": 2014
+  },
+  "prior_experience": "Previously worked at Microsoft.",
+  "github_profile": {
+    "username": "mikaelalmeida",
+    "repo_count": 10,
+    "primary_language": "C++",
+    "commit_activity": "48 commits in last 30 days",
+    "stars": 160
+  },
+  "deck_summary": "DriftTools is building: A model observability platform with drift detection and alerting. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "8d85db88-2383-4eca-901e-705c7857d856",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+      "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+      "kind": "founder_background",
+      "text": "Founder Mikael Almeida holds a BEng Software Engineering from Carnegie Mellon University.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:8fe70cb8-f607-44fa-9017-baef216854ed",
+        "ingested_at": "2026-07-19T04:17:05.951025",
+        "raw_payload_hash": "c0498d2044b6a0efdd4c662ed3f3f0bc9910964f6cb2e6f50ec72f5046c3af41",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.951133",
+      "superseded_by": null
+    },
+    {
+      "id": "4203a5cc-7020-4817-ae44-42ab9cc40e51",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+      "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+      "kind": "technical_depth",
+      "text": "Repository mikaelalmeida/drifttools-core has 160 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "mikaelalmeida/drifttools-core",
+        "ingested_at": "2026-07-19T04:17:05.951140",
+        "raw_payload_hash": "7adc7cc7545c333ddd618c2f38acafb68675dfc373ba696569473752030442fe",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.951158",
+      "superseded_by": null
+    },
+    {
+      "id": "b128b88a-770d-43e8-8d4b-2bd920a22621",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+      "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+      "kind": "technical_depth",
+      "text": "Repository mikaelalmeida/drifttools-core received 48 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "mikaelalmeida/drifttools-core/commits",
+        "ingested_at": "2026-07-19T04:17:05.951161",
+        "raw_payload_hash": "3487a37bcd7420e5836352376f5ebefd01fc1977a0bf91a72a3c555836f5e8fd",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.951183",
+      "superseded_by": null
+    },
+    {
+      "id": "b06622b0-7594-462f-8990-7202a6e40b3f",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+      "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+      "kind": "founder_network",
+      "text": "Repository mikaelalmeida/drifttools-core has 23 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "mikaelalmeida/drifttools-core/contributors",
+        "ingested_at": "2026-07-19T04:17:05.951186",
+        "raw_payload_hash": "1c51119560b00280900bc133ae5b6c8bd468eb91106d25056b87057857fdc601",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.951194",
+      "superseded_by": null
+    },
+    {
+      "id": "dfb124d0-0f94-4620-b242-947b4df95dcc",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+      "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+      "kind": "technical_depth",
+      "text": "Founder authored arxiv paper 2428.35112 on Fintech techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2428.35112",
+        "ingested_at": "2026-07-19T04:17:05.951207",
+        "raw_payload_hash": "2b39a128b881e57d08f2b81caae98f3489fc83f178be39a58d2d1462913a1444",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.951216",
+      "superseded_by": null
+    },
+    {
+      "id": "91bfca61-1e8f-410f-97f4-65e9b921e827",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+      "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+      "kind": "founder_network",
+      "text": "Founder is a member of YC W24 accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:YC:W24",
+        "ingested_at": "2026-07-19T04:17:05.951221",
+        "raw_payload_hash": "a2244b1b70f304633677ec2c1845988c8c397502b422f6716fbf8bc9b9b007f7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.951231",
+      "superseded_by": null
+    },
+    {
+      "id": "394d9ce8-cfa9-4f12-9f4b-62819b3f4b54",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+      "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+      "kind": "market_trend",
+      "text": "The Fintech market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Fintech-market",
+        "ingested_at": "2026-07-19T04:17:05.951234",
+        "raw_payload_hash": "d031372273d232c2ae6efc13550b5dc8b6e8cfda386f5007df981fb1c331dfc8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.951243",
+      "superseded_by": null
+    },
+    {
+      "id": "6cc17af2-7a57-4ca1-9428-d14af06ccbb3",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "company_id": "18f569de-b1cc-4e8f-8479-54fcea8204cc",
+      "application_id": "8fe70cb8-f607-44fa-9017-baef216854ed",
+      "kind": "product",
+      "text": "DriftTools addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:05.951246",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:05.951257",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+    "score_history": [
+      {
+        "id": "77cad2b9-fb64-4631-945d-3a2f7d9680df",
+        "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+        "score": 69.37480489413866,
+        "confidence_band": [
+          49.37480489413866,
+          89.37480489413866
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:05.951361",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 62.4373244047248,
+          "market_fit": 55.49984391531093,
+          "network": 52.031103670604,
+          "momentum": 48.56236342589706
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "77cad2b9-fb64-4631-945d-3a2f7d9680df",
+      "founder_id": "1cce3f8b-d05e-4267-a7a7-db6cc0780c1d",
+      "score": 69.37480489413866,
+      "confidence_band": [
+        49.37480489413866,
+        89.37480489413866
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:05.951361",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 62.4373244047248,
+        "market_fit": 55.49984391531093,
+        "network": 52.031103670604,
+        "momentum": 48.56236342589706
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:05.951387",
+    "last_updated_at": "2026-07-19T04:17:05.951388"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/70.jpg"
+}

@@ -1,0 +1,181 @@
+{
+  "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+  "company_id": "823728e6-d103-4c0c-9540-8a2d3dc1abc4",
+  "application_id": "6c08939c-4f33-470f-83ac-7056a6261dcd",
+  "name": "Adaeze Rossi",
+  "company_name": "AtlasClimate",
+  "sector": "Climate",
+  "stage": "series-a",
+  "geography": "IN",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "TU Munich",
+    "degree": "PhD Machine Learning",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at Amazon.",
+  "github_profile": {
+    "username": "adaezerossi",
+    "repo_count": 10,
+    "primary_language": "Go",
+    "commit_activity": "11 commits in last 30 days",
+    "stars": 157
+  },
+  "deck_summary": "AtlasClimate is building: An open-source evaluation harness with auditable test suites. The problem: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+  "claims": [
+    {
+      "id": "287d7a82-d465-42a8-9a5d-cef8f00b5170",
+      "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+      "company_id": "823728e6-d103-4c0c-9540-8a2d3dc1abc4",
+      "application_id": "6c08939c-4f33-470f-83ac-7056a6261dcd",
+      "kind": "founder_background",
+      "text": "Founder Adaeze Rossi studied at TU Munich.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:6c08939c-4f33-470f-83ac-7056a6261dcd",
+        "ingested_at": "2026-07-19T04:17:14.472295",
+        "raw_payload_hash": "e6d29b22a0742aae091004ab9ff27f0770b36814b4c69989c4a95fc7c0e1a1e2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:14.472395",
+      "superseded_by": null
+    },
+    {
+      "id": "ac7264ea-c373-4e85-b6ba-14c655d2c935",
+      "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+      "company_id": "823728e6-d103-4c0c-9540-8a2d3dc1abc4",
+      "application_id": "6c08939c-4f33-470f-83ac-7056a6261dcd",
+      "kind": "product",
+      "text": "AtlasClimate addresses: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:14.472403",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:14.472418",
+      "superseded_by": null
+    },
+    {
+      "id": "082bc006-de8b-4b99-8a72-fe817db78fba",
+      "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+      "company_id": "823728e6-d103-4c0c-9540-8a2d3dc1abc4",
+      "application_id": "6c08939c-4f33-470f-83ac-7056a6261dcd",
+      "kind": "traction",
+      "text": "AtlasClimate has 50 paying enterprise customers.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T04:17:14.472422",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:14.472432",
+      "superseded_by": null
+    },
+    {
+      "id": "bd4e8ec9-66b4-4936-858f-9d3d61c7527f",
+      "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+      "company_id": "823728e6-d103-4c0c-9540-8a2d3dc1abc4",
+      "application_id": "6c08939c-4f33-470f-83ac-7056a6261dcd",
+      "kind": "traction",
+      "text": "AtlasClimate has 3 active pilot deployments.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AtlasClimate",
+        "ingested_at": "2026-07-19T04:17:14.472435",
+        "raw_payload_hash": "bc634a9727a1c7c1399e15741803789b1d67e46b7cde807f5851d4704e22d42a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:14.472444",
+      "superseded_by": null
+    },
+    {
+      "id": "18986412-127b-4a3e-bb1d-bd370f78ec12",
+      "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+      "company_id": "823728e6-d103-4c0c-9540-8a2d3dc1abc4",
+      "application_id": "6c08939c-4f33-470f-83ac-7056a6261dcd",
+      "kind": "technical_depth",
+      "text": "Repository adaezerossi/atlasclimate-core has 157 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "adaezerossi/atlasclimate-core",
+        "ingested_at": "2026-07-19T04:17:14.472454",
+        "raw_payload_hash": "fa1597d1838f7ce9f23f70248013ba32303106d13434f9092a834c0726b64655",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:14.472463",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+    "score_history": [
+      {
+        "id": "8b35952d-db18-492e-ab3f-c5eac2c21a5e",
+        "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+        "score": 50.747203749745864,
+        "confidence_band": [
+          30.747203749745864,
+          70.74720374974586
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:14.472547",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 40.59776299979669,
+          "market_fit": 25.373601874872932,
+          "network": 30.448322249847518,
+          "momentum": 25.373601874872932
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "8b35952d-db18-492e-ab3f-c5eac2c21a5e",
+      "founder_id": "78f66e55-4805-433f-a707-197eb2b256e2",
+      "score": 50.747203749745864,
+      "confidence_band": [
+        30.747203749745864,
+        70.74720374974586
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:14.472547",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 40.59776299979669,
+        "market_fit": 25.373601874872932,
+        "network": 30.448322249847518,
+        "momentum": 25.373601874872932
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:14.472569",
+    "last_updated_at": "2026-07-19T04:17:14.472570"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/78.jpg"
+}

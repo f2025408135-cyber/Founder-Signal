@@ -1,0 +1,181 @@
+{
+  "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+  "company_id": "afe9ce33-a184-47da-8485-c1c474d5f676",
+  "application_id": "1c1ad376-3980-41f8-b7e6-e8d793ae7a6e",
+  "name": "Saanvi Kowalski",
+  "company_name": "HelixBio",
+  "sector": "Consumer",
+  "stage": "series-a",
+  "geography": "PK",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "TU Munich",
+    "degree": "MSc Data Science",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at Meta.",
+  "github_profile": {
+    "username": "saanvikowalski",
+    "repo_count": 6,
+    "primary_language": "Go",
+    "commit_activity": "17 commits in last 30 days",
+    "stars": 259
+  },
+  "deck_summary": "HelixBio is building: A battery optimization platform using reinforcement learning. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "51806a87-10c0-4215-b324-f378bfdf6fba",
+      "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+      "company_id": "afe9ce33-a184-47da-8485-c1c474d5f676",
+      "application_id": "1c1ad376-3980-41f8-b7e6-e8d793ae7a6e",
+      "kind": "founder_background",
+      "text": "Founder Saanvi Kowalski studied at TU Munich.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:1c1ad376-3980-41f8-b7e6-e8d793ae7a6e",
+        "ingested_at": "2026-07-19T04:17:13.888676",
+        "raw_payload_hash": "a9fa3459d2254a4014f4429b92099ae0d93791808867b7ad35e8202957fb5d11",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:13.888776",
+      "superseded_by": null
+    },
+    {
+      "id": "99b538a0-1d0a-4405-8a7b-0032eb78ea7d",
+      "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+      "company_id": "afe9ce33-a184-47da-8485-c1c474d5f676",
+      "application_id": "1c1ad376-3980-41f8-b7e6-e8d793ae7a6e",
+      "kind": "product",
+      "text": "HelixBio addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:13.888786",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:13.888803",
+      "superseded_by": null
+    },
+    {
+      "id": "44db2447-fbcb-4d82-81c1-5c17e045fef0",
+      "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+      "company_id": "afe9ce33-a184-47da-8485-c1c474d5f676",
+      "application_id": "1c1ad376-3980-41f8-b7e6-e8d793ae7a6e",
+      "kind": "financial",
+      "text": "HelixBio raised a $5M seed round in 2025.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=5",
+        "ingested_at": "2026-07-19T04:17:13.888808",
+        "raw_payload_hash": "6a40fdad361b73c1aaf1d90a58a543a9a66d88feb1966f81e272d296626dde13",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:13.888818",
+      "superseded_by": null
+    },
+    {
+      "id": "9c18b7c3-238b-4e2b-8ec4-66b5d5ae8e6b",
+      "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+      "company_id": "afe9ce33-a184-47da-8485-c1c474d5f676",
+      "application_id": "1c1ad376-3980-41f8-b7e6-e8d793ae7a6e",
+      "kind": "financial",
+      "text": "No public record of funding for HelixBio.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:HelixBio-funding",
+        "ingested_at": "2026-07-19T04:17:13.888822",
+        "raw_payload_hash": "437210bd59277e54e5c0f928e69472325de380ef8c1a335a4be67c09a8016e3c",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:13.888831",
+      "superseded_by": null
+    },
+    {
+      "id": "7fb381da-eef8-43b6-bd3b-1559b92ace8b",
+      "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+      "company_id": "afe9ce33-a184-47da-8485-c1c474d5f676",
+      "application_id": "1c1ad376-3980-41f8-b7e6-e8d793ae7a6e",
+      "kind": "technical_depth",
+      "text": "Repository saanvikowalski/helixbio-core has 259 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "saanvikowalski/helixbio-core",
+        "ingested_at": "2026-07-19T04:17:13.888841",
+        "raw_payload_hash": "5f4670b5af7f72b70c5521a61c1e346fabe2ffc55767b2daf3fc676740fb0d26",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:13.888849",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+    "score_history": [
+      {
+        "id": "34ad7790-1b7e-4fe8-a7da-9a11a18b3f87",
+        "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+        "score": 48.154572621434994,
+        "confidence_band": [
+          28.154572621434994,
+          68.154572621435
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:13.888954",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 38.523658097148,
+          "market_fit": 24.077286310717497,
+          "network": 28.892743572860994,
+          "momentum": 24.077286310717497
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "34ad7790-1b7e-4fe8-a7da-9a11a18b3f87",
+      "founder_id": "de53d0ab-fb80-4811-9965-cf3aa9b8e010",
+      "score": 48.154572621434994,
+      "confidence_band": [
+        28.154572621434994,
+        68.154572621435
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:13.888954",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 38.523658097148,
+        "market_fit": 24.077286310717497,
+        "network": 28.892743572860994,
+        "momentum": 24.077286310717497
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:13.888977",
+    "last_updated_at": "2026-07-19T04:17:13.888978"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/26.jpg"
+}

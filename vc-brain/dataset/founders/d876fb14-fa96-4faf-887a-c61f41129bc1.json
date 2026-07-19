@@ -1,0 +1,181 @@
+{
+  "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+  "company_id": "e00ded9b-7728-4b24-9e13-f70b8ca470b5",
+  "application_id": "59f34fde-d37a-4ad9-a732-5332a7851ebb",
+  "name": "Adeola Bauer",
+  "company_name": "EchoData",
+  "sector": "Climate",
+  "stage": "series-a",
+  "geography": "US",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "MIT",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at Microsoft.",
+  "github_profile": {
+    "username": "adeolabauer",
+    "repo_count": 4,
+    "primary_language": "C++",
+    "commit_activity": "15 commits in last 30 days",
+    "stars": 273
+  },
+  "deck_summary": "EchoData is building: A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: Clinical trial recruitment is bottlenecked by manual patient matching.",
+  "claims": [
+    {
+      "id": "2e6118c7-b42e-4066-8e1a-afd3b741ec50",
+      "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+      "company_id": "e00ded9b-7728-4b24-9e13-f70b8ca470b5",
+      "application_id": "59f34fde-d37a-4ad9-a732-5332a7851ebb",
+      "kind": "founder_background",
+      "text": "Founder Adeola Bauer studied at MIT.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:59f34fde-d37a-4ad9-a732-5332a7851ebb",
+        "ingested_at": "2026-07-19T04:17:12.834361",
+        "raw_payload_hash": "76dc23a1a3fefcc40db81fb2d6d95c508a1838be60b14007adf26faf5d9c8ce9",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.834450",
+      "superseded_by": null
+    },
+    {
+      "id": "cb42ad2d-1ea4-4b01-89ed-12e9807fd04c",
+      "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+      "company_id": "e00ded9b-7728-4b24-9e13-f70b8ca470b5",
+      "application_id": "59f34fde-d37a-4ad9-a732-5332a7851ebb",
+      "kind": "product",
+      "text": "EchoData addresses: Clinical trial recruitment is bottlenecked by manual patient matching.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:12.834457",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.834474",
+      "superseded_by": null
+    },
+    {
+      "id": "4f719207-b12c-49b4-8e70-65d97c3e3708",
+      "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+      "company_id": "e00ded9b-7728-4b24-9e13-f70b8ca470b5",
+      "application_id": "59f34fde-d37a-4ad9-a732-5332a7851ebb",
+      "kind": "financial",
+      "text": "EchoData raised a $5M seed round in 2025.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=5",
+        "ingested_at": "2026-07-19T04:17:12.834478",
+        "raw_payload_hash": "6a40fdad361b73c1aaf1d90a58a543a9a66d88feb1966f81e272d296626dde13",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.834488",
+      "superseded_by": null
+    },
+    {
+      "id": "c7726f5b-e3fb-4969-8550-436d3aefb2d6",
+      "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+      "company_id": "e00ded9b-7728-4b24-9e13-f70b8ca470b5",
+      "application_id": "59f34fde-d37a-4ad9-a732-5332a7851ebb",
+      "kind": "financial",
+      "text": "No public record of funding for EchoData.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:EchoData-funding",
+        "ingested_at": "2026-07-19T04:17:12.834492",
+        "raw_payload_hash": "ea6ae7df44d1095d0c47debee5da57c53ed81ba4567168e23e58271c5b5dbe02",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.834501",
+      "superseded_by": null
+    },
+    {
+      "id": "ad044db1-cbaf-4ea3-b744-038d50cbd76a",
+      "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+      "company_id": "e00ded9b-7728-4b24-9e13-f70b8ca470b5",
+      "application_id": "59f34fde-d37a-4ad9-a732-5332a7851ebb",
+      "kind": "technical_depth",
+      "text": "Repository adeolabauer/echodata-core has 273 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "adeolabauer/echodata-core",
+        "ingested_at": "2026-07-19T04:17:12.834512",
+        "raw_payload_hash": "d82482f912e1c0940c46259475ad0770658ce742e8c73604132e270665dc5499",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:12.834520",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+    "score_history": [
+      {
+        "id": "67405d26-4bd1-4431-9d2a-1da9e8ec2bec",
+        "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+        "score": 40.04228195546574,
+        "confidence_band": [
+          20.04228195546574,
+          60.04228195546574
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:12.834602",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 32.03382556437259,
+          "market_fit": 20.02114097773287,
+          "network": 24.025369173279444,
+          "momentum": 20.02114097773287
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "67405d26-4bd1-4431-9d2a-1da9e8ec2bec",
+      "founder_id": "d876fb14-fa96-4faf-887a-c61f41129bc1",
+      "score": 40.04228195546574,
+      "confidence_band": [
+        20.04228195546574,
+        60.04228195546574
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:12.834602",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 32.03382556437259,
+        "market_fit": 20.02114097773287,
+        "network": 24.025369173279444,
+        "momentum": 20.02114097773287
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:12.834626",
+    "last_updated_at": "2026-07-19T04:17:12.834628"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/48.jpg"
+}

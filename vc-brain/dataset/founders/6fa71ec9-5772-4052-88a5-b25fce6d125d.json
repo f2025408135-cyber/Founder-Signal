@@ -1,0 +1,181 @@
+{
+  "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+  "company_id": "562c082b-2842-46da-82c4-da030eec4165",
+  "application_id": "387eabc0-c568-4f13-a0c8-46fbe3e71ac8",
+  "name": "Tobias M\u00fcller",
+  "company_name": "CipherStack",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "DE",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "TU Munich",
+    "degree": "MBA",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at Anthropic.",
+  "github_profile": {
+    "username": "tobiasm\u00fcller",
+    "repo_count": 4,
+    "primary_language": "Julia",
+    "commit_activity": "13 commits in last 30 days",
+    "stars": 164
+  },
+  "deck_summary": "CipherStack is building: A discovery platform using behavioral signals instead of ASO keywords. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "0207bd68-bfcd-4933-a623-c3aa53a1d60b",
+      "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+      "company_id": "562c082b-2842-46da-82c4-da030eec4165",
+      "application_id": "387eabc0-c568-4f13-a0c8-46fbe3e71ac8",
+      "kind": "founder_background",
+      "text": "Founder Tobias M\u00fcller studied at TU Munich.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:387eabc0-c568-4f13-a0c8-46fbe3e71ac8",
+        "ingested_at": "2026-07-19T04:17:11.666440",
+        "raw_payload_hash": "ce055b1c4f9e00510de082d2dbb11e0e6e7ca929bfa4eef54bd579c776dc72d5",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.666539",
+      "superseded_by": null
+    },
+    {
+      "id": "39ec8771-29da-4b93-82cb-dbf65d6491b6",
+      "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+      "company_id": "562c082b-2842-46da-82c4-da030eec4165",
+      "application_id": "387eabc0-c568-4f13-a0c8-46fbe3e71ac8",
+      "kind": "product",
+      "text": "CipherStack addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:11.666554",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.666578",
+      "superseded_by": null
+    },
+    {
+      "id": "37a50618-f8fb-433e-ad58-1581c0691ebb",
+      "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+      "company_id": "562c082b-2842-46da-82c4-da030eec4165",
+      "application_id": "387eabc0-c568-4f13-a0c8-46fbe3e71ac8",
+      "kind": "market_size",
+      "text": "The Healthtech market is $5B in 2026.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T04:17:11.666582",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.666598",
+      "superseded_by": null
+    },
+    {
+      "id": "1ddc5c1a-332d-438a-b532-85a34c4bbfae",
+      "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+      "company_id": "562c082b-2842-46da-82c4-da030eec4165",
+      "application_id": "387eabc0-c568-4f13-a0c8-46fbe3e71ac8",
+      "kind": "market_size",
+      "text": "The Healthtech market is $500M in 2026.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T04:17:11.666603",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.666620",
+      "superseded_by": null
+    },
+    {
+      "id": "3ddceb50-ea03-4f26-b3e1-104227042947",
+      "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+      "company_id": "562c082b-2842-46da-82c4-da030eec4165",
+      "application_id": "387eabc0-c568-4f13-a0c8-46fbe3e71ac8",
+      "kind": "technical_depth",
+      "text": "Repository tobiasm\u00fcller/cipherstack-core has 164 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "tobiasm\u00fcller/cipherstack-core",
+        "ingested_at": "2026-07-19T04:17:11.666634",
+        "raw_payload_hash": "01a8f8c179b527ec91ff55e95434e6c92906d3aeffa2dba97afa9dfaa320d1c2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:11.666648",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+    "score_history": [
+      {
+        "id": "999abf86-b21a-45ae-8c68-c25252ec9fc8",
+        "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+        "score": 40.59161086753629,
+        "confidence_band": [
+          20.59161086753629,
+          60.59161086753629
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:11.666756",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 32.47328869402903,
+          "market_fit": 20.295805433768145,
+          "network": 24.354966520521774,
+          "momentum": 20.295805433768145
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "999abf86-b21a-45ae-8c68-c25252ec9fc8",
+      "founder_id": "6fa71ec9-5772-4052-88a5-b25fce6d125d",
+      "score": 40.59161086753629,
+      "confidence_band": [
+        20.59161086753629,
+        60.59161086753629
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:11.666756",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 32.47328869402903,
+        "market_fit": 20.295805433768145,
+        "network": 24.354966520521774,
+        "momentum": 20.295805433768145
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:11.666809",
+    "last_updated_at": "2026-07-19T04:17:11.666811"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/39.jpg"
+}

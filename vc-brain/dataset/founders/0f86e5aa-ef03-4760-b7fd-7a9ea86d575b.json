@@ -1,0 +1,181 @@
+{
+  "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+  "company_id": "3677292e-a1c4-4f04-8492-802e5c9d41ae",
+  "application_id": "1bbeacda-ff1b-468d-aa75-71f899c06b36",
+  "name": "Stefan Singh",
+  "company_name": "CipherStack",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "US",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "LUMS",
+    "degree": "PhD Machine Learning",
+    "year": 2021
+  },
+  "prior_experience": "Previously worked at Amazon.",
+  "github_profile": {
+    "username": "stefansingh",
+    "repo_count": 2,
+    "primary_language": "Rust",
+    "commit_activity": "7 commits in last 30 days",
+    "stars": 169
+  },
+  "deck_summary": "CipherStack is building: A model observability platform with drift detection and alerting. The problem: AI model deployment lacks observability; teams fly blind in production.",
+  "claims": [
+    {
+      "id": "efcd1e92-3fe8-4a46-b6a2-b893b00f3233",
+      "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+      "company_id": "3677292e-a1c4-4f04-8492-802e5c9d41ae",
+      "application_id": "1bbeacda-ff1b-468d-aa75-71f899c06b36",
+      "kind": "founder_background",
+      "text": "Founder Stefan Singh studied at LUMS.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:1bbeacda-ff1b-468d-aa75-71f899c06b36",
+        "ingested_at": "2026-07-19T04:17:17.920442",
+        "raw_payload_hash": "ab6fa04ee88fda78ed9abf8ce8ec72bbc1de9cd5439daea1657c7445c813355f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.920537",
+      "superseded_by": null
+    },
+    {
+      "id": "03395030-5f53-4ac8-8450-b06ecf0f2c60",
+      "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+      "company_id": "3677292e-a1c4-4f04-8492-802e5c9d41ae",
+      "application_id": "1bbeacda-ff1b-468d-aa75-71f899c06b36",
+      "kind": "product",
+      "text": "CipherStack addresses: AI model deployment lacks observability; teams fly blind in production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T04:17:17.920545",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.920561",
+      "superseded_by": null
+    },
+    {
+      "id": "2b9448c5-ce31-45eb-9d42-2702e6496348",
+      "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+      "company_id": "3677292e-a1c4-4f04-8492-802e5c9d41ae",
+      "application_id": "1bbeacda-ff1b-468d-aa75-71f899c06b36",
+      "kind": "product",
+      "text": "Solution: A model observability platform with drift detection and alerting.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T04:17:17.920564",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.920576",
+      "superseded_by": null
+    },
+    {
+      "id": "55e8bb11-73a7-46be-97af-ca4f0ee717fe",
+      "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+      "company_id": "3677292e-a1c4-4f04-8492-802e5c9d41ae",
+      "application_id": "1bbeacda-ff1b-468d-aa75-71f899c06b36",
+      "kind": "market_trend",
+      "text": "The Healthtech sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-trend",
+        "ingested_at": "2026-07-19T04:17:17.920579",
+        "raw_payload_hash": "1e283eb4dc911e1b94f7be66bb0e1d193ce98cd9a89704b2daa9d9647ccdaa3d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.920586",
+      "superseded_by": null
+    },
+    {
+      "id": "44d12540-5f6b-428c-9a76-973bc7cfb060",
+      "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+      "company_id": "3677292e-a1c4-4f04-8492-802e5c9d41ae",
+      "application_id": "1bbeacda-ff1b-468d-aa75-71f899c06b36",
+      "kind": "technical_depth",
+      "text": "Repository stefansingh/cipherstack-core has 169 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "stefansingh/cipherstack-core",
+        "ingested_at": "2026-07-19T04:17:17.920596",
+        "raw_payload_hash": "f12d8387b1873a74717cf978ca976a1409240c3db4fcc25ea1a74ff18256a239",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T04:17:17.920604",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+    "score_history": [
+      {
+        "id": "b5895ec5-f5ec-4df6-a8e9-a80109e29c8b",
+        "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+        "score": 68.92124067180201,
+        "confidence_band": [
+          48.92124067180201,
+          88.92124067180201
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T04:17:17.920695",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 51.690930503851504,
+          "market_fit": 41.3527444030812,
+          "network": 27.568496268720807,
+          "momentum": 34.460620335901005
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "b5895ec5-f5ec-4df6-a8e9-a80109e29c8b",
+      "founder_id": "0f86e5aa-ef03-4760-b7fd-7a9ea86d575b",
+      "score": 68.92124067180201,
+      "confidence_band": [
+        48.92124067180201,
+        88.92124067180201
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T04:17:17.920695",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 51.690930503851504,
+        "market_fit": 41.3527444030812,
+        "network": 27.568496268720807,
+        "momentum": 34.460620335901005
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T04:17:17.920715",
+    "last_updated_at": "2026-07-19T04:17:17.920716"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/78.jpg"
+}
