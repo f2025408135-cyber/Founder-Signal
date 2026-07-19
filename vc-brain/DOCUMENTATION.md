@@ -730,7 +730,7 @@ This implements the Perplexity-style VC memo agent pattern: research/verificatio
 
 ### D1: Frontend Scaffold
 
-**`frontend/package.json`** dependencies:
+**`frontend-next/package.json`** dependencies:
 - `react` 19, `react-dom` 19, `react-router-dom` 7
 - `@tanstack/react-query` 5
 - `tailwindcss` 4, `@tailwindcss/vite` 4
