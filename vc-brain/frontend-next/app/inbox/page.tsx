@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Search, Loader2, AlertCircle, SlidersHorizontal } from "lucide-react";
 import { AppShell } from "@/components/layout/app-shell";
 import { FounderCard } from "@/components/founder/founder-card";
-import { Button, Input, Badge } from "@/components/ui/primitives";
+import { Button, Input, Badge, Skeleton } from "@/components/ui/primitives";
 import { api } from "@/lib/api";
 import type { QueryMatch } from "@/lib/types";
 
@@ -42,7 +42,7 @@ function InboxContent() {
     }
   }, [searchParams, submittedQuery]);
 
-  const { data, isLoading, error } = useQuery({
+  const { data, isLoading, error, refetch } = useQuery({
     queryKey: ["inbox", sector, geography, recFilter, coldStartOnly],
     queryFn: () =>
       api.getInbox({
@@ -72,11 +72,11 @@ function InboxContent() {
 
   return (
     <AppShell>
-      <div className="px-8 py-6 max-w-6xl mx-auto">
+      <div className="max-w-6xl px-4 py-5 sm:mx-auto sm:px-8 sm:py-6">
         <header className="mb-6">
           <h1 className="text-2xl font-bold tracking-tight text-text-primary">Inbox</h1>
           <p className="text-sm text-text-muted mt-1">
-            Sorted by overall conviction. {data?.total ?? 0} founders.
+            Sorted by overall conviction. {isLoading ? "Loading founders..." : `${data?.total ?? 0} founders.`}
           </p>
         </header>
 
@@ -84,6 +84,7 @@ function InboxContent() {
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-subtle" />
             <Input
+              aria-label="Search founders with a compound query"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder='Compound query: "technical founder, Berlin, AI infra, enterprise traction, no prior VC backing, top-tier accelerator"'
@@ -111,30 +112,14 @@ function InboxContent() {
             <SlidersHorizontal className="w-3 h-3 mr-1.5" />
             Filters
           </Button>
-          {recFilter && (
-            <Badge variant="secondary" className="cursor-pointer" onClick={() => setRecFilter("")}>
-              {recFilter} ×
-            </Badge>
-          )}
-          {coldStartOnly && (
-            <Badge variant="secondary" className="cursor-pointer" onClick={() => setColdStartOnly(false)}>
-              cold-start only ×
-            </Badge>
-          )}
-          {sector && (
-            <Badge variant="secondary" className="cursor-pointer" onClick={() => setSector("")}>
-              sector: {sector} ×
-            </Badge>
-          )}
-          {geography && (
-            <Badge variant="secondary" className="cursor-pointer" onClick={() => setGeography("")}>
-              geo: {geography} ×
-            </Badge>
-          )}
+          {recFilter && <FilterChip label={recFilter} onClear={() => setRecFilter("")} />}
+          {coldStartOnly && <FilterChip label="cold-start only" onClear={() => setColdStartOnly(false)} />}
+          {sector && <FilterChip label={`sector: ${sector}`} onClear={() => setSector("")} />}
+          {geography && <FilterChip label={`geo: ${geography}`} onClear={() => setGeography("")} />}
         </div>
 
         {showFilters && (
-          <div className="mb-6 p-4 border border-border rounded-md bg-card grid grid-cols-4 gap-3">
+          <div className="mb-6 grid grid-cols-1 gap-3 rounded-md border border-border bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
             <label className="text-xs">
               <span className="text-text-muted">Sector</span>
               <Input value={sector} onChange={(e) => setSector(e.target.value)} placeholder="AI infra" />
@@ -162,7 +147,7 @@ function InboxContent() {
                 <option value="reject">reject</option>
               </select>
             </label>
-            <label className="text-xs flex flex-col">
+            <div className="text-xs flex flex-col">
               <span className="text-text-muted">Cold-start</span>
               <label className="flex items-center gap-2 h-9">
                 <input
@@ -173,7 +158,7 @@ function InboxContent() {
                 />
                 <span className="text-sm">cold-start only</span>
               </label>
-            </label>
+            </div>
           </div>
         )}
 
@@ -190,6 +175,7 @@ function InboxContent() {
             {queryResult.error && (
               <div className="flex items-center gap-2 text-sm text-error">
                 <AlertCircle className="w-4 h-4" /> {(queryResult.error as Error).message}
+                <Button size="sm" variant="outline" onClick={() => queryResult.refetch()}>Retry</Button>
               </div>
             )}
             {queryResult.data && (
@@ -227,20 +213,25 @@ function InboxContent() {
 
         <section>
           {isLoading && (
-            <div className="flex items-center justify-center py-12 text-sm text-text-muted">
-              <Loader2 className="w-5 h-5 animate-spin mr-2" /> Loading inbox…
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4" aria-label="Loading founders">
+              {Array.from({ length: 6 }).map((_, i) => <FounderCardSkeleton key={i} />)}
             </div>
           )}
           {error && (
             <div className="flex items-center gap-2 p-4 rounded-md border border-error-border bg-error-bg text-sm text-error">
               <AlertCircle className="w-4 h-4" />
               {(error as Error).message}
+              <Button size="sm" variant="outline" onClick={() => refetch()}>
+                Retry
+              </Button>
             </div>
           )}
-          {data && data.cards.length === 0 && !submittedQuery && (
+          {data && data.cards.length === 0 && (
             <div className="text-center py-12">
               <p className="text-sm text-text-muted">
-                No applications in the inbox yet. Submit one via POST /api/applications.
+                {submittedQuery
+                  ? "No founders match the current inbox filters. Clear a filter or broaden the search."
+                  : "No applications in the inbox yet. New applications will appear here as their pipeline run begins."}
               </p>
             </div>
           )}
@@ -254,6 +245,32 @@ function InboxContent() {
         </section>
       </div>
     </AppShell>
+  );
+}
+
+function FilterChip({ label, onClear }: { label: string; onClear: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onClear}
+      className="inline-flex items-center rounded-full bg-elevated px-2 py-0.5 text-[10px] font-medium text-text-secondary transition-colors hover:bg-modal focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+      aria-label={`Clear ${label} filter`}
+    >
+      {label} ×
+    </button>
+  );
+}
+
+function FounderCardSkeleton() {
+  return (
+    <div className="rounded-lg border border-border bg-card p-4 space-y-4">
+      <div className="flex justify-between"><Skeleton className="h-4 w-32" /><Skeleton className="h-4 w-14" /></div>
+      <Skeleton className="h-px w-full" />
+      <Skeleton className="h-3 w-full" />
+      <Skeleton className="h-3 w-5/6" />
+      <Skeleton className="h-3 w-4/6" />
+      <Skeleton className="h-7 w-24" />
+    </div>
   );
 }
 

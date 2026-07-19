@@ -22,6 +22,7 @@ export interface InboxCard {
   trace_id: string | null;
   computed_at: string | null;
   application_id?: string;
+  pipeline_status?: string;
 }
 
 export interface InboxResponse {

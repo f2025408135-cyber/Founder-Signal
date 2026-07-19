@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { Loader2, AlertCircle, Check, X } from "lucide-react";
 import { AppShell } from "@/components/layout/app-shell";
-import { Button, Card, Input, Badge } from "@/components/ui/primitives";
+import { Button, Card, Input, Badge, Skeleton } from "@/components/ui/primitives";
 import { Modal } from "@/components/ui/sheet";
 import { api } from "@/lib/api";
 import type { Thesis } from "@/lib/types";
@@ -38,8 +38,9 @@ export default function ThesisPage() {
   if (isLoading) {
     return (
       <AppShell>
-        <div className="flex items-center justify-center py-24 text-sm text-text-muted">
-          <Loader2 className="w-5 h-5 animate-spin mr-2" /> Loading thesis…
+        <div className="px-8 py-6 max-w-3xl mx-auto space-y-5" aria-label="Loading investment thesis">
+          <Skeleton className="h-8 w-2/5" />
+          <Skeleton className="h-[420px] w-full" />
         </div>
       </AppShell>
     );
@@ -61,7 +62,20 @@ export default function ThesisPage() {
     );
   }
 
-  if (!draft) return null;
+  if (!draft) {
+    return (
+      <AppShell>
+        <div className="px-8 py-6 max-w-3xl mx-auto">
+          <Card className="p-5 border-warning-border bg-warning-bg">
+            <h1 className="text-sm font-bold text-text-primary">No active thesis is available</h1>
+            <p className="mt-2 text-xs text-text-secondary">
+              Configure an active investment thesis in the backend before screening founders.
+            </p>
+          </Card>
+        </div>
+      </AppShell>
+    );
+  }
 
   const hasChanges = JSON.stringify(draft) !== JSON.stringify(thesis);
 
@@ -279,7 +293,7 @@ export default function ThesisPage() {
           )}
           {saveMutation.isSuccess && (
             <div className="text-xs text-success flex items-center gap-2">
-              <Check className="w-3 h-3" /> Saved — inbox will re-evaluate on next view.
+              <Check className="w-3 h-3" /> Saved. The active investment thesis has been updated.
             </div>
           )}
 
@@ -331,9 +345,8 @@ export default function ThesisPage() {
         }
       >
         <p>
-          Saving will re-evaluate all founders in the inbox. The re-score triggers will fire on the
-          next card view for each founder (cached outputs are now stale relative to the updated
-          thesis). This may incur LLM costs for each re-scored founder.
+          Saving updates the active investment thesis for subsequent evaluations. Existing evidence
+          remains visible while the backend schedules any required re-evaluation.
         </p>
         <p className="mt-2 text-text-muted">Continue?</p>
       </Modal>

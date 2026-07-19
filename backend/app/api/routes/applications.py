@@ -30,6 +30,27 @@ logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
+@router.get(
+    "/applications/{application_id}/source",
+    response_model=dict,
+    summary="Return the founder-submitted application payload for a claim citation.",
+)
+async def get_application_source(
+    application_id: uuid.UUID,
+    db: AsyncSession = Depends(get_db),
+) -> dict:
+    """Expose the immutable application payload behind an application-form citation."""
+    application = await db.get(ApplicationORM, application_id)
+    if application is None:
+        raise HTTPException(status_code=404, detail="Application source not found")
+    return {
+        "application_id": str(application.id),
+        "received_at": application.received_at.isoformat(),
+        "source": "founder_submission",
+        "payload": application.raw_payload,
+    }
+
+
 @router.post(
     "/applications",
     response_model=Application,
@@ -302,5 +323,6 @@ async def _run_pipeline_background(
         async with async_session() as s:
             app = await s.get(ApplicationORM, application_id)
             if app:
-                app.status = "rejected"
+                # A processing failure is operational, not an investment decision.
+                app.status = "failed"
                 await s.commit()

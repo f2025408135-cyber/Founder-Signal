@@ -19,10 +19,10 @@ export function SheetContent({
 }) {
   return (
     <DialogPrimitive.Portal>
-      <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm data-[state=open]:animate-in data-[state=closed]:animate-out" />
+      <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-canvas-base/80 data-[state=open]:animate-in data-[state=closed]:animate-out" />
       <DialogPrimitive.Content
         className={cn(
-          "fixed z-50 top-0 bottom-0 w-full max-w-md bg-modal border-border shadow-xl flex flex-col",
+          "fixed z-50 top-0 bottom-0 w-full max-w-md bg-modal border-border flex flex-col",
           side === "right" ? "right-0 border-l" : "left-0 border-r"
         )}
       >
@@ -30,7 +30,7 @@ export function SheetContent({
           <DialogPrimitive.Title className="text-sm font-bold text-text-primary">
             {title}
           </DialogPrimitive.Title>
-          <DialogPrimitive.Close className="text-text-muted hover:text-text-primary">
+          <DialogPrimitive.Close aria-label="Close panel" className="text-text-muted hover:text-text-primary">
             <X className="w-4 h-4" />
           </DialogPrimitive.Close>
         </div>
@@ -57,8 +57,8 @@ export function Modal({
   return (
     <DialogPrimitive.Root open={open} onOpenChange={onOpenChange}>
       <DialogPrimitive.Portal>
-        <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm" />
-        <DialogPrimitive.Content className="fixed left-1/2 top-1/2 z-50 -translate-x-1/2 -translate-y-1/2 w-full max-w-md bg-modal border border-border-strong rounded-lg shadow-xl p-6">
+        <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-canvas-base/80" />
+        <DialogPrimitive.Content className="fixed left-1/2 top-1/2 z-50 -translate-x-1/2 -translate-y-1/2 w-full max-w-md bg-modal border border-border-strong rounded-lg p-6">
           <DialogPrimitive.Title className="text-base font-bold mb-3 text-text-primary">
             {title}
           </DialogPrimitive.Title>

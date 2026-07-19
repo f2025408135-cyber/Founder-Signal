@@ -20,9 +20,13 @@ export function AxisScore({
       <span className="text-text-muted w-20 shrink-0">{label}</span>
       <span className={cn("w-3 text-xs", t.color)}>{t.symbol}</span>
       <span className="font-mono text-sm w-8 text-right" data-numeric>
-        {score != null ? score.toFixed(0) : "—"}
+        {score != null ? score.toFixed(0) : "n/a"}
       </span>
-      <Progress value={score ?? 0} color={barColor} />
+      {score != null ? (
+        <Progress value={score} color={barColor} />
+      ) : (
+        <span className="text-[10px] text-text-muted">processing</span>
+      )}
       {rightSlot}
     </div>
   );

@@ -45,15 +45,15 @@ export function countryFlag(iso2: string | null | undefined): string {
 export function recommendationColor(rec: string | null | undefined): string {
   switch (rec) {
     case "fast_pass":
-      return "text-success bg-success-bg border-success-border";
+      return "text-text-primary bg-success-bg border-success-border";
     case "deep_dive":
-      return "text-accent bg-accent/10 border-border-accent";
+      return "text-text-primary bg-accent/10 border-border-accent";
     case "pass":
-      return "text-text-muted bg-neutral-bg border-neutral-border";
+      return "text-text-primary bg-neutral-bg border-neutral-border";
     case "reject":
-      return "text-error bg-error-bg border-error-border";
+      return "text-text-primary bg-error-bg border-error-border";
     default:
-      return "text-text-muted bg-neutral-bg border-neutral-border";
+      return "text-text-primary bg-neutral-bg border-neutral-border";
   }
 }
 
@@ -85,42 +85,42 @@ export function trendSymbol(trend: string | null | undefined): { symbol: string;
 
 export const STATE_CONFIG = {
   verified: {
-    textClass: "text-success",
+    textClass: "text-text-primary",
     bgClass: "bg-success-bg",
     borderClass: "border-success-border",
     label: "verified",
     icon: "check",
   },
   unverifiable: {
-    textClass: "text-warning",
+    textClass: "text-text-primary",
     bgClass: "bg-warning-bg",
     borderClass: "border-warning-border",
     label: "unverified",
     icon: "help",
   },
   contradicted: {
-    textClass: "text-error",
+    textClass: "text-text-primary",
     bgClass: "bg-error-bg",
     borderClass: "border-error-border",
     label: "contradicted",
     icon: "x",
   },
   not_disclosed: {
-    textClass: "text-neutral",
+    textClass: "text-text-primary",
     bgClass: "bg-neutral-bg",
     borderClass: "border-neutral-border",
     label: "missing",
     icon: "minus",
   },
   low_evidence: {
-    textClass: "text-warning",
+    textClass: "text-text-primary",
     bgClass: "bg-warning-bg",
     borderClass: "border-warning-border",
     label: "low evidence",
     icon: "help",
   },
   cold_start_inferred: {
-    textClass: "text-warning",
+    textClass: "text-text-primary",
     bgClass: "bg-warning-bg",
     borderClass: "border-warning-border",
     label: "cold-start",

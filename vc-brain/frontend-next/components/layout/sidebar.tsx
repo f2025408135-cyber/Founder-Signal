@@ -15,13 +15,13 @@ const navItems = [
 export function Sidebar() {
   const pathname = usePathname();
   return (
-    <aside className="w-56 border-r border-border bg-card flex flex-col h-full">
+    <aside className="w-14 shrink-0 border-r border-border bg-card flex flex-col h-full sm:w-56">
       <div className="px-5 py-5 border-b border-border">
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-md bg-accent flex items-center justify-center">
             <Activity className="w-4 h-4 text-white" />
           </div>
-          <div>
+          <div className="hidden sm:block">
             <div className="text-sm font-bold leading-tight text-text-primary">
               Founder Signal
             </div>
@@ -40,7 +40,7 @@ export function Sidebar() {
               key={item.href}
               href={item.href}
               className={cn(
-                "flex items-center gap-3 px-3 py-2 rounded-md text-sm transition-colors",
+                "flex items-center justify-center gap-3 px-3 py-2 rounded-md text-sm transition-colors sm:justify-start",
                 active
                   ? "bg-elevated text-text-primary font-medium"
                   : "text-text-muted hover:text-text-primary hover:bg-elevated"
@@ -52,7 +52,7 @@ export function Sidebar() {
           );
         })}
       </nav>
-      <div className="px-4 py-3 border-t border-border text-[10px] text-text-subtle">
+      <div className="hidden px-4 py-3 border-t border-border text-[10px] text-text-subtle sm:block">
         Maschmeyer Group · $100K check
       </div>
     </aside>

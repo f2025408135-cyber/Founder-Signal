@@ -24,11 +24,12 @@ export function FounderCard({
   const founderTrend = trendSymbol(card.founder_trend);
   const recColor = recommendationColor(card.recommendation);
   const coldStart = card.cold_start === true;
+  const pipelineFailed = card.pipeline_status === "failed";
 
   return (
     <Card
       className={cn(
-        "p-4 transition-shadow hover:shadow-md cursor-pointer",
+        "p-4 transition-colors hover:bg-elevated",
         coldStart ? "border-warning/40" : "border-border"
       )}
     >
@@ -36,7 +37,7 @@ export function FounderCard({
       <div className="flex items-start justify-between mb-3">
         <div className="flex items-center gap-2 min-w-0">
           <h3 className="text-base font-bold truncate text-text-primary">
-            {card.company_name || "Unknown"}
+            {card.company_name || card.founder_name || "Processing founder"}
           </h3>
           {coldStart && (
             <Snowflake className="w-3.5 h-3.5 text-warning shrink-0" aria-label="cold-start" />
@@ -99,7 +100,7 @@ export function FounderCard({
           barColor={marketScoreColor(card.market_score)}
           rightSlot={
             <span className={cn("text-[10px] ml-2 font-medium", marketScoreColor(card.market_score))}>
-              {card.market_score || "—"}
+              {card.market_score || "not assessed"}
             </span>
           }
         />
@@ -123,12 +124,12 @@ export function FounderCard({
       <div className="flex items-center gap-4 text-xs">
         <span>
           <span className="font-mono font-bold" data-numeric>
-            {card.conviction?.toFixed(0) ?? "—"}
+            {card.conviction?.toFixed(0) ?? "pending"}
           </span>
           <span className="text-text-muted">/100 conviction</span>
         </span>
         <span className="text-text-muted">
-          evidence {(card.evidence_coverage ?? 0).toFixed(2)}
+          evidence {card.evidence_coverage != null ? card.evidence_coverage.toFixed(2) : "pending"}
         </span>
         <span className={cn((card.open_contradictions ?? 0) > 0 && "text-error")}>
           contradictions: {card.open_contradictions ?? 0}
@@ -137,7 +138,9 @@ export function FounderCard({
 
       {/* Row 7: recommendation */}
       <div className="flex items-center mt-2">
-        {card.recommendation && (
+        {pipelineFailed ? (
+          <span className="text-[11px] text-error">Processing failed. Open the memo for recovery details.</span>
+        ) : card.recommendation ? (
           <span
             className={cn(
               "inline-flex items-center px-2.5 py-1 rounded-full border text-[11px] font-medium",
@@ -146,22 +149,16 @@ export function FounderCard({
           >
             ▸ {card.recommendation}
           </span>
+        ) : (
+          <span className="text-[11px] text-text-muted">Still processing evidence</span>
         )}
       </div>
 
       {/* Row 8: actions */}
       <div className="flex items-center gap-2 mt-3">
-        <Link href={`/founders/${card.founder_id}`}>
-          <Button size="sm">Open Memo</Button>
-        </Link>
-        <Button size="sm" variant="ghost">
-          Pass
+        <Button asChild size="sm">
+          <Link href={`/founders/${card.founder_id}`}>Open Memo</Link>
         </Button>
-        {card.recommendation === "fast_pass" && (
-          <Button size="sm" variant="secondary">
-            Fast-Track
-          </Button>
-        )}
       </div>
     </Card>
   );

@@ -7,7 +7,7 @@ import { ArrowLeft, Loader2, AlertCircle, ChevronRight, ChevronDown } from "luci
 import { AppShell } from "@/components/layout/app-shell";
 import { MemoView } from "@/components/memo/memo-view";
 import { PipelineTrace } from "@/components/trace/pipeline-trace";
-import { Badge, Card } from "@/components/ui/primitives";
+import { Badge, Card, Skeleton } from "@/components/ui/primitives";
 import { api } from "@/lib/api";
 import { cn, recommendationColor, timeAgo } from "@/lib/utils";
 
@@ -25,8 +25,11 @@ export default function FounderDetailPage() {
   if (isLoading) {
     return (
       <AppShell>
-        <div className="flex items-center justify-center py-24 text-sm text-text-muted">
-          <Loader2 className="w-5 h-5 animate-spin mr-2" /> Loading memo…
+        <div className="px-8 py-6 max-w-3xl mx-auto space-y-5" aria-label="Loading investment memo">
+          <Skeleton className="h-8 w-2/5" />
+          <Skeleton className="h-20 w-full" />
+          <Skeleton className="h-32 w-full" />
+          <Skeleton className="h-32 w-full" />
         </div>
       </AppShell>
     );
@@ -58,7 +61,21 @@ export default function FounderDetailPage() {
     );
   }
 
-  if (!memo) return null;
+  if (!memo?.aggregator_output) {
+    return (
+      <AppShell>
+        <div className="px-8 py-6 max-w-3xl mx-auto">
+          <Card className="p-5 border-warning-border bg-warning-bg">
+            <h1 className="text-sm font-bold text-text-primary">Memo is still processing</h1>
+            <p className="mt-2 text-xs text-text-secondary">
+              Evidence is being collected and validated. Return to the inbox and try this founder again shortly.
+            </p>
+            <Link href="/inbox" className="mt-4 inline-flex text-xs text-accent underline">Back to inbox</Link>
+          </Card>
+        </div>
+      </AppShell>
+    );
+  }
 
   const agg = memo.aggregator_output;
   const recColor = recommendationColor(agg.overall_recommendation);
@@ -77,10 +94,15 @@ export default function FounderDetailPage() {
     <AppShell>
       <div className="flex h-full">
         {/* Left rail: section nav */}
-        <aside className="w-48 border-r border-border bg-card flex flex-col">
+          <aside className="hidden w-48 shrink-0 border-r border-border bg-card lg:flex lg:flex-col">
           <div className="px-3 py-3 border-b border-border flex items-center justify-between">
             <span className="text-[10px] uppercase tracking-wider text-text-muted">Sections</span>
-            <button onClick={() => setShowSectionNav(!showSectionNav)}>
+            <button
+              onClick={() => setShowSectionNav(!showSectionNav)}
+              aria-label={showSectionNav ? "Collapse memo sections" : "Expand memo sections"}
+              aria-expanded={showSectionNav}
+              className="rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+            >
               {showSectionNav ? (
                 <ChevronDown className="w-3 h-3 text-text-muted" />
               ) : (
@@ -201,7 +223,7 @@ export default function FounderDetailPage() {
         </main>
 
         {/* Right rail: Pipeline Trace + Next Actions + metadata */}
-        <aside className="w-80 border-l border-border bg-card p-4 overflow-auto">
+        <aside className="hidden w-80 shrink-0 overflow-auto border-l border-border bg-card p-4 xl:block">
           <PipelineTrace traceId={agg.trace_id} />
 
           <div className="mt-6">

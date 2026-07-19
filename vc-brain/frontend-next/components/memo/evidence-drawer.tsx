@@ -2,6 +2,17 @@
 import { evidenceChip, cn } from "@/lib/utils";
 import type { ClaimRow } from "@/lib/types";
 
+function sourceHref(kind: string, ref: string): string | null {
+  if (/^https?:\/\//i.test(ref)) return ref;
+  if (kind === "github" && /^[\w.-]+\/[\w.-]+$/.test(ref)) return `https://github.com/${ref}`;
+  if (kind === "arxiv" && /^[\w.-]+$/.test(ref)) return `https://arxiv.org/abs/${ref}`;
+  const hnId = ref.match(/^(?:item:)?(\d+)$/)?.[1];
+  if (kind === "hackernews" && hnId) return `https://news.ycombinator.com/item?id=${hnId}`;
+  const applicationId = ref.match(/^application:([0-9a-f-]{36})$/i)?.[1];
+  if (kind === "application_form" && applicationId) return `/api/applications/${applicationId}/source`;
+  return null;
+}
+
 export function EvidenceDrawer({ claim }: { claim: ClaimRow }) {
   const chip = evidenceChip(claim.validator_status);
   // Extract Langfuse trace link from retrieved_by (format: "agent_name@trace_id/span_id")
@@ -9,6 +20,7 @@ export function EvidenceDrawer({ claim }: { claim: ClaimRow }) {
   const traceMatch = retrievedBy.match(/@([^/]+)\/(.+)/);
   const traceId = traceMatch?.[1];
   const spanId = traceMatch?.[2];
+  const href = sourceHref(claim.source.kind, claim.source.ref);
 
   return (
     <div className="space-y-4 text-sm">
@@ -38,9 +50,9 @@ export function EvidenceDrawer({ claim }: { claim: ClaimRow }) {
           </div>
           <div>
             <span className="text-text-muted">ref: </span>
-            {claim.source.ref.startsWith("http") ? (
+            {href ? (
               <a
-                href={claim.source.ref}
+                href={href}
                 target="_blank"
                 rel="noreferrer"
                 className="text-accent underline break-all"
@@ -48,7 +60,9 @@ export function EvidenceDrawer({ claim }: { claim: ClaimRow }) {
                 {claim.source.ref}
               </a>
             ) : (
-              <code className="break-all text-text-secondary">{claim.source.ref}</code>
+              <span className="break-all text-text-secondary">
+                {claim.source.ref} <span className="text-text-muted">(source reference)</span>
+              </span>
             )}
           </div>
           <div>
@@ -77,7 +91,7 @@ export function EvidenceDrawer({ claim }: { claim: ClaimRow }) {
                 chip.bgClass
               )}
             >
-              {claim.validator_status ?? "—"}
+              {claim.validator_status ?? "not disclosed"}
             </span>
           </div>
           <div>

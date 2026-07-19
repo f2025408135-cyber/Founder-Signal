@@ -33,6 +33,7 @@ query($query: String!, $cursor: String) {
       node {
         ... on Post {
           id
+          slug
           name
           tagline
           votesCount
@@ -102,7 +103,7 @@ async def fetch_ph_launches(query: str, lookback_days: int = 365, max_pages: int
                 content = _normalize_node(node)
                 source = Source(
                     kind=SourceKind.PRODUCTHUNT,
-                    ref=f"post:{node.get('id', 'unknown')}",
+                    ref=f"https://www.producthunt.com/posts/{node['slug']}" if node.get("slug") else f"post:{node.get('id', 'unknown')}",
                     ingested_at=datetime.utcnow(),
                     raw_payload_hash=hash_json(content),
                     retrieved_by="producthunt.fetch_ph_launches",
@@ -129,6 +130,7 @@ def _normalize_node(node: dict[str, Any]) -> dict[str, Any]:
             makers.append({"name": m.get("name"), "username": m.get("username")})
     return {
         "id": node.get("id"),
+        "slug": node.get("slug"),
         "name": node.get("name"),
         "tagline": node.get("tagline"),
         "votesCount": node.get("votesCount", 0),

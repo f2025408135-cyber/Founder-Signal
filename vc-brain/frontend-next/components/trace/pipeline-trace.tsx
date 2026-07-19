@@ -99,21 +99,17 @@ function TraceNodeRow({ node }: { node: TraceNode }) {
 
   return (
     <li>
-      <div
-        className={cn(
-          "flex items-center gap-2 text-xs py-1 px-2 rounded hover:bg-elevated",
-          hasDetails && "cursor-pointer"
-        )}
-        onClick={() => hasDetails && setExpanded(!expanded)}
+      {hasDetails ? (
+      <button
+        type="button"
+        className="flex w-full items-center gap-2 rounded px-2 py-1 text-left text-xs hover:bg-elevated"
+        onClick={() => setExpanded(!expanded)}
+        aria-expanded={expanded}
       >
-        {hasDetails ? (
-          expanded ? (
-            <ChevronDown className="w-3 h-3 shrink-0 text-text-muted" />
-          ) : (
-            <ChevronRight className="w-3 h-3 shrink-0 text-text-muted" />
-          )
+        {expanded ? (
+          <ChevronDown className="w-3 h-3 shrink-0 text-text-muted" />
         ) : (
-          <span className="w-3 h-3 shrink-0" />
+          <ChevronRight className="w-3 h-3 shrink-0 text-text-muted" />
         )}
         <span className="font-mono truncate flex-1 text-text-secondary">
           {node.name || node.type || "(unnamed)"}
@@ -130,8 +126,15 @@ function TraceNodeRow({ node }: { node: TraceNode }) {
             {(node.latency_ms / 1000).toFixed(2)}s
           </span>
         )}
-        <span className={cn("w-1.5 h-1.5 rounded-full", statusColor)} />
+        <span className={cn("w-1.5 h-1.5 rounded-full", statusColor)} aria-label={`Status: ${node.status}`} />
+      </button>
+      ) : (
+      <div className="flex items-center gap-2 rounded px-2 py-1 text-xs">
+        <span className="w-3 h-3 shrink-0" />
+        <span className="font-mono truncate flex-1 text-text-secondary">{node.name || node.type || "(unnamed)"}</span>
+        <span className={cn("w-1.5 h-1.5 rounded-full", statusColor)} aria-label={`Status: ${node.status}`} />
       </div>
+      )}
       {expanded && hasDetails && (
         <div className="ml-5 mt-1 mb-2 p-2 rounded bg-elevated text-[11px] space-y-1">
           {node.model && (

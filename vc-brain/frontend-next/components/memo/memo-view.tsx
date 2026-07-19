@@ -35,9 +35,13 @@ function Line({ line, claimsById }: { line: string; claimsById: Map<string, Clai
     );
   }
   if (line.startsWith("## ")) {
+    const heading = line.slice(3);
     return (
-      <h2 className="text-lg font-bold mt-6 mb-2 pb-1 border-b border-border text-text-primary">
-        {renderInline(line.slice(3), claimsById)}
+      <h2
+        id={heading.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}
+        className="text-lg font-bold mt-6 mb-2 pb-1 border-b border-border text-text-primary"
+      >
+        {renderInline(heading, claimsById)}
       </h2>
     );
   }

@@ -1,5 +1,3 @@
-import { cn } from "@/lib/utils";
-
 export function ConfidenceBand({
   low,
   high,
@@ -24,11 +22,10 @@ export function ConfidenceBand({
     <div className="space-y-1">
       <div className="h-3 w-full bg-neutral-bg rounded-full relative">
         <div
-          className="h-full rounded-full border border-warning/60"
+          className="h-full rounded-full border border-warning-border bg-warning/40"
           style={{
             marginLeft: `${low}%`,
             width: `${width}%`,
-            background: "linear-gradient(to right, rgba(212,168,67,0.4), rgba(212,168,67,0.8))",
           }}
         />
       </div>

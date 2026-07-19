@@ -86,6 +86,7 @@ async def get_founder_card(
             "trace_id": None,
             "computed_at": None,
             "rescore_reason": reason,
+            "pipeline_status": app.status if app else "pending",
         }
 
     # Fetch company info
@@ -167,7 +168,19 @@ async def get_founder_memo(
 
     agg = await get_latest_aggregator_output(founder_id)
     if agg is None:
-        raise HTTPException(status_code=404, detail="No memo available — pipeline has not been run for this founder.")
+        app_q = (
+            select(ApplicationORM)
+            .where(ApplicationORM.founder_id == founder_id)
+            .order_by(ApplicationORM.received_at.desc())
+            .limit(1)
+        )
+        latest_application = (await db.execute(app_q)).scalars().first()
+        if latest_application and latest_application.status == "failed":
+            raise HTTPException(
+                status_code=503,
+                detail="The pipeline failed before a memo could be generated. Retry the application after checking the service logs.",
+            )
+        raise HTTPException(status_code=404, detail="No memo available — pipeline is still processing for this founder.")
 
     should, reason = await should_rescore(founder_id, agg.application_id, session=db)
 
