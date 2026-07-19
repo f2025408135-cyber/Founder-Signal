@@ -10,6 +10,9 @@ export default defineConfig({
     proxy: {
       "/api": "http://localhost:8000",
       "/health": "http://localhost:8000",
+      // Serve dataset/assets/* (local SVG fallback images) from the FastAPI
+      // backend so the frontend can load initials avatars + campus icons.
+      "/dataset": "http://localhost:8000",
     },
   },
   build: {

@@ -1,0 +1,201 @@
+{
+  "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+  "company_id": "2b2b4f90-ada9-4a23-8900-364b3129f066",
+  "application_id": "2efc8928-00ff-43af-b772-cdb0b38812d4",
+  "name": "Yuki Lindqvist",
+  "company_name": "FluxHealth",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "DE",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "Tsinghua University",
+    "university_country": "CN",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2012
+  },
+  "prior_experience": "Previously worked at Microsoft, focusing on devtools problems.",
+  "github_profile": null,
+  "deck_summary": "FluxHealth is building A discovery platform using behavioral signals instead of ASO keywords. The problem: AI model deployment lacks observability; teams fly blind in production.",
+  "claims": [
+    {
+      "id": "f0928566-c050-4375-883c-d31f7fa07d46",
+      "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+      "company_id": "2b2b4f90-ada9-4a23-8900-364b3129f066",
+      "application_id": "2efc8928-00ff-43af-b772-cdb0b38812d4",
+      "kind": "founder_background",
+      "text": "Founder Yuki Lindqvist holds a PhD Artificial Intelligence from Tsinghua University, graduating in 2012.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:2efc8928-00ff-43af-b772-cdb0b38812d4",
+        "ingested_at": "2026-07-19T09:45:45.178185",
+        "raw_payload_hash": "29b94cc64a68bd9cd16375fa468c1313232b9188fcac831ff5e34890dd260f3b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:45.178252",
+      "superseded_by": null
+    },
+    {
+      "id": "7afadbd9-5129-4959-b16d-47215be760bf",
+      "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+      "company_id": "2b2b4f90-ada9-4a23-8900-364b3129f066",
+      "application_id": "2efc8928-00ff-43af-b772-cdb0b38812d4",
+      "kind": "founder_background",
+      "text": "Founder Yuki Lindqvist previously worked at Microsoft.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:45.178257",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:45.178278",
+      "superseded_by": null
+    },
+    {
+      "id": "c2b2e74c-87be-4b10-ab6d-ca4576370d5f",
+      "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+      "company_id": "2b2b4f90-ada9-4a23-8900-364b3129f066",
+      "application_id": "2efc8928-00ff-43af-b772-cdb0b38812d4",
+      "kind": "product",
+      "text": "FluxHealth addresses: AI model deployment lacks observability; teams fly blind in production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:45.178285",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:45.178296",
+      "superseded_by": null
+    },
+    {
+      "id": "497f1c4f-1348-4f89-9896-a823849595c9",
+      "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+      "company_id": "2b2b4f90-ada9-4a23-8900-364b3129f066",
+      "application_id": "2efc8928-00ff-43af-b772-cdb0b38812d4",
+      "kind": "product",
+      "text": "Solution: A discovery platform using behavioral signals instead of ASO keywords.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:45.178298",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:45.178308",
+      "superseded_by": null
+    },
+    {
+      "id": "067d0f56-4421-462e-bcd3-0842b9a2adbb",
+      "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+      "company_id": "2b2b4f90-ada9-4a23-8900-364b3129f066",
+      "application_id": "2efc8928-00ff-43af-b772-cdb0b38812d4",
+      "kind": "market_size",
+      "text": "The DevTools market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:45.178310",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:45.178318",
+      "superseded_by": null
+    },
+    {
+      "id": "8d6828a5-f6fd-4599-804e-e4d0cdb27549",
+      "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+      "company_id": "2b2b4f90-ada9-4a23-8900-364b3129f066",
+      "application_id": "2efc8928-00ff-43af-b772-cdb0b38812d4",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:2efc8928-00ff-43af-b772-cdb0b38812d4",
+        "ingested_at": "2026-07-19T09:45:45.178322",
+        "raw_payload_hash": "29b94cc64a68bd9cd16375fa468c1313232b9188fcac831ff5e34890dd260f3b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:45.178331",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+    "score_history": [
+      {
+        "id": "86e214bc-4ec6-432c-a73b-70b440d2fcc9",
+        "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+        "score": 50.57206122046008,
+        "confidence_band": [
+          20.57206122046008,
+          80.57206122046009
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:45.178435",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 40.45764897636806,
+          "market_fit": 35.40044285432205,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "86e214bc-4ec6-432c-a73b-70b440d2fcc9",
+      "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+      "score": 50.57206122046008,
+      "confidence_band": [
+        20.57206122046008,
+        80.57206122046009
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:45.178435",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 40.45764897636806,
+        "market_fit": 35.40044285432205,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:45.178459",
+    "last_updated_at": "2026-07-19T09:45:45.178460"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/55.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/National_Tsinghua_University_Taiwan_OldGate.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

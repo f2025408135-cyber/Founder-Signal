@@ -204,10 +204,34 @@ async def get_founder_memo(
     company_q = select(Company).where(Company.id == agg.company_id)
     company = (await db.execute(company_q)).scalars().first()
 
+    # Parse demo metadata from founder.bio_text (seed_dataset.py stores it as JSON)
+    # so the memo view can render photo_url + education + prior_experience.
+    bio_meta: dict = {}
+    if founder.bio_text:
+        try:
+            import json as _json
+            bio_meta = _json.loads(founder.bio_text)
+            if not isinstance(bio_meta, dict):
+                bio_meta = {}
+        except Exception:
+            bio_meta = {}
+
     return {
         "founder_id": str(founder_id),
         "founder_name": founder.name,
         "company_name": company.name if company else None,
+        "company_website_url": company.website_url if company else None,
+        "geography": company.hq_country if company else None,
+        "sector": company.sector_self_reported if company else None,
+        # Demo-only fields surfaced from bio_text JSON
+        "photo_url": bio_meta.get("photo_url"),
+        "university_image_url": bio_meta.get("university_image_url"),
+        "image_source": bio_meta.get("image_source", {}),
+        "education": bio_meta.get("education"),
+        "prior_experience": bio_meta.get("prior_experience"),
+        "github_profile": bio_meta.get("github_profile"),
+        "deck_summary": bio_meta.get("deck_summary"),
+        "categories": bio_meta.get("categories", []),
         "aggregator_output": agg.model_dump(mode="json"),
         "claims": [
             {

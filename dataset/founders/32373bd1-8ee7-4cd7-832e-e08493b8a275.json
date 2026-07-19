@@ -1,0 +1,249 @@
+{
+  "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+  "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+  "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+  "name": "Oluwaseun Hassan",
+  "company_name": "QuantumRobotics",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "GB",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "TU Berlin",
+    "university_country": "DE",
+    "degree": "MSc Data Science",
+    "year": 2012
+  },
+  "prior_experience": "Previously worked at Google, focusing on healthtech problems.",
+  "github_profile": {
+    "username": "oluwaseunhassan",
+    "repo_count": 7,
+    "primary_language": "Go",
+    "commit_activity": "18 commits in last 30 days",
+    "stars": 616,
+    "top_repo": "oluwaseunhassan/quantumrobotics-core",
+    "contributors": 27
+  },
+  "deck_summary": "QuantumRobotics is building A real-time payment rail optimized for SMB cross-border transactions. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "1c8f9af2-7ebf-4a61-a50c-a06e1d025980",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+      "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+      "kind": "founder_background",
+      "text": "Founder Oluwaseun Hassan holds a MSc Data Science from TU Berlin, graduating in 2012.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:3f2f2dde-9f26-4f67-b926-e834d3e45146",
+        "ingested_at": "2026-07-19T09:45:44.228686",
+        "raw_payload_hash": "ff9682573d66518ed1a4905fdff909ede51a436d26837142dc5428186c4e981c",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.228783",
+      "superseded_by": null
+    },
+    {
+      "id": "974877e8-b811-4d24-9a5b-0f11c9d958cd",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+      "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+      "kind": "technical_depth",
+      "text": "Repository oluwaseunhassan/quantumrobotics-core has 616 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "oluwaseunhassan/quantumrobotics-core",
+        "ingested_at": "2026-07-19T09:45:44.228789",
+        "raw_payload_hash": "39366b6ee8c4b74ec5507273e3996ed6a329b4c0642e488e44e720a113d0931b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.228802",
+      "superseded_by": null
+    },
+    {
+      "id": "182acdec-c3a3-405d-b4d1-811f6b03e356",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+      "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+      "kind": "technical_depth",
+      "text": "Repository oluwaseunhassan/quantumrobotics-core received 18 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "oluwaseunhassan/quantumrobotics-core/commits",
+        "ingested_at": "2026-07-19T09:45:44.228805",
+        "raw_payload_hash": "010aa78c90dbfe4e25b0e0b939ff43456f212d33286038c4f84b04e9413b9447",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.228813",
+      "superseded_by": null
+    },
+    {
+      "id": "df9d22b7-da9b-4631-add4-c585b2167c5e",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+      "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+      "kind": "founder_network",
+      "text": "Repository oluwaseunhassan/quantumrobotics-core has 27 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "oluwaseunhassan/quantumrobotics-core/contributors",
+        "ingested_at": "2026-07-19T09:45:44.228816",
+        "raw_payload_hash": "4f4cede0ae88edd204bd2e952ce4f808dbf1a60c04b45556f8a78fc144fc9b65",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.228823",
+      "superseded_by": null
+    },
+    {
+      "id": "5bb6969c-1126-41c0-ac03-60c6ba40a242",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+      "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+      "kind": "technical_depth",
+      "text": "Founder is listed as inventor on patent US11176306B2 covering Healthtech methods.",
+      "source": {
+        "kind": "external_db",
+        "ref": "uspto:US11176306B2",
+        "ingested_at": "2026-07-19T09:45:44.228831",
+        "raw_payload_hash": "d87548e8d31e61fb4b25e5f690c3b1c4a36a89eee8bc16a08c5c7a31889aa262",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.228839",
+      "superseded_by": null
+    },
+    {
+      "id": "060ab587-182a-4f57-8c7e-30957b459ece",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+      "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+      "kind": "founder_network",
+      "text": "Founder is a member of the Antler accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:Antler",
+        "ingested_at": "2026-07-19T09:45:44.228842",
+        "raw_payload_hash": "78f6e08d4ed90e61625e983eb6e1916120ebb0b44d343929db3c5be49a82e4e7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.228850",
+      "superseded_by": null
+    },
+    {
+      "id": "a346a61f-85e0-4fe3-8fa5-ce35fdbf3fe5",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+      "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+      "kind": "market_trend",
+      "text": "The Healthtech market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T09:45:44.228853",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.228860",
+      "superseded_by": null
+    },
+    {
+      "id": "5ef33671-8f22-4eb2-8d02-55705d5f69b2",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "company_id": "7cefc4d9-008b-4fd1-bbd7-b78c0088851d",
+      "application_id": "3f2f2dde-9f26-4f67-b926-e834d3e45146",
+      "kind": "product",
+      "text": "QuantumRobotics addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:44.228863",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.228871",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+    "score_history": [
+      {
+        "id": "d7803f09-632e-42b5-8b3e-ec66fe6d219f",
+        "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+        "score": 68.21273339138348,
+        "confidence_band": [
+          48.21273339138348,
+          88.21273339138348
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:44.228947",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 62.7557147200728,
+          "market_fit": 55.93444138093445,
+          "network": 53.20593204527912,
+          "momentum": 49.1131680417961
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "d7803f09-632e-42b5-8b3e-ec66fe6d219f",
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "score": 68.21273339138348,
+      "confidence_band": [
+        48.21273339138348,
+        88.21273339138348
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:44.228947",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 62.7557147200728,
+        "market_fit": 55.93444138093445,
+        "network": 53.20593204527912,
+        "momentum": 49.1131680417961
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:44.228964",
+    "last_updated_at": "2026-07-19T09:45:44.228965"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/62.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/20141115_-_TU_Berlin_Campus_Hertzallee_4_by_sebaso.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

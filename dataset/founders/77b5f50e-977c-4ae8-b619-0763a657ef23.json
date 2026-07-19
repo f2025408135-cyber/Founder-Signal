@@ -1,0 +1,201 @@
+{
+  "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+  "company_id": "758d87bf-deeb-47f8-958d-e16af18fa013",
+  "application_id": "a8a61097-e2a9-4739-9780-27617e1606ad",
+  "name": "Rafael Larsen",
+  "company_name": "CipherClimate",
+  "sector": "Consumer",
+  "stage": "series-a",
+  "geography": "IN",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "university_country": "GB",
+    "degree": "BSc Physics",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at Anthropic, focusing on consumer problems.",
+  "github_profile": null,
+  "deck_summary": "CipherClimate is building A real-time payment rail optimized for SMB cross-border transactions. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "35c0f7c6-e892-4fd8-b021-6bc42c1db278",
+      "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+      "company_id": "758d87bf-deeb-47f8-958d-e16af18fa013",
+      "application_id": "a8a61097-e2a9-4739-9780-27617e1606ad",
+      "kind": "founder_background",
+      "text": "Founder Rafael Larsen holds a BSc Physics from University of Cambridge, graduating in 2015.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:a8a61097-e2a9-4739-9780-27617e1606ad",
+        "ingested_at": "2026-07-19T09:45:54.929930",
+        "raw_payload_hash": "adf2c893e36ec312583135045312f0589c42e0440faf6ab301366f650392a9db",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.929993",
+      "superseded_by": null
+    },
+    {
+      "id": "001b753a-a68f-480c-8e2a-fb92b4ba51fb",
+      "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+      "company_id": "758d87bf-deeb-47f8-958d-e16af18fa013",
+      "application_id": "a8a61097-e2a9-4739-9780-27617e1606ad",
+      "kind": "founder_background",
+      "text": "Founder Rafael Larsen previously worked at Anthropic.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:54.929998",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.930024",
+      "superseded_by": null
+    },
+    {
+      "id": "441c4faf-d2b7-415e-a3d7-189d2bd32cb2",
+      "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+      "company_id": "758d87bf-deeb-47f8-958d-e16af18fa013",
+      "application_id": "a8a61097-e2a9-4739-9780-27617e1606ad",
+      "kind": "product",
+      "text": "CipherClimate addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:54.930028",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.930049",
+      "superseded_by": null
+    },
+    {
+      "id": "fd1811a5-51e4-48ec-87c4-2317700de352",
+      "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+      "company_id": "758d87bf-deeb-47f8-958d-e16af18fa013",
+      "application_id": "a8a61097-e2a9-4739-9780-27617e1606ad",
+      "kind": "product",
+      "text": "Solution: A real-time payment rail optimized for SMB cross-border transactions.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:54.930053",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.930061",
+      "superseded_by": null
+    },
+    {
+      "id": "ec49cfc7-0e04-4b5c-bbfe-98948d1548dc",
+      "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+      "company_id": "758d87bf-deeb-47f8-958d-e16af18fa013",
+      "application_id": "a8a61097-e2a9-4739-9780-27617e1606ad",
+      "kind": "market_size",
+      "text": "The Consumer market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:54.930064",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.930071",
+      "superseded_by": null
+    },
+    {
+      "id": "0baf8100-9a61-4068-94bd-6f2d758b659e",
+      "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+      "company_id": "758d87bf-deeb-47f8-958d-e16af18fa013",
+      "application_id": "a8a61097-e2a9-4739-9780-27617e1606ad",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:a8a61097-e2a9-4739-9780-27617e1606ad",
+        "ingested_at": "2026-07-19T09:45:54.930087",
+        "raw_payload_hash": "adf2c893e36ec312583135045312f0589c42e0440faf6ab301366f650392a9db",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.930096",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+    "score_history": [
+      {
+        "id": "5470445d-8516-4853-a620-34d27849d0a1",
+        "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+        "score": 46.42819673711628,
+        "confidence_band": [
+          16.42819673711628,
+          76.42819673711628
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:54.930194",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 37.142557389693025,
+          "market_fit": 32.4997377159814,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "5470445d-8516-4853-a620-34d27849d0a1",
+      "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+      "score": 46.42819673711628,
+      "confidence_band": [
+        16.42819673711628,
+        76.42819673711628
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:54.930194",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 37.142557389693025,
+        "market_fit": 32.4997377159814,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:54.930227",
+    "last_updated_at": "2026-07-19T09:45:54.930228"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/5.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Demonstrators_outside_of_Cambridge_Trust_Company_during_first_day_of_the_2007_Harvard_University_AlliedBarton_campus_security_workers_strike_%28482304751%29.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

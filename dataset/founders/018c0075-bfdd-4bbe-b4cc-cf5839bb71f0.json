@@ -1,0 +1,141 @@
+{
+  "founder_id": "018c0075-bfdd-4bbe-b4cc-cf5839bb71f0",
+  "company_id": "0f07baca-72f7-452d-be30-8a682645ceaa",
+  "application_id": "9254bdec-2b1b-4d18-849e-867dc3be4cee",
+  "name": "Fatima Garc\u00eda",
+  "company_name": "ZenithEnergy",
+  "sector": "Consumer",
+  "stage": "seed",
+  "geography": "SG",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "Tsinghua University",
+    "university_country": "CN",
+    "degree": "MSc Robotics",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at a climate-tech scale-up, focusing on consumer problems.",
+  "github_profile": null,
+  "deck_summary": "ZenithEnergy is building An open-source evaluation harness with auditable test suites. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "79b3ab44-7227-4b64-84fa-a626148dc02c",
+      "founder_id": "018c0075-bfdd-4bbe-b4cc-cf5839bb71f0",
+      "company_id": "0f07baca-72f7-452d-be30-8a682645ceaa",
+      "application_id": "9254bdec-2b1b-4d18-849e-867dc3be4cee",
+      "kind": "founder_background",
+      "text": "Founder Fatima Garc\u00eda holds a MSc Robotics from Tsinghua University, graduating in 2022.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:9254bdec-2b1b-4d18-849e-867dc3be4cee",
+        "ingested_at": "2026-07-19T09:45:51.902229",
+        "raw_payload_hash": "682d97e16117d957a7d2002d1bee4938d8e4629ab891eb75a4e63bbaad695dbe",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.902290",
+      "superseded_by": null
+    },
+    {
+      "id": "9b1c56b5-7340-4053-a406-febc0b4d20a5",
+      "founder_id": "018c0075-bfdd-4bbe-b4cc-cf5839bb71f0",
+      "company_id": "0f07baca-72f7-452d-be30-8a682645ceaa",
+      "application_id": "9254bdec-2b1b-4d18-849e-867dc3be4cee",
+      "kind": "product",
+      "text": "ZenithEnergy addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:51.902296",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.902308",
+      "superseded_by": null
+    },
+    {
+      "id": "bb71be05-2d56-4289-816d-79d11f987b15",
+      "founder_id": "018c0075-bfdd-4bbe-b4cc-cf5839bb71f0",
+      "company_id": "0f07baca-72f7-452d-be30-8a682645ceaa",
+      "application_id": "9254bdec-2b1b-4d18-849e-867dc3be4cee",
+      "kind": "product",
+      "text": "Solution: An open-source evaluation harness with auditable test suites.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:51.902311",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.902319",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "018c0075-bfdd-4bbe-b4cc-cf5839bb71f0",
+    "score_history": [
+      {
+        "id": "98273332-2efe-40b3-97f7-aa1a31579a07",
+        "founder_id": "018c0075-bfdd-4bbe-b4cc-cf5839bb71f0",
+        "score": 67.44666755997102,
+        "confidence_band": [
+          47.44666755997102,
+          87.44666755997102
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:51.902389",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 53.957334047976815,
+          "market_fit": 47.21266729197971,
+          "network": 33.72333377998551,
+          "momentum": 40.46800053598261
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "98273332-2efe-40b3-97f7-aa1a31579a07",
+      "founder_id": "018c0075-bfdd-4bbe-b4cc-cf5839bb71f0",
+      "score": 67.44666755997102,
+      "confidence_band": [
+        47.44666755997102,
+        87.44666755997102
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:51.902389",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 53.957334047976815,
+        "market_fit": 47.21266729197971,
+        "network": 33.72333377998551,
+        "momentum": 40.46800053598261
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:51.902408",
+    "last_updated_at": "2026-07-19T09:45:51.902409"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/2.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/National_Tsinghua_University_Taiwan_OldGate.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

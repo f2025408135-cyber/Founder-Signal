@@ -1,0 +1,249 @@
+{
+  "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+  "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+  "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+  "name": "Ananya Nakamura",
+  "company_name": "NexusClimate",
+  "sector": "AI infra",
+  "stage": "seed",
+  "geography": "DE",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "University of Toronto",
+    "university_country": "CA",
+    "degree": "MSc Robotics",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at a stealth AI startup, focusing on ai infra problems.",
+  "github_profile": {
+    "username": "ananyanakamura8",
+    "repo_count": 15,
+    "primary_language": "Rust",
+    "commit_activity": "17 commits in last 30 days",
+    "stars": 1076,
+    "top_repo": "ananyanakamura8/nexusclimate-core",
+    "contributors": 10
+  },
+  "deck_summary": "NexusClimate is building A solar forecasting model trained on satellite imagery. The problem: Grid operators lack real-time forecasting for distributed solar.",
+  "claims": [
+    {
+      "id": "0ceccf9b-227f-475c-a919-6eb3453d379e",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+      "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+      "kind": "founder_background",
+      "text": "Founder Ananya Nakamura holds a MSc Robotics from University of Toronto, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:2040b8ee-7ce9-496d-954d-2672506997db",
+        "ingested_at": "2026-07-19T09:45:42.413099",
+        "raw_payload_hash": "033edebd7bc91516b43a80f7c1546cd75fb68292c2616b296c32b4c403cd357f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.413164",
+      "superseded_by": null
+    },
+    {
+      "id": "588071ad-ada8-41fb-bfd1-d11f86605a26",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+      "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+      "kind": "technical_depth",
+      "text": "Repository ananyanakamura8/nexusclimate-core has 1076 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "ananyanakamura8/nexusclimate-core",
+        "ingested_at": "2026-07-19T09:45:42.413188",
+        "raw_payload_hash": "00b4477cc0571b94e2c26fdcdffbd02c735ec0d6b24fbc8ac0ff8ba2ed4a396f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.413205",
+      "superseded_by": null
+    },
+    {
+      "id": "2398de83-09b5-4237-b1cf-9fb70333e139",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+      "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+      "kind": "technical_depth",
+      "text": "Repository ananyanakamura8/nexusclimate-core received 17 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "ananyanakamura8/nexusclimate-core/commits",
+        "ingested_at": "2026-07-19T09:45:42.413208",
+        "raw_payload_hash": "a1ae68f118d2bf3584918456e6cd092b140eda875ec97ca458ce9368acbaac54",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.413217",
+      "superseded_by": null
+    },
+    {
+      "id": "2c083132-8f64-4d94-834d-f9e8296a32e7",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+      "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+      "kind": "founder_network",
+      "text": "Repository ananyanakamura8/nexusclimate-core has 10 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "ananyanakamura8/nexusclimate-core/contributors",
+        "ingested_at": "2026-07-19T09:45:42.413220",
+        "raw_payload_hash": "e514e9207c7ec0862016a0ef4391d0a7ca9e011b53eaf8938b7c0ddeb2c6cf7d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.413227",
+      "superseded_by": null
+    },
+    {
+      "id": "69fbeebd-7307-41e0-8e84-293c27fde277",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+      "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+      "kind": "technical_depth",
+      "text": "Founder authored arXiv paper 2597.81066 on AI infra techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2597.81066",
+        "ingested_at": "2026-07-19T09:45:42.413237",
+        "raw_payload_hash": "e3cf659e10033bb417a0d4bad844e793e3306384d6d513e7d2bfdef117e214f4",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.413247",
+      "superseded_by": null
+    },
+    {
+      "id": "8bc936f9-0ad1-4aeb-a861-5841f58a2d9d",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+      "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+      "kind": "founder_network",
+      "text": "Founder is a member of the YC S23 accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:YC:S23",
+        "ingested_at": "2026-07-19T09:45:42.413250",
+        "raw_payload_hash": "982c35961b78b8ed697131eb23f385997dbe263d19fff8464da8a4750bf2717a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.413257",
+      "superseded_by": null
+    },
+    {
+      "id": "f4c17c12-8af5-40cc-a1c9-9954c3821e6f",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+      "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+      "kind": "market_trend",
+      "text": "The AI infra market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AI infra-market",
+        "ingested_at": "2026-07-19T09:45:42.413260",
+        "raw_payload_hash": "f655e1a7ba0fb19404eda1d2d49fc1eca07956ac2cce954d3276598ca6e3b33d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.413267",
+      "superseded_by": null
+    },
+    {
+      "id": "ac63dbf1-3539-46d5-b513-69eac4fe50a3",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "company_id": "70de614f-9b3e-436f-9b08-6526b93c60d8",
+      "application_id": "2040b8ee-7ce9-496d-954d-2672506997db",
+      "kind": "product",
+      "text": "NexusClimate addresses: Grid operators lack real-time forecasting for distributed solar.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:42.413270",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.413277",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+    "score_history": [
+      {
+        "id": "97afb69c-0cc9-44eb-a19d-215a6ea03cc7",
+        "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+        "score": 69.34106657248334,
+        "confidence_band": [
+          49.34106657248334,
+          89.34106657248334
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:42.413359",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 63.79378124668468,
+          "market_fit": 56.85967458943634,
+          "network": 54.08603192653701,
+          "momentum": 49.925567932188
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "97afb69c-0cc9-44eb-a19d-215a6ea03cc7",
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "score": 69.34106657248334,
+      "confidence_band": [
+        49.34106657248334,
+        89.34106657248334
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:42.413359",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 63.79378124668468,
+        "market_fit": 56.85967458943634,
+        "network": 54.08603192653701,
+        "momentum": 49.925567932188
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:42.413375",
+    "last_updated_at": "2026-07-19T09:45:42.413376"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/89.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/A_view_from_the_Back_Campus_of_the_University_of_Toronto.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

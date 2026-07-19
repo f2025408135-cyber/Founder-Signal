@@ -1,0 +1,209 @@
+{
+  "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+  "company_id": "561f58f4-1f20-466c-8774-942da5a6af58",
+  "application_id": "c2ba1772-e582-4e70-873b-137630a1b29d",
+  "name": "Dmitri Sharma",
+  "company_name": "EchoRobotics",
+  "sector": "Fintech",
+  "stage": "series-a",
+  "geography": "FR",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "University of Lagos",
+    "university_country": "NG",
+    "degree": "BEng Software Engineering",
+    "year": 2012
+  },
+  "prior_experience": "Previously worked at Stripe, focusing on fintech problems.",
+  "github_profile": {
+    "username": "dmitrisharma43",
+    "repo_count": 3,
+    "primary_language": "JavaScript",
+    "commit_activity": "15 commits in last 30 days",
+    "stars": 29,
+    "top_repo": "dmitrisharma43/echorobotics-core",
+    "contributors": 7
+  },
+  "deck_summary": "EchoRobotics is building A real-time payment rail optimized for SMB cross-border transactions. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "2d37f8a9-dce2-402f-a5e3-f2d0c9deb7ec",
+      "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+      "company_id": "561f58f4-1f20-466c-8774-942da5a6af58",
+      "application_id": "c2ba1772-e582-4e70-873b-137630a1b29d",
+      "kind": "founder_background",
+      "text": "Founder Dmitri Sharma holds a BEng Software Engineering from University of Lagos, graduating in 2012.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c2ba1772-e582-4e70-873b-137630a1b29d",
+        "ingested_at": "2026-07-19T09:45:46.416238",
+        "raw_payload_hash": "2682be7cef699f1207e469c2a825ca93d425e0dd807ef959de55ea645d083beb",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.416327",
+      "superseded_by": null
+    },
+    {
+      "id": "a8548b1f-4eae-4b44-8141-9806e8d7ee0b",
+      "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+      "company_id": "561f58f4-1f20-466c-8774-942da5a6af58",
+      "application_id": "c2ba1772-e582-4e70-873b-137630a1b29d",
+      "kind": "product",
+      "text": "EchoRobotics addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:46.416347",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.416364",
+      "superseded_by": null
+    },
+    {
+      "id": "25735985-9469-40e9-aa90-45abb928b70d",
+      "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+      "company_id": "561f58f4-1f20-466c-8774-942da5a6af58",
+      "application_id": "c2ba1772-e582-4e70-873b-137630a1b29d",
+      "kind": "product",
+      "text": "Solution: A real-time payment rail optimized for SMB cross-border transactions.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:46.416368",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.416378",
+      "superseded_by": null
+    },
+    {
+      "id": "f4e81e2a-c09a-4c82-a00a-ff9b310f7c81",
+      "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+      "company_id": "561f58f4-1f20-466c-8774-942da5a6af58",
+      "application_id": "c2ba1772-e582-4e70-873b-137630a1b29d",
+      "kind": "technical_depth",
+      "text": "Repository dmitrisharma43/echorobotics-core has 29 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "dmitrisharma43/echorobotics-core",
+        "ingested_at": "2026-07-19T09:45:46.416392",
+        "raw_payload_hash": "50f9c6993176e406e1b3c398531af32f473fd0e73a05c7383a660cf05c3a5acf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.416403",
+      "superseded_by": null
+    },
+    {
+      "id": "9639e38f-598b-477c-88ed-39c7d748381e",
+      "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+      "company_id": "561f58f4-1f20-466c-8774-942da5a6af58",
+      "application_id": "c2ba1772-e582-4e70-873b-137630a1b29d",
+      "kind": "market_trend",
+      "text": "The Fintech market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Fintech-market",
+        "ingested_at": "2026-07-19T09:45:46.416412",
+        "raw_payload_hash": "d031372273d232c2ae6efc13550b5dc8b6e8cfda386f5007df981fb1c331dfc8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.416421",
+      "superseded_by": null
+    },
+    {
+      "id": "6fd793da-9253-4b46-b8e2-fc0271c293ea",
+      "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+      "company_id": "561f58f4-1f20-466c-8774-942da5a6af58",
+      "application_id": "c2ba1772-e582-4e70-873b-137630a1b29d",
+      "kind": "founder_network",
+      "text": "Founder participated in YC W24 cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:YC:W24",
+        "ingested_at": "2026-07-19T09:45:46.416426",
+        "raw_payload_hash": "a2244b1b70f304633677ec2c1845988c8c397502b422f6716fbf8bc9b9b007f7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.416434",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+    "score_history": [
+      {
+        "id": "b10e4b28-9f65-4694-b705-1a94520fe05d",
+        "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+        "score": 61.555863000341816,
+        "confidence_band": [
+          41.555863000341816,
+          81.55586300034182
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:46.416520",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 49.244690400273456,
+          "market_fit": 43.08910410023927,
+          "network": 30.777931500170908,
+          "momentum": 36.93351780020509
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "b10e4b28-9f65-4694-b705-1a94520fe05d",
+      "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+      "score": 61.555863000341816,
+      "confidence_band": [
+        41.555863000341816,
+        81.55586300034182
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:46.416520",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 49.244690400273456,
+        "market_fit": 43.08910410023927,
+        "network": 30.777931500170908,
+        "momentum": 36.93351780020509
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:46.416540",
+    "last_updated_at": "2026-07-19T09:45:46.416541"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/55.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lagos_State_University%2C_Epe_Campus_Library.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

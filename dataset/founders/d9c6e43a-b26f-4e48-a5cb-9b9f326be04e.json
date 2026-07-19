@@ -1,0 +1,189 @@
+{
+  "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+  "company_id": "1121434a-6155-4aed-b01b-cc98449b4418",
+  "application_id": "072267b5-57f6-45b8-97c8-def4e89f404a",
+  "name": "Linnea Watanabe",
+  "company_name": "NexusLabs",
+  "sector": "DevTools",
+  "stage": "pre-seed",
+  "geography": "IN",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "Stanford University",
+    "university_country": "US",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2013
+  },
+  "prior_experience": "Previously worked at DeepMind, focusing on devtools problems.",
+  "github_profile": {
+    "username": "linneawatanabe4",
+    "repo_count": 11,
+    "primary_language": "TypeScript",
+    "commit_activity": "20 commits in last 30 days",
+    "stars": 382,
+    "top_repo": "linneawatanabe4/nexuslabs-core",
+    "contributors": 3
+  },
+  "deck_summary": "NexusLabs is building A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "824a1ec5-10ae-4b02-adc7-ea13f9a19c2c",
+      "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+      "company_id": "1121434a-6155-4aed-b01b-cc98449b4418",
+      "application_id": "072267b5-57f6-45b8-97c8-def4e89f404a",
+      "kind": "founder_background",
+      "text": "Founder Linnea Watanabe holds a PhD Artificial Intelligence from Stanford University, graduating in 2013.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:072267b5-57f6-45b8-97c8-def4e89f404a",
+        "ingested_at": "2026-07-19T09:45:39.513435",
+        "raw_payload_hash": "e0011afb3505e2add42b8e84cdc286f75d6693156c4be1601ac2f16ddcfaf069",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:39.513497",
+      "superseded_by": null
+    },
+    {
+      "id": "7ac8e715-c6e9-4478-96ac-26cfba99db0f",
+      "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+      "company_id": "1121434a-6155-4aed-b01b-cc98449b4418",
+      "application_id": "072267b5-57f6-45b8-97c8-def4e89f404a",
+      "kind": "product",
+      "text": "NexusLabs addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:39.513502",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:39.513515",
+      "superseded_by": null
+    },
+    {
+      "id": "8bc4d9a2-50b8-489e-9580-d3147ecd84b0",
+      "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+      "company_id": "1121434a-6155-4aed-b01b-cc98449b4418",
+      "application_id": "072267b5-57f6-45b8-97c8-def4e89f404a",
+      "kind": "traction",
+      "text": "NexusLabs has 50 paying enterprise customers.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:39.513518",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:39.513527",
+      "superseded_by": null
+    },
+    {
+      "id": "f63ca44b-c9ea-405b-ade1-46be6e0b5af8",
+      "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+      "company_id": "1121434a-6155-4aed-b01b-cc98449b4418",
+      "application_id": "072267b5-57f6-45b8-97c8-def4e89f404a",
+      "kind": "traction",
+      "text": "NexusLabs has 3 active pilot deployments and no public customer logos.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:NexusLabs",
+        "ingested_at": "2026-07-19T09:45:39.513530",
+        "raw_payload_hash": "809686a35513d71e7acf5175846341797a54ee5594400a60790355b06981818b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:39.513538",
+      "superseded_by": null
+    },
+    {
+      "id": "5bc29ae4-164b-4980-ba23-658dc8e13583",
+      "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+      "company_id": "1121434a-6155-4aed-b01b-cc98449b4418",
+      "application_id": "072267b5-57f6-45b8-97c8-def4e89f404a",
+      "kind": "technical_depth",
+      "text": "Repository linneawatanabe4/nexuslabs-core has 382 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "linneawatanabe4/nexuslabs-core",
+        "ingested_at": "2026-07-19T09:45:39.513549",
+        "raw_payload_hash": "5ee5db67f7c2f00e3091fc6bc12b06dd51df08865e3ab2626a421fd4b73675b4",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:39.513557",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+    "score_history": [
+      {
+        "id": "1d4e4a53-230b-459d-aefe-b0cd865a6644",
+        "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+        "score": 52.13536247876227,
+        "confidence_band": [
+          32.13536247876227,
+          72.13536247876226
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:39.513644",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 41.70828998300982,
+          "market_fit": 26.067681239381134,
+          "network": 31.281217487257358,
+          "momentum": 26.067681239381134
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "1d4e4a53-230b-459d-aefe-b0cd865a6644",
+      "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+      "score": 52.13536247876227,
+      "confidence_band": [
+        32.13536247876227,
+        72.13536247876226
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:39.513644",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 41.70828998300982,
+        "market_fit": 26.067681239381134,
+        "network": 31.281217487257358,
+        "momentum": 26.067681239381134
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:39.513666",
+    "last_updated_at": "2026-07-19T09:45:39.513667"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/21.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Center_for_Clinical_Sciences_Research%2C_Stanford_University_%282025%29-L1007419.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

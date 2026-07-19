@@ -1,0 +1,189 @@
+{
+  "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+  "company_id": "04ffc050-7c4f-491e-887e-7611695e1fdc",
+  "application_id": "3754ce38-0d74-4f19-b71b-27d5bc508654",
+  "name": "Mei Dubois",
+  "company_name": "ApexHealth",
+  "sector": "AI infra",
+  "stage": "series-a",
+  "geography": "FR",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "Stanford University",
+    "university_country": "US",
+    "degree": "BSc Computer Science",
+    "year": 2020
+  },
+  "prior_experience": "Previously worked at Nvidia, focusing on ai infra problems.",
+  "github_profile": {
+    "username": "meidubois23",
+    "repo_count": 7,
+    "primary_language": "Go",
+    "commit_activity": "20 commits in last 30 days",
+    "stars": 486,
+    "top_repo": "meidubois23/apexhealth-core",
+    "contributors": 5
+  },
+  "deck_summary": "ApexHealth is building A real-time payment rail optimized for SMB cross-border transactions. The problem: Grid operators lack real-time forecasting for distributed solar.",
+  "claims": [
+    {
+      "id": "4934da45-7a9f-4883-b444-596f66059f52",
+      "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+      "company_id": "04ffc050-7c4f-491e-887e-7611695e1fdc",
+      "application_id": "3754ce38-0d74-4f19-b71b-27d5bc508654",
+      "kind": "founder_background",
+      "text": "Founder Mei Dubois holds a BSc Computer Science from Stanford University, graduating in 2020.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:3754ce38-0d74-4f19-b71b-27d5bc508654",
+        "ingested_at": "2026-07-19T09:45:52.645349",
+        "raw_payload_hash": "c49b267c69ec1f95292d65a20e78a7ed26b8bd14d81c5e77e29126cb6c235252",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.645411",
+      "superseded_by": null
+    },
+    {
+      "id": "fb43a18b-3ce9-4470-b4a2-d10127b2bfc3",
+      "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+      "company_id": "04ffc050-7c4f-491e-887e-7611695e1fdc",
+      "application_id": "3754ce38-0d74-4f19-b71b-27d5bc508654",
+      "kind": "product",
+      "text": "ApexHealth addresses: Grid operators lack real-time forecasting for distributed solar.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:52.645417",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.645429",
+      "superseded_by": null
+    },
+    {
+      "id": "6841bdd6-27c8-4ed1-b537-3fc600ea517d",
+      "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+      "company_id": "04ffc050-7c4f-491e-887e-7611695e1fdc",
+      "application_id": "3754ce38-0d74-4f19-b71b-27d5bc508654",
+      "kind": "team",
+      "text": "ApexHealth has 25 employees across two offices.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=6",
+        "ingested_at": "2026-07-19T09:45:52.645436",
+        "raw_payload_hash": "e78252794ac87225c0c21116caa04fea027b6c6729b7adb2e756b1d7f48f20b2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.645444",
+      "superseded_by": null
+    },
+    {
+      "id": "14ea497e-af97-433d-9ae0-121127264d0c",
+      "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+      "company_id": "04ffc050-7c4f-491e-887e-7611695e1fdc",
+      "application_id": "3754ce38-0d74-4f19-b71b-27d5bc508654",
+      "kind": "team",
+      "text": "LinkedIn lists 4 employees at ApexHealth.",
+      "source": {
+        "kind": "external_db",
+        "ref": "linkedin:ApexHealth",
+        "ingested_at": "2026-07-19T09:45:52.645448",
+        "raw_payload_hash": "8ddfe700865affbaa09b542d26da4ec5211e28754cf1ab094992dc67bc9af0f2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.645455",
+      "superseded_by": null
+    },
+    {
+      "id": "17bd709e-a105-4afb-979b-25701b78afc6",
+      "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+      "company_id": "04ffc050-7c4f-491e-887e-7611695e1fdc",
+      "application_id": "3754ce38-0d74-4f19-b71b-27d5bc508654",
+      "kind": "technical_depth",
+      "text": "Repository meidubois23/apexhealth-core has 486 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "meidubois23/apexhealth-core",
+        "ingested_at": "2026-07-19T09:45:52.645464",
+        "raw_payload_hash": "e7bb7848630c2d85cf6234068b684830bea6165bf48bbb22b123c464e57805dc",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.645471",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+    "score_history": [
+      {
+        "id": "cf2897f6-2a73-4bd7-a90b-0ecb9e7631d2",
+        "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+        "score": 40.3066350843877,
+        "confidence_band": [
+          20.3066350843877,
+          60.3066350843877
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:52.645542",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 32.24530806751016,
+          "market_fit": 20.15331754219385,
+          "network": 24.18398105063262,
+          "momentum": 20.15331754219385
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "cf2897f6-2a73-4bd7-a90b-0ecb9e7631d2",
+      "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+      "score": 40.3066350843877,
+      "confidence_band": [
+        20.3066350843877,
+        60.3066350843877
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:52.645542",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 32.24530806751016,
+        "market_fit": 20.15331754219385,
+        "network": 24.18398105063262,
+        "momentum": 20.15331754219385
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:52.645562",
+    "last_updated_at": "2026-07-19T09:45:52.645563"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/5.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Center_for_Clinical_Sciences_Research%2C_Stanford_University_%282025%29-L1007419.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

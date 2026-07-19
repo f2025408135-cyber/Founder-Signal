@@ -1,0 +1,201 @@
+{
+  "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+  "company_id": "b15e381b-f621-4169-b05a-a21d5fdcfd9c",
+  "application_id": "b51e71de-7489-48e1-828b-32f6acbf6a34",
+  "name": "Nadia Kowalski",
+  "company_name": "OrbitSystems",
+  "sector": "Fintech",
+  "stage": "series-a",
+  "geography": "DE",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "University of Toronto",
+    "university_country": "CA",
+    "degree": "MBA",
+    "year": 2014
+  },
+  "prior_experience": "Previously worked at Nvidia, focusing on fintech problems.",
+  "github_profile": null,
+  "deck_summary": "OrbitSystems is building A discovery platform using behavioral signals instead of ASO keywords. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "9321db25-8abf-4563-a1c2-da4f313f0b8c",
+      "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+      "company_id": "b15e381b-f621-4169-b05a-a21d5fdcfd9c",
+      "application_id": "b51e71de-7489-48e1-828b-32f6acbf6a34",
+      "kind": "founder_background",
+      "text": "Founder Nadia Kowalski holds a MBA from University of Toronto, graduating in 2014.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:b51e71de-7489-48e1-828b-32f6acbf6a34",
+        "ingested_at": "2026-07-19T09:45:42.912875",
+        "raw_payload_hash": "39c66614c0794e722edf896da83eb4ec60c30ba7a5b098ea4e74ed6769b7705a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.912938",
+      "superseded_by": null
+    },
+    {
+      "id": "b76dde17-4430-4d4d-9af6-8f50e10c6617",
+      "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+      "company_id": "b15e381b-f621-4169-b05a-a21d5fdcfd9c",
+      "application_id": "b51e71de-7489-48e1-828b-32f6acbf6a34",
+      "kind": "founder_background",
+      "text": "Founder Nadia Kowalski previously worked at Nvidia.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:42.912942",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.912954",
+      "superseded_by": null
+    },
+    {
+      "id": "ac9cad22-a42a-435a-a594-de33da46a00e",
+      "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+      "company_id": "b15e381b-f621-4169-b05a-a21d5fdcfd9c",
+      "application_id": "b51e71de-7489-48e1-828b-32f6acbf6a34",
+      "kind": "product",
+      "text": "OrbitSystems addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:42.912957",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.912965",
+      "superseded_by": null
+    },
+    {
+      "id": "714587f4-d9ab-4a03-90ea-5a158e6a300b",
+      "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+      "company_id": "b15e381b-f621-4169-b05a-a21d5fdcfd9c",
+      "application_id": "b51e71de-7489-48e1-828b-32f6acbf6a34",
+      "kind": "product",
+      "text": "Solution: A discovery platform using behavioral signals instead of ASO keywords.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:42.912968",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.912975",
+      "superseded_by": null
+    },
+    {
+      "id": "622b57d8-132d-48da-bc19-e9130c663d03",
+      "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+      "company_id": "b15e381b-f621-4169-b05a-a21d5fdcfd9c",
+      "application_id": "b51e71de-7489-48e1-828b-32f6acbf6a34",
+      "kind": "market_size",
+      "text": "The Fintech market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:42.912977",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.912985",
+      "superseded_by": null
+    },
+    {
+      "id": "7293ee65-d0af-4fd8-837d-c0cac405fc7c",
+      "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+      "company_id": "b15e381b-f621-4169-b05a-a21d5fdcfd9c",
+      "application_id": "b51e71de-7489-48e1-828b-32f6acbf6a34",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:b51e71de-7489-48e1-828b-32f6acbf6a34",
+        "ingested_at": "2026-07-19T09:45:42.912989",
+        "raw_payload_hash": "39c66614c0794e722edf896da83eb4ec60c30ba7a5b098ea4e74ed6769b7705a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.912996",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+    "score_history": [
+      {
+        "id": "5e6752aa-3289-436b-b41f-d9480edf25bd",
+        "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+        "score": 63.580366634110284,
+        "confidence_band": [
+          33.580366634110284,
+          93.58036663411028
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:42.913063",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 50.86429330728823,
+          "market_fit": 44.506256643877194,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "5e6752aa-3289-436b-b41f-d9480edf25bd",
+      "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+      "score": 63.580366634110284,
+      "confidence_band": [
+        33.580366634110284,
+        93.58036663411028
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:42.913063",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 50.86429330728823,
+        "market_fit": 44.506256643877194,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:42.913099",
+    "last_updated_at": "2026-07-19T09:45:42.913100"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/93.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/A_view_from_the_Back_Campus_of_the_University_of_Toronto.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

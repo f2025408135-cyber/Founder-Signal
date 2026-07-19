@@ -1,0 +1,201 @@
+{
+  "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+  "company_id": "67c17500-d45e-4eec-b5c3-bf3e9161dcb1",
+  "application_id": "c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+  "name": "Nadia Larsen",
+  "company_name": "HelixRobotics",
+  "sector": "Climate",
+  "stage": "pre-seed",
+  "geography": "PK",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "University of Lagos",
+    "university_country": "NG",
+    "degree": "MSc Data Science",
+    "year": 2024
+  },
+  "prior_experience": "Previously worked at ByteDance, focusing on climate problems.",
+  "github_profile": null,
+  "deck_summary": "HelixRobotics is building A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: Developer onboarding takes 3+ weeks; existing tools don't integrate with CI/CD.",
+  "claims": [
+    {
+      "id": "86456486-25cd-498e-ae42-5de7ea2a5907",
+      "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+      "company_id": "67c17500-d45e-4eec-b5c3-bf3e9161dcb1",
+      "application_id": "c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+      "kind": "founder_background",
+      "text": "Founder Nadia Larsen holds a MSc Data Science from University of Lagos, graduating in 2024.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+        "ingested_at": "2026-07-19T09:45:36.344146",
+        "raw_payload_hash": "f420318b2249daf2b6378cda2bcbf1fa2b1232db22f545ee2d40f02d4099d235",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:36.344236",
+      "superseded_by": null
+    },
+    {
+      "id": "9f9e240c-2412-4ee4-9b92-ddc7bbf62fd3",
+      "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+      "company_id": "67c17500-d45e-4eec-b5c3-bf3e9161dcb1",
+      "application_id": "c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+      "kind": "founder_background",
+      "text": "Founder Nadia Larsen previously worked at ByteDance.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:36.344242",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:36.344255",
+      "superseded_by": null
+    },
+    {
+      "id": "7d43042e-aa46-4983-acab-49c0c0f4f8e6",
+      "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+      "company_id": "67c17500-d45e-4eec-b5c3-bf3e9161dcb1",
+      "application_id": "c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+      "kind": "product",
+      "text": "HelixRobotics addresses: Developer onboarding takes 3+ weeks; existing tools don't integrate with CI/CD.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:36.344258",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:36.344270",
+      "superseded_by": null
+    },
+    {
+      "id": "d7d7862e-9a6e-4077-a0f6-80579015b9d9",
+      "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+      "company_id": "67c17500-d45e-4eec-b5c3-bf3e9161dcb1",
+      "application_id": "c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+      "kind": "product",
+      "text": "Solution: A supply chain carbon ledger with automated Scope 3 emissions tracking.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:36.344272",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:36.344280",
+      "superseded_by": null
+    },
+    {
+      "id": "7069f1f4-525b-4989-9613-ef311bc72669",
+      "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+      "company_id": "67c17500-d45e-4eec-b5c3-bf3e9161dcb1",
+      "application_id": "c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+      "kind": "market_size",
+      "text": "The Climate market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:36.344282",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:36.344301",
+      "superseded_by": null
+    },
+    {
+      "id": "5709e9cc-e957-4684-9b57-78b5d5e6ef97",
+      "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+      "company_id": "67c17500-d45e-4eec-b5c3-bf3e9161dcb1",
+      "application_id": "c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c4cbfad9-2bed-4a0d-a615-f8c09649b5c7",
+        "ingested_at": "2026-07-19T09:45:36.344305",
+        "raw_payload_hash": "f420318b2249daf2b6378cda2bcbf1fa2b1232db22f545ee2d40f02d4099d235",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:36.344313",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+    "score_history": [
+      {
+        "id": "dfab2c49-6833-4d4d-8f39-0bddd6aff817",
+        "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+        "score": 53.6953050133821,
+        "confidence_band": [
+          23.695305013382097,
+          83.6953050133821
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:36.344391",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 42.95624401070568,
+          "market_fit": 37.58671350936746,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "dfab2c49-6833-4d4d-8f39-0bddd6aff817",
+      "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+      "score": 53.6953050133821,
+      "confidence_band": [
+        23.695305013382097,
+        83.6953050133821
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:36.344391",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 42.95624401070568,
+        "market_fit": 37.58671350936746,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:36.344422",
+    "last_updated_at": "2026-07-19T09:45:36.344423"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/13.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lagos_State_University%2C_Epe_Campus_Library.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+  "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+  "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+  "name": "Kwame Dubois",
+  "company_name": "AtlasTools",
+  "sector": "Climate",
+  "stage": "series-a",
+  "geography": "FR",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "university_country": "GB",
+    "degree": "MSc Robotics",
+    "year": 2023
+  },
+  "prior_experience": "Previously worked at Nvidia, focusing on climate problems.",
+  "github_profile": {
+    "username": "kwamedubois44",
+    "repo_count": 5,
+    "primary_language": "Go",
+    "commit_activity": "42 commits in last 30 days",
+    "stars": 1104,
+    "top_repo": "kwamedubois44/atlastools-core",
+    "contributors": 19
+  },
+  "deck_summary": "AtlasTools is building A model observability platform with drift detection and alerting. The problem: Grid operators lack real-time forecasting for distributed solar.",
+  "claims": [
+    {
+      "id": "fba7209c-335b-40d5-9766-578dcdc3285e",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+      "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+      "kind": "founder_background",
+      "text": "Founder Kwame Dubois holds a MSc Robotics from University of Cambridge, graduating in 2023.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+        "ingested_at": "2026-07-19T09:45:55.174479",
+        "raw_payload_hash": "fd39c3fab8533cc669f03459c738d50f0c75a76108a6e6956c082e020915340b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.174545",
+      "superseded_by": null
+    },
+    {
+      "id": "8bd4346e-7c91-43c8-8a39-dc1e672fb7d3",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+      "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+      "kind": "technical_depth",
+      "text": "Repository kwamedubois44/atlastools-core has 1104 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "kwamedubois44/atlastools-core",
+        "ingested_at": "2026-07-19T09:45:55.174550",
+        "raw_payload_hash": "18f386f6a7b0de13c8b565fb8bc6eb4c4c08b3c9bd9115432ba31c1993f19e9b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.174562",
+      "superseded_by": null
+    },
+    {
+      "id": "36f8f5d8-00bf-43c7-a8ca-c673965b9123",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+      "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+      "kind": "technical_depth",
+      "text": "Repository kwamedubois44/atlastools-core received 42 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "kwamedubois44/atlastools-core/commits",
+        "ingested_at": "2026-07-19T09:45:55.174566",
+        "raw_payload_hash": "53550e3f3c15ad87952606f717d63885d3b2236a197498b47d143026ae9398b8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.174573",
+      "superseded_by": null
+    },
+    {
+      "id": "24ad84f5-c922-4c0c-a7a1-4ab1e2c120f3",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+      "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+      "kind": "founder_network",
+      "text": "Repository kwamedubois44/atlastools-core has 19 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "kwamedubois44/atlastools-core/contributors",
+        "ingested_at": "2026-07-19T09:45:55.174576",
+        "raw_payload_hash": "95e87be4646a10112ed861beef5e9e1c89e9afe2d716b31f110abf59673e8019",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.174587",
+      "superseded_by": null
+    },
+    {
+      "id": "e1e15b31-8ebf-4668-9cca-057e79114df2",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+      "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+      "kind": "technical_depth",
+      "text": "Founder authored arXiv paper 2522.52247 on Climate techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2522.52247",
+        "ingested_at": "2026-07-19T09:45:55.174593",
+        "raw_payload_hash": "c3970d63ea890bfe1bbeef459ac38ad4327225eac03ecde5bf710e50ac76eca2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.174601",
+      "superseded_by": null
+    },
+    {
+      "id": "390e57b5-ea0f-4e65-aac7-c7a755fd6b67",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+      "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+      "kind": "founder_network",
+      "text": "Founder is a member of the YC W24 accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:YC:W24",
+        "ingested_at": "2026-07-19T09:45:55.174605",
+        "raw_payload_hash": "a2244b1b70f304633677ec2c1845988c8c397502b422f6716fbf8bc9b9b007f7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.174612",
+      "superseded_by": null
+    },
+    {
+      "id": "6c317e0d-a68d-438c-85d8-04ae5123596b",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+      "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+      "kind": "market_trend",
+      "text": "The Climate market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Climate-market",
+        "ingested_at": "2026-07-19T09:45:55.174615",
+        "raw_payload_hash": "0443d2fc14a16d9108e4de9e0b02645653c4dd8a3d5ad98a5bce572d96e32ebf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.174622",
+      "superseded_by": null
+    },
+    {
+      "id": "cce22273-be30-47da-8939-cdc5952b9b1f",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "company_id": "59e849a1-ab95-4b9f-9de1-cbd4d8f642cb",
+      "application_id": "edbb3d12-e7ae-4912-aa24-8cb0ac42867a",
+      "kind": "product",
+      "text": "AtlasTools addresses: Grid operators lack real-time forecasting for distributed solar.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:55.174624",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.174631",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+    "score_history": [
+      {
+        "id": "82378821-5aba-4b87-b922-bb5575be4cd7",
+        "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+        "score": 81.28170010081003,
+        "confidence_band": [
+          61.28170010081003,
+          100.0
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:55.174775",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 74.77916409274523,
+          "market_fit": 66.65099408266421,
+          "network": 63.39972607863182,
+          "momentum": 58.52282407258322
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "82378821-5aba-4b87-b922-bb5575be4cd7",
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "score": 81.28170010081003,
+      "confidence_band": [
+        61.28170010081003,
+        100.0
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:55.174775",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 74.77916409274523,
+        "market_fit": 66.65099408266421,
+        "network": 63.39972607863182,
+        "momentum": 58.52282407258322
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:55.174796",
+    "last_updated_at": "2026-07-19T09:45:55.174797"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/60.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Demonstrators_outside_of_Cambridge_Trust_Company_during_first_day_of_the_2007_Harvard_University_AlliedBarton_campus_security_workers_strike_%28482304751%29.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

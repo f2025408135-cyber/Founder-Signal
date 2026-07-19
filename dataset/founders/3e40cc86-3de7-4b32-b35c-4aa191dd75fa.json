@@ -1,0 +1,249 @@
+{
+  "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+  "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+  "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+  "name": "Amara Kowalski",
+  "company_name": "OrbitClimate",
+  "sector": "Consumer",
+  "stage": "pre-seed",
+  "geography": "US",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "National University of Singapore",
+    "university_country": "SG",
+    "degree": "MSc Data Science",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at a Series B startup, focusing on consumer problems.",
+  "github_profile": {
+    "username": "amarakowalski68",
+    "repo_count": 5,
+    "primary_language": "Rust",
+    "commit_activity": "28 commits in last 30 days",
+    "stars": 260,
+    "top_repo": "amarakowalski68/orbitclimate-core",
+    "contributors": 12
+  },
+  "deck_summary": "OrbitClimate is building An open-source evaluation harness with auditable test suites. The problem: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+  "claims": [
+    {
+      "id": "bf2133c2-32bd-4044-b512-59e383fb7126",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+      "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+      "kind": "founder_background",
+      "text": "Founder Amara Kowalski holds a MSc Data Science from National University of Singapore, graduating in 2022.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:18a9737e-6f2f-4202-8b07-2f4320bef651",
+        "ingested_at": "2026-07-19T09:45:55.681925",
+        "raw_payload_hash": "3f99bc9f28558f3b5b367be9071e142912dc3ad8d0c700061c2634cdfab1c362",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.681988",
+      "superseded_by": null
+    },
+    {
+      "id": "6c5021d7-2d66-4aea-872b-291763d9e8ee",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+      "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+      "kind": "technical_depth",
+      "text": "Repository amarakowalski68/orbitclimate-core has 260 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "amarakowalski68/orbitclimate-core",
+        "ingested_at": "2026-07-19T09:45:55.681993",
+        "raw_payload_hash": "18a37c3f4fc5e1ce426595f4d2195f3acd9ed191d8975b8692d51c644e1b2088",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.682018",
+      "superseded_by": null
+    },
+    {
+      "id": "3c7cc1ea-039b-490d-a1e0-4bd2c00ad7d2",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+      "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+      "kind": "technical_depth",
+      "text": "Repository amarakowalski68/orbitclimate-core received 28 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "amarakowalski68/orbitclimate-core/commits",
+        "ingested_at": "2026-07-19T09:45:55.682022",
+        "raw_payload_hash": "228b02b927526f6bac384ff7600f881144a720b45edca5c100f607126da5ecd2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.682034",
+      "superseded_by": null
+    },
+    {
+      "id": "e76400ad-4266-4cd8-b180-d2f6f1f050d9",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+      "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+      "kind": "founder_network",
+      "text": "Repository amarakowalski68/orbitclimate-core has 12 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "amarakowalski68/orbitclimate-core/contributors",
+        "ingested_at": "2026-07-19T09:45:55.682037",
+        "raw_payload_hash": "fd00d3bafdc3b27d2a4c35f3aa024597efb647b8a682c3204edeb308657531d7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.682046",
+      "superseded_by": null
+    },
+    {
+      "id": "a5acf4c0-0e9b-48a3-8055-6443dd76bf5f",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+      "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+      "kind": "technical_depth",
+      "text": "Founder is listed as inventor on patent US11813848B2 covering Consumer methods.",
+      "source": {
+        "kind": "external_db",
+        "ref": "uspto:US11813848B2",
+        "ingested_at": "2026-07-19T09:45:55.682052",
+        "raw_payload_hash": "8006f90c7a5ff112a971452ee3a094b9aed28e4addf5f601a19634389b9c6d91",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.682060",
+      "superseded_by": null
+    },
+    {
+      "id": "58d8c69e-81ae-4a3c-8e07-b8a06dc36530",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+      "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+      "kind": "founder_network",
+      "text": "Founder is a member of the YC W24 accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:YC:W24",
+        "ingested_at": "2026-07-19T09:45:55.682063",
+        "raw_payload_hash": "a2244b1b70f304633677ec2c1845988c8c397502b422f6716fbf8bc9b9b007f7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.682071",
+      "superseded_by": null
+    },
+    {
+      "id": "867c29f3-9080-4302-95e4-5bc5a10fd99c",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+      "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+      "kind": "market_trend",
+      "text": "The Consumer market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Consumer-market",
+        "ingested_at": "2026-07-19T09:45:55.682074",
+        "raw_payload_hash": "8ab717515ff3d3632c51a4dc748698bdcaf40fc48d3a68a5130bb170fc5ab8c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.682082",
+      "superseded_by": null
+    },
+    {
+      "id": "e3feb4db-633b-40a8-9ca9-31f5614c92ab",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "company_id": "493747b7-4a33-48ca-99b1-d9942db63fd6",
+      "application_id": "18a9737e-6f2f-4202-8b07-2f4320bef651",
+      "kind": "product",
+      "text": "OrbitClimate addresses: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:55.682085",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.682092",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+    "score_history": [
+      {
+        "id": "e80dac5e-c6c5-492f-83f2-9db52a413134",
+        "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+        "score": 79.32111755124032,
+        "confidence_band": [
+          59.32111755124032,
+          99.32111755124032
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:55.682211",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 72.9754281471411,
+          "market_fit": 65.04331639201706,
+          "network": 61.87047168996745,
+          "momentum": 57.11120463689303
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "e80dac5e-c6c5-492f-83f2-9db52a413134",
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "score": 79.32111755124032,
+      "confidence_band": [
+        59.32111755124032,
+        99.32111755124032
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:55.682211",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 72.9754281471411,
+        "market_fit": 65.04331639201706,
+        "network": 61.87047168996745,
+        "momentum": 57.11120463689303
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:55.682244",
+    "last_updated_at": "2026-07-19T09:45:55.682245"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/70.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Covered_walkway_along_Campus_Link_leading_to_University_Town%2C_National_University_of_Singapore_-_20140920.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

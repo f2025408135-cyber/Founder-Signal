@@ -1,0 +1,189 @@
+{
+  "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+  "company_id": "54153bcd-6c60-4585-b2ad-32fddcb7b09b",
+  "application_id": "7284e1df-2c67-4c29-83f6-ec53ff289d65",
+  "name": "Henrik Garc\u00eda",
+  "company_name": "MeshEnergy",
+  "sector": "AI infra",
+  "stage": "seed",
+  "geography": "FR",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "university_country": "GB",
+    "degree": "PhD Machine Learning",
+    "year": 2024
+  },
+  "prior_experience": "Previously worked at DeepMind, focusing on ai infra problems.",
+  "github_profile": {
+    "username": "henrikgarc\u00eda57",
+    "repo_count": 10,
+    "primary_language": "C++",
+    "commit_activity": "8 commits in last 30 days",
+    "stars": 37,
+    "top_repo": "henrikgarc\u00eda57/meshenergy-core",
+    "contributors": 2
+  },
+  "deck_summary": "MeshEnergy is building A battery optimization platform using reinforcement learning. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "f4280fa0-6d6c-4e93-b545-417d93ed3e46",
+      "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+      "company_id": "54153bcd-6c60-4585-b2ad-32fddcb7b09b",
+      "application_id": "7284e1df-2c67-4c29-83f6-ec53ff289d65",
+      "kind": "founder_background",
+      "text": "Founder Henrik Garc\u00eda holds a PhD Machine Learning from University of Cambridge, graduating in 2024.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:7284e1df-2c67-4c29-83f6-ec53ff289d65",
+        "ingested_at": "2026-07-19T09:45:51.155742",
+        "raw_payload_hash": "5cdda2ce327c38864cbad0a58801ddbb1282990d543c12829512b5b38330b993",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.155805",
+      "superseded_by": null
+    },
+    {
+      "id": "08356515-67ed-4b42-9047-7ad85664d75d",
+      "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+      "company_id": "54153bcd-6c60-4585-b2ad-32fddcb7b09b",
+      "application_id": "7284e1df-2c67-4c29-83f6-ec53ff289d65",
+      "kind": "product",
+      "text": "MeshEnergy addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:51.155810",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.155822",
+      "superseded_by": null
+    },
+    {
+      "id": "48a348b6-f4e1-44cf-80f8-12c5f2116ca4",
+      "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+      "company_id": "54153bcd-6c60-4585-b2ad-32fddcb7b09b",
+      "application_id": "7284e1df-2c67-4c29-83f6-ec53ff289d65",
+      "kind": "product",
+      "text": "Solution: A battery optimization platform using reinforcement learning.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:51.155825",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.155833",
+      "superseded_by": null
+    },
+    {
+      "id": "df7d985e-e99a-4fc2-8b74-7ce454c78e38",
+      "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+      "company_id": "54153bcd-6c60-4585-b2ad-32fddcb7b09b",
+      "application_id": "7284e1df-2c67-4c29-83f6-ec53ff289d65",
+      "kind": "market_trend",
+      "text": "The AI infra sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AI infra-trend",
+        "ingested_at": "2026-07-19T09:45:51.156379",
+        "raw_payload_hash": "c24bafa288cde511961d251ebfaaa684ba199417db6c2ed52e5dc38ed308ca32",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.156442",
+      "superseded_by": null
+    },
+    {
+      "id": "410371db-9adc-4439-9499-ff8a553f1dcd",
+      "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+      "company_id": "54153bcd-6c60-4585-b2ad-32fddcb7b09b",
+      "application_id": "7284e1df-2c67-4c29-83f6-ec53ff289d65",
+      "kind": "technical_depth",
+      "text": "Repository henrikgarc\u00eda57/meshenergy-core has 37 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "henrikgarc\u00eda57/meshenergy-core",
+        "ingested_at": "2026-07-19T09:45:51.156454",
+        "raw_payload_hash": "06da27373fef9e19d92c41d2daf4f74e327d96e0e2d79e902de5515d8a14d2ea",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.156466",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+    "score_history": [
+      {
+        "id": "7188365b-f2f2-4f25-a7e4-64935e32a377",
+        "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+        "score": 66.99151253999155,
+        "confidence_band": [
+          46.99151253999155,
+          86.99151253999155
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:51.156535",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 50.24363440499366,
+          "market_fit": 40.19490752399493,
+          "network": 26.79660501599662,
+          "momentum": 33.49575626999577
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "7188365b-f2f2-4f25-a7e4-64935e32a377",
+      "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+      "score": 66.99151253999155,
+      "confidence_band": [
+        46.99151253999155,
+        86.99151253999155
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:51.156535",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 50.24363440499366,
+        "market_fit": 40.19490752399493,
+        "network": 26.79660501599662,
+        "momentum": 33.49575626999577
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:51.156570",
+    "last_updated_at": "2026-07-19T09:45:51.156571"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/36.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Demonstrators_outside_of_Cambridge_Trust_Company_during_first_day_of_the_2007_Harvard_University_AlliedBarton_campus_security_workers_strike_%28482304751%29.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

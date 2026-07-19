@@ -1,0 +1,189 @@
+{
+  "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+  "company_id": "18e1f1af-0a68-4bda-82e7-efe759c30c52",
+  "application_id": "c562fe57-7b9f-44db-9b81-c24f33f65a19",
+  "name": "Kavya Lindqvist",
+  "company_name": "PrismEnergy",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "GB",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "HEC Paris",
+    "university_country": "FR",
+    "degree": "MSc Robotics",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at Amazon, focusing on healthtech problems.",
+  "github_profile": {
+    "username": "kavyalindqvist4",
+    "repo_count": 8,
+    "primary_language": "JavaScript",
+    "commit_activity": "7 commits in last 30 days",
+    "stars": 160,
+    "top_repo": "kavyalindqvist4/prismenergy-core",
+    "contributors": 3
+  },
+  "deck_summary": "PrismEnergy is building An automated privacy compliance scanner for codebases. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "714cf519-0798-4e23-8894-fb051f88aa80",
+      "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+      "company_id": "18e1f1af-0a68-4bda-82e7-efe759c30c52",
+      "application_id": "c562fe57-7b9f-44db-9b81-c24f33f65a19",
+      "kind": "founder_background",
+      "text": "Founder Kavya Lindqvist holds a MSc Robotics from HEC Paris, graduating in 2022.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c562fe57-7b9f-44db-9b81-c24f33f65a19",
+        "ingested_at": "2026-07-19T09:45:48.585739",
+        "raw_payload_hash": "5b451e08c35c7436b6e91aca47ccc2ee28eec5600ae94881b25e962dad178926",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.585804",
+      "superseded_by": null
+    },
+    {
+      "id": "aaa0632a-1a7a-4bf3-b6e4-052274b714a8",
+      "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+      "company_id": "18e1f1af-0a68-4bda-82e7-efe759c30c52",
+      "application_id": "c562fe57-7b9f-44db-9b81-c24f33f65a19",
+      "kind": "product",
+      "text": "PrismEnergy addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:48.585810",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.585825",
+      "superseded_by": null
+    },
+    {
+      "id": "0e3bef4e-3242-408a-807d-02694f1e24bd",
+      "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+      "company_id": "18e1f1af-0a68-4bda-82e7-efe759c30c52",
+      "application_id": "c562fe57-7b9f-44db-9b81-c24f33f65a19",
+      "kind": "market_size",
+      "text": "The Healthtech market is $5B in 2026.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:48.585830",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.585838",
+      "superseded_by": null
+    },
+    {
+      "id": "5f02d5f9-d389-4feb-b9c4-9ba19daebc08",
+      "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+      "company_id": "18e1f1af-0a68-4bda-82e7-efe759c30c52",
+      "application_id": "c562fe57-7b9f-44db-9b81-c24f33f65a19",
+      "kind": "market_size",
+      "text": "The Healthtech market is $500M in 2026.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T09:45:48.585842",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.585850",
+      "superseded_by": null
+    },
+    {
+      "id": "524ff096-9e1d-4da1-b7b6-631eb7caea20",
+      "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+      "company_id": "18e1f1af-0a68-4bda-82e7-efe759c30c52",
+      "application_id": "c562fe57-7b9f-44db-9b81-c24f33f65a19",
+      "kind": "technical_depth",
+      "text": "Repository kavyalindqvist4/prismenergy-core has 160 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "kavyalindqvist4/prismenergy-core",
+        "ingested_at": "2026-07-19T09:45:48.585858",
+        "raw_payload_hash": "8822c2d43811de7e587a5e8a39af3dabe04355bc77faab6dfc27bf0540d6212a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.585867",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+    "score_history": [
+      {
+        "id": "7b373151-9476-4b98-a53d-9eddd175a5c6",
+        "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+        "score": 46.79287767705461,
+        "confidence_band": [
+          26.792877677054612,
+          66.7928776770546
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:48.585963",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 37.43430214164369,
+          "market_fit": 23.396438838527306,
+          "network": 28.075726606232767,
+          "momentum": 23.396438838527306
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "7b373151-9476-4b98-a53d-9eddd175a5c6",
+      "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+      "score": 46.79287767705461,
+      "confidence_band": [
+        26.792877677054612,
+        66.7928776770546
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:48.585963",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 37.43430214164369,
+        "market_fit": 23.396438838527306,
+        "network": 28.075726606232767,
+        "momentum": 23.396438838527306
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:48.585983",
+    "last_updated_at": "2026-07-19T09:45:48.585984"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/36.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chateau%2C_HEC_Paris%2C_Jouy-en-Josas%2C_South_view_20160501_1.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

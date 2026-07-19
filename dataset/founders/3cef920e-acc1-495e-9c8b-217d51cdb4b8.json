@@ -1,0 +1,201 @@
+{
+  "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+  "company_id": "7367a6bc-5b09-46d3-af21-31c504a49dba",
+  "application_id": "d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+  "name": "Mei Schmidt",
+  "company_name": "PrismBio",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "FR",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "HEC Paris",
+    "university_country": "FR",
+    "degree": "PhD Machine Learning",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at Stripe, focusing on devtools problems.",
+  "github_profile": null,
+  "deck_summary": "PrismBio is building A supply chain carbon ledger with automated Scope 3 emissions tracking. The problem: Clinical trial recruitment is bottlenecked by manual patient matching.",
+  "claims": [
+    {
+      "id": "6c7b32fe-dd6d-4959-bd2b-22ef48368649",
+      "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+      "company_id": "7367a6bc-5b09-46d3-af21-31c504a49dba",
+      "application_id": "d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+      "kind": "founder_background",
+      "text": "Founder Mei Schmidt holds a PhD Machine Learning from HEC Paris, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+        "ingested_at": "2026-07-19T09:45:52.405668",
+        "raw_payload_hash": "bb52dd98256e5328c67080a66998194b2ec81e91758f70598b1bb0a04274980e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.405762",
+      "superseded_by": null
+    },
+    {
+      "id": "3c6c1266-595d-4361-9a4f-bfb6ffabe189",
+      "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+      "company_id": "7367a6bc-5b09-46d3-af21-31c504a49dba",
+      "application_id": "d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+      "kind": "founder_background",
+      "text": "Founder Mei Schmidt previously worked at Stripe.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:52.405767",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.405780",
+      "superseded_by": null
+    },
+    {
+      "id": "9f332bcf-b6c3-4c8a-9ea4-aa38e4a5e549",
+      "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+      "company_id": "7367a6bc-5b09-46d3-af21-31c504a49dba",
+      "application_id": "d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+      "kind": "product",
+      "text": "PrismBio addresses: Clinical trial recruitment is bottlenecked by manual patient matching.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:52.405784",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.405796",
+      "superseded_by": null
+    },
+    {
+      "id": "e6195e84-d812-4d39-adc9-989e4c2139d4",
+      "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+      "company_id": "7367a6bc-5b09-46d3-af21-31c504a49dba",
+      "application_id": "d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+      "kind": "product",
+      "text": "Solution: A supply chain carbon ledger with automated Scope 3 emissions tracking.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:52.405799",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.405806",
+      "superseded_by": null
+    },
+    {
+      "id": "e780d890-7712-42a4-b143-5d308b07c817",
+      "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+      "company_id": "7367a6bc-5b09-46d3-af21-31c504a49dba",
+      "application_id": "d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+      "kind": "market_size",
+      "text": "The DevTools market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:52.405808",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.405816",
+      "superseded_by": null
+    },
+    {
+      "id": "591a4079-f4a2-4354-9835-14b54eaa49d9",
+      "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+      "company_id": "7367a6bc-5b09-46d3-af21-31c504a49dba",
+      "application_id": "d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:d58776cc-cfef-4b2e-80bf-a206af0a3e2d",
+        "ingested_at": "2026-07-19T09:45:52.405820",
+        "raw_payload_hash": "bb52dd98256e5328c67080a66998194b2ec81e91758f70598b1bb0a04274980e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.405828",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+    "score_history": [
+      {
+        "id": "f54b50db-dfa7-4dc7-8c8b-528aaa75de73",
+        "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+        "score": 49.54966326965109,
+        "confidence_band": [
+          19.54966326965109,
+          79.54966326965109
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:52.405920",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 39.63973061572088,
+          "market_fit": 34.68476428875576,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "f54b50db-dfa7-4dc7-8c8b-528aaa75de73",
+      "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+      "score": 49.54966326965109,
+      "confidence_band": [
+        19.54966326965109,
+        79.54966326965109
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:52.405920",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 39.63973061572088,
+        "market_fit": 34.68476428875576,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:52.405941",
+    "last_updated_at": "2026-07-19T09:45:52.405942"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/14.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chateau%2C_HEC_Paris%2C_Jouy-en-Josas%2C_South_view_20160501_1.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

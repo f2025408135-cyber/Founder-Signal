@@ -1,0 +1,189 @@
+{
+  "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+  "company_id": "0ad8b7a2-b5b3-4abb-a5bc-4cfdcb6eefd1",
+  "application_id": "90f873c9-9e98-434f-8fee-0ec7fbf5d68d",
+  "name": "Henrik O'Brien",
+  "company_name": "VoltCloud",
+  "sector": "Climate",
+  "stage": "seed",
+  "geography": "US",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "TU Munich",
+    "university_country": "DE",
+    "degree": "MBA",
+    "year": 2014
+  },
+  "prior_experience": "Previously worked at DeepMind, focusing on climate problems.",
+  "github_profile": {
+    "username": "henriko'brien55",
+    "repo_count": 13,
+    "primary_language": "Python",
+    "commit_activity": "16 commits in last 30 days",
+    "stars": 147,
+    "top_repo": "henriko'brien55/voltcloud-core",
+    "contributors": 8
+  },
+  "deck_summary": "VoltCloud is building A discovery platform using behavioral signals instead of ASO keywords. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "b57e618b-11e0-4140-900a-dcc39396813b",
+      "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+      "company_id": "0ad8b7a2-b5b3-4abb-a5bc-4cfdcb6eefd1",
+      "application_id": "90f873c9-9e98-434f-8fee-0ec7fbf5d68d",
+      "kind": "founder_background",
+      "text": "Founder Henrik O'Brien holds a MBA from TU Munich, graduating in 2014.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:90f873c9-9e98-434f-8fee-0ec7fbf5d68d",
+        "ingested_at": "2026-07-19T09:45:44.478291",
+        "raw_payload_hash": "dca5d1fc0bfa73bc046d8a15666158b54dddba30b064ca1aa52c49969da00925",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.478356",
+      "superseded_by": null
+    },
+    {
+      "id": "471ffc1a-1c5c-44b6-bb52-a5ff00faf4d0",
+      "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+      "company_id": "0ad8b7a2-b5b3-4abb-a5bc-4cfdcb6eefd1",
+      "application_id": "90f873c9-9e98-434f-8fee-0ec7fbf5d68d",
+      "kind": "product",
+      "text": "VoltCloud addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:44.478361",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.478373",
+      "superseded_by": null
+    },
+    {
+      "id": "7814e977-e2e0-41b9-9e6c-4f3b9cfc6ba5",
+      "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+      "company_id": "0ad8b7a2-b5b3-4abb-a5bc-4cfdcb6eefd1",
+      "application_id": "90f873c9-9e98-434f-8fee-0ec7fbf5d68d",
+      "kind": "market_size",
+      "text": "The Climate market is $5B in 2026.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:44.478378",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.478386",
+      "superseded_by": null
+    },
+    {
+      "id": "c4150e37-8859-4122-b0dc-d763654f67f0",
+      "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+      "company_id": "0ad8b7a2-b5b3-4abb-a5bc-4cfdcb6eefd1",
+      "application_id": "90f873c9-9e98-434f-8fee-0ec7fbf5d68d",
+      "kind": "market_size",
+      "text": "The Climate market is $500M in 2026.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Climate-market",
+        "ingested_at": "2026-07-19T09:45:44.478390",
+        "raw_payload_hash": "0443d2fc14a16d9108e4de9e0b02645653c4dd8a3d5ad98a5bce572d96e32ebf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.478418",
+      "superseded_by": null
+    },
+    {
+      "id": "2708256c-2e52-45d7-a67a-bc6aa4961c37",
+      "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+      "company_id": "0ad8b7a2-b5b3-4abb-a5bc-4cfdcb6eefd1",
+      "application_id": "90f873c9-9e98-434f-8fee-0ec7fbf5d68d",
+      "kind": "technical_depth",
+      "text": "Repository henriko'brien55/voltcloud-core has 147 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "henriko'brien55/voltcloud-core",
+        "ingested_at": "2026-07-19T09:45:44.478437",
+        "raw_payload_hash": "c3d61d4da3ebb950135abd70e532ea05993d52f8c433d035c8041d1a2a534574",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:44.478484",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+    "score_history": [
+      {
+        "id": "00c182ee-de05-4a96-86ae-c4f836f6589b",
+        "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+        "score": 57.05166720776441,
+        "confidence_band": [
+          37.05166720776441,
+          77.05166720776441
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:44.478561",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 45.64133376621153,
+          "market_fit": 28.525833603882205,
+          "network": 34.231000324658645,
+          "momentum": 28.525833603882205
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "00c182ee-de05-4a96-86ae-c4f836f6589b",
+      "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+      "score": 57.05166720776441,
+      "confidence_band": [
+        37.05166720776441,
+        77.05166720776441
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:44.478561",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 45.64133376621153,
+        "market_fit": 28.525833603882205,
+        "network": 34.231000324658645,
+        "momentum": 28.525833603882205
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:44.478580",
+    "last_updated_at": "2026-07-19T09:45:44.478581"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/72.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/050322-tumuenchen-parabeln.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

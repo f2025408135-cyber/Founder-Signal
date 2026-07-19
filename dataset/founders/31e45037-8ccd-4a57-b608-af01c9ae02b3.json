@@ -1,0 +1,189 @@
+{
+  "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+  "company_id": "0369238b-0c84-4cb8-bb0a-5cdedb64b51a",
+  "application_id": "af504615-ddcf-4af0-9b60-3a7d9c39b01f",
+  "name": "Pavel Fern\u00e1ndez",
+  "company_name": "CipherRobotics",
+  "sector": "DevTools",
+  "stage": "seed",
+  "geography": "GB",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "University of Toronto",
+    "university_country": "CA",
+    "degree": "MSc Electrical Engineering",
+    "year": 2021
+  },
+  "prior_experience": "Previously worked at OpenAI, focusing on devtools problems.",
+  "github_profile": {
+    "username": "pavelfern\u00e1ndez3",
+    "repo_count": 13,
+    "primary_language": "C++",
+    "commit_activity": "12 commits in last 30 days",
+    "stars": 276,
+    "top_repo": "pavelfern\u00e1ndez3/cipherrobotics-core",
+    "contributors": 7
+  },
+  "deck_summary": "CipherRobotics is building A solar forecasting model trained on satellite imagery. The problem: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+  "claims": [
+    {
+      "id": "bed4e3d6-92a6-4eae-9566-cee12f1e064a",
+      "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+      "company_id": "0369238b-0c84-4cb8-bb0a-5cdedb64b51a",
+      "application_id": "af504615-ddcf-4af0-9b60-3a7d9c39b01f",
+      "kind": "founder_background",
+      "text": "Founder Pavel Fern\u00e1ndez holds a MSc Electrical Engineering from University of Toronto, graduating in 2021.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:af504615-ddcf-4af0-9b60-3a7d9c39b01f",
+        "ingested_at": "2026-07-19T09:45:34.012230",
+        "raw_payload_hash": "98abf41762a98c36417a88191048478c3d4840bb2900c3f7e54dc6f38de907db",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:34.012299",
+      "superseded_by": null
+    },
+    {
+      "id": "67dc1d13-30b5-4a27-b50c-deea127a43da",
+      "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+      "company_id": "0369238b-0c84-4cb8-bb0a-5cdedb64b51a",
+      "application_id": "af504615-ddcf-4af0-9b60-3a7d9c39b01f",
+      "kind": "product",
+      "text": "CipherRobotics addresses: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:34.012305",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:34.012317",
+      "superseded_by": null
+    },
+    {
+      "id": "d16c3d65-a9dd-4638-a448-943292d15a60",
+      "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+      "company_id": "0369238b-0c84-4cb8-bb0a-5cdedb64b51a",
+      "application_id": "af504615-ddcf-4af0-9b60-3a7d9c39b01f",
+      "kind": "traction",
+      "text": "CipherRobotics has 50 paying enterprise customers.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:34.012322",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:34.012330",
+      "superseded_by": null
+    },
+    {
+      "id": "96ea3c48-fbbc-42f2-bc0b-43c2cf5c7e08",
+      "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+      "company_id": "0369238b-0c84-4cb8-bb0a-5cdedb64b51a",
+      "application_id": "af504615-ddcf-4af0-9b60-3a7d9c39b01f",
+      "kind": "traction",
+      "text": "CipherRobotics has 3 active pilot deployments and no public customer logos.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:CipherRobotics",
+        "ingested_at": "2026-07-19T09:45:34.012334",
+        "raw_payload_hash": "8b6c8f56329b7a4c1b25065f12a344a3c8e0b47b28cdd5055199e0ed10a2330a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:34.012343",
+      "superseded_by": null
+    },
+    {
+      "id": "e2ab3add-08c7-4b3e-a69f-ec589852c76d",
+      "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+      "company_id": "0369238b-0c84-4cb8-bb0a-5cdedb64b51a",
+      "application_id": "af504615-ddcf-4af0-9b60-3a7d9c39b01f",
+      "kind": "technical_depth",
+      "text": "Repository pavelfern\u00e1ndez3/cipherrobotics-core has 276 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "pavelfern\u00e1ndez3/cipherrobotics-core",
+        "ingested_at": "2026-07-19T09:45:34.012354",
+        "raw_payload_hash": "f5812ca5e32c88a5ad4d1a2a86343b8a4de3542d7b81b6a5e0c6076529b8c5e5",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:34.012362",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+    "score_history": [
+      {
+        "id": "de53c286-ef96-4edd-9148-200580d7b1cc",
+        "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+        "score": 49.486386043941195,
+        "confidence_band": [
+          29.486386043941195,
+          69.4863860439412
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:34.012437",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 39.589108835152956,
+          "market_fit": 24.743193021970598,
+          "network": 29.691831626364717,
+          "momentum": 24.743193021970598
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "de53c286-ef96-4edd-9148-200580d7b1cc",
+      "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+      "score": 49.486386043941195,
+      "confidence_band": [
+        29.486386043941195,
+        69.4863860439412
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:34.012437",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 39.589108835152956,
+        "market_fit": 24.743193021970598,
+        "network": 29.691831626364717,
+        "momentum": 24.743193021970598
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:34.012455",
+    "last_updated_at": "2026-07-19T09:45:34.012456"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/20.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/A_view_from_the_Back_Campus_of_the_University_of_Toronto.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

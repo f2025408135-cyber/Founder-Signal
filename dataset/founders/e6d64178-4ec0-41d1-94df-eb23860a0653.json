@@ -1,0 +1,249 @@
+{
+  "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+  "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+  "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+  "name": "Kenji Okafor",
+  "company_name": "OrbitClimate",
+  "sector": "DevTools",
+  "stage": "pre-seed",
+  "geography": "PK",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "University of Toronto",
+    "university_country": "CA",
+    "degree": "MSc Electrical Engineering",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at ByteDance, focusing on devtools problems.",
+  "github_profile": {
+    "username": "kenjiokafor73",
+    "repo_count": 22,
+    "primary_language": "TypeScript",
+    "commit_activity": "49 commits in last 30 days",
+    "stars": 890,
+    "top_repo": "kenjiokafor73/orbitclimate-core",
+    "contributors": 18
+  },
+  "deck_summary": "OrbitClimate is building A federated query layer that unifies EHR systems without data movement. The problem: Clinical trial recruitment is bottlenecked by manual patient matching.",
+  "claims": [
+    {
+      "id": "fd45f721-9af4-415d-913e-d4838fb10584",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+      "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+      "kind": "founder_background",
+      "text": "Founder Kenji Okafor holds a MSc Electrical Engineering from University of Toronto, graduating in 2015.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+        "ingested_at": "2026-07-19T09:45:35.190520",
+        "raw_payload_hash": "58a5dc668efefdb9af4b3bf7f3a01f9c6714ba8e3ca0c67d416b6b6b86e9df6f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.190593",
+      "superseded_by": null
+    },
+    {
+      "id": "facc942e-7c2b-4b6c-9471-e0f8ab0ad34b",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+      "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+      "kind": "technical_depth",
+      "text": "Repository kenjiokafor73/orbitclimate-core has 890 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "kenjiokafor73/orbitclimate-core",
+        "ingested_at": "2026-07-19T09:45:35.190598",
+        "raw_payload_hash": "8b3ead1cea8fb0be058e2d3c038778e25336febb01964b1304de780e5de2078d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.190612",
+      "superseded_by": null
+    },
+    {
+      "id": "ea41eac7-cd19-46c0-86c8-f9a5f6e641ed",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+      "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+      "kind": "technical_depth",
+      "text": "Repository kenjiokafor73/orbitclimate-core received 49 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "kenjiokafor73/orbitclimate-core/commits",
+        "ingested_at": "2026-07-19T09:45:35.190615",
+        "raw_payload_hash": "abe5ae0dfc98511a1d0e3515db18636aaaac133f5c79355b0f43d32955b4df43",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.190625",
+      "superseded_by": null
+    },
+    {
+      "id": "773cf146-f457-4740-999e-a8ced3187eed",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+      "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+      "kind": "founder_network",
+      "text": "Repository kenjiokafor73/orbitclimate-core has 18 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "kenjiokafor73/orbitclimate-core/contributors",
+        "ingested_at": "2026-07-19T09:45:35.190628",
+        "raw_payload_hash": "197eb268941ba3bffeea5d38e244a81add9a2f51496643ccf4014950845887d8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.190638",
+      "superseded_by": null
+    },
+    {
+      "id": "7676916b-2376-48da-973f-6055bf6fb2b9",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+      "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+      "kind": "traction",
+      "text": "Product Hunt launch 'OrbitClimate' received 332 upvotes.",
+      "source": {
+        "kind": "producthunt",
+        "ref": "post:a9b439b5",
+        "ingested_at": "2026-07-19T09:45:35.190650",
+        "raw_payload_hash": "edc0bb5bb637cca4911d8e8e9ac5b486ef3b531a399c030d724219cb00a6ed57",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.190659",
+      "superseded_by": null
+    },
+    {
+      "id": "c3e0d3b6-0a2f-4d22-bd99-3887be17d569",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+      "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+      "kind": "founder_network",
+      "text": "Founder is a member of the Techstars accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:Techstars",
+        "ingested_at": "2026-07-19T09:45:35.190663",
+        "raw_payload_hash": "75d950c669c585b0bebed7bcae224c585c7c5aa5d42cf223a4473deb121f7016",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.190683",
+      "superseded_by": null
+    },
+    {
+      "id": "c8b066a1-039e-4fe0-9055-820f593944c5",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+      "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+      "kind": "market_trend",
+      "text": "The DevTools market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:DevTools-market",
+        "ingested_at": "2026-07-19T09:45:35.190687",
+        "raw_payload_hash": "1afe6abeffd0158758034bb039ba9f21f020ca4fcd6ff6eb90f5670f18e14cb8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.190699",
+      "superseded_by": null
+    },
+    {
+      "id": "d7ee4d13-d45c-4f98-82dd-ee5520d8d8fa",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "company_id": "92ddb48f-d229-43f5-b71f-6484e57930a9",
+      "application_id": "e0f78900-1b5f-40eb-af16-f1d494ad1f6e",
+      "kind": "product",
+      "text": "OrbitClimate addresses: Clinical trial recruitment is bottlenecked by manual patient matching.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:35.190739",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.190754",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+    "score_history": [
+      {
+        "id": "643c86a2-70d5-4578-a4b1-38ccbc78d1aa",
+        "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+        "score": 84.38975760601534,
+        "confidence_band": [
+          64.38975760601534,
+          100.0
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:35.190848",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 77.63857699753412,
+          "market_fit": 69.19960123693257,
+          "network": 65.82401093269196,
+          "momentum": 60.76062547633104
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "643c86a2-70d5-4578-a4b1-38ccbc78d1aa",
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "score": 84.38975760601534,
+      "confidence_band": [
+        64.38975760601534,
+        100.0
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:35.190848",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 77.63857699753412,
+        "market_fit": 69.19960123693257,
+        "network": 65.82401093269196,
+        "momentum": 60.76062547633104
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:35.190867",
+    "last_updated_at": "2026-07-19T09:45:35.190868"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/36.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/A_view_from_the_Back_Campus_of_the_University_of_Toronto.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

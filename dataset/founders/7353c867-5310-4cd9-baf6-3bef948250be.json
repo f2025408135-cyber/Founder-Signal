@@ -1,0 +1,249 @@
+{
+  "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+  "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+  "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+  "name": "Priya Okafor",
+  "company_name": "NovaTech",
+  "sector": "Climate",
+  "stage": "series-a",
+  "geography": "SG",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "Stanford University",
+    "university_country": "US",
+    "degree": "BSc Physics",
+    "year": 2013
+  },
+  "prior_experience": "Previously worked at OpenAI, focusing on climate problems.",
+  "github_profile": {
+    "username": "priyaokafor18",
+    "repo_count": 23,
+    "primary_language": "JavaScript",
+    "commit_activity": "33 commits in last 30 days",
+    "stars": 561,
+    "top_repo": "priyaokafor18/novatech-core",
+    "contributors": 7
+  },
+  "deck_summary": "NovaTech is building A code review tool specialized for ML pipeline correctness. The problem: Developer onboarding takes 3+ weeks; existing tools don't integrate with CI/CD.",
+  "claims": [
+    {
+      "id": "0b925f9d-be63-407c-8736-658240508e04",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+      "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+      "kind": "founder_background",
+      "text": "Founder Priya Okafor holds a BSc Physics from Stanford University, graduating in 2013.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:cad0c52a-ff95-474f-9479-238db8c70043",
+        "ingested_at": "2026-07-19T09:45:42.669619",
+        "raw_payload_hash": "ce67583e780aebde78cd0b68c6d7e0c92e5e3eca7528c60bd1fd68e00ef1cc71",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.669685",
+      "superseded_by": null
+    },
+    {
+      "id": "7f1f8963-67cf-4018-8530-618567ed33fa",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+      "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+      "kind": "technical_depth",
+      "text": "Repository priyaokafor18/novatech-core has 561 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "priyaokafor18/novatech-core",
+        "ingested_at": "2026-07-19T09:45:42.669690",
+        "raw_payload_hash": "bf039078583b1997c610a004c86d81790cbf79a4ee00e3e4be2580bcb24828c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.669703",
+      "superseded_by": null
+    },
+    {
+      "id": "5dbe6ead-27f0-4f8b-bdec-de3d757c86f7",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+      "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+      "kind": "technical_depth",
+      "text": "Repository priyaokafor18/novatech-core received 33 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "priyaokafor18/novatech-core/commits",
+        "ingested_at": "2026-07-19T09:45:42.669740",
+        "raw_payload_hash": "1bfd7d948c7bff260e0fecf027543b1a1223a540cee604c1c7891defc447b9cf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.669751",
+      "superseded_by": null
+    },
+    {
+      "id": "71278f8c-6292-4ec8-bc42-4a278323254e",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+      "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+      "kind": "founder_network",
+      "text": "Repository priyaokafor18/novatech-core has 7 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "priyaokafor18/novatech-core/contributors",
+        "ingested_at": "2026-07-19T09:45:42.669754",
+        "raw_payload_hash": "769b43e5d45c5e8a46255c67491a38b2d19cef3b373d1d9e1daa1d21bb686353",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.669763",
+      "superseded_by": null
+    },
+    {
+      "id": "6094ee08-e46e-4016-b219-a4dfb7614faf",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+      "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+      "kind": "technical_depth",
+      "text": "Founder authored arXiv paper 2342.64948 on Climate techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2342.64948",
+        "ingested_at": "2026-07-19T09:45:42.669769",
+        "raw_payload_hash": "658e25228ba3feb3d991918e406bde4716c1977d977e4fb1e3d617db4727eba3",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.669778",
+      "superseded_by": null
+    },
+    {
+      "id": "a7f12106-1abc-4be9-b560-d8ece8d59630",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+      "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+      "kind": "founder_network",
+      "text": "Founder is a member of the YC S23 accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:YC:S23",
+        "ingested_at": "2026-07-19T09:45:42.669782",
+        "raw_payload_hash": "982c35961b78b8ed697131eb23f385997dbe263d19fff8464da8a4750bf2717a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.669789",
+      "superseded_by": null
+    },
+    {
+      "id": "73cb3ea7-5090-4a1a-a7c8-824246bbcc0c",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+      "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+      "kind": "market_trend",
+      "text": "The Climate market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Climate-market",
+        "ingested_at": "2026-07-19T09:45:42.669793",
+        "raw_payload_hash": "0443d2fc14a16d9108e4de9e0b02645653c4dd8a3d5ad98a5bce572d96e32ebf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.669801",
+      "superseded_by": null
+    },
+    {
+      "id": "f385e1fa-b0e1-4425-83df-dcc0c73e021e",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "company_id": "20e24c4f-7fff-4c93-b70e-b2c8f5579179",
+      "application_id": "cad0c52a-ff95-474f-9479-238db8c70043",
+      "kind": "product",
+      "text": "NovaTech addresses: Developer onboarding takes 3+ weeks; existing tools don't integrate with CI/CD.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:42.669804",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:42.669813",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+    "score_history": [
+      {
+        "id": "b48facfa-6684-4ebf-ad1b-9812a0de818a",
+        "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+        "score": 82.46220961839549,
+        "confidence_band": [
+          62.46220961839549,
+          100.0
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:42.669900",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 75.86523284892385,
+          "market_fit": 67.6190118870843,
+          "network": 64.32052350234848,
+          "momentum": 59.37279092524475
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "b48facfa-6684-4ebf-ad1b-9812a0de818a",
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "score": 82.46220961839549,
+      "confidence_band": [
+        62.46220961839549,
+        100.0
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:42.669900",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 75.86523284892385,
+        "market_fit": 67.6190118870843,
+        "network": 64.32052350234848,
+        "momentum": 59.37279092524475
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:42.669918",
+    "last_updated_at": "2026-07-19T09:45:42.669919"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/20.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Center_for_Clinical_Sciences_Research%2C_Stanford_University_%282025%29-L1007419.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

@@ -151,6 +151,64 @@ export default function FounderDetailPage() {
 
           {/* Memo body */}
           <div className="px-6 py-8 max-w-3xl mx-auto">
+            {/* Founder identity strip — photo + name + education + github.
+                Minimal addition to existing UI; uses demo-only fields surfaced
+                from founder.bio_text JSON (see scripts/seed_dataset.py). */}
+            <div className="flex items-center gap-4 mb-6 p-3 rounded-md border border-[var(--color-border)] bg-[var(--color-card)]">
+              {memo.photo_url && (
+                <img
+                  src={memo.photo_url}
+                  alt={memo.founder_name}
+                  className="w-16 h-16 rounded-full object-cover border border-[var(--color-border)] flex-shrink-0"
+                  onError={(e) => {
+                    // If the image fails to load (e.g. offline SVG path mismatch),
+                    // hide it so we don't show a broken-image icon.
+                    (e.currentTarget as HTMLImageElement).style.display = "none";
+                  }}
+                />
+              )}
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h2 className="text-base font-semibold">{memo.founder_name}</h2>
+                  {memo.categories.map((c) => (
+                    <span
+                      key={c}
+                      className="inline-flex items-center px-1.5 py-0.5 rounded text-[9px] uppercase tracking-wider border border-[var(--color-border)] text-[var(--color-muted-foreground)]"
+                    >
+                      {c.replace("_", " ")}
+                    </span>
+                  ))}
+                </div>
+                {memo.prior_experience && (
+                  <p className="text-xs text-[var(--color-muted-foreground)] mt-1">
+                    {memo.prior_experience}
+                  </p>
+                )}
+                {memo.education && (
+                  <div className="flex items-center gap-2 mt-2">
+                    {memo.university_image_url && (
+                      <img
+                        src={memo.university_image_url}
+                        alt={memo.education.university}
+                        className="w-8 h-8 rounded object-cover border border-[var(--color-border)] flex-shrink-0"
+                        onError={(e) => {
+                          (e.currentTarget as HTMLImageElement).style.display = "none";
+                        }}
+                      />
+                    )}
+                    <span className="text-xs text-[var(--color-muted-foreground)]">
+                      {memo.education.degree}, {memo.education.university} ({memo.education.year})
+                    </span>
+                  </div>
+                )}
+                {memo.github_profile && (
+                  <p className="text-xs mt-1 font-mono text-[var(--color-muted-foreground)]">
+                    github: {memo.github_profile.username} · {memo.github_profile.stars}★ · {memo.github_profile.primary_language}
+                  </p>
+                )}
+              </div>
+            </div>
+
             {/* Cold-start banner is rendered by MemoView from memo_markdown
                 (aggregator.py:222-225 embeds it as a blockquote at the top).
                 Per spec §9.2: RED border, exact spec text. We do NOT render a

@@ -1,0 +1,249 @@
+{
+  "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+  "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+  "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+  "name": "Dario Schmidt",
+  "company_name": "DriftAI",
+  "sector": "Fintech",
+  "stage": "series-a",
+  "geography": "US",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "HEC Paris",
+    "university_country": "FR",
+    "degree": "BSc Physics",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at Microsoft, focusing on fintech problems.",
+  "github_profile": {
+    "username": "darioschmidt18",
+    "repo_count": 18,
+    "primary_language": "C++",
+    "commit_activity": "47 commits in last 30 days",
+    "stars": 756,
+    "top_repo": "darioschmidt18/driftai-core",
+    "contributors": 14
+  },
+  "deck_summary": "DriftAI is building A model observability platform with drift detection and alerting. The problem: Consumer app discovery is broken; app store optimization is guesswork.",
+  "claims": [
+    {
+      "id": "ce68f77c-61e6-488f-94ec-a4ca337241b1",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+      "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+      "kind": "founder_background",
+      "text": "Founder Dario Schmidt holds a BSc Physics from HEC Paris, graduating in 2022.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:4ba56789-f584-45f4-9626-0a63b59a8c6a",
+        "ingested_at": "2026-07-19T09:45:46.674794",
+        "raw_payload_hash": "30d2cf636946cd490b3216687a82b4aa316e20f481943239e28a51f1d33b6f33",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.674866",
+      "superseded_by": null
+    },
+    {
+      "id": "53fd9287-d461-4321-8f30-40ac4f07d08c",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+      "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+      "kind": "technical_depth",
+      "text": "Repository darioschmidt18/driftai-core has 756 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "darioschmidt18/driftai-core",
+        "ingested_at": "2026-07-19T09:45:46.674872",
+        "raw_payload_hash": "b75424b47d249d493523bf7535234c89689b9429b9e0b047fe62955349abac64",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.674886",
+      "superseded_by": null
+    },
+    {
+      "id": "a0d74e26-1040-4740-9b38-d53edcbcf98b",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+      "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+      "kind": "technical_depth",
+      "text": "Repository darioschmidt18/driftai-core received 47 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "darioschmidt18/driftai-core/commits",
+        "ingested_at": "2026-07-19T09:45:46.674889",
+        "raw_payload_hash": "683d13c409d1cc14905d33c720366e4b9135039817aab75d483dfc2e9c807f1f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.674898",
+      "superseded_by": null
+    },
+    {
+      "id": "ee4005e9-a5ff-4943-84ba-71f734d51b33",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+      "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+      "kind": "founder_network",
+      "text": "Repository darioschmidt18/driftai-core has 14 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "darioschmidt18/driftai-core/contributors",
+        "ingested_at": "2026-07-19T09:45:46.674900",
+        "raw_payload_hash": "1c92388b5d84621511f4497fbd78cfd686610a692c85d2d2dd7d6a6fa484ffcd",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.674909",
+      "superseded_by": null
+    },
+    {
+      "id": "35d1e4e5-1cd1-4e21-a862-8a8e3b479f10",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+      "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+      "kind": "technical_depth",
+      "text": "Founder authored arXiv paper 2454.76469 on Fintech techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2454.76469",
+        "ingested_at": "2026-07-19T09:45:46.674915",
+        "raw_payload_hash": "f6117905da9d2ac709e803b221286308adb7b3b43e785f381ce7e454bbf94c74",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.674923",
+      "superseded_by": null
+    },
+    {
+      "id": "c4a2cecb-864f-4edf-9963-094a48163058",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+      "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+      "kind": "founder_network",
+      "text": "Founder is a member of the EWOR accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:EWOR",
+        "ingested_at": "2026-07-19T09:45:46.674927",
+        "raw_payload_hash": "0ae98459fc61d6e650e9528a5974d30012ef50d8e7ffc4582dd7154d66d75eec",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.674934",
+      "superseded_by": null
+    },
+    {
+      "id": "6aa6ba00-7c6c-4875-ac45-40cb680321e2",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+      "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+      "kind": "market_trend",
+      "text": "The Fintech market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Fintech-market",
+        "ingested_at": "2026-07-19T09:45:46.674937",
+        "raw_payload_hash": "d031372273d232c2ae6efc13550b5dc8b6e8cfda386f5007df981fb1c331dfc8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.674944",
+      "superseded_by": null
+    },
+    {
+      "id": "c0d612a5-743f-4962-92ce-5f1d9853e636",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "company_id": "f8c6f74d-50c4-4fa6-8ea2-c50d1d759ac9",
+      "application_id": "4ba56789-f584-45f4-9626-0a63b59a8c6a",
+      "kind": "product",
+      "text": "DriftAI addresses: Consumer app discovery is broken; app store optimization is guesswork.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:46.674947",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.674954",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+    "score_history": [
+      {
+        "id": "d18bc1d0-eb8b-499d-bfd0-bd15f9eda5a2",
+        "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+        "score": 74.80426256859037,
+        "confidence_band": [
+          54.804262568590374,
+          94.80426256859037
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:46.675036",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 68.81992156310315,
+          "market_fit": 61.3394953062441,
+          "network": 58.34732480350049,
+          "momentum": 53.85906904938507
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "d18bc1d0-eb8b-499d-bfd0-bd15f9eda5a2",
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "score": 74.80426256859037,
+      "confidence_band": [
+        54.804262568590374,
+        94.80426256859037
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:46.675036",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 68.81992156310315,
+        "market_fit": 61.3394953062441,
+        "network": 58.34732480350049,
+        "momentum": 53.85906904938507
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:46.675054",
+    "last_updated_at": "2026-07-19T09:45:46.675055"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/21.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chateau%2C_HEC_Paris%2C_Jouy-en-Josas%2C_South_view_20160501_1.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

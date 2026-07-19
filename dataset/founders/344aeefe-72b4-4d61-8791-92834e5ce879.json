@@ -1,0 +1,189 @@
+{
+  "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+  "company_id": "aa738010-08af-4b49-8d16-f7048c4e31f9",
+  "application_id": "aff8efed-1ab7-4cb0-a31a-be36af958200",
+  "name": "Amara Rossi",
+  "company_name": "HelixStack",
+  "sector": "AI infra",
+  "stage": "seed",
+  "geography": "GB",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "ETH Zurich",
+    "university_country": "CH",
+    "degree": "MBA",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at Meta, focusing on ai infra problems.",
+  "github_profile": {
+    "username": "amararossi29",
+    "repo_count": 6,
+    "primary_language": "Python",
+    "commit_activity": "6 commits in last 30 days",
+    "stars": 58,
+    "top_repo": "amararossi29/helixstack-core",
+    "contributors": 2
+  },
+  "deck_summary": "HelixStack is building A federated query layer that unifies EHR systems without data movement. The problem: Code review for ML pipelines lacks tooling; bugs ship to production.",
+  "claims": [
+    {
+      "id": "95263614-8c30-452c-8ae9-215e73d9d615",
+      "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+      "company_id": "aa738010-08af-4b49-8d16-f7048c4e31f9",
+      "application_id": "aff8efed-1ab7-4cb0-a31a-be36af958200",
+      "kind": "founder_background",
+      "text": "Founder Amara Rossi holds a MBA from ETH Zurich, graduating in 2019.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:aff8efed-1ab7-4cb0-a31a-be36af958200",
+        "ingested_at": "2026-07-19T09:45:52.883963",
+        "raw_payload_hash": "bbfa30f4a5509f0bc123461ede02085805de4b507f2db08fa3bb73939366fe7f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.884018",
+      "superseded_by": null
+    },
+    {
+      "id": "f4514f29-8e08-4b15-911b-0e34cd102797",
+      "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+      "company_id": "aa738010-08af-4b49-8d16-f7048c4e31f9",
+      "application_id": "aff8efed-1ab7-4cb0-a31a-be36af958200",
+      "kind": "product",
+      "text": "HelixStack addresses: Code review for ML pipelines lacks tooling; bugs ship to production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:52.884023",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.884048",
+      "superseded_by": null
+    },
+    {
+      "id": "97b24a95-0b47-4e06-9a55-42542b804cef",
+      "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+      "company_id": "aa738010-08af-4b49-8d16-f7048c4e31f9",
+      "application_id": "aff8efed-1ab7-4cb0-a31a-be36af958200",
+      "kind": "product",
+      "text": "Solution: A federated query layer that unifies EHR systems without data movement.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:52.884053",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.884063",
+      "superseded_by": null
+    },
+    {
+      "id": "cf1f0f8b-0eb8-49f8-930d-0472f4f3e937",
+      "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+      "company_id": "aa738010-08af-4b49-8d16-f7048c4e31f9",
+      "application_id": "aff8efed-1ab7-4cb0-a31a-be36af958200",
+      "kind": "market_trend",
+      "text": "The AI infra sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AI infra-trend",
+        "ingested_at": "2026-07-19T09:45:52.884066",
+        "raw_payload_hash": "c24bafa288cde511961d251ebfaaa684ba199417db6c2ed52e5dc38ed308ca32",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.884074",
+      "superseded_by": null
+    },
+    {
+      "id": "e2809847-06ce-4c22-acff-c229a2f08a5b",
+      "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+      "company_id": "aa738010-08af-4b49-8d16-f7048c4e31f9",
+      "application_id": "aff8efed-1ab7-4cb0-a31a-be36af958200",
+      "kind": "technical_depth",
+      "text": "Repository amararossi29/helixstack-core has 58 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "amararossi29/helixstack-core",
+        "ingested_at": "2026-07-19T09:45:52.884082",
+        "raw_payload_hash": "0df791befef40b72d5886f40208af3dd7e64b80376c89b4370abde0d3cb4e73a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.884090",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+    "score_history": [
+      {
+        "id": "2480edeb-e636-4168-a683-3256e0dafe5d",
+        "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+        "score": 61.16146069235257,
+        "confidence_band": [
+          41.16146069235257,
+          81.16146069235256
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:52.884180",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 45.87109551926443,
+          "market_fit": 36.69687641541154,
+          "network": 24.46458427694103,
+          "momentum": 30.580730346176285
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "2480edeb-e636-4168-a683-3256e0dafe5d",
+      "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+      "score": 61.16146069235257,
+      "confidence_band": [
+        41.16146069235257,
+        81.16146069235256
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:52.884180",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 45.87109551926443,
+        "market_fit": 36.69687641541154,
+        "network": 24.46458427694103,
+        "momentum": 30.580730346176285
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:52.884201",
+    "last_updated_at": "2026-07-19T09:45:52.884202"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/98.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Cows_in_front_of_the_campus_ETH_H%C3%B6nggerberg.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

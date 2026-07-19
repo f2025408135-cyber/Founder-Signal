@@ -1,0 +1,249 @@
+{
+  "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+  "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+  "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+  "name": "Elena Volkov",
+  "company_name": "CipherLabs",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "FR",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "TU Berlin",
+    "university_country": "DE",
+    "degree": "MBA",
+    "year": 2017
+  },
+  "prior_experience": "Previously worked at a fintech unicorn, focusing on healthtech problems.",
+  "github_profile": {
+    "username": "elenavolkov36",
+    "repo_count": 16,
+    "primary_language": "JavaScript",
+    "commit_activity": "32 commits in last 30 days",
+    "stars": 940,
+    "top_repo": "elenavolkov36/cipherlabs-core",
+    "contributors": 28
+  },
+  "deck_summary": "CipherLabs is building An open-source evaluation harness with auditable test suites. The problem: AI model deployment lacks observability; teams fly blind in production.",
+  "claims": [
+    {
+      "id": "bed5893c-dedf-4d00-99ee-61de974886f4",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+      "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+      "kind": "founder_background",
+      "text": "Founder Elena Volkov holds a MBA from TU Berlin, graduating in 2017.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:f26cec1b-be76-421e-b4c4-a2810305ae6c",
+        "ingested_at": "2026-07-19T09:45:48.825277",
+        "raw_payload_hash": "eb38fef81e00d1e0490aa35825565bc6aaab63068a5d5cf9cdeda98f77e80169",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.825344",
+      "superseded_by": null
+    },
+    {
+      "id": "f06fbd2c-b8ec-467c-a703-5ee4fd928e99",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+      "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+      "kind": "technical_depth",
+      "text": "Repository elenavolkov36/cipherlabs-core has 940 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "elenavolkov36/cipherlabs-core",
+        "ingested_at": "2026-07-19T09:45:48.825349",
+        "raw_payload_hash": "a1d2da3eccc9abfb546cb325513135714b9408c04035d4c6260800b6065e0afe",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.825361",
+      "superseded_by": null
+    },
+    {
+      "id": "18e6df78-ea24-417f-8bfd-fcbb86b4a9dc",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+      "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+      "kind": "technical_depth",
+      "text": "Repository elenavolkov36/cipherlabs-core received 32 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "elenavolkov36/cipherlabs-core/commits",
+        "ingested_at": "2026-07-19T09:45:48.825364",
+        "raw_payload_hash": "ea191c5acdb84d671b68292b6196f597451923d8c5dc9939522debb781927bf7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.825373",
+      "superseded_by": null
+    },
+    {
+      "id": "975512ac-f13b-4622-b21c-7e59c3ef5735",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+      "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+      "kind": "founder_network",
+      "text": "Repository elenavolkov36/cipherlabs-core has 28 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "elenavolkov36/cipherlabs-core/contributors",
+        "ingested_at": "2026-07-19T09:45:48.825375",
+        "raw_payload_hash": "eb26c70afb6c46a830d9f8da31ed470f0d5c13fbc9b623fb59ee5d08c36e0841",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.825383",
+      "superseded_by": null
+    },
+    {
+      "id": "847a0fce-29c2-4f1e-947d-4dffe57ad442",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+      "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+      "kind": "technical_depth",
+      "text": "Founder authored arXiv paper 2595.59857 on Healthtech techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2595.59857",
+        "ingested_at": "2026-07-19T09:45:48.825389",
+        "raw_payload_hash": "2d7c965653dcfb666972aac3b9f2a28c5042d9e73a047820ef5c088108a0bee4",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.825397",
+      "superseded_by": null
+    },
+    {
+      "id": "636f9585-a6f0-4764-af52-3395f4d057f2",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+      "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+      "kind": "founder_network",
+      "text": "Founder is a member of the 500 Global accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:500:Global",
+        "ingested_at": "2026-07-19T09:45:48.825400",
+        "raw_payload_hash": "489184f7bdc3a381a34cdaed9f6586d897ac84263c11e5df1309d5991da65cbc",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.825408",
+      "superseded_by": null
+    },
+    {
+      "id": "5cea8af9-3d33-45e7-b3f5-c515a973aaa0",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+      "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+      "kind": "market_trend",
+      "text": "The Healthtech market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T09:45:48.825411",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.825418",
+      "superseded_by": null
+    },
+    {
+      "id": "d8165e77-0500-4a8b-9b9a-0628b6a2636f",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "company_id": "e418cc03-07c8-4161-b1cc-7630dc90fd88",
+      "application_id": "f26cec1b-be76-421e-b4c4-a2810305ae6c",
+      "kind": "product",
+      "text": "CipherLabs addresses: AI model deployment lacks observability; teams fly blind in production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:48.825422",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.825430",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+    "score_history": [
+      {
+        "id": "9ce7c892-72f2-4e81-8de9-8846be56bdd1",
+        "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+        "score": 78.49355411626185,
+        "confidence_band": [
+          58.49355411626185,
+          98.49355411626185
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:48.825548",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 72.2140697869609,
+          "market_fit": 64.36471437533471,
+          "network": 61.22497221068424,
+          "momentum": 56.51535896370853
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "9ce7c892-72f2-4e81-8de9-8846be56bdd1",
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "score": 78.49355411626185,
+      "confidence_band": [
+        58.49355411626185,
+        98.49355411626185
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:48.825548",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 72.2140697869609,
+        "market_fit": 64.36471437533471,
+        "network": 61.22497221068424,
+        "momentum": 56.51535896370853
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:48.825569",
+    "last_updated_at": "2026-07-19T09:45:48.825571"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/60.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/20141115_-_TU_Berlin_Campus_Hertzallee_4_by_sebaso.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

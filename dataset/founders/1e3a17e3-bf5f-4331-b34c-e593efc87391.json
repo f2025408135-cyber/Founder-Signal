@@ -1,0 +1,201 @@
+{
+  "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+  "company_id": "7f6aeb21-e888-4d78-a068-2cb4117b1351",
+  "application_id": "0dd98a28-946b-4f1f-b742-8fc9ca378918",
+  "name": "Mikael Schneider",
+  "company_name": "CipherCloud",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "SG",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "Carnegie Mellon University",
+    "university_country": "US",
+    "degree": "PhD Machine Learning",
+    "year": 2024
+  },
+  "prior_experience": "Previously worked at a climate-tech scale-up, focusing on healthtech problems.",
+  "github_profile": null,
+  "deck_summary": "CipherCloud is building An automated privacy compliance scanner for codebases. The problem: Legacy hospital records are siloed and impossible to query in bulk.",
+  "claims": [
+    {
+      "id": "403d4a6e-f1be-46d7-a719-e840dec86cc8",
+      "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+      "company_id": "7f6aeb21-e888-4d78-a068-2cb4117b1351",
+      "application_id": "0dd98a28-946b-4f1f-b742-8fc9ca378918",
+      "kind": "founder_background",
+      "text": "Founder Mikael Schneider holds a PhD Machine Learning from Carnegie Mellon University, graduating in 2024.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:0dd98a28-946b-4f1f-b742-8fc9ca378918",
+        "ingested_at": "2026-07-19T09:45:55.934014",
+        "raw_payload_hash": "061b5261eea5243c0cae19d257084c24893375cf7fbc6fc87f36ae61800ae461",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.934080",
+      "superseded_by": null
+    },
+    {
+      "id": "69f8e7cc-44c2-4e01-a8d0-c497355a9d16",
+      "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+      "company_id": "7f6aeb21-e888-4d78-a068-2cb4117b1351",
+      "application_id": "0dd98a28-946b-4f1f-b742-8fc9ca378918",
+      "kind": "founder_background",
+      "text": "Founder Mikael Schneider previously worked at a climate-tech scale-up.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:55.934085",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.934097",
+      "superseded_by": null
+    },
+    {
+      "id": "ba8a7834-47a7-4359-ae34-0c4a78701128",
+      "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+      "company_id": "7f6aeb21-e888-4d78-a068-2cb4117b1351",
+      "application_id": "0dd98a28-946b-4f1f-b742-8fc9ca378918",
+      "kind": "product",
+      "text": "CipherCloud addresses: Legacy hospital records are siloed and impossible to query in bulk.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:55.934100",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.934109",
+      "superseded_by": null
+    },
+    {
+      "id": "35abcc3e-ff67-43d4-9444-b4be65b24ee1",
+      "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+      "company_id": "7f6aeb21-e888-4d78-a068-2cb4117b1351",
+      "application_id": "0dd98a28-946b-4f1f-b742-8fc9ca378918",
+      "kind": "product",
+      "text": "Solution: An automated privacy compliance scanner for codebases.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:55.934112",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.934119",
+      "superseded_by": null
+    },
+    {
+      "id": "c36b3068-6f40-42b0-bf2d-2cabd8e415d3",
+      "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+      "company_id": "7f6aeb21-e888-4d78-a068-2cb4117b1351",
+      "application_id": "0dd98a28-946b-4f1f-b742-8fc9ca378918",
+      "kind": "market_size",
+      "text": "The Healthtech market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:55.934122",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.934129",
+      "superseded_by": null
+    },
+    {
+      "id": "a0b5d493-3df2-4d0d-ba36-d77f590c17c6",
+      "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+      "company_id": "7f6aeb21-e888-4d78-a068-2cb4117b1351",
+      "application_id": "0dd98a28-946b-4f1f-b742-8fc9ca378918",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:0dd98a28-946b-4f1f-b742-8fc9ca378918",
+        "ingested_at": "2026-07-19T09:45:55.934134",
+        "raw_payload_hash": "061b5261eea5243c0cae19d257084c24893375cf7fbc6fc87f36ae61800ae461",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:55.934142",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+    "score_history": [
+      {
+        "id": "dd04c05c-b9f5-430f-969c-207076a02183",
+        "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+        "score": 60.19981072122034,
+        "confidence_band": [
+          30.199810721220338,
+          90.19981072122033
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:55.934240",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 48.15984857697627,
+          "market_fit": 42.13986750485424,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "dd04c05c-b9f5-430f-969c-207076a02183",
+      "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+      "score": 60.19981072122034,
+      "confidence_band": [
+        30.199810721220338,
+        90.19981072122033
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:55.934240",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 48.15984857697627,
+        "market_fit": 42.13986750485424,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:55.934266",
+    "last_updated_at": "2026-07-19T09:45:55.934267"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/20.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Carnegie_Mellon_University_as_seen_from_the_Cathedral_of_Learning.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

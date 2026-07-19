@@ -1,0 +1,201 @@
+{
+  "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+  "company_id": "8f47262e-a6ec-463a-9f9d-a0b23b017ea8",
+  "application_id": "3d9df912-65e1-4725-9a23-d6a097d7c530",
+  "name": "Bastian Schmidt",
+  "company_name": "FluxTools",
+  "sector": "Consumer",
+  "stage": "seed",
+  "geography": "GB",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "HEC Paris",
+    "university_country": "FR",
+    "degree": "MSc Robotics",
+    "year": 2013
+  },
+  "prior_experience": "Previously worked at Amazon, focusing on consumer problems.",
+  "github_profile": null,
+  "deck_summary": "FluxTools is building A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: Clinical trial recruitment is bottlenecked by manual patient matching.",
+  "claims": [
+    {
+      "id": "ea093c26-12d8-42d9-929b-22b9d666a742",
+      "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+      "company_id": "8f47262e-a6ec-463a-9f9d-a0b23b017ea8",
+      "application_id": "3d9df912-65e1-4725-9a23-d6a097d7c530",
+      "kind": "founder_background",
+      "text": "Founder Bastian Schmidt holds a MSc Robotics from HEC Paris, graduating in 2013.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:3d9df912-65e1-4725-9a23-d6a097d7c530",
+        "ingested_at": "2026-07-19T09:45:38.777486",
+        "raw_payload_hash": "6951c8886709d9e03e7db49402fc8b21b77ffa1b07c4a85a1b428bf0a7b5128e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:38.777550",
+      "superseded_by": null
+    },
+    {
+      "id": "249e0eea-696d-4723-8a7b-b922b9521541",
+      "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+      "company_id": "8f47262e-a6ec-463a-9f9d-a0b23b017ea8",
+      "application_id": "3d9df912-65e1-4725-9a23-d6a097d7c530",
+      "kind": "founder_background",
+      "text": "Founder Bastian Schmidt previously worked at Amazon.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:38.777555",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:38.777567",
+      "superseded_by": null
+    },
+    {
+      "id": "f5c5893d-3e64-41a3-aa59-5785010f2519",
+      "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+      "company_id": "8f47262e-a6ec-463a-9f9d-a0b23b017ea8",
+      "application_id": "3d9df912-65e1-4725-9a23-d6a097d7c530",
+      "kind": "product",
+      "text": "FluxTools addresses: Clinical trial recruitment is bottlenecked by manual patient matching.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:38.777571",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:38.777580",
+      "superseded_by": null
+    },
+    {
+      "id": "0bc31610-fa57-4549-81c2-c6ee98df5bd3",
+      "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+      "company_id": "8f47262e-a6ec-463a-9f9d-a0b23b017ea8",
+      "application_id": "3d9df912-65e1-4725-9a23-d6a097d7c530",
+      "kind": "product",
+      "text": "Solution: A CI/CD-native onboarding platform that reduces ramp time to 3 days.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:38.777582",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:38.777594",
+      "superseded_by": null
+    },
+    {
+      "id": "b881d826-08c6-4930-8122-a5725707998d",
+      "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+      "company_id": "8f47262e-a6ec-463a-9f9d-a0b23b017ea8",
+      "application_id": "3d9df912-65e1-4725-9a23-d6a097d7c530",
+      "kind": "market_size",
+      "text": "The Consumer market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:38.777605",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:38.777615",
+      "superseded_by": null
+    },
+    {
+      "id": "c44d9797-4abb-44e3-bcfa-b0d246c1806b",
+      "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+      "company_id": "8f47262e-a6ec-463a-9f9d-a0b23b017ea8",
+      "application_id": "3d9df912-65e1-4725-9a23-d6a097d7c530",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:3d9df912-65e1-4725-9a23-d6a097d7c530",
+        "ingested_at": "2026-07-19T09:45:38.777620",
+        "raw_payload_hash": "6951c8886709d9e03e7db49402fc8b21b77ffa1b07c4a85a1b428bf0a7b5128e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:38.777628",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+    "score_history": [
+      {
+        "id": "113303e8-cfef-4fe6-804c-28d393c820a8",
+        "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+        "score": 51.761711242949104,
+        "confidence_band": [
+          21.761711242949104,
+          81.7617112429491
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:38.777740",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 41.40936899435928,
+          "market_fit": 36.23319787006437,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "113303e8-cfef-4fe6-804c-28d393c820a8",
+      "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+      "score": 51.761711242949104,
+      "confidence_band": [
+        21.761711242949104,
+        81.7617112429491
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:38.777740",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 41.40936899435928,
+        "market_fit": 36.23319787006437,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:38.777759",
+    "last_updated_at": "2026-07-19T09:45:38.777760"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/26.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chateau%2C_HEC_Paris%2C_Jouy-en-Josas%2C_South_view_20160501_1.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

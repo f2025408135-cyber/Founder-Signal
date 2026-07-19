@@ -1,0 +1,161 @@
+{
+  "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+  "company_id": "1ac8754f-13fa-42ba-9509-fd5f44fa1af8",
+  "application_id": "0c5bb1e8-c3c4-474d-9d13-532d092b7f7b",
+  "name": "Kenji Nakamura",
+  "company_name": "ApexSystems",
+  "sector": "Consumer",
+  "stage": "series-a",
+  "geography": "GB",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "TU Berlin",
+    "university_country": "DE",
+    "degree": "MBA",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at OpenAI, focusing on consumer problems.",
+  "github_profile": null,
+  "deck_summary": "ApexSystems is building A code review tool specialized for ML pipeline correctness. The problem: Code review for ML pipelines lacks tooling; bugs ship to production.",
+  "claims": [
+    {
+      "id": "5962125d-e7df-4314-8d2e-3210148ba4ee",
+      "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+      "company_id": "1ac8754f-13fa-42ba-9509-fd5f44fa1af8",
+      "application_id": "0c5bb1e8-c3c4-474d-9d13-532d092b7f7b",
+      "kind": "founder_background",
+      "text": "Founder Kenji Nakamura holds a MBA from TU Berlin, graduating in 2022.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:0c5bb1e8-c3c4-474d-9d13-532d092b7f7b",
+        "ingested_at": "2026-07-19T09:45:46.916502",
+        "raw_payload_hash": "caba43384f2cdf325d26da9aa17cfd28e1991ab51a7bfe0ebee18ef5fa9482c3",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.916563",
+      "superseded_by": null
+    },
+    {
+      "id": "48d1e3d9-c284-4f63-95d6-314dff5645be",
+      "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+      "company_id": "1ac8754f-13fa-42ba-9509-fd5f44fa1af8",
+      "application_id": "0c5bb1e8-c3c4-474d-9d13-532d092b7f7b",
+      "kind": "product",
+      "text": "ApexSystems addresses: Code review for ML pipelines lacks tooling; bugs ship to production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:46.916568",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.916580",
+      "superseded_by": null
+    },
+    {
+      "id": "832edd69-1094-4016-9436-8453ef0c0fed",
+      "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+      "company_id": "1ac8754f-13fa-42ba-9509-fd5f44fa1af8",
+      "application_id": "0c5bb1e8-c3c4-474d-9d13-532d092b7f7b",
+      "kind": "product",
+      "text": "Solution: A code review tool specialized for ML pipeline correctness.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:46.916583",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.916591",
+      "superseded_by": null
+    },
+    {
+      "id": "62aaf212-aab0-4857-8762-ec2998957574",
+      "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+      "company_id": "1ac8754f-13fa-42ba-9509-fd5f44fa1af8",
+      "application_id": "0c5bb1e8-c3c4-474d-9d13-532d092b7f7b",
+      "kind": "market_trend",
+      "text": "The Consumer sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Consumer-trend",
+        "ingested_at": "2026-07-19T09:45:46.916595",
+        "raw_payload_hash": "a4270a158b249a1afde5955526ecd4c52a06076a4625fcde2d86b81a66afff99",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:46.916603",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+    "score_history": [
+      {
+        "id": "5e887bad-d2cf-4a12-8fb5-2199486b18c0",
+        "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+        "score": 60.958744262713964,
+        "confidence_band": [
+          40.958744262713964,
+          80.95874426271396
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:46.916670",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 45.71905819703547,
+          "market_fit": 36.575246557628375,
+          "network": 24.38349770508559,
+          "momentum": 30.479372131356982
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "5e887bad-d2cf-4a12-8fb5-2199486b18c0",
+      "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+      "score": 60.958744262713964,
+      "confidence_band": [
+        40.958744262713964,
+        80.95874426271396
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:46.916670",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 45.71905819703547,
+        "market_fit": 36.575246557628375,
+        "network": 24.38349770508559,
+        "momentum": 30.479372131356982
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:46.916689",
+    "last_updated_at": "2026-07-19T09:45:46.916690"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/53.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/20141115_-_TU_Berlin_Campus_Hertzallee_4_by_sebaso.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

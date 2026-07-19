@@ -1,0 +1,189 @@
+{
+  "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+  "company_id": "6f4c72c6-ef7f-436a-98db-1cd3b3fbd3db",
+  "application_id": "38dec4c3-39bf-42af-97ec-5d7c22451b9e",
+  "name": "Nadia Singh",
+  "company_name": "HelixTools",
+  "sector": "AI infra",
+  "stage": "pre-seed",
+  "geography": "IN",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "TU Munich",
+    "university_country": "DE",
+    "degree": "MSc Robotics",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at a national research lab, focusing on ai infra problems.",
+  "github_profile": {
+    "username": "nadiasingh66",
+    "repo_count": 11,
+    "primary_language": "Go",
+    "commit_activity": "19 commits in last 30 days",
+    "stars": 353,
+    "top_repo": "nadiasingh66/helixtools-core",
+    "contributors": 3
+  },
+  "deck_summary": "HelixTools is building A code review tool specialized for ML pipeline correctness. The problem: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+  "claims": [
+    {
+      "id": "ab45de36-76e3-4639-81f2-3e52c67ad62f",
+      "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+      "company_id": "6f4c72c6-ef7f-436a-98db-1cd3b3fbd3db",
+      "application_id": "38dec4c3-39bf-42af-97ec-5d7c22451b9e",
+      "kind": "founder_background",
+      "text": "Founder Nadia Singh holds a MSc Robotics from TU Munich, graduating in 2022.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:38dec4c3-39bf-42af-97ec-5d7c22451b9e",
+        "ingested_at": "2026-07-19T09:45:48.347987",
+        "raw_payload_hash": "eaaae6854f527a41da1d79cd105c6efd8537a44abc9363e06d05a3edaadb1348",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.348051",
+      "superseded_by": null
+    },
+    {
+      "id": "6a1c01c2-3858-490a-8d05-4b44812d0481",
+      "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+      "company_id": "6f4c72c6-ef7f-436a-98db-1cd3b3fbd3db",
+      "application_id": "38dec4c3-39bf-42af-97ec-5d7c22451b9e",
+      "kind": "product",
+      "text": "HelixTools addresses: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:48.348060",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.348072",
+      "superseded_by": null
+    },
+    {
+      "id": "fd6aef06-5879-4a2f-84df-93ce2af19ac3",
+      "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+      "company_id": "6f4c72c6-ef7f-436a-98db-1cd3b3fbd3db",
+      "application_id": "38dec4c3-39bf-42af-97ec-5d7c22451b9e",
+      "kind": "financial",
+      "text": "HelixTools raised a $5M seed round in 2025.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=5",
+        "ingested_at": "2026-07-19T09:45:48.348078",
+        "raw_payload_hash": "6a40fdad361b73c1aaf1d90a58a543a9a66d88feb1966f81e272d296626dde13",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.348087",
+      "superseded_by": null
+    },
+    {
+      "id": "9ea0701d-efdf-4f03-89ea-4ad8dd4053c8",
+      "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+      "company_id": "6f4c72c6-ef7f-436a-98db-1cd3b3fbd3db",
+      "application_id": "38dec4c3-39bf-42af-97ec-5d7c22451b9e",
+      "kind": "financial",
+      "text": "No public record of funding for HelixTools as of 2026-07.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:HelixTools-funding",
+        "ingested_at": "2026-07-19T09:45:48.348091",
+        "raw_payload_hash": "b4e6fbd42415511fc57cfc71ede36c0cf977f0f38ab70771f827e856fe3c428b",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.348099",
+      "superseded_by": null
+    },
+    {
+      "id": "b8638818-5906-4fd0-b0ca-d0d58098bbe8",
+      "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+      "company_id": "6f4c72c6-ef7f-436a-98db-1cd3b3fbd3db",
+      "application_id": "38dec4c3-39bf-42af-97ec-5d7c22451b9e",
+      "kind": "technical_depth",
+      "text": "Repository nadiasingh66/helixtools-core has 353 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "nadiasingh66/helixtools-core",
+        "ingested_at": "2026-07-19T09:45:48.348108",
+        "raw_payload_hash": "51e5bd8f17a8f63c61f79a1900036839e9a58452459a7ab2cf9719ec06b009a9",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.348119",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+    "score_history": [
+      {
+        "id": "5adb9ce1-6698-431c-99fd-a86b8c395ada",
+        "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+        "score": 60.375162683292096,
+        "confidence_band": [
+          40.375162683292096,
+          80.3751626832921
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:48.348230",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 48.30013014663368,
+          "market_fit": 30.187581341646048,
+          "network": 36.22509760997526,
+          "momentum": 30.187581341646048
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "5adb9ce1-6698-431c-99fd-a86b8c395ada",
+      "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+      "score": 60.375162683292096,
+      "confidence_band": [
+        40.375162683292096,
+        80.3751626832921
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:48.348230",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 48.30013014663368,
+        "market_fit": 30.187581341646048,
+        "network": 36.22509760997526,
+        "momentum": 30.187581341646048
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:48.348252",
+    "last_updated_at": "2026-07-19T09:45:48.348253"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/84.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/050322-tumuenchen-parabeln.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

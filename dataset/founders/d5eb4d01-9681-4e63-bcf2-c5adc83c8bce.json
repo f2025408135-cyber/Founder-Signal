@@ -1,0 +1,249 @@
+{
+  "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+  "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+  "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+  "name": "Erik Becker",
+  "company_name": "DriftFinance",
+  "sector": "DevTools",
+  "stage": "pre-seed",
+  "geography": "US",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "TU Berlin",
+    "university_country": "DE",
+    "degree": "MBA",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at DeepMind, focusing on devtools problems.",
+  "github_profile": {
+    "username": "erikbecker92",
+    "repo_count": 19,
+    "primary_language": "C++",
+    "commit_activity": "11 commits in last 30 days",
+    "stars": 281,
+    "top_repo": "erikbecker92/driftfinance-core",
+    "contributors": 16
+  },
+  "deck_summary": "DriftFinance is building A federated query layer that unifies EHR systems without data movement. The problem: Legacy hospital records are siloed and impossible to query in bulk.",
+  "claims": [
+    {
+      "id": "0170cb7e-b2d6-4eee-aebf-939f0089b29e",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+      "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+      "kind": "founder_background",
+      "text": "Founder Erik Becker holds a MBA from TU Berlin, graduating in 2019.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+        "ingested_at": "2026-07-19T09:45:40.460147",
+        "raw_payload_hash": "585c23401e2c7545ec48fee18eddfb5c97fc41dad627919e9c2891a976de857c",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:40.460225",
+      "superseded_by": null
+    },
+    {
+      "id": "6f49e397-7848-44e8-9b69-15172c0b3d5e",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+      "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+      "kind": "technical_depth",
+      "text": "Repository erikbecker92/driftfinance-core has 281 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "erikbecker92/driftfinance-core",
+        "ingested_at": "2026-07-19T09:45:40.460230",
+        "raw_payload_hash": "cf7d4ce75bedd2dc3ac35457afbfa8f18082bb4f31962ce61c843ec5789dc042",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:40.460242",
+      "superseded_by": null
+    },
+    {
+      "id": "2f6c8e50-9eb1-4b3b-90d0-ab943355d502",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+      "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+      "kind": "technical_depth",
+      "text": "Repository erikbecker92/driftfinance-core received 11 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "erikbecker92/driftfinance-core/commits",
+        "ingested_at": "2026-07-19T09:45:40.460245",
+        "raw_payload_hash": "ae323d5d33653e98cb67a9a43b8847589b9588454051f1890c17e3648326a11c",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:40.460254",
+      "superseded_by": null
+    },
+    {
+      "id": "2ce3cb96-5a1f-4be6-b10e-9d00afbdbbfe",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+      "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+      "kind": "founder_network",
+      "text": "Repository erikbecker92/driftfinance-core has 16 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "erikbecker92/driftfinance-core/contributors",
+        "ingested_at": "2026-07-19T09:45:40.460257",
+        "raw_payload_hash": "46084c04858ce24121ab12b7649935611ad5d207ba0905749b4e4e08daa79a54",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:40.460266",
+      "superseded_by": null
+    },
+    {
+      "id": "7ac055e1-e09d-4c9b-99ef-c0760b19439f",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+      "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+      "kind": "technical_depth",
+      "text": "Founder authored arXiv paper 2428.35112 on DevTools techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2428.35112",
+        "ingested_at": "2026-07-19T09:45:40.460276",
+        "raw_payload_hash": "2b39a128b881e57d08f2b81caae98f3489fc83f178be39a58d2d1462913a1444",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:40.460284",
+      "superseded_by": null
+    },
+    {
+      "id": "b0db273d-e46f-4745-89e8-764b1b08ac9d",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+      "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+      "kind": "founder_network",
+      "text": "Founder is a member of the Techstars accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:Techstars",
+        "ingested_at": "2026-07-19T09:45:40.460287",
+        "raw_payload_hash": "75d950c669c585b0bebed7bcae224c585c7c5aa5d42cf223a4473deb121f7016",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:40.460294",
+      "superseded_by": null
+    },
+    {
+      "id": "82797edd-eaff-4e5e-966c-645664ee18f5",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+      "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+      "kind": "market_trend",
+      "text": "The DevTools market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:DevTools-market",
+        "ingested_at": "2026-07-19T09:45:40.460297",
+        "raw_payload_hash": "1afe6abeffd0158758034bb039ba9f21f020ca4fcd6ff6eb90f5670f18e14cb8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:40.460303",
+      "superseded_by": null
+    },
+    {
+      "id": "086158b8-ad82-482e-888b-15b3d7ca5d2d",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "company_id": "e7b4e3f8-aba9-452a-9234-f4e778d341d5",
+      "application_id": "0bd75c2f-b698-4df6-9d61-eb24f0c0022e",
+      "kind": "product",
+      "text": "DriftFinance addresses: Legacy hospital records are siloed and impossible to query in bulk.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:40.460306",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:40.460313",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+    "score_history": [
+      {
+        "id": "5b9fffce-c4e2-4436-b281-a8ba353731a4",
+        "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+        "score": 72.18459598569785,
+        "confidence_band": [
+          52.184595985697854,
+          92.18459598569785
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:40.460395",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 66.40982830684203,
+          "market_fit": 59.191368708272236,
+          "network": 56.30398486884433,
+          "momentum": 51.97290910970245
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "5b9fffce-c4e2-4436-b281-a8ba353731a4",
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "score": 72.18459598569785,
+      "confidence_band": [
+        52.184595985697854,
+        92.18459598569785
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:40.460395",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 66.40982830684203,
+        "market_fit": 59.191368708272236,
+        "network": 56.30398486884433,
+        "momentum": 51.97290910970245
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:40.460412",
+    "last_updated_at": "2026-07-19T09:45:40.460413"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/51.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/20141115_-_TU_Berlin_Campus_Hertzallee_4_by_sebaso.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "founder_id": "74ddc933-215a-4630-b326-014d7a8726d4",
+  "company_id": "9da0a59c-1036-42ec-879a-98b3c33275bb",
+  "application_id": "8331634a-a814-4dc2-ada4-33eba1b99939",
+  "name": "Camila Novak",
+  "company_name": "EchoData",
+  "sector": "Climate",
+  "stage": "pre-seed",
+  "geography": "IN",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "MIT",
+    "university_country": "US",
+    "degree": "MSc Electrical Engineering",
+    "year": 2022
+  },
+  "prior_experience": "Previously worked at a stealth AI startup, focusing on climate problems.",
+  "github_profile": null,
+  "deck_summary": "EchoData is building An automated privacy compliance scanner for codebases. The problem: Cross-border payments remain slow and expensive for SMBs.",
+  "claims": [
+    {
+      "id": "d5390dd8-89dc-48f8-b3b2-d248c466551c",
+      "founder_id": "74ddc933-215a-4630-b326-014d7a8726d4",
+      "company_id": "9da0a59c-1036-42ec-879a-98b3c33275bb",
+      "application_id": "8331634a-a814-4dc2-ada4-33eba1b99939",
+      "kind": "founder_background",
+      "text": "Founder Camila Novak holds a MSc Electrical Engineering from MIT, graduating in 2022.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:8331634a-a814-4dc2-ada4-33eba1b99939",
+        "ingested_at": "2026-07-19T09:45:49.321882",
+        "raw_payload_hash": "d21df84ec12db107ff3269f8ead13585d7de344d9a7835b13059b0daa8a89dcb",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:49.321944",
+      "superseded_by": null
+    },
+    {
+      "id": "15f012e7-95e1-49b7-8809-498b645afa64",
+      "founder_id": "74ddc933-215a-4630-b326-014d7a8726d4",
+      "company_id": "9da0a59c-1036-42ec-879a-98b3c33275bb",
+      "application_id": "8331634a-a814-4dc2-ada4-33eba1b99939",
+      "kind": "product",
+      "text": "EchoData addresses: Cross-border payments remain slow and expensive for SMBs.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:49.321949",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:49.321961",
+      "superseded_by": null
+    },
+    {
+      "id": "0db15eaf-3205-437f-8d3a-8c8fb822cc6d",
+      "founder_id": "74ddc933-215a-4630-b326-014d7a8726d4",
+      "company_id": "9da0a59c-1036-42ec-879a-98b3c33275bb",
+      "application_id": "8331634a-a814-4dc2-ada4-33eba1b99939",
+      "kind": "product",
+      "text": "Solution: An automated privacy compliance scanner for codebases.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:49.321963",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:49.321972",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "74ddc933-215a-4630-b326-014d7a8726d4",
+    "score_history": [
+      {
+        "id": "f490e483-2f6c-4441-9fe4-3d65cf68731f",
+        "founder_id": "74ddc933-215a-4630-b326-014d7a8726d4",
+        "score": 60.12501644221612,
+        "confidence_band": [
+          40.12501644221612,
+          80.12501644221612
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:49.322035",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 48.1000131537729,
+          "market_fit": 42.087511509551284,
+          "network": 30.06250822110806,
+          "momentum": 36.07500986532967
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "f490e483-2f6c-4441-9fe4-3d65cf68731f",
+      "founder_id": "74ddc933-215a-4630-b326-014d7a8726d4",
+      "score": 60.12501644221612,
+      "confidence_band": [
+        40.12501644221612,
+        80.12501644221612
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:49.322035",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 48.1000131537729,
+        "market_fit": 42.087511509551284,
+        "network": 30.06250822110806,
+        "momentum": 36.07500986532967
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:49.322053",
+    "last_updated_at": "2026-07-19T09:45:49.322054"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/4.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/MIT_Main_Campus_Aerial.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

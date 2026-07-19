@@ -1,0 +1,189 @@
+{
+  "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+  "company_id": "34482177-feba-4964-922f-6a5bc9bf84cb",
+  "application_id": "aad989d3-3643-4208-a4ad-a0bacd44def9",
+  "name": "Aisha Dubois",
+  "company_name": "VoltData",
+  "sector": "Fintech",
+  "stage": "seed",
+  "geography": "DE",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "EPFL",
+    "university_country": "CH",
+    "degree": "MSc Robotics",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at a fintech unicorn, focusing on fintech problems.",
+  "github_profile": {
+    "username": "aishadubois31",
+    "repo_count": 3,
+    "primary_language": "Rust",
+    "commit_activity": "18 commits in last 30 days",
+    "stars": 347,
+    "top_repo": "aishadubois31/voltdata-core",
+    "contributors": 7
+  },
+  "deck_summary": "VoltData is building An AI-powered patient matching engine for clinical trials. The problem: Legacy hospital records are siloed and impossible to query in bulk.",
+  "claims": [
+    {
+      "id": "3b5dd593-3423-4759-a10c-49b6c2e53795",
+      "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+      "company_id": "34482177-feba-4964-922f-6a5bc9bf84cb",
+      "application_id": "aad989d3-3643-4208-a4ad-a0bacd44def9",
+      "kind": "founder_background",
+      "text": "Founder Aisha Dubois holds a MSc Robotics from EPFL, graduating in 2019.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:aad989d3-3643-4208-a4ad-a0bacd44def9",
+        "ingested_at": "2026-07-19T09:45:47.179618",
+        "raw_payload_hash": "cac8890cd69e0ccf310f3cacd0ff46391c8d3303e860a29adfc32e576c3b1999",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:47.179682",
+      "superseded_by": null
+    },
+    {
+      "id": "594c6a8c-f985-4ddd-b0bb-79e0d59df3be",
+      "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+      "company_id": "34482177-feba-4964-922f-6a5bc9bf84cb",
+      "application_id": "aad989d3-3643-4208-a4ad-a0bacd44def9",
+      "kind": "product",
+      "text": "VoltData addresses: Legacy hospital records are siloed and impossible to query in bulk.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:47.179687",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:47.179699",
+      "superseded_by": null
+    },
+    {
+      "id": "aade0f46-82bb-4b35-88c2-97189d39724b",
+      "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+      "company_id": "34482177-feba-4964-922f-6a5bc9bf84cb",
+      "application_id": "aad989d3-3643-4208-a4ad-a0bacd44def9",
+      "kind": "product",
+      "text": "Solution: An AI-powered patient matching engine for clinical trials.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:47.179702",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:47.179762",
+      "superseded_by": null
+    },
+    {
+      "id": "bfd067f0-44cd-4b41-bb59-369fe4d99173",
+      "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+      "company_id": "34482177-feba-4964-922f-6a5bc9bf84cb",
+      "application_id": "aad989d3-3643-4208-a4ad-a0bacd44def9",
+      "kind": "technical_depth",
+      "text": "Repository aishadubois31/voltdata-core has 347 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "aishadubois31/voltdata-core",
+        "ingested_at": "2026-07-19T09:45:47.179773",
+        "raw_payload_hash": "7eaebe7a0e260255bb30893a934619b574dc01eb9de9be85c7339d5bd7a820ab",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:47.179786",
+      "superseded_by": null
+    },
+    {
+      "id": "7520db45-0544-4a44-8ca6-a67403f7df3e",
+      "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+      "company_id": "34482177-feba-4964-922f-6a5bc9bf84cb",
+      "application_id": "aad989d3-3643-4208-a4ad-a0bacd44def9",
+      "kind": "traction",
+      "text": "VoltData has 2024 active users.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:47.179795",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:47.179802",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+    "score_history": [
+      {
+        "id": "e65323c3-583a-4dbc-9ae1-7e3a470bb82e",
+        "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+        "score": 56.739219979918644,
+        "confidence_band": [
+          36.739219979918644,
+          76.73921997991864
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:47.179873",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 45.39137598393492,
+          "market_fit": 39.717453985943045,
+          "network": 28.369609989959322,
+          "momentum": 34.043531987951184
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "e65323c3-583a-4dbc-9ae1-7e3a470bb82e",
+      "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+      "score": 56.739219979918644,
+      "confidence_band": [
+        36.739219979918644,
+        76.73921997991864
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:47.179873",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 45.39137598393492,
+        "market_fit": 39.717453985943045,
+        "network": 28.369609989959322,
+        "momentum": 34.043531987951184
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:47.179893",
+    "last_updated_at": "2026-07-19T09:45:47.179893"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/38.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Campus_EPFL_-_B%C3%A2timent_BI_01.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

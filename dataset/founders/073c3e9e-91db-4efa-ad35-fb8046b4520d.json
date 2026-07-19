@@ -1,0 +1,189 @@
+{
+  "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+  "company_id": "016dee1b-975f-4ebd-8d1c-46b63dc4d631",
+  "application_id": "c3776097-f04a-442e-a1c5-75db4dae7f0c",
+  "name": "Sofia Ivanov",
+  "company_name": "ZenithEnergy",
+  "sector": "Healthtech",
+  "stage": "series-a",
+  "geography": "IN",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "Tsinghua University",
+    "university_country": "CN",
+    "degree": "MSc Robotics",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at Tesla, focusing on healthtech problems.",
+  "github_profile": {
+    "username": "sofiaivanov59",
+    "repo_count": 15,
+    "primary_language": "Go",
+    "commit_activity": "10 commits in last 30 days",
+    "stars": 212,
+    "top_repo": "sofiaivanov59/zenithenergy-core",
+    "contributors": 8
+  },
+  "deck_summary": "ZenithEnergy is building An automated privacy compliance scanner for codebases. The problem: AI model deployment lacks observability; teams fly blind in production.",
+  "claims": [
+    {
+      "id": "eb6d7f67-df58-4ec2-9acf-2beb2a2a99fa",
+      "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+      "company_id": "016dee1b-975f-4ebd-8d1c-46b63dc4d631",
+      "application_id": "c3776097-f04a-442e-a1c5-75db4dae7f0c",
+      "kind": "founder_background",
+      "text": "Founder Sofia Ivanov holds a MSc Robotics from Tsinghua University, graduating in 2015.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c3776097-f04a-442e-a1c5-75db4dae7f0c",
+        "ingested_at": "2026-07-19T09:45:49.073938",
+        "raw_payload_hash": "91d9e8393595774bedda78adc10414ef7e008983f5e604cbef9f7850afed093c",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:49.074000",
+      "superseded_by": null
+    },
+    {
+      "id": "a2ed726b-660f-4bf9-9591-d43a5fe31517",
+      "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+      "company_id": "016dee1b-975f-4ebd-8d1c-46b63dc4d631",
+      "application_id": "c3776097-f04a-442e-a1c5-75db4dae7f0c",
+      "kind": "product",
+      "text": "ZenithEnergy addresses: AI model deployment lacks observability; teams fly blind in production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:49.074005",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:49.074017",
+      "superseded_by": null
+    },
+    {
+      "id": "819cddb5-dd85-4c26-a285-37ba3eb37558",
+      "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+      "company_id": "016dee1b-975f-4ebd-8d1c-46b63dc4d631",
+      "application_id": "c3776097-f04a-442e-a1c5-75db4dae7f0c",
+      "kind": "market_size",
+      "text": "The Healthtech market is $5B in 2026.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:49.074021",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:49.074030",
+      "superseded_by": null
+    },
+    {
+      "id": "e5fe395e-a6ed-4f58-b272-a65de660e971",
+      "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+      "company_id": "016dee1b-975f-4ebd-8d1c-46b63dc4d631",
+      "application_id": "c3776097-f04a-442e-a1c5-75db4dae7f0c",
+      "kind": "market_size",
+      "text": "The Healthtech market is $500M in 2026.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T09:45:49.074033",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:49.074040",
+      "superseded_by": null
+    },
+    {
+      "id": "a12ab796-b318-4859-b10e-bf3748357bfb",
+      "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+      "company_id": "016dee1b-975f-4ebd-8d1c-46b63dc4d631",
+      "application_id": "c3776097-f04a-442e-a1c5-75db4dae7f0c",
+      "kind": "technical_depth",
+      "text": "Repository sofiaivanov59/zenithenergy-core has 212 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "sofiaivanov59/zenithenergy-core",
+        "ingested_at": "2026-07-19T09:45:49.074048",
+        "raw_payload_hash": "109221c2cfd0a45c6d3db8b5a1d39ae78ee201c122794d8c4dd8c1b8408f1627",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:49.074056",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+    "score_history": [
+      {
+        "id": "ca848844-cea4-4c34-93c6-db31b9283005",
+        "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+        "score": 56.72184051557293,
+        "confidence_band": [
+          36.72184051557293,
+          76.72184051557292
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:49.074131",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 45.377472412458346,
+          "market_fit": 28.360920257786464,
+          "network": 34.033104309343756,
+          "momentum": 28.360920257786464
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "ca848844-cea4-4c34-93c6-db31b9283005",
+      "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+      "score": 56.72184051557293,
+      "confidence_band": [
+        36.72184051557293,
+        76.72184051557292
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:49.074131",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 45.377472412458346,
+        "market_fit": 28.360920257786464,
+        "network": 34.033104309343756,
+        "momentum": 28.360920257786464
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:49.074165",
+    "last_updated_at": "2026-07-19T09:45:49.074166"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/37.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/National_Tsinghua_University_Taiwan_OldGate.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

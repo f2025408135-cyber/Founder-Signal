@@ -1,0 +1,773 @@
+{
+  "total": 50,
+  "generated_at": "2026-07-19T09:45:57.146987",
+  "sectors": [
+    "AI infra",
+    "DevTools",
+    "Fintech",
+    "Healthtech",
+    "Climate",
+    "Consumer"
+  ],
+  "geographies": [
+    "US",
+    "DE",
+    "GB",
+    "SG",
+    "IN",
+    "FR",
+    "PK"
+  ],
+  "founders": [
+    {
+      "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+      "name": "Stefan Khan",
+      "company_name": "AtlasStack",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Healthtech",
+      "geography": "US",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "31e45037-8ccd-4a57-b608-af01c9ae02b3",
+      "name": "Pavel Fern\u00e1ndez",
+      "company_name": "CipherRobotics",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "DevTools",
+      "geography": "GB",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "e6d64178-4ec0-41d1-94df-eb23860a0653",
+      "name": "Kenji Okafor",
+      "company_name": "OrbitClimate",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "DevTools",
+      "geography": "PK",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "name": "Oluwaseun Ibrahim",
+      "company_name": "FluxSystems",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Healthtech",
+      "geography": "IN",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "b9277424-6fd3-4632-8340-e9ad0baa2fa0",
+      "name": "Nadia Larsen",
+      "company_name": "HelixRobotics",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Climate",
+      "geography": "PK",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+      "name": "Camila Chen",
+      "company_name": "NovaEnergy",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Consumer",
+      "geography": "FR",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+      "name": "Ingrid Okafor",
+      "company_name": "QuantumBio",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "DevTools",
+      "geography": "IN",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "198a0f57-a793-4f73-b067-96673d15fce6",
+      "name": "Bastian Schmidt",
+      "company_name": "FluxTools",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Consumer",
+      "geography": "GB",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "d9c6e43a-b26f-4e48-a5cb-9b9f326be04e",
+      "name": "Linnea Watanabe",
+      "company_name": "NexusLabs",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "DevTools",
+      "geography": "IN",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "d5eb4d01-9681-4e63-bcf2-c5adc83c8bce",
+      "name": "Erik Becker",
+      "company_name": "DriftFinance",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "DevTools",
+      "geography": "US",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "bd5b1edc-94f7-4d03-ab61-98e687d20289",
+      "name": "Hiroshi Almeida",
+      "company_name": "ForgeStack",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "DevTools",
+      "geography": "GB",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "cd320428-e1bd-409f-a589-72be5817ec3b",
+      "name": "Ananya Nakamura",
+      "company_name": "NexusClimate",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "AI infra",
+      "geography": "DE",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "7353c867-5310-4cd9-baf6-3bef948250be",
+      "name": "Priya Okafor",
+      "company_name": "NovaTech",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Climate",
+      "geography": "SG",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "4dbba0d8-3a5b-4c15-bfab-32b22e0c4d63",
+      "name": "Nadia Kowalski",
+      "company_name": "OrbitSystems",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Fintech",
+      "geography": "DE",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+      "name": "Dmitri Chen",
+      "company_name": "HelixLabs",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Healthtech",
+      "geography": "IN",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "b70e7d13-63d7-4344-9362-618453aa8588",
+      "name": "Saanvi Reyes",
+      "company_name": "AtlasRobotics",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "AI infra",
+      "geography": "FR",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "32373bd1-8ee7-4cd7-832e-e08493b8a275",
+      "name": "Oluwaseun Hassan",
+      "company_name": "QuantumRobotics",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Healthtech",
+      "geography": "GB",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "7dc3111b-6c01-43a2-a57b-23c716b25c9b",
+      "name": "Henrik O'Brien",
+      "company_name": "VoltCloud",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Climate",
+      "geography": "US",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "5b40e537-4b2c-48f6-889c-fe5a9137fa82",
+      "name": "Yara Becker",
+      "company_name": "ForgeStack",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Climate",
+      "geography": "FR",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "83c64f23-f43e-47e7-989b-2fc143a36195",
+      "name": "Yuki Lindqvist",
+      "company_name": "FluxHealth",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "DevTools",
+      "geography": "DE",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "4e1c8d00-07e3-421d-8c76-9e3163ae1ac0",
+      "name": "Dmitri Sharma",
+      "company_name": "EchoRobotics",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Fintech",
+      "geography": "FR",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "c58def13-a2fe-4620-bebe-3f5074a66bdc",
+      "name": "Dario Schmidt",
+      "company_name": "DriftAI",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Fintech",
+      "geography": "US",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "c078a02d-500b-4fa6-be71-040f7fdb0ad1",
+      "name": "Kenji Nakamura",
+      "company_name": "ApexSystems",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Consumer",
+      "geography": "GB",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "13881d60-b59f-4661-91c6-fb45e7031a8c",
+      "name": "Aisha Dubois",
+      "company_name": "VoltData",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Fintech",
+      "geography": "DE",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+      "name": "Sven O'Brien",
+      "company_name": "StrataData",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "AI infra",
+      "geography": "US",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "ea101576-b560-4d8f-b703-8d5524483b56",
+      "name": "Nadia Singh",
+      "company_name": "HelixTools",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "AI infra",
+      "geography": "IN",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "59ae4d1b-7e46-4bee-8c88-8c4f74e1f5b6",
+      "name": "Kavya Lindqvist",
+      "company_name": "PrismEnergy",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Healthtech",
+      "geography": "GB",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "6e074fc9-ca8a-48a3-974b-1332908901e9",
+      "name": "Elena Volkov",
+      "company_name": "CipherLabs",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Healthtech",
+      "geography": "FR",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "073c3e9e-91db-4efa-ad35-fb8046b4520d",
+      "name": "Sofia Ivanov",
+      "company_name": "ZenithEnergy",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "Healthtech",
+      "geography": "IN",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "74ddc933-215a-4630-b326-014d7a8726d4",
+      "name": "Camila Novak",
+      "company_name": "EchoData",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Climate",
+      "geography": "IN",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+      "name": "Tobias Sharma",
+      "company_name": "StrataAI",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Healthtech",
+      "geography": "GB",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+      "name": "Ananya Singh",
+      "company_name": "LumenData",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Consumer",
+      "geography": "GB",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "0f509bcc-fa90-45ed-8eef-621e9e5635cf",
+      "name": "Henrik Garc\u00eda",
+      "company_name": "MeshEnergy",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "AI infra",
+      "geography": "FR",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "ea8f6c8f-8828-4852-8546-6043700cb2b6",
+      "name": "Hana Andersson",
+      "company_name": "PulseBio",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Healthtech",
+      "geography": "GB",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "name": "Ingrid Singh",
+      "company_name": "EchoFinance",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Climate",
+      "geography": "IN",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "018c0075-bfdd-4bbe-b4cc-cf5839bb71f0",
+      "name": "Fatima Garc\u00eda",
+      "company_name": "ZenithEnergy",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Consumer",
+      "geography": "SG",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "5174d0d7-0f8d-476c-bbd9-a549592ef3aa",
+      "name": "Erik Watanabe",
+      "company_name": "ZenithFinance",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Climate",
+      "geography": "GB",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "3cef920e-acc1-495e-9c8b-217d51cdb4b8",
+      "name": "Mei Schmidt",
+      "company_name": "PrismBio",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "DevTools",
+      "geography": "FR",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "5c47103b-76df-420b-8e94-2e598fbcab6a",
+      "name": "Mei Dubois",
+      "company_name": "ApexHealth",
+      "categories": [
+        "contradicted"
+      ],
+      "sector": "AI infra",
+      "geography": "FR",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "344aeefe-72b4-4d61-8791-92834e5ce879",
+      "name": "Amara Rossi",
+      "company_name": "HelixStack",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "AI infra",
+      "geography": "GB",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+      "name": "Nikolai Ali",
+      "company_name": "ForgeEnergy",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Climate",
+      "geography": "PK",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+      "name": "Sofia Bauer",
+      "company_name": "HelixEnergy",
+      "categories": [
+        "missing_data"
+      ],
+      "sector": "Climate",
+      "geography": "US",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+      "name": "Aisha Becker",
+      "company_name": "StrataHealth",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Healthtech",
+      "geography": "FR",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "77b5f50e-977c-4ae8-b619-0763a657ef23",
+      "name": "Rafael Larsen",
+      "company_name": "CipherClimate",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Consumer",
+      "geography": "IN",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "de0462c7-d998-42b4-8fd9-3feccfc5db89",
+      "name": "Kwame Dubois",
+      "company_name": "AtlasTools",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Climate",
+      "geography": "FR",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "2aa28c68-abb9-4961-b428-72ee092936f2",
+      "name": "Fatima Volkov",
+      "company_name": "VoltAI",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Consumer",
+      "geography": "PK",
+      "stage": "series-a",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "3e40cc86-3de7-4b32-b35c-4aa191dd75fa",
+      "name": "Amara Kowalski",
+      "company_name": "OrbitClimate",
+      "categories": [
+        "rich_signal"
+      ],
+      "sector": "Consumer",
+      "geography": "US",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "1e3a17e3-bf5f-4331-b34c-e593efc87391",
+      "name": "Mikael Schneider",
+      "company_name": "CipherCloud",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Healthtech",
+      "geography": "SG",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+      "name": "Ananya Sharma",
+      "company_name": "PulseBio",
+      "categories": [
+        "cold_start"
+      ],
+      "sector": "Climate",
+      "geography": "DE",
+      "stage": "seed",
+      "image_source": {
+        "photo": "randomuser.me",
+        "university": "wikimedia"
+      }
+    },
+    {
+      "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+      "name": "Aisha Watanabe",
+      "company_name": "HelixTools",
+      "categories": [
+        "mixed"
+      ],
+      "sector": "Healthtech",
+      "geography": "US",
+      "stage": "pre-seed",
+      "image_source": {
+        "photo": "fallback",
+        "university": "wikimedia"
+      }
+    }
+  ]
+}

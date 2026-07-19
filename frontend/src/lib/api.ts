@@ -39,6 +39,31 @@ export interface FounderMemo {
   founder_id: string;
   founder_name: string;
   company_name: string | null;
+  company_website_url: string | null;
+  geography: string | null;
+  sector: string | null;
+  // Demo-only fields surfaced from founder.bio_text JSON
+  photo_url: string | null;
+  university_image_url: string | null;
+  image_source: { photo: string; university: string };
+  education: {
+    university: string;
+    degree: string;
+    year: number;
+    university_country?: string;
+  } | null;
+  prior_experience: string | null;
+  github_profile: {
+    username: string;
+    repo_count: number;
+    primary_language: string;
+    commit_activity: string;
+    stars: number;
+    top_repo?: string;
+    contributors?: number;
+  } | null;
+  deck_summary: string | null;
+  categories: string[];
   aggregator_output: {
     id: string;
     overall_recommendation: string;

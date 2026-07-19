@@ -1,0 +1,209 @@
+{
+  "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+  "company_id": "5a6ce9cc-ae05-449b-a79f-9bec2b45aca1",
+  "application_id": "f9ef704a-bd87-4cb6-a862-93e435b2a2fa",
+  "name": "Sven O'Brien",
+  "company_name": "StrataData",
+  "sector": "AI infra",
+  "stage": "pre-seed",
+  "geography": "US",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "ETH Zurich",
+    "university_country": "CH",
+    "degree": "MSc Robotics",
+    "year": 2018
+  },
+  "prior_experience": "Previously worked at Microsoft, focusing on ai infra problems.",
+  "github_profile": {
+    "username": "sveno'brien61",
+    "repo_count": 4,
+    "primary_language": "C++",
+    "commit_activity": "24 commits in last 30 days",
+    "stars": 134,
+    "top_repo": "sveno'brien61/stratadata-core",
+    "contributors": 2
+  },
+  "deck_summary": "StrataData is building A solar forecasting model trained on satellite imagery. The problem: Grid operators lack real-time forecasting for distributed solar.",
+  "claims": [
+    {
+      "id": "62ee2107-80e0-4365-a2f6-7ceed842fb81",
+      "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+      "company_id": "5a6ce9cc-ae05-449b-a79f-9bec2b45aca1",
+      "application_id": "f9ef704a-bd87-4cb6-a862-93e435b2a2fa",
+      "kind": "founder_background",
+      "text": "Founder Sven O'Brien holds a MSc Robotics from ETH Zurich, graduating in 2018.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:f9ef704a-bd87-4cb6-a862-93e435b2a2fa",
+        "ingested_at": "2026-07-19T09:45:48.090488",
+        "raw_payload_hash": "148b54b4ff5e07d3af3be057ef861606ffdc6f22ad96ba68ef32ac3be5d4d91e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.090549",
+      "superseded_by": null
+    },
+    {
+      "id": "ac0972a8-2c3b-49fb-94c6-6c1c0b3b9b95",
+      "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+      "company_id": "5a6ce9cc-ae05-449b-a79f-9bec2b45aca1",
+      "application_id": "f9ef704a-bd87-4cb6-a862-93e435b2a2fa",
+      "kind": "product",
+      "text": "StrataData addresses: Grid operators lack real-time forecasting for distributed solar.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:48.090555",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.090567",
+      "superseded_by": null
+    },
+    {
+      "id": "672346d6-f608-4f52-aed9-c9abf4a8b339",
+      "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+      "company_id": "5a6ce9cc-ae05-449b-a79f-9bec2b45aca1",
+      "application_id": "f9ef704a-bd87-4cb6-a862-93e435b2a2fa",
+      "kind": "product",
+      "text": "Solution: A solar forecasting model trained on satellite imagery.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:48.090570",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.090578",
+      "superseded_by": null
+    },
+    {
+      "id": "144beaeb-649f-42ae-aeaa-0cd451d09a90",
+      "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+      "company_id": "5a6ce9cc-ae05-449b-a79f-9bec2b45aca1",
+      "application_id": "f9ef704a-bd87-4cb6-a862-93e435b2a2fa",
+      "kind": "technical_depth",
+      "text": "Repository sveno'brien61/stratadata-core has 134 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "sveno'brien61/stratadata-core",
+        "ingested_at": "2026-07-19T09:45:48.090586",
+        "raw_payload_hash": "fc203cf1edcfeabffceda0aa8ee66948024eefc8e97473954312f1ee7b761fc5",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.090595",
+      "superseded_by": null
+    },
+    {
+      "id": "209165fa-629d-4e8f-89c1-78b03b0ab58c",
+      "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+      "company_id": "5a6ce9cc-ae05-449b-a79f-9bec2b45aca1",
+      "application_id": "f9ef704a-bd87-4cb6-a862-93e435b2a2fa",
+      "kind": "market_trend",
+      "text": "The AI infra market is growing at 18% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AI infra-market",
+        "ingested_at": "2026-07-19T09:45:48.090601",
+        "raw_payload_hash": "f655e1a7ba0fb19404eda1d2d49fc1eca07956ac2cce954d3276598ca6e3b33d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.090609",
+      "superseded_by": null
+    },
+    {
+      "id": "c59815eb-fd44-4ec6-ba86-707565338812",
+      "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+      "company_id": "5a6ce9cc-ae05-449b-a79f-9bec2b45aca1",
+      "application_id": "f9ef704a-bd87-4cb6-a862-93e435b2a2fa",
+      "kind": "traction",
+      "text": "StrataData has 1892 active users.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:48.090613",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:48.090620",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+    "score_history": [
+      {
+        "id": "6abd988f-663e-488b-bcbe-dd1604f93dab",
+        "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+        "score": 78.7389812683862,
+        "confidence_band": [
+          58.7389812683862,
+          98.7389812683862
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:48.090689",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 62.99118501470896,
+          "market_fit": 55.117286887870335,
+          "network": 39.3694906341931,
+          "momentum": 47.24338876103172
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "6abd988f-663e-488b-bcbe-dd1604f93dab",
+      "founder_id": "3cf326eb-79c1-41cc-9fa7-bfe4a680ed41",
+      "score": 78.7389812683862,
+      "confidence_band": [
+        58.7389812683862,
+        98.7389812683862
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:48.090689",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 62.99118501470896,
+        "market_fit": 55.117286887870335,
+        "network": 39.3694906341931,
+        "momentum": 47.24338876103172
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:48.090739",
+    "last_updated_at": "2026-07-19T09:45:48.090739"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/24.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Cows_in_front_of_the_campus_ETH_H%C3%B6nggerberg.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

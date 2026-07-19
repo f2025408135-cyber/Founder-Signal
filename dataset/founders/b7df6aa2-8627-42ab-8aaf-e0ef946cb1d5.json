@@ -1,0 +1,201 @@
+{
+  "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+  "company_id": "f9bb2de8-e42f-4d2a-b72a-39afda91ec18",
+  "application_id": "df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+  "name": "Aisha Becker",
+  "company_name": "StrataHealth",
+  "sector": "Healthtech",
+  "stage": "series-a",
+  "geography": "FR",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "Stanford University",
+    "university_country": "US",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at Nvidia, focusing on healthtech problems.",
+  "github_profile": null,
+  "deck_summary": "StrataHealth is building An automated privacy compliance scanner for codebases. The problem: Grid operators lack real-time forecasting for distributed solar.",
+  "claims": [
+    {
+      "id": "7f8a57f0-c456-49e7-88b3-64123ccbc1dd",
+      "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+      "company_id": "f9bb2de8-e42f-4d2a-b72a-39afda91ec18",
+      "application_id": "df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+      "kind": "founder_background",
+      "text": "Founder Aisha Becker holds a PhD Artificial Intelligence from Stanford University, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+        "ingested_at": "2026-07-19T09:45:54.679368",
+        "raw_payload_hash": "7948c3f4dcee7636aa32aee6fbdcdffd83a81ff275e8e65dbcaaedf8d6ee2f20",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.679425",
+      "superseded_by": null
+    },
+    {
+      "id": "c8e2479c-2f7e-45b9-9fea-25805f0bf2c5",
+      "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+      "company_id": "f9bb2de8-e42f-4d2a-b72a-39afda91ec18",
+      "application_id": "df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+      "kind": "founder_background",
+      "text": "Founder Aisha Becker previously worked at Nvidia.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:54.679430",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.679442",
+      "superseded_by": null
+    },
+    {
+      "id": "f04c77bc-d571-47a8-a77f-ebbabbd9d183",
+      "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+      "company_id": "f9bb2de8-e42f-4d2a-b72a-39afda91ec18",
+      "application_id": "df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+      "kind": "product",
+      "text": "StrataHealth addresses: Grid operators lack real-time forecasting for distributed solar.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:54.679445",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.679453",
+      "superseded_by": null
+    },
+    {
+      "id": "de8ccc82-7ebc-4efd-8f17-2bdbdb557a59",
+      "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+      "company_id": "f9bb2de8-e42f-4d2a-b72a-39afda91ec18",
+      "application_id": "df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+      "kind": "product",
+      "text": "Solution: An automated privacy compliance scanner for codebases.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:54.679455",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.679462",
+      "superseded_by": null
+    },
+    {
+      "id": "52ecdef6-104d-4e60-a135-f2e879633a23",
+      "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+      "company_id": "f9bb2de8-e42f-4d2a-b72a-39afda91ec18",
+      "application_id": "df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+      "kind": "market_size",
+      "text": "The Healthtech market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:54.679465",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.679473",
+      "superseded_by": null
+    },
+    {
+      "id": "8d41793a-f637-4e46-8035-f49c94b312ba",
+      "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+      "company_id": "f9bb2de8-e42f-4d2a-b72a-39afda91ec18",
+      "application_id": "df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:df91dc6d-def0-4fe7-bbd9-4d4749eafaa7",
+        "ingested_at": "2026-07-19T09:45:54.679495",
+        "raw_payload_hash": "7948c3f4dcee7636aa32aee6fbdcdffd83a81ff275e8e65dbcaaedf8d6ee2f20",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:54.679506",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+    "score_history": [
+      {
+        "id": "f8451972-668a-4805-a7d6-0e450d49f8b4",
+        "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+        "score": 46.42359520306959,
+        "confidence_band": [
+          16.42359520306959,
+          76.4235952030696
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:54.679591",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 37.138876162455674,
+          "market_fit": 32.49651664214871,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "f8451972-668a-4805-a7d6-0e450d49f8b4",
+      "founder_id": "b7df6aa2-8627-42ab-8aaf-e0ef946cb1d5",
+      "score": 46.42359520306959,
+      "confidence_band": [
+        16.42359520306959,
+        76.4235952030696
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:54.679591",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 37.138876162455674,
+        "market_fit": 32.49651664214871,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:54.679611",
+    "last_updated_at": "2026-07-19T09:45:54.679612"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/70.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Center_for_Clinical_Sciences_Research%2C_Stanford_University_%282025%29-L1007419.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

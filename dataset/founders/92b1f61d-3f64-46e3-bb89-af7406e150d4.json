@@ -1,0 +1,161 @@
+{
+  "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+  "company_id": "0993aad1-ce61-4810-96cd-7174cc60218b",
+  "application_id": "581489b4-e8c9-4395-b738-a9f854d242ae",
+  "name": "Sofia Bauer",
+  "company_name": "HelixEnergy",
+  "sector": "Climate",
+  "stage": "series-a",
+  "geography": "US",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "NUS Singapore",
+    "university_country": "SG",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at Meta, focusing on climate problems.",
+  "github_profile": null,
+  "deck_summary": "HelixEnergy is building An AI-powered patient matching engine for clinical trials. The problem: Cross-border payments remain slow and expensive for SMBs.",
+  "claims": [
+    {
+      "id": "2a9554da-37c1-426c-b88c-6f8f4444e3ae",
+      "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+      "company_id": "0993aad1-ce61-4810-96cd-7174cc60218b",
+      "application_id": "581489b4-e8c9-4395-b738-a9f854d242ae",
+      "kind": "founder_background",
+      "text": "Founder Sofia Bauer holds a PhD Artificial Intelligence from NUS Singapore, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:581489b4-e8c9-4395-b738-a9f854d242ae",
+        "ingested_at": "2026-07-19T09:45:53.892481",
+        "raw_payload_hash": "d4d9d5712becd1bad89d586a2e1c04b1bb7f1138a6a2056f0965db6b4e8abdc7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.892544",
+      "superseded_by": null
+    },
+    {
+      "id": "aa466787-b29e-42f6-aeb2-5a8a9667dced",
+      "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+      "company_id": "0993aad1-ce61-4810-96cd-7174cc60218b",
+      "application_id": "581489b4-e8c9-4395-b738-a9f854d242ae",
+      "kind": "product",
+      "text": "HelixEnergy addresses: Cross-border payments remain slow and expensive for SMBs.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:53.892549",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.892561",
+      "superseded_by": null
+    },
+    {
+      "id": "d4175df8-956e-47fd-a0e7-71210f8d40ff",
+      "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+      "company_id": "0993aad1-ce61-4810-96cd-7174cc60218b",
+      "application_id": "581489b4-e8c9-4395-b738-a9f854d242ae",
+      "kind": "product",
+      "text": "Solution: An AI-powered patient matching engine for clinical trials.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:53.892563",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.892571",
+      "superseded_by": null
+    },
+    {
+      "id": "b2488073-4df6-4aaf-a448-2262933ac987",
+      "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+      "company_id": "0993aad1-ce61-4810-96cd-7174cc60218b",
+      "application_id": "581489b4-e8c9-4395-b738-a9f854d242ae",
+      "kind": "market_trend",
+      "text": "The Climate sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Climate-trend",
+        "ingested_at": "2026-07-19T09:45:53.892575",
+        "raw_payload_hash": "23a9ba5e38b7791261d71e8b69c8e115086d0aa265b6dfcd5915e8ce431d3705",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.892582",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+    "score_history": [
+      {
+        "id": "8fa959cb-40cf-4e68-ada7-1bc5a25914a0",
+        "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+        "score": 51.50129737802336,
+        "confidence_band": [
+          31.50129737802336,
+          71.50129737802337
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:53.892668",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 38.62597303351752,
+          "market_fit": 30.900778426814014,
+          "network": 20.600518951209345,
+          "momentum": 25.75064868901168
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "8fa959cb-40cf-4e68-ada7-1bc5a25914a0",
+      "founder_id": "92b1f61d-3f64-46e3-bb89-af7406e150d4",
+      "score": 51.50129737802336,
+      "confidence_band": [
+        31.50129737802336,
+        71.50129737802337
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:53.892668",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 38.62597303351752,
+        "market_fit": 30.900778426814014,
+        "network": 20.600518951209345,
+        "momentum": 25.75064868901168
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:53.892687",
+    "last_updated_at": "2026-07-19T09:45:53.892688"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/75.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Dr_Thum_Ping_Tjin%2C_Asia_Research_Institute%2C_NUS%2C_Singapore%2C_2013.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

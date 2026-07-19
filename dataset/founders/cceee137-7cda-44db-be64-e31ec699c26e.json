@@ -1,0 +1,189 @@
+{
+  "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+  "company_id": "bc7cc887-e96e-4899-9d40-8b4adc6d5537",
+  "application_id": "f0c8d60a-5772-4430-8fbe-070fbbb6a111",
+  "name": "Ingrid Okafor",
+  "company_name": "QuantumBio",
+  "sector": "DevTools",
+  "stage": "pre-seed",
+  "geography": "IN",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "National University of Singapore",
+    "university_country": "SG",
+    "degree": "MSc Electrical Engineering",
+    "year": 2024
+  },
+  "prior_experience": "Previously worked at Anthropic, focusing on devtools problems.",
+  "github_profile": {
+    "username": "ingridokafor80",
+    "repo_count": 12,
+    "primary_language": "Go",
+    "commit_activity": "11 commits in last 30 days",
+    "stars": 124,
+    "top_repo": "ingridokafor80/quantumbio-core",
+    "contributors": 6
+  },
+  "deck_summary": "QuantumBio is building A federated query layer that unifies EHR systems without data movement. The problem: Cross-border payments remain slow and expensive for SMBs.",
+  "claims": [
+    {
+      "id": "d2825e7f-9347-499f-9ea4-1fb33a5c6c93",
+      "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+      "company_id": "bc7cc887-e96e-4899-9d40-8b4adc6d5537",
+      "application_id": "f0c8d60a-5772-4430-8fbe-070fbbb6a111",
+      "kind": "founder_background",
+      "text": "Founder Ingrid Okafor holds a MSc Electrical Engineering from National University of Singapore, graduating in 2024.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:f0c8d60a-5772-4430-8fbe-070fbbb6a111",
+        "ingested_at": "2026-07-19T09:45:37.756018",
+        "raw_payload_hash": "9dfc52b063870f69f93b3e2c4a276ff7b58810462893694d70579131b0d63481",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.756083",
+      "superseded_by": null
+    },
+    {
+      "id": "739b9699-328c-424f-9372-409fe4673c25",
+      "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+      "company_id": "bc7cc887-e96e-4899-9d40-8b4adc6d5537",
+      "application_id": "f0c8d60a-5772-4430-8fbe-070fbbb6a111",
+      "kind": "product",
+      "text": "QuantumBio addresses: Cross-border payments remain slow and expensive for SMBs.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:37.756088",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.756100",
+      "superseded_by": null
+    },
+    {
+      "id": "7ba83ec2-8525-4ea1-a67a-b31971949f9b",
+      "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+      "company_id": "bc7cc887-e96e-4899-9d40-8b4adc6d5537",
+      "application_id": "f0c8d60a-5772-4430-8fbe-070fbbb6a111",
+      "kind": "team",
+      "text": "QuantumBio has 25 employees across two offices.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=6",
+        "ingested_at": "2026-07-19T09:45:37.756106",
+        "raw_payload_hash": "e78252794ac87225c0c21116caa04fea027b6c6729b7adb2e756b1d7f48f20b2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.756114",
+      "superseded_by": null
+    },
+    {
+      "id": "1a703517-daf7-439f-a7df-4f629080cd70",
+      "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+      "company_id": "bc7cc887-e96e-4899-9d40-8b4adc6d5537",
+      "application_id": "f0c8d60a-5772-4430-8fbe-070fbbb6a111",
+      "kind": "team",
+      "text": "LinkedIn lists 4 employees at QuantumBio.",
+      "source": {
+        "kind": "external_db",
+        "ref": "linkedin:QuantumBio",
+        "ingested_at": "2026-07-19T09:45:37.756118",
+        "raw_payload_hash": "560efe3eba8967175d5d3261f114bc01560e32d3c662b3492a1fffef05294578",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.756125",
+      "superseded_by": null
+    },
+    {
+      "id": "dec736e6-337a-4137-b0f7-22ad5c24b1d2",
+      "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+      "company_id": "bc7cc887-e96e-4899-9d40-8b4adc6d5537",
+      "application_id": "f0c8d60a-5772-4430-8fbe-070fbbb6a111",
+      "kind": "technical_depth",
+      "text": "Repository ingridokafor80/quantumbio-core has 124 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "ingridokafor80/quantumbio-core",
+        "ingested_at": "2026-07-19T09:45:37.756134",
+        "raw_payload_hash": "22edb2b64d8e9c1e9c7b6863cc6a9003fb0568a211a6d46edc03a6121d4d1230",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.756142",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+    "score_history": [
+      {
+        "id": "89dd18c3-4452-42d1-951d-8c4dcb6fd06f",
+        "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+        "score": 46.62641572350148,
+        "confidence_band": [
+          26.62641572350148,
+          66.62641572350148
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:37.756233",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 37.30113257880119,
+          "market_fit": 23.31320786175074,
+          "network": 27.975849434100887,
+          "momentum": 23.31320786175074
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "89dd18c3-4452-42d1-951d-8c4dcb6fd06f",
+      "founder_id": "cceee137-7cda-44db-be64-e31ec699c26e",
+      "score": 46.62641572350148,
+      "confidence_band": [
+        26.62641572350148,
+        66.62641572350148
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:37.756233",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 37.30113257880119,
+        "market_fit": 23.31320786175074,
+        "network": 27.975849434100887,
+        "momentum": 23.31320786175074
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:37.756257",
+    "last_updated_at": "2026-07-19T09:45:37.756257"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/29.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Covered_walkway_along_Campus_Link_leading_to_University_Town%2C_National_University_of_Singapore_-_20140920.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

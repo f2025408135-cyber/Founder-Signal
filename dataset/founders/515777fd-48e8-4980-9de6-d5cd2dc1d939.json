@@ -1,0 +1,201 @@
+{
+  "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+  "company_id": "0867d342-ad02-4567-b837-db34bd0ca6ce",
+  "application_id": "eca1e195-cf73-4b80-9079-bd8001aebca1",
+  "name": "Nikolai Ali",
+  "company_name": "ForgeEnergy",
+  "sector": "Climate",
+  "stage": "series-a",
+  "geography": "PK",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "HEC Paris",
+    "university_country": "FR",
+    "degree": "MBA",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at a fintech unicorn, focusing on climate problems.",
+  "github_profile": null,
+  "deck_summary": "ForgeEnergy is building A code review tool specialized for ML pipeline correctness. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "52e1a48a-836b-4b71-b191-b334aee20237",
+      "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+      "company_id": "0867d342-ad02-4567-b837-db34bd0ca6ce",
+      "application_id": "eca1e195-cf73-4b80-9079-bd8001aebca1",
+      "kind": "founder_background",
+      "text": "Founder Nikolai Ali holds a MBA from HEC Paris, graduating in 2019.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:eca1e195-cf73-4b80-9079-bd8001aebca1",
+        "ingested_at": "2026-07-19T09:45:53.635433",
+        "raw_payload_hash": "29596708871c16b37112f68b61ee4b229162d0eca58070f467739cad8ef569a0",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.635519",
+      "superseded_by": null
+    },
+    {
+      "id": "32d7be2d-4911-45cb-bf08-7667e9262db0",
+      "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+      "company_id": "0867d342-ad02-4567-b837-db34bd0ca6ce",
+      "application_id": "eca1e195-cf73-4b80-9079-bd8001aebca1",
+      "kind": "founder_background",
+      "text": "Founder Nikolai Ali previously worked at a fintech unicorn.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:53.635526",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.635539",
+      "superseded_by": null
+    },
+    {
+      "id": "a3fe17ba-1114-449f-8901-9382af891d45",
+      "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+      "company_id": "0867d342-ad02-4567-b837-db34bd0ca6ce",
+      "application_id": "eca1e195-cf73-4b80-9079-bd8001aebca1",
+      "kind": "product",
+      "text": "ForgeEnergy addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:53.635543",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.635552",
+      "superseded_by": null
+    },
+    {
+      "id": "f9ab565e-63ad-4cd9-ac85-943df5265408",
+      "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+      "company_id": "0867d342-ad02-4567-b837-db34bd0ca6ce",
+      "application_id": "eca1e195-cf73-4b80-9079-bd8001aebca1",
+      "kind": "product",
+      "text": "Solution: A code review tool specialized for ML pipeline correctness.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:53.635554",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.635561",
+      "superseded_by": null
+    },
+    {
+      "id": "ebbd01ba-c9f7-40eb-805c-5fa57fea87f1",
+      "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+      "company_id": "0867d342-ad02-4567-b837-db34bd0ca6ce",
+      "application_id": "eca1e195-cf73-4b80-9079-bd8001aebca1",
+      "kind": "market_size",
+      "text": "The Climate market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:53.635564",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.635572",
+      "superseded_by": null
+    },
+    {
+      "id": "f20a946d-e24e-4ba4-884d-835f13a1e9bc",
+      "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+      "company_id": "0867d342-ad02-4567-b837-db34bd0ca6ce",
+      "application_id": "eca1e195-cf73-4b80-9079-bd8001aebca1",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:eca1e195-cf73-4b80-9079-bd8001aebca1",
+        "ingested_at": "2026-07-19T09:45:53.635603",
+        "raw_payload_hash": "29596708871c16b37112f68b61ee4b229162d0eca58070f467739cad8ef569a0",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:53.635613",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+    "score_history": [
+      {
+        "id": "6e4de08b-02ef-433e-b0c3-a5e5018034c7",
+        "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+        "score": 64.80062520933596,
+        "confidence_band": [
+          34.80062520933596,
+          94.80062520933596
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:53.635748",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 51.840500167468775,
+          "market_fit": 45.36043764653517,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "6e4de08b-02ef-433e-b0c3-a5e5018034c7",
+      "founder_id": "515777fd-48e8-4980-9de6-d5cd2dc1d939",
+      "score": 64.80062520933596,
+      "confidence_band": [
+        34.80062520933596,
+        94.80062520933596
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:53.635748",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 51.840500167468775,
+        "market_fit": 45.36043764653517,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:53.636312",
+    "last_updated_at": "2026-07-19T09:45:53.636313"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/14.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chateau%2C_HEC_Paris%2C_Jouy-en-Josas%2C_South_view_20160501_1.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

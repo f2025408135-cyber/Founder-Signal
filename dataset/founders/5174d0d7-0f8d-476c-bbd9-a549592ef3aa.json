@@ -1,0 +1,141 @@
+{
+  "founder_id": "5174d0d7-0f8d-476c-bbd9-a549592ef3aa",
+  "company_id": "62c6b429-34b4-4d70-a334-939a49a04496",
+  "application_id": "2af0873a-5278-47ca-a404-0beb47f77883",
+  "name": "Erik Watanabe",
+  "company_name": "ZenithFinance",
+  "sector": "Climate",
+  "stage": "seed",
+  "geography": "GB",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "Carnegie Mellon University",
+    "university_country": "US",
+    "degree": "MSc Robotics",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at Nvidia, focusing on climate problems.",
+  "github_profile": null,
+  "deck_summary": "ZenithFinance is building An AI-powered patient matching engine for clinical trials. The problem: Carbon accounting for supply chains is fragmented and error-prone.",
+  "claims": [
+    {
+      "id": "92bd4c34-427a-426a-aaf0-1bbef5e26575",
+      "founder_id": "5174d0d7-0f8d-476c-bbd9-a549592ef3aa",
+      "company_id": "62c6b429-34b4-4d70-a334-939a49a04496",
+      "application_id": "2af0873a-5278-47ca-a404-0beb47f77883",
+      "kind": "founder_background",
+      "text": "Founder Erik Watanabe holds a MSc Robotics from Carnegie Mellon University, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:2af0873a-5278-47ca-a404-0beb47f77883",
+        "ingested_at": "2026-07-19T09:45:52.158804",
+        "raw_payload_hash": "aa15cb1362ecb6158f7bcb87137fd4982de2aa27edf7939cd97570bbb4fe5428",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.158878",
+      "superseded_by": null
+    },
+    {
+      "id": "6f599787-576d-4dde-a520-a24b5c937f4f",
+      "founder_id": "5174d0d7-0f8d-476c-bbd9-a549592ef3aa",
+      "company_id": "62c6b429-34b4-4d70-a334-939a49a04496",
+      "application_id": "2af0873a-5278-47ca-a404-0beb47f77883",
+      "kind": "product",
+      "text": "ZenithFinance addresses: Carbon accounting for supply chains is fragmented and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:52.158883",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.158897",
+      "superseded_by": null
+    },
+    {
+      "id": "e346e277-7c19-47a0-bc4c-34aa8732bcec",
+      "founder_id": "5174d0d7-0f8d-476c-bbd9-a549592ef3aa",
+      "company_id": "62c6b429-34b4-4d70-a334-939a49a04496",
+      "application_id": "2af0873a-5278-47ca-a404-0beb47f77883",
+      "kind": "product",
+      "text": "Solution: An AI-powered patient matching engine for clinical trials.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:52.158900",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:52.158909",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "5174d0d7-0f8d-476c-bbd9-a549592ef3aa",
+    "score_history": [
+      {
+        "id": "8d3cf9ff-623a-4db0-9e29-29edca75e514",
+        "founder_id": "5174d0d7-0f8d-476c-bbd9-a549592ef3aa",
+        "score": 72.86568828452309,
+        "confidence_band": [
+          52.86568828452309,
+          92.86568828452309
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:52.158999",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 58.292550627618475,
+          "market_fit": 51.00598179916616,
+          "network": 36.432844142261544,
+          "momentum": 43.719412970713854
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "8d3cf9ff-623a-4db0-9e29-29edca75e514",
+      "founder_id": "5174d0d7-0f8d-476c-bbd9-a549592ef3aa",
+      "score": 72.86568828452309,
+      "confidence_band": [
+        52.86568828452309,
+        92.86568828452309
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:52.158999",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 58.292550627618475,
+        "market_fit": 51.00598179916616,
+        "network": 36.432844142261544,
+        "momentum": 43.719412970713854
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:52.159020",
+    "last_updated_at": "2026-07-19T09:45:52.159021"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/62.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Carnegie_Mellon_University_as_seen_from_the_Cathedral_of_Learning.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

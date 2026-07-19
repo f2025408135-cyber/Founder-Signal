@@ -1,0 +1,209 @@
+{
+  "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+  "company_id": "c942f3b0-1c82-4f06-8b6d-33a7cabc064b",
+  "application_id": "4ecb28e7-4e26-413a-ac53-d3a6d54de694",
+  "name": "Camila Chen",
+  "company_name": "NovaEnergy",
+  "sector": "Consumer",
+  "stage": "seed",
+  "geography": "FR",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "IIT Bombay",
+    "university_country": "IN",
+    "degree": "BSc Physics",
+    "year": 2013
+  },
+  "prior_experience": "Previously worked at Nvidia, focusing on consumer problems.",
+  "github_profile": {
+    "username": "camilachen29",
+    "repo_count": 4,
+    "primary_language": "JavaScript",
+    "commit_activity": "18 commits in last 30 days",
+    "stars": 201,
+    "top_repo": "camilachen29/novaenergy-core",
+    "contributors": 2
+  },
+  "deck_summary": "NovaEnergy is building A battery optimization platform using reinforcement learning. The problem: Legacy hospital records are siloed and impossible to query in bulk.",
+  "claims": [
+    {
+      "id": "d3bb031b-871a-4db8-bf0f-b3bda16862de",
+      "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+      "company_id": "c942f3b0-1c82-4f06-8b6d-33a7cabc064b",
+      "application_id": "4ecb28e7-4e26-413a-ac53-d3a6d54de694",
+      "kind": "founder_background",
+      "text": "Founder Camila Chen holds a BSc Physics from IIT Bombay, graduating in 2013.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:4ecb28e7-4e26-413a-ac53-d3a6d54de694",
+        "ingested_at": "2026-07-19T09:45:37.038001",
+        "raw_payload_hash": "9ed7dc645cbe0583fb9dec6f4dbe4e61ccedc9a22d84a39ea8788f32bbe31814",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.038064",
+      "superseded_by": null
+    },
+    {
+      "id": "ff5b93d1-fae4-4e82-9e5b-c8ed65dded50",
+      "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+      "company_id": "c942f3b0-1c82-4f06-8b6d-33a7cabc064b",
+      "application_id": "4ecb28e7-4e26-413a-ac53-d3a6d54de694",
+      "kind": "product",
+      "text": "NovaEnergy addresses: Legacy hospital records are siloed and impossible to query in bulk.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:37.038069",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.038082",
+      "superseded_by": null
+    },
+    {
+      "id": "9c4df15f-ebd7-46b7-8979-2e8a33af58fc",
+      "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+      "company_id": "c942f3b0-1c82-4f06-8b6d-33a7cabc064b",
+      "application_id": "4ecb28e7-4e26-413a-ac53-d3a6d54de694",
+      "kind": "product",
+      "text": "Solution: A battery optimization platform using reinforcement learning.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:37.038085",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.038093",
+      "superseded_by": null
+    },
+    {
+      "id": "1c37948b-2687-4184-9e4a-01147b033891",
+      "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+      "company_id": "c942f3b0-1c82-4f06-8b6d-33a7cabc064b",
+      "application_id": "4ecb28e7-4e26-413a-ac53-d3a6d54de694",
+      "kind": "technical_depth",
+      "text": "Repository camilachen29/novaenergy-core has 201 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "camilachen29/novaenergy-core",
+        "ingested_at": "2026-07-19T09:45:37.038103",
+        "raw_payload_hash": "f4bee2b6b307cb95f53fbdaceadf48171efc218191e3bdded50d194ac4bdb627",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.038111",
+      "superseded_by": null
+    },
+    {
+      "id": "4e3130eb-95b2-4bb7-830e-092bfb953ccb",
+      "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+      "company_id": "c942f3b0-1c82-4f06-8b6d-33a7cabc064b",
+      "application_id": "4ecb28e7-4e26-413a-ac53-d3a6d54de694",
+      "kind": "market_trend",
+      "text": "The Consumer market is growing at 30% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Consumer-market",
+        "ingested_at": "2026-07-19T09:45:37.038119",
+        "raw_payload_hash": "8ab717515ff3d3632c51a4dc748698bdcaf40fc48d3a68a5130bb170fc5ab8c7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.038127",
+      "superseded_by": null
+    },
+    {
+      "id": "6f8f9a9e-4eac-4894-9912-1002a4beca9d",
+      "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+      "company_id": "c942f3b0-1c82-4f06-8b6d-33a7cabc064b",
+      "application_id": "4ecb28e7-4e26-413a-ac53-d3a6d54de694",
+      "kind": "founder_network",
+      "text": "Founder participated in EWOR cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:EWOR",
+        "ingested_at": "2026-07-19T09:45:37.038131",
+        "raw_payload_hash": "0ae98459fc61d6e650e9528a5974d30012ef50d8e7ffc4582dd7154d66d75eec",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:37.038138",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+    "score_history": [
+      {
+        "id": "6dac8eaf-946e-4485-ba2e-12ba12ff5f33",
+        "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+        "score": 74.20324414391386,
+        "confidence_band": [
+          54.203244143913864,
+          94.20324414391386
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:37.038229",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 59.362595315131095,
+          "market_fit": 51.9422709007397,
+          "network": 37.10162207195693,
+          "momentum": 44.52194648634832
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "6dac8eaf-946e-4485-ba2e-12ba12ff5f33",
+      "founder_id": "a50c9af0-4e79-4a58-ab06-c786cd95650e",
+      "score": 74.20324414391386,
+      "confidence_band": [
+        54.203244143913864,
+        94.20324414391386
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:37.038229",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 59.362595315131095,
+        "market_fit": 51.9422709007397,
+        "network": 37.10162207195693,
+        "momentum": 44.52194648634832
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:37.038248",
+    "last_updated_at": "2026-07-19T09:45:37.038249"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/44.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Campus_view.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

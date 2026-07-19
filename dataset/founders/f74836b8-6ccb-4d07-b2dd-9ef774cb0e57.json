@@ -1,0 +1,161 @@
+{
+  "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+  "company_id": "2d092302-caa8-4c19-b92c-a25de6daca33",
+  "application_id": "20a843e9-ba92-4176-8cf3-1d708471867d",
+  "name": "Aisha Watanabe",
+  "company_name": "HelixTools",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "US",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "university_country": "GB",
+    "degree": "BSc Mathematics",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at Nvidia, focusing on healthtech problems.",
+  "github_profile": null,
+  "deck_summary": "HelixTools is building A solar forecasting model trained on satellite imagery. The problem: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+  "claims": [
+    {
+      "id": "c659aea7-66a8-421b-90f0-2c44fd045d97",
+      "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+      "company_id": "2d092302-caa8-4c19-b92c-a25de6daca33",
+      "application_id": "20a843e9-ba92-4176-8cf3-1d708471867d",
+      "kind": "founder_background",
+      "text": "Founder Aisha Watanabe holds a BSc Mathematics from University of Cambridge, graduating in 2019.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:20a843e9-ba92-4176-8cf3-1d708471867d",
+        "ingested_at": "2026-07-19T09:45:56.410849",
+        "raw_payload_hash": "6ec608f110ea09a8a821a4b905fd07d0d947d2c05f890c92d163002576484749",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.410912",
+      "superseded_by": null
+    },
+    {
+      "id": "3b0a1495-4dfd-4a6e-b2b2-db1eb79b9572",
+      "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+      "company_id": "2d092302-caa8-4c19-b92c-a25de6daca33",
+      "application_id": "20a843e9-ba92-4176-8cf3-1d708471867d",
+      "kind": "product",
+      "text": "HelixTools addresses: Battery lifecycle optimization for EV fleets is unsolved at scale.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:56.410917",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.410929",
+      "superseded_by": null
+    },
+    {
+      "id": "d7a9de27-221c-41b7-a8b6-a3df66c1cc15",
+      "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+      "company_id": "2d092302-caa8-4c19-b92c-a25de6daca33",
+      "application_id": "20a843e9-ba92-4176-8cf3-1d708471867d",
+      "kind": "product",
+      "text": "Solution: A solar forecasting model trained on satellite imagery.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:56.410932",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.410940",
+      "superseded_by": null
+    },
+    {
+      "id": "cc0b70c7-2303-46e7-8ce2-6601aa52fb03",
+      "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+      "company_id": "2d092302-caa8-4c19-b92c-a25de6daca33",
+      "application_id": "20a843e9-ba92-4176-8cf3-1d708471867d",
+      "kind": "market_trend",
+      "text": "The Healthtech market is growing at 30% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T09:45:56.410950",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.410958",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+    "score_history": [
+      {
+        "id": "7b410f13-e766-4389-932f-087c73a6cd1e",
+        "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+        "score": 61.5075803974145,
+        "confidence_band": [
+          41.5075803974145,
+          81.5075803974145
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:56.411038",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 49.206064317931606,
+          "market_fit": 43.055306278190145,
+          "network": 30.75379019870725,
+          "momentum": 36.9045482384487
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "7b410f13-e766-4389-932f-087c73a6cd1e",
+      "founder_id": "f74836b8-6ccb-4d07-b2dd-9ef774cb0e57",
+      "score": 61.5075803974145,
+      "confidence_band": [
+        41.5075803974145,
+        81.5075803974145
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:56.411038",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 49.206064317931606,
+        "market_fit": 43.055306278190145,
+        "network": 30.75379019870725,
+        "momentum": 36.9045482384487
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:56.411061",
+    "last_updated_at": "2026-07-19T09:45:56.411062"
+  },
+  "photo_url": "/dataset/assets/avatars/f74836b8-6ccb-4d07-b2dd-9ef774cb0e57.svg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Demonstrators_outside_of_Cambridge_Trust_Company_during_first_day_of_the_2007_Harvard_University_AlliedBarton_campus_security_workers_strike_%28482304751%29.jpg",
+  "image_source": {
+    "photo": "fallback",
+    "university": "wikimedia"
+  }
+}

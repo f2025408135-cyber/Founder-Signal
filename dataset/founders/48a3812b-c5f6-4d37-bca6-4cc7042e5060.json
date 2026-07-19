@@ -1,0 +1,189 @@
+{
+  "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+  "company_id": "fe0134df-af0e-4c7f-a040-a5a3bb449b5e",
+  "application_id": "c072cc5b-e258-4a52-9a0e-9d5c4f7e6273",
+  "name": "Ananya Singh",
+  "company_name": "LumenData",
+  "sector": "Consumer",
+  "stage": "seed",
+  "geography": "GB",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "University of Cambridge",
+    "university_country": "GB",
+    "degree": "BSc Mathematics",
+    "year": 2016
+  },
+  "prior_experience": "Previously worked at Stripe, focusing on consumer problems.",
+  "github_profile": {
+    "username": "ananyasingh83",
+    "repo_count": 8,
+    "primary_language": "Go",
+    "commit_activity": "14 commits in last 30 days",
+    "stars": 193,
+    "top_repo": "ananyasingh83/lumendata-core",
+    "contributors": 3
+  },
+  "deck_summary": "LumenData is building An open-source evaluation harness with auditable test suites. The problem: Code review for ML pipelines lacks tooling; bugs ship to production.",
+  "claims": [
+    {
+      "id": "970b7264-bcdb-4816-84e9-9dd55dc3093e",
+      "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+      "company_id": "fe0134df-af0e-4c7f-a040-a5a3bb449b5e",
+      "application_id": "c072cc5b-e258-4a52-9a0e-9d5c4f7e6273",
+      "kind": "founder_background",
+      "text": "Founder Ananya Singh holds a BSc Mathematics from University of Cambridge, graduating in 2016.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:c072cc5b-e258-4a52-9a0e-9d5c4f7e6273",
+        "ingested_at": "2026-07-19T09:45:50.914816",
+        "raw_payload_hash": "2f2e30a2cb7b748462eae054daba6fe3fdb69626075ee5b57ef92b4d8b5afe8a",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.914880",
+      "superseded_by": null
+    },
+    {
+      "id": "9b5e82bf-7512-43a5-bcbf-64f9a2802e45",
+      "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+      "company_id": "fe0134df-af0e-4c7f-a040-a5a3bb449b5e",
+      "application_id": "c072cc5b-e258-4a52-9a0e-9d5c4f7e6273",
+      "kind": "product",
+      "text": "LumenData addresses: Code review for ML pipelines lacks tooling; bugs ship to production.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:50.914885",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.914896",
+      "superseded_by": null
+    },
+    {
+      "id": "2a076de5-4323-4217-9cbf-e1d5023b0bd1",
+      "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+      "company_id": "fe0134df-af0e-4c7f-a040-a5a3bb449b5e",
+      "application_id": "c072cc5b-e258-4a52-9a0e-9d5c4f7e6273",
+      "kind": "product",
+      "text": "Solution: An open-source evaluation harness with auditable test suites.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:50.914899",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.914907",
+      "superseded_by": null
+    },
+    {
+      "id": "bbe5b012-ef0c-4cf9-859f-f3073c0fff54",
+      "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+      "company_id": "fe0134df-af0e-4c7f-a040-a5a3bb449b5e",
+      "application_id": "c072cc5b-e258-4a52-9a0e-9d5c4f7e6273",
+      "kind": "market_trend",
+      "text": "The Consumer sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Consumer-trend",
+        "ingested_at": "2026-07-19T09:45:50.914911",
+        "raw_payload_hash": "a4270a158b249a1afde5955526ecd4c52a06076a4625fcde2d86b81a66afff99",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.914918",
+      "superseded_by": null
+    },
+    {
+      "id": "519e9baf-37aa-4cff-b5ec-bde2d6d3df65",
+      "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+      "company_id": "fe0134df-af0e-4c7f-a040-a5a3bb449b5e",
+      "application_id": "c072cc5b-e258-4a52-9a0e-9d5c4f7e6273",
+      "kind": "technical_depth",
+      "text": "Repository ananyasingh83/lumendata-core has 193 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "ananyasingh83/lumendata-core",
+        "ingested_at": "2026-07-19T09:45:50.914926",
+        "raw_payload_hash": "bbe45051830406b35625fa61a089e3c5e9421ca5de2a1fb01d39bf2dc05b1919",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.914934",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+    "score_history": [
+      {
+        "id": "edd56241-6f2e-4c8e-87da-0f53ac402418",
+        "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+        "score": 51.5199295568612,
+        "confidence_band": [
+          31.5199295568612,
+          71.5199295568612
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:50.915039",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 38.6399471676459,
+          "market_fit": 30.91195773411672,
+          "network": 20.60797182274448,
+          "momentum": 25.7599647784306
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "edd56241-6f2e-4c8e-87da-0f53ac402418",
+      "founder_id": "48a3812b-c5f6-4d37-bca6-4cc7042e5060",
+      "score": 51.5199295568612,
+      "confidence_band": [
+        31.5199295568612,
+        71.5199295568612
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:50.915039",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 38.6399471676459,
+        "market_fit": 30.91195773411672,
+        "network": 20.60797182274448,
+        "momentum": 25.7599647784306
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:50.915059",
+    "last_updated_at": "2026-07-19T09:45:50.915060"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/18.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Demonstrators_outside_of_Cambridge_Trust_Company_during_first_day_of_the_2007_Harvard_University_AlliedBarton_campus_security_workers_strike_%28482304751%29.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+  "company_id": "3c12875e-e5f3-4b04-ac36-54ec1af264cd",
+  "application_id": "790648e2-1ea2-40ff-8d74-5aefec8e50cf",
+  "name": "Dmitri Chen",
+  "company_name": "HelixLabs",
+  "sector": "Healthtech",
+  "stage": "series-a",
+  "geography": "IN",
+  "categories": [
+    "missing_data"
+  ],
+  "education": {
+    "university": "University of Lagos",
+    "university_country": "NG",
+    "degree": "PhD Artificial Intelligence",
+    "year": 2020
+  },
+  "prior_experience": "Previously worked at Tesla, focusing on healthtech problems.",
+  "github_profile": {
+    "username": "dmitrichen41",
+    "repo_count": 6,
+    "primary_language": "TypeScript",
+    "commit_activity": "10 commits in last 30 days",
+    "stars": 114,
+    "top_repo": "dmitrichen41/helixlabs-core",
+    "contributors": 6
+  },
+  "deck_summary": "HelixLabs is building A discovery platform using behavioral signals instead of ASO keywords. The problem: Cross-border payments remain slow and expensive for SMBs.",
+  "claims": [
+    {
+      "id": "f4ab29d1-2163-4d40-bed4-c420b477f375",
+      "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+      "company_id": "3c12875e-e5f3-4b04-ac36-54ec1af264cd",
+      "application_id": "790648e2-1ea2-40ff-8d74-5aefec8e50cf",
+      "kind": "founder_background",
+      "text": "Founder Dmitri Chen holds a PhD Artificial Intelligence from University of Lagos, graduating in 2020.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:790648e2-1ea2-40ff-8d74-5aefec8e50cf",
+        "ingested_at": "2026-07-19T09:45:43.163541",
+        "raw_payload_hash": "28e469c7efe1ee4cb39351ee56daa02312d07984399ee97820cc4b1a47f8a3b8",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:43.163604",
+      "superseded_by": null
+    },
+    {
+      "id": "78818928-37c8-4712-b847-2f628054a419",
+      "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+      "company_id": "3c12875e-e5f3-4b04-ac36-54ec1af264cd",
+      "application_id": "790648e2-1ea2-40ff-8d74-5aefec8e50cf",
+      "kind": "product",
+      "text": "HelixLabs addresses: Cross-border payments remain slow and expensive for SMBs.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:43.163609",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:43.163621",
+      "superseded_by": null
+    },
+    {
+      "id": "70b458e9-3fa7-4467-a66e-83d7206ff991",
+      "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+      "company_id": "3c12875e-e5f3-4b04-ac36-54ec1af264cd",
+      "application_id": "790648e2-1ea2-40ff-8d74-5aefec8e50cf",
+      "kind": "product",
+      "text": "Solution: A discovery platform using behavioral signals instead of ASO keywords.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:43.163624",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:43.163632",
+      "superseded_by": null
+    },
+    {
+      "id": "d26800f2-bec6-4364-975b-c5b453428529",
+      "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+      "company_id": "3c12875e-e5f3-4b04-ac36-54ec1af264cd",
+      "application_id": "790648e2-1ea2-40ff-8d74-5aefec8e50cf",
+      "kind": "market_trend",
+      "text": "The Healthtech sector is seeing increased VC interest.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-trend",
+        "ingested_at": "2026-07-19T09:45:43.163636",
+        "raw_payload_hash": "1e283eb4dc911e1b94f7be66bb0e1d193ce98cd9a89704b2daa9d9647ccdaa3d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:43.163643",
+      "superseded_by": null
+    },
+    {
+      "id": "a0f59102-590c-43a7-9923-5b07c91ff7fd",
+      "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+      "company_id": "3c12875e-e5f3-4b04-ac36-54ec1af264cd",
+      "application_id": "790648e2-1ea2-40ff-8d74-5aefec8e50cf",
+      "kind": "technical_depth",
+      "text": "Repository dmitrichen41/helixlabs-core has 114 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "dmitrichen41/helixlabs-core",
+        "ingested_at": "2026-07-19T09:45:43.163654",
+        "raw_payload_hash": "3e3d8ead48122643291fceb51aa55504f385ae61186e532b45b12a9b90600ba1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:43.163662",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+    "score_history": [
+      {
+        "id": "413c38d6-6e55-4dc9-a95d-dd39660dbdac",
+        "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+        "score": 64.07079850174742,
+        "confidence_band": [
+          44.07079850174742,
+          84.07079850174742
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:43.163768",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 48.053098876310564,
+          "market_fit": 38.44247910104845,
+          "network": 25.62831940069897,
+          "momentum": 32.03539925087371
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "413c38d6-6e55-4dc9-a95d-dd39660dbdac",
+      "founder_id": "9d290a7d-d5c0-4f6e-b45a-2f9a9efb1d8b",
+      "score": 64.07079850174742,
+      "confidence_band": [
+        44.07079850174742,
+        84.07079850174742
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:43.163768",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 48.053098876310564,
+        "market_fit": 38.44247910104845,
+        "network": 25.62831940069897,
+        "momentum": 32.03539925087371
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:43.163788",
+    "last_updated_at": "2026-07-19T09:45:43.163789"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/0.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lagos_State_University%2C_Epe_Campus_Library.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

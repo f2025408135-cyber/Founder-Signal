@@ -1,0 +1,249 @@
+{
+  "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+  "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+  "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+  "name": "Oluwaseun Ibrahim",
+  "company_name": "FluxSystems",
+  "sector": "Healthtech",
+  "stage": "seed",
+  "geography": "IN",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "TU Munich",
+    "university_country": "DE",
+    "degree": "BSc Physics",
+    "year": 2019
+  },
+  "prior_experience": "Previously worked at Meta, focusing on healthtech problems.",
+  "github_profile": {
+    "username": "oluwaseunibrahi",
+    "repo_count": 19,
+    "primary_language": "Go",
+    "commit_activity": "18 commits in last 30 days",
+    "stars": 1365,
+    "top_repo": "oluwaseunibrahi/fluxsystems-core",
+    "contributors": 25
+  },
+  "deck_summary": "FluxSystems is building A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "a0a9f9ad-3095-411c-b064-eeb0fcfe2489",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+      "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+      "kind": "founder_background",
+      "text": "Founder Oluwaseun Ibrahim holds a BSc Physics from TU Munich, graduating in 2019.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:90e1f467-45ab-424c-8d41-4b30c8286197",
+        "ingested_at": "2026-07-19T09:45:35.437224",
+        "raw_payload_hash": "7c9e87390edb4534c48496dced0651c05f6c58e6adb7485e1248a17f13e37033",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.437297",
+      "superseded_by": null
+    },
+    {
+      "id": "ccd0727b-44dc-488c-9e85-7a26a1165d27",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+      "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+      "kind": "technical_depth",
+      "text": "Repository oluwaseunibrahi/fluxsystems-core has 1365 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "oluwaseunibrahi/fluxsystems-core",
+        "ingested_at": "2026-07-19T09:45:35.437303",
+        "raw_payload_hash": "567641ba3d0a60f26b26d4da7dd038cc2eb63a3cd8c687ae9400d4379fc11871",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.437317",
+      "superseded_by": null
+    },
+    {
+      "id": "952783d6-be1c-4b72-8027-535b61fc7f55",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+      "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+      "kind": "technical_depth",
+      "text": "Repository oluwaseunibrahi/fluxsystems-core received 18 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "oluwaseunibrahi/fluxsystems-core/commits",
+        "ingested_at": "2026-07-19T09:45:35.437320",
+        "raw_payload_hash": "720e20d1d502ab3640cc94239c9606bee3a7a3a339cf878493ed301e66f4ebdf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.437331",
+      "superseded_by": null
+    },
+    {
+      "id": "2ffc3051-10f9-40ba-8249-486002dfecab",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+      "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+      "kind": "founder_network",
+      "text": "Repository oluwaseunibrahi/fluxsystems-core has 25 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "oluwaseunibrahi/fluxsystems-core/contributors",
+        "ingested_at": "2026-07-19T09:45:35.437335",
+        "raw_payload_hash": "33a83f3c1d5d450a705821799ac3ba1588534a6cce82e8dcf10976912c3457e2",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.437344",
+      "superseded_by": null
+    },
+    {
+      "id": "06c13e03-4024-44c2-a61a-45e865bea1a7",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+      "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+      "kind": "technical_depth",
+      "text": "Founder authored arXiv paper 2498.60019 on Healthtech techniques.",
+      "source": {
+        "kind": "arxiv",
+        "ref": "2498.60019",
+        "ingested_at": "2026-07-19T09:45:35.437351",
+        "raw_payload_hash": "83494bb13f3f8132fdf4dc22144707bd92dadcec1aa04adc980ee9875f8c7bfa",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.437364",
+      "superseded_by": null
+    },
+    {
+      "id": "f69f9b68-6328-41cb-ac74-9a43c4094636",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+      "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+      "kind": "founder_network",
+      "text": "Founder is a member of the Antler accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:Antler",
+        "ingested_at": "2026-07-19T09:45:35.437368",
+        "raw_payload_hash": "78f6e08d4ed90e61625e983eb6e1916120ebb0b44d343929db3c5be49a82e4e7",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.437377",
+      "superseded_by": null
+    },
+    {
+      "id": "1a3ff843-29df-46b4-9411-afb224c3eb48",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+      "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+      "kind": "market_trend",
+      "text": "The Healthtech market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T09:45:35.437380",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.437388",
+      "superseded_by": null
+    },
+    {
+      "id": "85e9d763-f35d-4087-9eab-112ffba9f97c",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "company_id": "8a3822a9-ee79-4d85-8de6-8ab983ad3d8a",
+      "application_id": "90e1f467-45ab-424c-8d41-4b30c8286197",
+      "kind": "product",
+      "text": "FluxSystems addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:35.437391",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:35.437399",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+    "score_history": [
+      {
+        "id": "9195b729-e586-4cf6-b48f-baed0edfedb9",
+        "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+        "score": 81.10954542394482,
+        "confidence_band": [
+          61.10954542394482,
+          100.0
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:35.437478",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 74.62078179002924,
+          "market_fit": 66.50982724763475,
+          "network": 63.26544543067696,
+          "momentum": 58.39887270524027
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "9195b729-e586-4cf6-b48f-baed0edfedb9",
+      "founder_id": "eaefaf6e-238d-4fc7-8cc6-5e5b298af61b",
+      "score": 81.10954542394482,
+      "confidence_band": [
+        61.10954542394482,
+        100.0
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:35.437478",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 74.62078179002924,
+        "market_fit": 66.50982724763475,
+        "network": 63.26544543067696,
+        "momentum": 58.39887270524027
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:35.437496",
+    "last_updated_at": "2026-07-19T09:45:35.437496"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/86.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/050322-tumuenchen-parabeln.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

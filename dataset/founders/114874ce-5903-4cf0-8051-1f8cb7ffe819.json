@@ -1,0 +1,201 @@
+{
+  "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+  "company_id": "2078cbd2-ea04-4e37-affe-f2fcf49705c1",
+  "application_id": "edf0054c-4c30-41e9-9699-143aa8a50263",
+  "name": "Ananya Sharma",
+  "company_name": "PulseBio",
+  "sector": "Climate",
+  "stage": "seed",
+  "geography": "DE",
+  "categories": [
+    "cold_start"
+  ],
+  "education": {
+    "university": "National University of Singapore",
+    "university_country": "SG",
+    "degree": "MSc Electrical Engineering",
+    "year": 2012
+  },
+  "prior_experience": "Previously worked at Amazon, focusing on climate problems.",
+  "github_profile": null,
+  "deck_summary": "PulseBio is building A real-time payment rail optimized for SMB cross-border transactions. The problem: Grid operators lack real-time forecasting for distributed solar.",
+  "claims": [
+    {
+      "id": "a2dba63d-51e6-48a0-86d9-0503ac5e0a4c",
+      "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+      "company_id": "2078cbd2-ea04-4e37-affe-f2fcf49705c1",
+      "application_id": "edf0054c-4c30-41e9-9699-143aa8a50263",
+      "kind": "founder_background",
+      "text": "Founder Ananya Sharma holds a MSc Electrical Engineering from National University of Singapore, graduating in 2012.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:edf0054c-4c30-41e9-9699-143aa8a50263",
+        "ingested_at": "2026-07-19T09:45:56.171950",
+        "raw_payload_hash": "304785ed36418bb0a80aa1bc9380f030e84b87576425046671464f61b802faa1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.172030",
+      "superseded_by": null
+    },
+    {
+      "id": "a03f4aaf-7746-46ec-bac5-5ee614d8f661",
+      "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+      "company_id": "2078cbd2-ea04-4e37-affe-f2fcf49705c1",
+      "application_id": "edf0054c-4c30-41e9-9699-143aa8a50263",
+      "kind": "founder_background",
+      "text": "Founder Ananya Sharma previously worked at Amazon.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:56.172035",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.172048",
+      "superseded_by": null
+    },
+    {
+      "id": "8f12c5f7-9026-42df-be04-a6c3175317fa",
+      "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+      "company_id": "2078cbd2-ea04-4e37-affe-f2fcf49705c1",
+      "application_id": "edf0054c-4c30-41e9-9699-143aa8a50263",
+      "kind": "product",
+      "text": "PulseBio addresses: Grid operators lack real-time forecasting for distributed solar.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:56.172051",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.172060",
+      "superseded_by": null
+    },
+    {
+      "id": "0bb062c7-4dc3-4dcc-b0ef-8b05dabaec0a",
+      "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+      "company_id": "2078cbd2-ea04-4e37-affe-f2fcf49705c1",
+      "application_id": "edf0054c-4c30-41e9-9699-143aa8a50263",
+      "kind": "product",
+      "text": "Solution: A real-time payment rail optimized for SMB cross-border transactions.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=3",
+        "ingested_at": "2026-07-19T09:45:56.172062",
+        "raw_payload_hash": "1388b35c9c35363819059ab74b902b167f7915b534a454936dc8bd854d16e93d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.172070",
+      "superseded_by": null
+    },
+    {
+      "id": "4457b1d1-d497-4904-b6f0-6ea0464298fc",
+      "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+      "company_id": "2078cbd2-ea04-4e37-affe-f2fcf49705c1",
+      "application_id": "edf0054c-4c30-41e9-9699-143aa8a50263",
+      "kind": "market_size",
+      "text": "The Climate market is projected to reach $2B by 2028.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:56.172076",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.172084",
+      "superseded_by": null
+    },
+    {
+      "id": "8bee850c-851a-4160-a360-d050979fea70",
+      "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+      "company_id": "2078cbd2-ea04-4e37-affe-f2fcf49705c1",
+      "application_id": "edf0054c-4c30-41e9-9699-143aa8a50263",
+      "kind": "cold_start_inferred",
+      "text": "Cold-start founder with no GitHub, arXiv, Product Hunt, or accelerator signals.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:edf0054c-4c30-41e9-9699-143aa8a50263",
+        "ingested_at": "2026-07-19T09:45:56.172088",
+        "raw_payload_hash": "304785ed36418bb0a80aa1bc9380f030e84b87576425046671464f61b802faa1",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:56.172096",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+    "score_history": [
+      {
+        "id": "af28083e-58aa-4258-bd57-002189d8da2d",
+        "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+        "score": 51.2150027678667,
+        "confidence_band": [
+          21.2150027678667,
+          81.21500276786671
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:56.172198",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 40.97200221429336,
+          "market_fit": 35.850501937506685,
+          "network": 0.0,
+          "momentum": 0.0
+        },
+        "cold_start": true,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "af28083e-58aa-4258-bd57-002189d8da2d",
+      "founder_id": "114874ce-5903-4cf0-8051-1f8cb7ffe819",
+      "score": 51.2150027678667,
+      "confidence_band": [
+        21.2150027678667,
+        81.21500276786671
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:56.172198",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 40.97200221429336,
+        "market_fit": 35.850501937506685,
+        "network": 0.0,
+        "momentum": 0.0
+      },
+      "cold_start": true,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:56.172234",
+    "last_updated_at": "2026-07-19T09:45:56.172235"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/12.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Covered_walkway_along_Campus_Link_leading_to_University_Town%2C_National_University_of_Singapore_-_20140920.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

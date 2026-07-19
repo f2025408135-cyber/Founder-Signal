@@ -1,0 +1,189 @@
+{
+  "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+  "company_id": "5f6996fd-5799-45bb-9f15-93ebe7b5db24",
+  "application_id": "a29b7387-8a0a-4e4d-b4d7-02948421f712",
+  "name": "Stefan Khan",
+  "company_name": "AtlasStack",
+  "sector": "Healthtech",
+  "stage": "series-a",
+  "geography": "US",
+  "categories": [
+    "contradicted"
+  ],
+  "education": {
+    "university": "Carnegie Mellon University",
+    "university_country": "US",
+    "degree": "PhD Machine Learning",
+    "year": 2015
+  },
+  "prior_experience": "Previously worked at Meta, focusing on healthtech problems.",
+  "github_profile": {
+    "username": "stefankhan47",
+    "repo_count": 4,
+    "primary_language": "Go",
+    "commit_activity": "13 commits in last 30 days",
+    "stars": 80,
+    "top_repo": "stefankhan47/atlasstack-core",
+    "contributors": 5
+  },
+  "deck_summary": "AtlasStack is building A federated query layer that unifies EHR systems without data movement. The problem: LLM evaluation lacks standardized benchmarks for regulated industries.",
+  "claims": [
+    {
+      "id": "15a44281-8616-429f-8e5e-1fc2dc02f369",
+      "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+      "company_id": "5f6996fd-5799-45bb-9f15-93ebe7b5db24",
+      "application_id": "a29b7387-8a0a-4e4d-b4d7-02948421f712",
+      "kind": "founder_background",
+      "text": "Founder Stefan Khan holds a PhD Machine Learning from Carnegie Mellon University, graduating in 2015.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:a29b7387-8a0a-4e4d-b4d7-02948421f712",
+        "ingested_at": "2026-07-19T09:45:33.054534",
+        "raw_payload_hash": "8437941cfcd642dbd3a50bae3fe4865404edc70d938059105752518882c4ee85",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:33.054752",
+      "superseded_by": null
+    },
+    {
+      "id": "57936617-a8dc-4068-bd8e-66642ce2b569",
+      "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+      "company_id": "5f6996fd-5799-45bb-9f15-93ebe7b5db24",
+      "application_id": "a29b7387-8a0a-4e4d-b4d7-02948421f712",
+      "kind": "product",
+      "text": "AtlasStack addresses: LLM evaluation lacks standardized benchmarks for regulated industries.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:33.054760",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:33.054783",
+      "superseded_by": null
+    },
+    {
+      "id": "b89df3bd-bc8d-4174-add2-43ed9a93d075",
+      "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+      "company_id": "5f6996fd-5799-45bb-9f15-93ebe7b5db24",
+      "application_id": "a29b7387-8a0a-4e4d-b4d7-02948421f712",
+      "kind": "traction",
+      "text": "AtlasStack has 50 paying enterprise customers.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=4",
+        "ingested_at": "2026-07-19T09:45:33.054789",
+        "raw_payload_hash": "8206cecafa3dba1f5be8bd8012b39089be68cde712e6b2fb45c82ea3eddd84ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:33.054815",
+      "superseded_by": null
+    },
+    {
+      "id": "63fbd165-fd9f-43e1-8af7-890d68ef0221",
+      "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+      "company_id": "5f6996fd-5799-45bb-9f15-93ebe7b5db24",
+      "application_id": "a29b7387-8a0a-4e4d-b4d7-02948421f712",
+      "kind": "traction",
+      "text": "AtlasStack has 3 active pilot deployments and no public customer logos.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:AtlasStack",
+        "ingested_at": "2026-07-19T09:45:33.054818",
+        "raw_payload_hash": "563b2a6d0535dae9f903224894fa4df4442eb513fc28cd3b13d7cadd27a4b810",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:33.054829",
+      "superseded_by": null
+    },
+    {
+      "id": "95296581-1e42-4de1-a4aa-3ac8abc21e64",
+      "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+      "company_id": "5f6996fd-5799-45bb-9f15-93ebe7b5db24",
+      "application_id": "a29b7387-8a0a-4e4d-b4d7-02948421f712",
+      "kind": "technical_depth",
+      "text": "Repository stefankhan47/atlasstack-core has 80 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "stefankhan47/atlasstack-core",
+        "ingested_at": "2026-07-19T09:45:33.054840",
+        "raw_payload_hash": "e0295266c551d35a1acc2503b6d29ed5e28c3f8ef41990cac56db330e9f45735",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:33.054850",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+    "score_history": [
+      {
+        "id": "45c49ed2-e5fb-4042-b0f9-f5d98fe357bf",
+        "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+        "score": 61.38294302537867,
+        "confidence_band": [
+          41.38294302537867,
+          81.38294302537867
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:33.054965",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 49.10635442030294,
+          "market_fit": 30.691471512689336,
+          "network": 36.829765815227205,
+          "momentum": 30.691471512689336
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "45c49ed2-e5fb-4042-b0f9-f5d98fe357bf",
+      "founder_id": "be84c3dc-ed82-4c1f-bc65-e1badb27e1e6",
+      "score": 61.38294302537867,
+      "confidence_band": [
+        41.38294302537867,
+        81.38294302537867
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:33.054965",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 49.10635442030294,
+        "market_fit": 30.691471512689336,
+        "network": 36.829765815227205,
+        "momentum": 30.691471512689336
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:33.055002",
+    "last_updated_at": "2026-07-19T09:45:33.055007"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/64.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Carnegie_Mellon_University_as_seen_from_the_Cathedral_of_Learning.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

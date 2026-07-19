@@ -1,0 +1,249 @@
+{
+  "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+  "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+  "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+  "name": "Ingrid Singh",
+  "company_name": "EchoFinance",
+  "sector": "Climate",
+  "stage": "series-a",
+  "geography": "IN",
+  "categories": [
+    "rich_signal"
+  ],
+  "education": {
+    "university": "MIT",
+    "university_country": "US",
+    "degree": "MSc Robotics",
+    "year": 2017
+  },
+  "prior_experience": "Previously worked at OpenAI, focusing on climate problems.",
+  "github_profile": {
+    "username": "ingridsingh55",
+    "repo_count": 11,
+    "primary_language": "JavaScript",
+    "commit_activity": "29 commits in last 30 days",
+    "stars": 609,
+    "top_repo": "ingridsingh55/echofinance-core",
+    "contributors": 12
+  },
+  "deck_summary": "EchoFinance is building An AI-powered patient matching engine for clinical trials. The problem: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+  "claims": [
+    {
+      "id": "f4f8c2f1-e409-4571-9744-2a8c85012f37",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+      "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+      "kind": "founder_background",
+      "text": "Founder Ingrid Singh holds a MSc Robotics from MIT, graduating in 2017.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:6a77ea56-716a-4a56-bd0e-eed715939bac",
+        "ingested_at": "2026-07-19T09:45:51.650134",
+        "raw_payload_hash": "9ba3fb542c831e8779277b2f429142c388151392df5632a1f77f73aaf19fa9ca",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.650224",
+      "superseded_by": null
+    },
+    {
+      "id": "e83839a7-79f5-4b3e-a958-422ba623042c",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+      "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+      "kind": "technical_depth",
+      "text": "Repository ingridsingh55/echofinance-core has 609 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "ingridsingh55/echofinance-core",
+        "ingested_at": "2026-07-19T09:45:51.650229",
+        "raw_payload_hash": "2b66431c6b62f06a06b16b3ece445f7010c2a7b0bed307e634a6e0b6b218f240",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.650242",
+      "superseded_by": null
+    },
+    {
+      "id": "d76b510b-5a33-4f16-bc53-e5de2ab1bfae",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+      "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+      "kind": "technical_depth",
+      "text": "Repository ingridsingh55/echofinance-core received 29 commits in the last 30 days.",
+      "source": {
+        "kind": "github",
+        "ref": "ingridsingh55/echofinance-core/commits",
+        "ingested_at": "2026-07-19T09:45:51.650245",
+        "raw_payload_hash": "5208062463378f74b7fd40bcfcbad0d62c5e483bd89d87f8e628aea98d1ff62d",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.650254",
+      "superseded_by": null
+    },
+    {
+      "id": "b8bda245-b0a1-4987-a831-910463f290be",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+      "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+      "kind": "founder_network",
+      "text": "Repository ingridsingh55/echofinance-core has 12 contributors.",
+      "source": {
+        "kind": "github",
+        "ref": "ingridsingh55/echofinance-core/contributors",
+        "ingested_at": "2026-07-19T09:45:51.650257",
+        "raw_payload_hash": "1dbe07bf6179122ad9d2be7e30afe039ba313697550bbbc8b37d522bebbb4900",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.650265",
+      "superseded_by": null
+    },
+    {
+      "id": "16d75ba9-74d0-4bdc-aed5-93362c244bd7",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+      "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+      "kind": "traction",
+      "text": "Hacker News post about EchoFinance received 344 points.",
+      "source": {
+        "kind": "hackernews",
+        "ref": "item:38042576",
+        "ingested_at": "2026-07-19T09:45:51.650274",
+        "raw_payload_hash": "549b0412650c9c97910bcfb0fc0d9c61a16a451389bf713a74175763a5855f16",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.650282",
+      "superseded_by": null
+    },
+    {
+      "id": "214cd9c3-2e1e-473b-b633-75fa099d4c7c",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+      "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+      "kind": "founder_network",
+      "text": "Founder is a member of the 500 Global accelerator cohort.",
+      "source": {
+        "kind": "accelerator_cohort",
+        "ref": "accelerator:500:Global",
+        "ingested_at": "2026-07-19T09:45:51.650286",
+        "raw_payload_hash": "489184f7bdc3a381a34cdaed9f6586d897ac84263c11e5df1309d5991da65cbc",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.650293",
+      "superseded_by": null
+    },
+    {
+      "id": "fdc02785-03d6-4b74-a2ec-89345ac50033",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+      "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+      "kind": "market_trend",
+      "text": "The Climate market is growing at 25% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Climate-market",
+        "ingested_at": "2026-07-19T09:45:51.650296",
+        "raw_payload_hash": "0443d2fc14a16d9108e4de9e0b02645653c4dd8a3d5ad98a5bce572d96e32ebf",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.650303",
+      "superseded_by": null
+    },
+    {
+      "id": "1e99614a-5870-40b0-ae0f-771ed518b617",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "company_id": "9b12488b-710b-480d-b238-dd52f36ae57a",
+      "application_id": "6a77ea56-716a-4a56-bd0e-eed715939bac",
+      "kind": "product",
+      "text": "EchoFinance addresses: Data privacy compliance (GDPR/CCPA) is manual and error-prone.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:51.650306",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:51.650313",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+    "score_history": [
+      {
+        "id": "34fbb697-09cf-44e1-a9e2-27f8ebdf8153",
+        "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+        "score": 79.36579953772855,
+        "confidence_band": [
+          59.36579953772855,
+          99.36579953772855
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:51.650429",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 73.01653557471028,
+          "market_fit": 65.07995562093741,
+          "network": 61.90532363942827,
+          "momentum": 57.143375667164555
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "34fbb697-09cf-44e1-a9e2-27f8ebdf8153",
+      "founder_id": "38559b7f-f9aa-4638-9121-c7834e93242f",
+      "score": 79.36579953772855,
+      "confidence_band": [
+        59.36579953772855,
+        99.36579953772855
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:51.650429",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 73.01653557471028,
+        "market_fit": 65.07995562093741,
+        "network": 61.90532363942827,
+        "momentum": 57.143375667164555
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:51.650449",
+    "last_updated_at": "2026-07-19T09:45:51.650450"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/men/97.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/MIT_Main_Campus_Aerial.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}

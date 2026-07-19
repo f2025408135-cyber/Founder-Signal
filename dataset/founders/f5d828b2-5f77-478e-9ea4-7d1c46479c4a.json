@@ -1,0 +1,189 @@
+{
+  "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+  "company_id": "54c38617-c91b-47ed-87e1-37d2798a84f4",
+  "application_id": "60b81199-61f7-4168-821d-e6d474f59097",
+  "name": "Tobias Sharma",
+  "company_name": "StrataAI",
+  "sector": "Healthtech",
+  "stage": "pre-seed",
+  "geography": "GB",
+  "categories": [
+    "mixed"
+  ],
+  "education": {
+    "university": "University of Lagos",
+    "university_country": "NG",
+    "degree": "BSc Computer Science",
+    "year": 2017
+  },
+  "prior_experience": "Previously worked at Amazon, focusing on healthtech problems.",
+  "github_profile": {
+    "username": "tobiassharma93",
+    "repo_count": 2,
+    "primary_language": "TypeScript",
+    "commit_activity": "8 commits in last 30 days",
+    "stars": 30,
+    "top_repo": "tobiassharma93/strataai-core",
+    "contributors": 2
+  },
+  "deck_summary": "StrataAI is building A CI/CD-native onboarding platform that reduces ramp time to 3 days. The problem: Legacy hospital records are siloed and impossible to query in bulk.",
+  "claims": [
+    {
+      "id": "fa83d822-d126-43be-8b69-36858aeee725",
+      "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+      "company_id": "54c38617-c91b-47ed-87e1-37d2798a84f4",
+      "application_id": "60b81199-61f7-4168-821d-e6d474f59097",
+      "kind": "founder_background",
+      "text": "Founder Tobias Sharma holds a BSc Computer Science from University of Lagos, graduating in 2017.",
+      "source": {
+        "kind": "application_form",
+        "ref": "app:60b81199-61f7-4168-821d-e6d474f59097",
+        "ingested_at": "2026-07-19T09:45:50.656895",
+        "raw_payload_hash": "db7a985bd4ecd7d142e60e5ccbd2f4900466b4564fc38205cbc5d972b2c0bea3",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.656985",
+      "superseded_by": null
+    },
+    {
+      "id": "b5a2dca3-dcaf-4c2f-8dc6-0dcba0d7588a",
+      "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+      "company_id": "54c38617-c91b-47ed-87e1-37d2798a84f4",
+      "application_id": "60b81199-61f7-4168-821d-e6d474f59097",
+      "kind": "product",
+      "text": "StrataAI addresses: Legacy hospital records are siloed and impossible to query in bulk.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=1",
+        "ingested_at": "2026-07-19T09:45:50.656993",
+        "raw_payload_hash": "a2d1b89257dd4b38026ed4cecb8406ac4e7ae373c6b28e44bbfeb56ae064851f",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.657041",
+      "superseded_by": null
+    },
+    {
+      "id": "d94080e6-9b74-4731-840d-61a1f08e26b4",
+      "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+      "company_id": "54c38617-c91b-47ed-87e1-37d2798a84f4",
+      "application_id": "60b81199-61f7-4168-821d-e6d474f59097",
+      "kind": "product",
+      "text": "Solution: A CI/CD-native onboarding platform that reduces ramp time to 3 days.",
+      "source": {
+        "kind": "deck",
+        "ref": "deck#slide=2",
+        "ingested_at": "2026-07-19T09:45:50.657045",
+        "raw_payload_hash": "aab32d1e0a7b6949d2e143887facbe6b971a4bc00594a305e93334232302105e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.657057",
+      "superseded_by": null
+    },
+    {
+      "id": "ddcee1ee-90c8-4a73-89f8-8f2641acd99d",
+      "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+      "company_id": "54c38617-c91b-47ed-87e1-37d2798a84f4",
+      "application_id": "60b81199-61f7-4168-821d-e6d474f59097",
+      "kind": "technical_depth",
+      "text": "Repository tobiassharma93/strataai-core has 30 stars on GitHub.",
+      "source": {
+        "kind": "github",
+        "ref": "tobiassharma93/strataai-core",
+        "ingested_at": "2026-07-19T09:45:50.657069",
+        "raw_payload_hash": "c9af7db8bf009b2babd7a47aae40fed92c95eaeef1cce1730716ad77a8b21a61",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.657080",
+      "superseded_by": null
+    },
+    {
+      "id": "95dcfa07-07a5-41ea-8724-05c772bd6053",
+      "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+      "company_id": "54c38617-c91b-47ed-87e1-37d2798a84f4",
+      "application_id": "60b81199-61f7-4168-821d-e6d474f59097",
+      "kind": "market_trend",
+      "text": "The Healthtech market is growing at 22% CAGR.",
+      "source": {
+        "kind": "external_db",
+        "ref": "crunchbase:Healthtech-market",
+        "ingested_at": "2026-07-19T09:45:50.657088",
+        "raw_payload_hash": "b4bf233fe88866efebdb7e5a0c4c6c5eac4848c9b1a230b1bffe4e05224daa2e",
+        "retrieved_by": "dataset_generator"
+      },
+      "confidence": 0.5,
+      "flags": [],
+      "embedding": null,
+      "created_at": "2026-07-19T09:45:50.657097",
+      "superseded_by": null
+    }
+  ],
+  "founder_score_seed": {
+    "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+    "score_history": [
+      {
+        "id": "09e5820b-8b1c-4adc-9505-bc1a00772f60",
+        "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+        "score": 66.91908745790057,
+        "confidence_band": [
+          46.919087457900574,
+          86.91908745790057
+        ],
+        "trend": "insufficient_data",
+        "computed_at": "2026-07-19T09:45:50.657221",
+        "trigger": "application",
+        "evidence_claim_ids": [],
+        "component_scores": {
+          "technical": 53.53526996632046,
+          "market_fit": 46.8433612205304,
+          "network": 33.45954372895029,
+          "momentum": 40.151452474740346
+        },
+        "cold_start": false,
+        "application_id": null
+      }
+    ],
+    "current_score": {
+      "id": "09e5820b-8b1c-4adc-9505-bc1a00772f60",
+      "founder_id": "f5d828b2-5f77-478e-9ea4-7d1c46479c4a",
+      "score": 66.91908745790057,
+      "confidence_band": [
+        46.919087457900574,
+        86.91908745790057
+      ],
+      "trend": "insufficient_data",
+      "computed_at": "2026-07-19T09:45:50.657221",
+      "trigger": "application",
+      "evidence_claim_ids": [],
+      "component_scores": {
+        "technical": 53.53526996632046,
+        "market_fit": 46.8433612205304,
+        "network": 33.45954372895029,
+        "momentum": 40.151452474740346
+      },
+      "cold_start": false,
+      "application_id": null
+    },
+    "trend": "insufficient_data",
+    "applications": [],
+    "first_seen_at": "2026-07-19T09:45:50.657242",
+    "last_updated_at": "2026-07-19T09:45:50.657243"
+  },
+  "photo_url": "https://randomuser.me/api/portraits/women/73.jpg",
+  "university_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lagos_State_University%2C_Epe_Campus_Library.jpg",
+  "image_source": {
+    "photo": "randomuser.me",
+    "university": "wikimedia"
+  }
+}
