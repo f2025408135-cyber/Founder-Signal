@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Inbox, Network, Filter, FileText, Activity } from "lucide-react";
+import { Inbox, Network, Filter, FileText, Activity, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navItems = [
+  { href: "/hero", label: "Fin", icon: Sparkles },
   { href: "/inbox", label: "Inbox", icon: Inbox },
   { href: "/network", label: "Network", icon: Network },
   { href: "/funnel", label: "Funnel", icon: Filter },
