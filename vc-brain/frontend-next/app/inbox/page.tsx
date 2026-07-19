@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, Suspense, lazy } from "react";
 import { useSearchParams } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
 import { Search, Loader2, AlertCircle, SlidersHorizontal } from "lucide-react";
@@ -8,6 +8,12 @@ import { FounderCard } from "@/components/founder/founder-card";
 import { Button, Input, Badge } from "@/components/ui/primitives";
 import { api } from "@/lib/api";
 import type { QueryMatch } from "@/lib/types";
+
+// Lazy-load SignalRadar so it never blocks the founder card list
+const SignalRadarLazy = lazy(() =>
+  import("@/components/radar/signal-radar").then((m) => ({ default: m.SignalRadar }))
+);
+const { SignalRadarErrorBoundary } = require("@/components/radar/signal-radar");
 
 export default function InboxPage() {
   return (
@@ -209,6 +215,15 @@ function InboxContent() {
             )}
           </section>
         )}
+
+        {/* Signal Radar — live pipeline activity feed */}
+        <SignalRadarErrorBoundary>
+          <Suspense fallback={<div className="rounded-lg p-4 mb-6" style={{ background: "#0a0908", border: "1px solid #4a3a1a33" }}><div className="font-mono text-[10px]" style={{ color: "#4a3a1a" }}>Loading Signal Radar...</div></div>}>
+            <div className="mb-6">
+              <SignalRadarLazy />
+            </div>
+          </Suspense>
+        </SignalRadarErrorBoundary>
 
         <section>
           {isLoading && (
