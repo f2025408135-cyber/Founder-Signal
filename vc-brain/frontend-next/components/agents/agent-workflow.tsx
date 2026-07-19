@@ -317,13 +317,13 @@ export function AgentWorkflowPanel({ onClose }: { onClose?: () => void }) {
   );
 }
 
-/** Button to toggle the Agent Workflow panel */
-export function ViewAgentWorkflowButton({ onClick, label = "View Agent Workflow" }: { onClick: () => void; label?: string }) {
+/** Button to toggle the Agent Workflow panel — prominent marble style */
+export function ViewAgentWorkflowButton({ onClick, label = "Visualize Agent Workflow" }: { onClick: () => void; label?: string }) {
   return (
     <button
       onClick={onClick}
-      className="inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-xs font-medium transition-all hover:scale-105"
-      style={{ background: "rgba(94,106,210,0.1)", border: "1px solid rgba(94,106,210,0.3)", color: "#5e6ad2" }}
+      className="marble-button inline-flex items-center gap-2 px-4 py-2 rounded-md text-xs font-medium transition-all"
+      style={{ letterSpacing: "0.02em" }}
     >
       <Activity className="w-3.5 h-3.5" />
       {label}

@@ -114,7 +114,7 @@ function InboxContent() {
             <SlidersHorizontal className="w-3 h-3 mr-1.5" />
             Filters
           </Button>
-          <ViewAgentWorkflowButton onClick={() => setShowWorkflow(!showWorkflow)} label={showWorkflow ? "Hide Agents" : "View Agent Workflow"} />
+          <ViewAgentWorkflowButton onClick={() => setShowWorkflow(!showWorkflow)} label={showWorkflow ? "Hide Workflow" : "Visualize Agent Workflow"} />
           {recFilter && <FilterChip label={recFilter} onClear={() => setRecFilter("")} />}
           {coldStartOnly && <FilterChip label="cold-start only" onClear={() => setColdStartOnly(false)} />}
           {sector && <FilterChip label={`sector: ${sector}`} onClear={() => setSector("")} />}

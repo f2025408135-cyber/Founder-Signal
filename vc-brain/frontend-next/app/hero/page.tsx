@@ -143,7 +143,7 @@ export default function HeroPage() {
               Skip to dashboard →
             </button>
             <button type="button" onClick={resetConversation} className="rounded-sm border border-transparent p-1.5 text-text-muted transition-colors hover:border-border-strong hover:text-text-primary" aria-label="Start a new investment thesis" title="Start a new thesis"><RotateCcw className="h-3.5 w-3.5" /></button>
-            <ViewAgentWorkflowButton onClick={() => setShowWorkflow(!showWorkflow)} label={showWorkflow ? "Hide" : "Agents"} />
+            <ViewAgentWorkflowButton onClick={() => setShowWorkflow(!showWorkflow)} label={showWorkflow ? "Hide Workflow" : "Visualize Agent Workflow"} />
           </div>
 
           {/* Agent Workflow Panel (collapsible) */}

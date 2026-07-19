@@ -14,6 +14,7 @@ const buttonVariants = cva(
         secondary: "metal-panel border-border-strong text-text-primary hover:brightness-125",
         outline: "border border-border-strong bg-canvas-base/30 text-text-secondary hover:border-accent/60 hover:bg-elevated hover:text-text-primary",
         destructive: "bg-error text-white hover:bg-error/90",
+        marble: "marble-button",
       },
       size: {
         sm: "h-7 px-2.5 text-xs",
