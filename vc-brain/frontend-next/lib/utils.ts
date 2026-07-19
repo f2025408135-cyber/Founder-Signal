@@ -126,9 +126,20 @@ export const STATE_CONFIG = {
     label: "cold-start",
     icon: "snowflake",
   },
+  unvalidated: {
+    textClass: "text-text-primary",
+    bgClass: "bg-elevated",
+    borderClass: "border-border-strong",
+    label: "unvalidated",
+    icon: "help",
+  },
 } as const;
 
+export function claimEvidenceStatus(status: string | null | undefined, flag?: string | null) {
+  return status || flag || "unvalidated";
+}
+
 export function evidenceChip(status: string | null | undefined) {
-  if (!status) return STATE_CONFIG.not_disclosed;
-  return STATE_CONFIG[status as keyof typeof STATE_CONFIG] ?? STATE_CONFIG.not_disclosed;
+  const resolved = claimEvidenceStatus(status);
+  return STATE_CONFIG[resolved as keyof typeof STATE_CONFIG] ?? STATE_CONFIG.unvalidated;
 }

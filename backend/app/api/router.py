@@ -19,7 +19,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter
 
-from app.api.routes import admin, applications, founders, inbox, outbound, query, thesis, traces
+from app.api.routes import admin, applications, events, fin, founders, inbox, outbound, query, thesis, traces
 
 router = APIRouter()
 
@@ -32,6 +32,8 @@ router.include_router(outbound.router, tags=["outbound"])
 router.include_router(query.router, tags=["query"])
 router.include_router(traces.router, tags=["traces"])
 router.include_router(admin.router, tags=["admin"])
+router.include_router(events.router, tags=["events"])
+router.include_router(fin.router, tags=["fin"])
 
 
 @router.get("/ping")

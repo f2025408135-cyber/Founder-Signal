@@ -2,7 +2,7 @@
 import { Check, HelpCircle, X, Minus, Snowflake } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { evidenceChip, cn } from "@/lib/utils";
+import { claimEvidenceStatus, evidenceChip, cn } from "@/lib/utils";
 import type { ClaimRow } from "@/lib/types";
 import { EvidenceDrawer } from "./evidence-drawer";
 
@@ -15,7 +15,7 @@ const ICON_MAP = {
 } as const;
 
 export function EvidenceChip({ claim }: { claim: ClaimRow }) {
-  const config = evidenceChip(claim.validator_status);
+  const config = evidenceChip(claimEvidenceStatus(claim.validator_status, claim.flags.at(-1)?.flag));
   const Icon = ICON_MAP[config.icon as keyof typeof ICON_MAP] ?? Minus;
 
   return (

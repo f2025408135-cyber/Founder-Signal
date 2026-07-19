@@ -1,7 +1,7 @@
 "use client";
 import { useState, useRef, useEffect, Suspense, lazy } from "react";
 import { useRouter } from "next/navigation";
-import { Search, ArrowRight, Loader2, Send, Sparkles } from "lucide-react";
+import { Search, ArrowRight, Loader2, Send, Sparkles, RotateCcw } from "lucide-react";
 import { Button, Input, Card, Badge } from "@/components/ui/primitives";
 
 // Lazy-load the particle sphere
@@ -103,15 +103,25 @@ export default function HeroPage() {
     }
   };
 
+  const resetConversation = () => {
+    setMessages([{ role: "assistant", content: FIN_GREETING }]);
+    setInput("");
+    setThesisState({});
+    setConversationId(null);
+    setPipelineStarted(false);
+    setDashboardUrl(null);
+    setShowChat(false);
+  };
+
   // If chat mode is active, show the split-screen layout
   if (showChat) {
     return (
       <div
-        className="min-h-screen flex"
+        className="min-h-screen flex flex-col lg:flex-row"
         style={{ background: "radial-gradient(ellipse at 58% -12%, rgba(200,205,212,.13) 0%, transparent 52%), linear-gradient(145deg, #06070a 0%, #020203 58%, #0a0d11 100%)" }}
       >
         {/* Left: chat panel */}
-        <div className="flex-1 flex flex-col max-w-2xl mx-auto px-6 py-8">
+        <div className="flex-1 flex w-full flex-col px-4 py-6 sm:px-6 sm:py-8 lg:max-w-2xl lg:mx-auto">
           {/* Header */}
           <div className="flex items-center gap-2 mb-6">
             <div
@@ -130,6 +140,7 @@ export default function HeroPage() {
             >
               Skip to dashboard →
             </button>
+            <button type="button" onClick={resetConversation} className="rounded-sm border border-transparent p-1.5 text-text-muted transition-colors hover:border-border-strong hover:text-text-primary" aria-label="Start a new investment thesis" title="Start a new thesis"><RotateCcw className="h-3.5 w-3.5" /></button>
           </div>
 
           {/* Messages */}
@@ -165,7 +176,7 @@ export default function HeroPage() {
                   onClick={() => router.push(dashboardUrl)}
                   className="metal-button px-4 py-2 rounded-sm text-sm font-medium flex items-center gap-2"
                 >
-                  View results on Dashboard
+                  Review queued deal flow
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
               </div>
@@ -198,7 +209,7 @@ export default function HeroPage() {
         </div>
 
         {/* Right: live thesis summary card */}
-        <div className="w-96 border-l border-border p-6 overflow-y-auto" style={{ background: "linear-gradient(180deg, rgba(14,17,22,.72), rgba(2,2,3,.5))" }}>
+        <div className="w-full border-t border-border p-4 sm:p-6 lg:w-96 lg:border-l lg:border-t-0 overflow-y-auto" style={{ background: "linear-gradient(180deg, rgba(14,17,22,.72), rgba(2,2,3,.5))" }}>
           <h3 className="text-sm font-bold mb-4 text-text-primary">
             Thesis Summary
           </h3>
@@ -207,15 +218,9 @@ export default function HeroPage() {
           {/* Pipeline progress */}
           {pipelineStarted && (
             <div className="metal-panel mt-6 p-4 rounded-sm">
-              <div className="technical-label mb-2">Pipeline Running</div>
-              <div className="space-y-1.5 text-xs text-text-muted">
-                <div>✓ Thesis applied</div>
-                <div>→ Scanning GitHub, arXiv, PH, HN...</div>
-                <div className="opacity-50">○ Screening candidates</div>
-                <div className="opacity-50">○ Scoring founder/market/idea</div>
-                <div className="opacity-50">○ Validating claims</div>
-                <div className="opacity-50">○ Aggregating results</div>
-              </div>
+              <div className="technical-label mb-2">Thesis confirmed</div>
+              <p className="text-xs leading-relaxed text-text-secondary">Fin has captured the thesis. The deal queue will show verified pipeline activity as the backend publishes it.</p>
+              {dashboardUrl && <button type="button" onClick={() => router.push(dashboardUrl)} className="mt-3 text-xs text-accent hover:text-accent-hover">Open deal queue →</button>}
             </div>
           )}
         </div>
@@ -334,8 +339,14 @@ function ThesisSummaryCard({ thesis }: { thesis: ThesisState }) {
     { label: "Risk Appetite", value: thesis.risk_appetite ? "Set" : null, filled: !!thesis.risk_appetite },
   ];
 
+  const filled = fields.filter((field) => field.filled).length;
+  if (filled === 0) {
+    return <Card className="p-4"><p className="technical-label">Thesis capture</p><p className="mt-2 text-sm text-text-secondary">0 of 6 thesis fields captured. Start with a sector, stage, or geography and Fin will fill in the rest conversationally.</p></Card>;
+  }
+
   return (
     <Card className="p-4 space-y-3">
+      <div className="flex items-center justify-between border-b border-border pb-2"><span className="technical-label">Thesis capture</span><span className="font-mono text-xs text-accent">{filled}/6</span></div>
       {fields.map((f) => (
         <div key={f.label} className="flex items-center justify-between">
           <span className="text-xs text-text-muted">{f.label}</span>
@@ -344,7 +355,7 @@ function ThesisSummaryCard({ thesis }: { thesis: ThesisState }) {
               {Array.isArray(f.value) ? f.value.join(", ") : f.value}
             </Badge>
           ) : (
-            <span className="text-[10px] text-text-subtle">— not yet discussed</span>
+            <span className="text-[10px] text-text-subtle">pending</span>
           )}
         </div>
       ))}
@@ -358,7 +369,7 @@ function ThesisSummaryCard({ thesis }: { thesis: ThesisState }) {
       {thesis.confirmed && (
         <div className="pt-2 border-t border-border">
           <div className="text-xs" style={{ color: "#3ecf8e" }}>
-            ✓ Confirmed — pipeline running
+            ✓ Confirmed — review the live queue for verified activity
           </div>
         </div>
       )}

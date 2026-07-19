@@ -1,5 +1,5 @@
 "use client";
-import { evidenceChip, cn } from "@/lib/utils";
+import { claimEvidenceStatus, evidenceChip, cn } from "@/lib/utils";
 import type { ClaimRow } from "@/lib/types";
 
 function sourceHref(kind: string, ref: string): string | null {
@@ -14,7 +14,8 @@ function sourceHref(kind: string, ref: string): string | null {
 }
 
 export function EvidenceDrawer({ claim }: { claim: ClaimRow }) {
-  const chip = evidenceChip(claim.validator_status);
+  const status = claimEvidenceStatus(claim.validator_status, claim.flags.at(-1)?.flag);
+  const chip = evidenceChip(status);
   // Extract Langfuse trace link from retrieved_by (format: "agent_name@trace_id/span_id")
   const retrievedBy = claim.source.retrieved_by || "";
   const traceMatch = retrievedBy.match(/@([^/]+)\/(.+)/);
@@ -91,7 +92,7 @@ export function EvidenceDrawer({ claim }: { claim: ClaimRow }) {
                 chip.bgClass
               )}
             >
-              {claim.validator_status ?? "not disclosed"}
+              {status}
             </span>
           </div>
           <div>

@@ -8,6 +8,7 @@ import type { InboxCard } from "@/lib/types";
 import {
   cn,
   countryFlag,
+  formatPct,
   marketScoreColor,
   recommendationColor,
   timeAgo,
@@ -36,9 +37,12 @@ export function FounderCard({
       {/* Row 1: header */}
       <div className="flex items-start justify-between mb-3">
         <div className="flex items-center gap-2 min-w-0">
-          <h3 className="text-base font-bold truncate text-text-primary">
-            {card.company_name || card.founder_name || "Processing founder"}
-          </h3>
+          <div className="min-w-0">
+            <h3 className="text-base font-bold truncate text-text-primary">
+              {card.company_name || "Processing founder"}
+            </h3>
+            {card.company_name && <p className="mt-0.5 truncate text-xs text-text-muted">{card.founder_name}</p>}
+          </div>
           {coldStart && (
             <Snowflake className="w-3.5 h-3.5 text-warning shrink-0" aria-label="cold-start" />
           )}
@@ -129,7 +133,7 @@ export function FounderCard({
           <span className="text-text-muted">/100 conviction</span>
         </span>
         <span className="text-text-muted">
-          evidence {card.evidence_coverage != null ? card.evidence_coverage.toFixed(2) : "pending"}
+          evidence {card.evidence_coverage != null ? formatPct(card.evidence_coverage) : "pending"}
         </span>
         <span className={cn((card.open_contradictions ?? 0) > 0 && "text-error")}>
           contradictions: {card.open_contradictions ?? 0}

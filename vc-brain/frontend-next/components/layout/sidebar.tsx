@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useQuery } from "@tanstack/react-query";
 import { Inbox, Network, Filter, FileText, Activity, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { api } from "@/lib/api";
 
 const navItems = [
   { href: "/hero", label: "Fin", icon: Sparkles },
@@ -14,6 +16,7 @@ const navItems = [
 
 export function Sidebar() {
   const pathname = usePathname();
+  const { data: thesis } = useQuery({ queryKey: ["thesis", "sidebar"], queryFn: api.getThesis, retry: false });
   return (
     <aside className="w-14 shrink-0 border-r border-border bg-card/90 flex flex-col h-full sm:w-56" style={{ boxShadow: "inset -1px 0 0 rgba(0,0,0,.4), 12px 0 32px -24px rgba(0,0,0,.9)" }}>
       <div className="px-5 py-5 border-b border-border">
@@ -52,8 +55,11 @@ export function Sidebar() {
           );
         })}
       </nav>
-      <div className="hidden px-4 py-3 border-t border-border text-[10px] text-text-subtle sm:block">
-        Maschmeyer Group · $100K check
+      <div className="hidden px-4 py-3 border-t border-border sm:block">
+        <div className="technical-label text-text-subtle">Active thesis</div>
+        <Link href="/thesis" className="mt-1 block text-[10px] text-text-muted transition-colors hover:text-text-primary">
+          {thesis ? `${thesis.sectors.slice(0, 2).join(" · ")} · ${Math.round(thesis.check_size_usd / 1000)}K` : "Open thesis settings"}
+        </Link>
       </div>
     </aside>
   );

@@ -1,50 +1,53 @@
 # Founder Signal Demo Script
 
-Duration: 3 to 5 minutes. Start with the services in `README.md` running and wait until all three fixture applications have completed their pipeline runs.
+Duration: 4 minutes. The narrative is **thesis → decision → evidence → uncertainty → operating system**.
 
-## 0:00 - Open The Inbox
+## Before The Room
 
-1. Open `http://localhost:5173/inbox`.
-2. Point out the distinct Founder, Market, Idea-vs-Market, and Thesis Fit rows. They are displayed independently; the headline Conviction is not an average of those axes.
-3. Open `StealthCo` first.
+1. For a live run, start the backend and frontend as described in `README.md`, confirm `/health`, and verify `/api/applications/inbox` has cards.
+2. For a deterministic UI demo without Docker, run `backend/.venv/Scripts/python.exe -m uvicorn scripts.demo_api:app --port 8001` from the repository root and set `BACKEND_URL=http://localhost:8001` in `vc-brain/frontend-next/.env.local`.
+3. Open `http://localhost:5173/hero` and keep `http://localhost:5173/inbox` ready in another tab.
 
-## 0:30 - Cold-Start Differentiator
+## 0:00 - Frame The Investment Thesis
 
-1. At the top of the StealthCo memo, show the red-bordered `Cold-start founder` banner.
-2. Scroll to the score history and point out the visibly wide amber confidence band for the cold-start snapshot.
-3. Scroll through `Cap Table` and `Financials & Round Structure` to show the explicit `not disclosed - request from founder` callouts.
-4. Explain the decision: insufficient external evidence leads to a deep-dive path rather than a falsely precise fast-pass decision.
+1. Open **Fin** and use one suggestion chip to show the conversational sourcing surface.
+2. Point to the live Thesis Capture panel: Fin turns natural-language intent into sectors, stage, geography, check size, ownership, and risk posture.
+3. State the principle: no pipeline status is claimed until the backend confirms it. The deal queue is the source of truth.
+4. Use **Skip to dashboard**.
 
-## 1:30 - Evidence Trail
+## 0:35 - Make A Decision First
 
-1. Return to the Inbox from the memo section rail.
-2. Open `VerifiedCo`.
-3. Click a green `[verified]` citation chip in the memo.
-4. In the right-side drawer, show the claim text, validator status, confidence, source reference, and Langfuse trace link when tracing is configured.
-5. Click the GitHub source link to show that the citation resolves to the source repository.
-6. Point out that missing evidence uses a labeled state rather than being silently filled in.
+1. In the Inbox, point out the active thesis in the sidebar and the queue sorted by Conviction.
+2. Open **VerifiedCo**.
+3. Start at the **Decision Brief**, not the long memo. Show the recommendation, four independent axes, evidence coverage, confidence range, diligence flags, and next actions in one screen.
+4. State explicitly: Conviction is not an average of the axes; a weak axis remains visible.
 
-## 2:30 - Contradiction And Trace
+## 1:20 - Prove The Decision
 
-1. Return to Inbox and open `ContradictedCo`.
-2. Find a red `[contradicted]` citation chip and open its drawer.
-3. Show the counter-evidence reference and the `Open Contradictions` card below the memo.
-4. Open the `Pipeline Trace` rail. Expand a node to show its model, tokens, latency, and result status. If Langfuse is not configured, point out the explicit unavailable state rather than treating it as an error.
+1. In **The Verdict**, show the Bull Case is drawn from verified claims and cited SWOT evidence.
+2. Click a `[verified]` citation. Show its claim text, source, validator status, confidence, and traceability drawer.
+3. Explain that the evidence ledger distinguishes verified, contradicted, unverifiable, missing, and still-unvalidated claims. It does not silently turn uncertainty into a score.
 
-## 3:15 - Network And Evaluation Mapping
+## 2:00 - Show Honest Uncertainty
 
-1. Click `Network` in the sidebar.
-2. Select a founder node, then open its memo from the node detail panel.
-3. Close on the acceptance-criteria mapping in `docs/BUILD_SPEC.md` section 10:
-   - B1/C4: cold-start confidence handling and no fast pass.
-   - B4/C2: per-claim validation and contradiction detection.
-   - B5/C3/C5: cited memo, evidence coverage, and tool-less synthesis.
-   - C6: missing-data callouts.
-   - D2/D3/D6: founder cards, citation drawers, and pipeline traceability.
+1. Return to Inbox and open **StealthCo**.
+2. In the Decision Brief, show the wide confidence range and cold-start warning beside the recommendation.
+3. Show the empty Bull/Bear state only where the validator has no material evidence; point out the memo’s explicit Cap Table and Financials disclosure requests.
+4. Explain the differentiator: cold-start founders are not punished or falsely precision-scored. The recommendation routes them to deeper diligence.
 
-## Demo-Day Checks
+## 2:45 - Show The System Can Argue Against Itself
 
-1. Verify `GET http://localhost:8000/health` returns `{"status":"ok"...}`.
-2. Verify `GET http://localhost:8000/api/applications/inbox` returns fixture cards before opening the browser.
-3. If external enrichment is unavailable, use StealthCo to demonstrate the explicit cold-start and missing-evidence experience.
-4. Do not refresh scores by opening cards. A view should report a cache hit unless new evidence has arrived.
+1. Open **ContradictedCo**.
+2. Show the Bear Case, contradiction count, and cited contradictory claim.
+3. Open the evidence drawer and state that a contradiction is retained as a first-class decision input rather than being hidden by a headline score.
+
+## 3:20 - Close On Operating Discipline
+
+1. Return to Inbox and scroll to **Live Signal Radar**. It is secondary telemetry, not a made-up performance metric: it only displays permitted pipeline events from the current session.
+2. Open **Sourcing Map**. Explain that it maps evidence channels to founders; it intentionally does not claim institution relationships that the current data does not prove.
+3. Close with the evaluation mapping:
+   - cold-start confidence handling and no fast pass: B1/C4;
+   - claim-level validation and contradiction detection: B4/C2;
+   - cited memo, evidence coverage, and tool-less synthesis: B5/C3/C5;
+   - missing-data callouts: C6;
+   - cards, citation drawers, traceability, and operating views: D2/D3/D6.

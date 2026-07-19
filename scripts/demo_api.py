@@ -5,9 +5,12 @@ run agents, score founders, or replace the production FastAPI application.
 """
 from __future__ import annotations
 
+import asyncio
 from datetime import datetime, timezone
+from typing import AsyncGenerator
 
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import StreamingResponse
 
 app = FastAPI(title="Founder Signal Local Demo API")
 NOW = datetime.now(timezone.utc).isoformat()
@@ -130,6 +133,27 @@ async def update_thesis() -> dict:
 @app.post("/api/query")
 async def query() -> dict:
     return {"query": "fixture", "decomposed_attributes": ["technical", "AI infra", "verified evidence"], "matches": [{"founder_id": BOB, "founder_name": "Bob Smith", "company_name": "VerifiedCo", "score": 85, "matched_attributes": ["technical", "AI infra", "verified evidence"]}]}
+
+
+@app.post("/api/fin/chat")
+async def fin_chat() -> dict:
+    return {
+        "reply": "Fixture mode is active. I can demonstrate the thesis-capture interface, while live AI intake runs against the configured production backend.",
+        "thesis_state": {"sectors": ["AI infra"], "stage": ["seed"], "geography": ["US"], "check_size_usd": None, "ownership_target_pct": None, "risk_appetite": None, "all_filled": False, "confirmed": False},
+        "conversation_id": "fixture-fin",
+        "pipeline_started": False,
+    }
+
+
+@app.get("/api/events/stream")
+async def event_stream() -> StreamingResponse:
+    async def events() -> AsyncGenerator[str, None]:
+        yield f"data: {{\"type\": \"aggregator_complete\", \"source\": \"pipeline\", \"founder_id\": \"{BOB}\", \"text\": \"Fixture replay: VerifiedCo scored 85 conviction\", \"timestamp\": \"{NOW}\"}}\n\n"
+        while True:
+            yield ": fixture heartbeat\n\n"
+            await asyncio.sleep(15)
+
+    return StreamingResponse(events(), media_type="text/event-stream", headers={"Cache-Control": "no-cache"})
 
 
 @app.get("/api/traces/{trace_id}")

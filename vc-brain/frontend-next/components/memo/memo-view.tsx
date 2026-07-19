@@ -6,12 +6,25 @@ import type { ClaimRow } from "@/lib/types";
 export function MemoView({ markdown, claims }: { markdown: string; claims: ClaimRow[] }) {
   const claimsById = new Map(claims.map((c) => [c.id, c]));
   const lines = markdown.split("\n");
+  const blocks: ReactNode[] = [];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    if (lines[index].startsWith("|")) {
+      const tableLines: string[] = [];
+      while (index < lines.length && lines[index].startsWith("|")) {
+        tableLines.push(lines[index]);
+        index += 1;
+      }
+      blocks.push(<MemoTable key={`table-${index}`} lines={tableLines} claimsById={claimsById} />);
+      index -= 1;
+      continue;
+    }
+    blocks.push(<Line key={index} line={lines[index]} claimsById={claimsById} />);
+  }
 
   return (
     <div className="prose prose-sm max-w-none">
-      {lines.map((line, i) => (
-        <Line key={i} line={line} claimsById={claimsById} />
-      ))}
+      {blocks}
     </div>
   );
 }
@@ -62,29 +75,6 @@ function Line({ line, claimsById }: { line: string; claimsById: Map<string, Clai
     );
   }
 
-  // Markdown table (Due Diligence Log)
-  if (line.startsWith("|")) {
-    if (line.startsWith("|--") || line.startsWith("|-")) return null;
-    const cells = line.split("|").slice(1, -1).map((c) => c.trim());
-    const isHeader = cells[0] === "Claim";
-    return (
-      <table className="w-full my-2 text-xs border border-border">
-        <tbody>
-          <tr className={isHeader ? "bg-elevated font-bold" : ""}>
-            {cells.map((cell, i) => (
-              <td
-                key={i}
-                className="px-2 py-1 border-r border-border last:border-r-0 text-text-secondary"
-              >
-                {renderInline(cell, claimsById)}
-              </td>
-            ))}
-          </tr>
-        </tbody>
-      </table>
-    );
-  }
-
   // Bullets
   if (line.startsWith("- ")) {
     return (
@@ -100,6 +90,26 @@ function Line({ line, claimsById }: { line: string; claimsById: Map<string, Clai
 
   // Default paragraph
   return <p className="text-sm my-1 leading-relaxed text-text-secondary">{renderInline(line, claimsById)}</p>;
+}
+
+function MemoTable({ lines, claimsById }: { lines: string[]; claimsById: Map<string, ClaimRow> }) {
+  const rows = lines
+    .filter((line) => !line.startsWith("|--") && !line.startsWith("|-"))
+    .map((line) => line.split("|").slice(1, -1).map((cell) => cell.trim()));
+  if (rows.length === 0) return null;
+  const [header, ...body] = rows;
+  return (
+    <div className="my-4 overflow-x-auto border border-border-strong bg-canvas-base/30">
+      <table className="w-full min-w-[620px] border-collapse text-left text-xs">
+        <thead className="bg-elevated/80 text-text-primary">
+          <tr>{header.map((cell, index) => <th key={index} className="border-b border-border px-3 py-2 font-mono text-[10px] font-bold uppercase tracking-data">{renderInline(cell, claimsById)}</th>)}</tr>
+        </thead>
+        <tbody>
+          {body.map((row, rowIndex) => <tr key={rowIndex} className="border-b border-border last:border-b-0 hover:bg-elevated/45">{row.map((cell, index) => <td key={index} className="px-3 py-2 align-top text-text-secondary">{renderInline(cell, claimsById)}</td>)}</tr>)}
+        </tbody>
+      </table>
+    </div>
+  );
 }
 
 function renderInline(text: string, claimsById: Map<string, ClaimRow>): ReactNode {

@@ -76,12 +76,6 @@ async def get_inbox(
                 pass  # fall through to overwrite
             else:
                 continue
-        if agg is None:
-            continue  # skip applications without aggregator output
-
-        if recommendation and agg.overall_recommendation != recommendation:
-            continue
-
         # Always populate cold_start from the latest FounderScoreSnapshot
         # (spec §9.1: cold_start drives the amber border + ❄ icon — must reflect
         # actual founder status, not just the filter toggle).
@@ -96,6 +90,41 @@ async def get_inbox(
 
         # If the cold_start filter is active, skip non-matching founders
         if cold_start is not None and cold_start_val != cold_start:
+            continue
+
+        # Keep in-flight and failed applications visible. A missing memo is a pipeline
+        # state, not an absence of deal flow, and must never be mistaken for a rejection.
+        if agg is None:
+            if recommendation:
+                continue
+            seen_founders[founder.id] = {
+                "founder_id": str(founder.id),
+                "founder_name": founder.name,
+                "company_id": str(company.id),
+                "company_name": company.name,
+                "geography": company.hq_country,
+                "sector": company.sector_self_reported,
+                "received_at": app.received_at.isoformat() if app.received_at else None,
+                "founder_score": None,
+                "founder_trend": "insufficient_data",
+                "market_score": None,
+                "idea_vs_market_score": None,
+                "thesis_fit_score": None,
+                "conviction": None,
+                "evidence_coverage": None,
+                "open_contradictions": 0,
+                "recommendation": None,
+                "cold_start": cold_start_val,
+                "trend": "insufficient_data",
+                "trace_id": app.trace_id,
+                "computed_at": None,
+                "application_id": str(app.id),
+                "pipeline_status": app.status,
+                "_received_at": app.received_at,
+            }
+            continue
+
+        if recommendation and agg.overall_recommendation != recommendation:
             continue
 
         seen_founders[founder.id] = {
@@ -120,6 +149,7 @@ async def get_inbox(
             "trace_id": agg.trace_id,
             "computed_at": agg.computed_at.isoformat() if agg.computed_at else None,
             "application_id": str(app.id),
+            "pipeline_status": app.status,
             "_received_at": app.received_at,
         }
 

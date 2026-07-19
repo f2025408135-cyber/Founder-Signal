@@ -2,6 +2,7 @@
 
 import { EvidenceChip } from "./evidence-chip";
 import type { ClaimRow } from "@/lib/types";
+import { claimEvidenceStatus } from "@/lib/utils";
 
 const BEAR_PRIORITY: Record<string, number> = {
   contradicted: 0,
@@ -10,7 +11,7 @@ const BEAR_PRIORITY: Record<string, number> = {
 };
 
 function claimStatus(claim: ClaimRow): string {
-  return claim.validator_status || claim.flags.at(-1)?.flag || "not_disclosed";
+  return claimEvidenceStatus(claim.validator_status, claim.flags.at(-1)?.flag);
 }
 
 function tally(claims: ClaimRow[], status: string): number {
@@ -47,6 +48,7 @@ export function Verdict({
   const contradicted = tally(claims, "contradicted");
   const unverifiable = tally(claims, "unverifiable");
   const missing = tally(claims, "not_disclosed");
+  const unvalidated = tally(claims, "unvalidated");
 
   return (
     <section key={founderId} className="verdict" aria-labelledby={`verdict-title-${founderId}`}>
@@ -55,11 +57,12 @@ export function Verdict({
           <p className="verdict__eyebrow">Adversarial evidence view</p>
           <h2 id={`verdict-title-${founderId}`} className="verdict__title">The Verdict: {founderName}</h2>
         </div>
-        <p className="verdict__tally" aria-label={`${verified} supporting, ${contradicted} contradicting, ${unverifiable} unverifiable, ${missing} not disclosed claims`}>
+        <p className="verdict__tally" aria-label={`${verified} supporting, ${contradicted} contradicting, ${unverifiable} unverifiable, ${missing} not disclosed, ${unvalidated} unvalidated claims`}>
           <span>{verified} supporting</span>
           <span>{contradicted} contradicting</span>
           <span>{unverifiable} unverifiable</span>
           {missing > 0 && <span>{missing} missing</span>}
+          {unvalidated > 0 && <span>{unvalidated} unvalidated</span>}
         </p>
       </header>
 

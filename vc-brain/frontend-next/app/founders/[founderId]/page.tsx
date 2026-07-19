@@ -6,6 +6,7 @@ import { useState } from "react";
 import { ArrowLeft, Loader2, AlertCircle, ChevronRight, ChevronDown } from "lucide-react";
 import { AppShell } from "@/components/layout/app-shell";
 import { MemoView } from "@/components/memo/memo-view";
+import { DecisionBrief } from "@/components/memo/decision-brief";
 import { Verdict } from "@/components/memo/verdict";
 import { PipelineTrace } from "@/components/trace/pipeline-trace";
 import { Badge, Card, Skeleton } from "@/components/ui/primitives";
@@ -173,7 +174,7 @@ export default function FounderDetailPage() {
               </div>
             )}
 
-            <MemoView markdown={agg.memo_markdown} claims={memo.claims} />
+            <DecisionBrief memo={memo} latestSnapshot={latestSnapshot} />
 
             <Verdict
               key={memo.founder_id}
@@ -182,6 +183,8 @@ export default function FounderDetailPage() {
               claims={memo.claims}
               memoMarkdown={agg.memo_markdown}
             />
+
+            <MemoView markdown={agg.memo_markdown} claims={memo.claims} />
 
             {/* Score history sparkline */}
             <ScoreHistory history={memo.score_history} />
@@ -315,8 +318,8 @@ function ScoreHistory({
         ))}
       </div>
       <div className="mt-3 flex items-center gap-3 text-[10px] text-text-muted">
-        <span className="flex items-center gap-1">
-          <span className="w-2 h-2 bg-accent rounded-sm" /> verified
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 bg-accent rounded-sm" /> standard confidence snapshot
         </span>
         <span className="flex items-center gap-1">
           <span className="w-2 h-2 bg-warning rounded-sm" /> cold-start

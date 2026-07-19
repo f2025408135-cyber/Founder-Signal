@@ -202,15 +202,6 @@ function InboxContent() {
           </section>
         )}
 
-        {/* Signal Radar — live pipeline activity feed */}
-        <SignalRadarErrorBoundary>
-          <Suspense fallback={<div className="rounded-lg p-4 mb-6" style={{ background: "#0a0908", border: "1px solid #4a3a1a33" }}><div className="font-mono text-[10px]" style={{ color: "#4a3a1a" }}>Loading Signal Radar...</div></div>}>
-            <div className="mb-6">
-              <SignalRadarLazy />
-            </div>
-          </Suspense>
-        </SignalRadarErrorBoundary>
-
         <section>
           {isLoading && (
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4" aria-label="Loading founders">
@@ -242,6 +233,18 @@ function InboxContent() {
               ))}
             </div>
           )}
+        </section>
+
+        <section className="mt-10" aria-label="Pipeline telemetry">
+          <div className="mb-3 flex items-end justify-between gap-4">
+            <div><p className="technical-label">Secondary operator view</p><h2 className="text-lg font-bold text-text-primary">Live Signal Radar</h2></div>
+            <p className="max-w-sm text-right text-xs text-text-muted">Live agent activity and permitted source signals. The investment queue above remains the primary decision surface.</p>
+          </div>
+          <SignalRadarErrorBoundary>
+            <Suspense fallback={<div className="radar-console radar-console--loading">Loading signal telemetry...</div>}>
+              <SignalRadarLazy />
+            </Suspense>
+          </SignalRadarErrorBoundary>
         </section>
       </div>
     </AppShell>
