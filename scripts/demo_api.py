@@ -6,7 +6,9 @@ run agents, score founders, or replace the production FastAPI application.
 from __future__ import annotations
 
 import asyncio
+import json
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import AsyncGenerator
 
 from fastapi import FastAPI, HTTPException
@@ -78,6 +80,69 @@ MEMOS = {
     BOB: memo(BOB, "VerifiedCo", "fast_pass", 85, [BOB_CLAIM], "# Investment Memo: VerifiedCo\n\n## Company Snapshot\n- VerifiedCo maintains an AI infrastructure repository with active public development. [^20000000-0000-0000-0000-000000000001]\n\n## Technology & Defensibility\n- VerifiedCo maintains an AI infrastructure repository with active public development. [^20000000-0000-0000-0000-000000000001]\n\n## Recommendation\n- **Overall:** fast_pass"),
     CAROL: memo(CAROL, "ContradictedCo", "pass", 42, [CAROL_CLAIM], "# Investment Memo: ContradictedCo\n\n## Market Sizing\n- ContradictedCo reports incompatible market-size estimates across submitted evidence. [^30000000-0000-0000-0000-000000000001]\n\n## Recommendation\n- **Overall:** pass", contradictions=["Market-size evidence is contradicted and requires founder clarification."]),
 }
+
+
+def _dataset_claim(record: dict, raw: dict) -> dict:
+    flags = raw.get("flags") or []
+    return {
+        "id": raw["id"],
+        "kind": raw.get("kind", "claim"),
+        "text": raw.get("text", "Synthetic founder claim."),
+        "source": raw.get("source", {"kind": "application_form", "ref": f"app:{record['application_id']}", "raw_payload_hash": "dataset", "retrieved_by": "dataset"}),
+        "confidence": raw.get("confidence", 0.5),
+        "flags": flags,
+        "validator_status": flags[-1].get("flag") if flags else None,
+        "superseded_by": raw.get("superseded_by"),
+        "created_at": raw.get("created_at", NOW),
+    }
+
+
+def _dataset_card(record: dict) -> dict:
+    snapshot = (record.get("founder_score_seed", {}).get("score_history") or [{}])[-1]
+    score = float(snapshot.get("score", 50))
+    categories = set(record.get("categories") or [])
+    recommendation = "reject" if "contradicted" in categories else "fast_pass" if "rich_signal" in categories else "deep_dive" if categories & {"cold_start", "missing_data"} else "pass"
+    claims = record.get("claims") or []
+    verified = sum(1 for item in claims if (item.get("flags") or [{}])[-1].get("flag") == "verified")
+    coverage = verified / len(claims) if claims else 0.0
+    return {
+        "founder_id": record["founder_id"], "founder_name": record["name"], "company_id": record.get("company_id"),
+        "company_name": record.get("company_name"), "geography": record.get("geography"), "sector": record.get("sector"),
+        "received_at": record.get("created_at", NOW), "founder_score": round(score, 1), "founder_trend": snapshot.get("trend", "insufficient_data"),
+        "market_score": "bear" if "contradicted" in categories else "bullish" if "rich_signal" in categories else "neutral",
+        "idea_vs_market_score": round(score, 1), "thesis_fit_score": round(score, 1), "conviction": round(score, 1),
+        "evidence_coverage": round(coverage, 3), "open_contradictions": 1 if "contradicted" in categories else 0,
+        "recommendation": recommendation, "cold_start": bool(snapshot.get("cold_start") or "cold_start" in categories),
+        "trend": snapshot.get("trend", "insufficient_data"), "trace_id": f"dataset-{record['founder_id']}",
+        "computed_at": snapshot.get("computed_at", NOW), "application_id": record.get("application_id"),
+    }
+
+
+def _dataset_memo(record: dict, card: dict) -> dict:
+    claims = [_dataset_claim(record, raw) for raw in record.get("claims", [])]
+    citations = "\n".join(f"- {claim['text']} [^{claim['id']}]" for claim in claims[:8]) or "- Evidence is still being validated for this founder."
+    snapshot = (record.get("founder_score_seed", {}).get("score_history") or [{}])[-1]
+    return {
+        "founder_id": card["founder_id"], "founder_name": card["founder_name"], "company_name": card["company_name"],
+        "aggregator_output": {
+            "id": f"dataset-memo-{card['founder_id']}", "overall_recommendation": card["recommendation"], "overall_conviction": card["conviction"],
+            "axes": {"founder": card["founder_score"], "market": 10 if card["market_score"] == "bear" else 100 if card["market_score"] == "bullish" else 50, "idea_vs_market": card["idea_vs_market_score"]},
+            "axes_trends": {"founder": card["founder_trend"], "market": "stable", "idea_vs_market": "stable"}, "thesis_fit_score": card["thesis_fit_score"],
+            "evidence_coverage": card["evidence_coverage"], "open_contradictions": ["Contradictory evidence requires founder clarification."] if card["open_contradictions"] else [],
+            "missing_required_sections": [], "missing_optional_sections": ["financials_and_round_structure", "cap_table"],
+            "memo_markdown": f"# Investment Memo: {card['company_name']}\n\n## Company Snapshot\n{citations}\n\n## Recommendation\n- **Overall:** {card['recommendation']}",
+            "next_actions": ["Review the cited evidence before advancing this founder.", "Request missing diligence materials where applicable."],
+            "computed_at": card["computed_at"], "trace_id": card["trace_id"],
+        },
+        "claims": claims, "score_history": [{"computed_at": snapshot.get("computed_at", NOW), "score": card["conviction"], "trend": card["trend"], "trigger": "dataset", "cold_start": card["cold_start"], "component_scores": snapshot.get("component_scores", {}), "confidence_band": snapshot.get("confidence_band", [max(0, card["conviction"] - 20), min(100, card["conviction"] + 20)])}], "rescore_reason": "cache_hit",
+    }
+
+
+_dataset_root = Path(__file__).resolve().parent.parent / "dataset" / "founders"
+_dataset_records = [json.loads(path.read_text(encoding="utf-8")) for path in sorted(_dataset_root.glob("*.json"))] if _dataset_root.exists() else []
+if _dataset_records:
+    CARDS = [_dataset_card(record) for record in _dataset_records]
+    MEMOS = {record["founder_id"]: _dataset_memo(record, card) for record, card in zip(_dataset_records, CARDS)}
 
 
 @app.get("/health")
