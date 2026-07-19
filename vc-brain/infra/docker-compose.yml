@@ -1,0 +1,56 @@
+version: "3.9"
+
+# VC Brain — local infrastructure
+# Brings up: Postgres 18 + pgvector 0.8.x, Langfuse v3 (self-hosted).
+# Backend (FastAPI) and frontend (Vite) are run from their own dev servers
+# during development; for the demo they can be added as additional services
+# below, but the spec §10 A1 acceptance criterion only requires Postgres +
+# Langfuse + CREATE EXTENSION vector to succeed.
+
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.0-pg18
+    container_name: vcbrain-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: vcbrain
+      POSTGRES_PASSWORD: vcbrain
+      POSTGRES_DB: vcbrain
+      POSTGRES_HOST_AUTH_METHOD: scram-sha-256
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vcbrain -d vcbrain"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  langfuse:
+    image: langfuse/langfuse:3
+    container_name: vcbrain-langfuse
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://vcbrain:vcbrain@postgres:5432/vcbrain
+      NEXTAUTH_SECRET: vcbrain-dev-secret-change-me
+      SALT: vcbrain-dev-salt-change-me
+      NEXTAUTH_URL: http://localhost:3000
+      # Disable telemetry in dev
+      LANGFUSE_TELEMETRY_ENABLED: "false"
+      # Use the same Postgres instance for simplicity (dev only)
+      CLICKHOUSE_URL: ""
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:
