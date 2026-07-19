@@ -1,0 +1,16 @@
+skills/
+tool-results/
+vc-brain/
+frontend/
+infra/
+docs/
+upload/
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+**/__pycache__/
+**/*.pyc
+.git/
+node_modules/
+.next/
+dataset/assets/
