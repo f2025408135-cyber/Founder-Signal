@@ -119,7 +119,7 @@ function InboxContent() {
         </div>
 
         {showFilters && (
-          <div className="mb-6 grid grid-cols-1 gap-3 rounded-md border border-border bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="metal-panel mb-6 grid grid-cols-1 gap-3 rounded-sm p-4 sm:grid-cols-2 lg:grid-cols-4">
             <label className="text-xs">
               <span className="text-text-muted">Sector</span>
               <Input value={sector} onChange={(e) => setSector(e.target.value)} placeholder="AI infra" />
@@ -138,7 +138,7 @@ function InboxContent() {
               <select
                 value={recFilter}
                 onChange={(e) => setRecFilter(e.target.value)}
-                className="h-9 w-full rounded-md border border-border-strong bg-card px-3 text-sm text-text-primary"
+                className="metal-input h-9 w-full rounded-sm border border-border-strong px-3 text-sm text-text-primary"
               >
                 <option value="">any</option>
                 <option value="fast_pass">fast_pass</option>
@@ -263,7 +263,7 @@ function FilterChip({ label, onClear }: { label: string; onClear: () => void }) 
 
 function FounderCardSkeleton() {
   return (
-    <div className="rounded-lg border border-border bg-card p-4 space-y-4">
+    <div className="metal-panel rounded-sm p-4 space-y-4">
       <div className="flex justify-between"><Skeleton className="h-4 w-32" /><Skeleton className="h-4 w-14" /></div>
       <Skeleton className="h-px w-full" />
       <Skeleton className="h-3 w-full" />
@@ -278,7 +278,7 @@ function QueryMatchRow({ match }: { match: QueryMatch }) {
   return (
     <a
       href={`/founders/${match.founder_id}`}
-      className="block p-3 rounded-md border border-border bg-card hover:bg-elevated transition-colors"
+      className="metal-panel metal-panel--interactive block rounded-sm p-3"
     >
       <div className="flex items-center justify-between">
         <div>

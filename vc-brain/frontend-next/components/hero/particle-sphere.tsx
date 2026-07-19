@@ -9,7 +9,7 @@ import * as THREE from "three";
  * Per spec:
  * - BufferGeometry + PointsMaterial (NOT solid mesh)
  * - Spherical distribution with denser core, sparser edges
- * - Cool bluish-metallic palette: #1a2438 edges → #c8e8ff core, particles in #3d5a80 + #e0e6ed
+ * - Silver-metallic palette: graphite edges → crystalline core.
  * - Slow rotation (few deg/sec) + subtle breathing scale pulse
  * - Particle count: 2000-4000 (capped for 60fps on mid-range laptop)
  * - Bloom post-processing on core particles only
@@ -29,10 +29,10 @@ function generateParticleData(): ParticleData {
   const sizes = new Float32Array(PARTICLE_COUNT);
 
   // Color palette
-  const colorCore = new THREE.Color("#c8e8ff"); // bright icy cyan-white
-  const colorMid = new THREE.Color("#3d5a80"); // slate blue
-  const colorEdge = new THREE.Color("#1a2438"); // deep steel blue
-  const colorSilver = new THREE.Color("#e0e6ed"); // pale metallic silver
+  const colorCore = new THREE.Color("#f0f4f8");
+  const colorMid = new THREE.Color("#c8cdd4");
+  const colorEdge = new THREE.Color("#1a1e24");
+  const colorSilver = new THREE.Color("#8e96a0");
 
   for (let i = 0; i < PARTICLE_COUNT; i++) {
     const i3 = i * 3;
@@ -69,13 +69,13 @@ function generateParticleData(): ParticleData {
     const normalizedR = r; // 0 = center, 1 = edge
     let color: THREE.Color;
     if (normalizedR < 0.3) {
-      // Core: bright cyan-white
+      // Core: crystalline silver
       color = colorCore.clone().lerp(colorSilver, Math.random() * 0.3);
     } else if (normalizedR < 0.6) {
-      // Mid: mix of slate blue and silver
+      // Mid: brushed silver
       color = colorMid.clone().lerp(colorSilver, Math.random() * 0.5);
     } else {
-      // Edge: deep steel blue
+      // Edge: graphite steel
       color = colorEdge.clone().lerp(colorMid, Math.random() * 0.4);
     }
 
@@ -141,7 +141,7 @@ function GlowCore() {
   return (
     <mesh ref={meshRef}>
       <sphereGeometry args={[0.3, 32, 32]} />
-      <meshBasicMaterial color="#c8e8ff" transparent opacity={0.15} />
+      <meshBasicMaterial color="#f0f4f8" transparent opacity={0.15} />
     </mesh>
   );
 }
@@ -173,13 +173,13 @@ export function ParticleSphereFallback() {
       className="w-full h-full flex items-center justify-center"
       style={{
         background:
-          "radial-gradient(circle at center, #c8e8ff 0%, #3d5a80 30%, #1a2438 60%, #0a0b0d 100%)",
+          "radial-gradient(circle at center, #f0f4f8 0%, #c8cdd4 30%, #1a1e24 60%, #06070a 100%)",
       }}
     >
       <div
         className="w-48 h-48 rounded-full"
         style={{
-          background: "radial-gradient(circle, #c8e8ff 0%, #3d5a80 50%, transparent 80%)",
+          background: "radial-gradient(circle, #f0f4f8 0%, #c8cdd4 50%, transparent 80%)",
           filter: "blur(20px)",
           opacity: 0.6,
         }}

@@ -29,8 +29,8 @@ export function FounderCard({
   return (
     <Card
       className={cn(
-        "p-4 transition-colors hover:bg-elevated",
-        coldStart ? "border-warning/40" : "border-border"
+        "metal-panel--interactive p-4",
+        coldStart ? "border-warning-border" : ""
       )}
     >
       {/* Row 1: header */}

@@ -46,7 +46,7 @@ const channelConfig: Record<string, { color: string; bg: string; icon: typeof Gi
 
 function FounderNodeComponent({ data }: { data: FounderNodeData }) {
   return (
-    <div className={cn("min-w-[160px] rounded-lg border bg-card p-3", data.coldStart ? "border-warning-border" : "border-border-strong")}>
+    <div className={cn("metal-panel min-w-[160px] rounded-sm p-3", data.coldStart ? "border-warning-border" : "")}>
       <Handle type="target" position={Position.Top} className="!h-2 !w-2 !bg-accent" />
       <div className="mb-2 flex items-center gap-2">
         <div className="flex h-8 w-8 items-center justify-center rounded-full bg-neutral-bg text-xs font-bold text-text-primary">
@@ -71,7 +71,7 @@ function ChannelNodeComponent({ data }: { data: ChannelNodeData }) {
   const config = channelConfig[data.channelType] ?? channelConfig.github;
   const Icon = config.icon;
   return (
-    <div className="flex min-w-[120px] items-center gap-2 rounded-full border border-border-strong bg-card p-3">
+    <div className="metal-panel flex min-w-[120px] items-center gap-2 rounded-sm p-3">
       <Handle type="target" position={Position.Top} className="!h-2 !w-2 !bg-accent" />
       <div className={cn("flex h-6 w-6 items-center justify-center rounded-full", config.bg, config.color)}><Icon className="h-3.5 w-3.5" /></div>
       <div><div className="text-xs font-bold capitalize text-text-primary">{data.channelType}</div><div className="text-[10px] text-text-muted">{data.signalCount} signals</div></div>
@@ -110,8 +110,8 @@ export default function NetworkCanvas({ inbound, outbound }: { inbound: InboxRes
       <div className="relative min-h-[560px] flex-1">
         <ReactFlow nodes={nodes} edges={edges} nodeTypes={nodeTypes} onNodeClick={onNodeClick} defaultEdgeOptions={defaultEdgeOptions} nodesDraggable nodesConnectable={false} onlyRenderVisibleElements minZoom={0.2} maxZoom={2} fitView fitViewOptions={{ padding: 0.2 }} proOptions={{ hideAttribution: true }} colorMode="dark">
           <Background color="var(--color-border)" gap={20} />
-          <Controls className="!border-border !bg-card" />
-          <MiniMap className="!border-border !bg-card" nodeColor={(node) => node.type === "channel" ? "var(--color-success)" : "var(--color-accent)"} maskColor="var(--color-canvas-base)" />
+          <Controls className="!border-border-strong !bg-card" />
+          <MiniMap className="!border-border-strong !bg-card" nodeColor={(node) => node.type === "channel" ? "var(--color-success)" : "var(--color-accent)"} maskColor="var(--color-canvas-base)" />
         </ReactFlow>
       </div>
       {selectedNode && <NodeDetail node={selectedNode} onClose={() => setSelectedNode(null)} />}
@@ -126,5 +126,5 @@ function founderData(founder: OutboundCard | InboxResponse["cards"][number]): Fo
 function NodeDetail({ node, onClose }: { node: Node; onClose: () => void }) {
   const data = node.data as FounderNodeData | ChannelNodeData;
   const isFounder = node.type === "founder";
-  return <aside className="w-80 overflow-auto border-l border-border bg-card p-4"><div className="mb-3 flex items-center justify-between"><h2 className="text-sm font-bold text-text-primary">Node Detail</h2><button type="button" onClick={onClose} aria-label="Close node detail" className="rounded-sm text-text-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">Close</button></div>{isFounder ? <div className="space-y-3 text-xs"><div><div className="text-text-muted">Name</div><div className="font-bold text-text-primary">{(data as FounderNodeData).founderName}</div></div><div><div className="text-text-muted">Company</div><div className="text-text-secondary">{(data as FounderNodeData).companyName || "Not disclosed"}</div></div><div><div className="text-text-muted">Recommendation</div><Badge variant="outline">{(data as FounderNodeData).recommendation || "Still processing"}</Badge></div><Button asChild size="sm"><Link href={`/founders/${(data as FounderNodeData).founderId}`}>Open Memo</Link></Button></div> : <div className="space-y-3 text-xs"><div><div className="text-text-muted">Channel</div><div className="font-bold capitalize text-text-primary">{(data as ChannelNodeData).channelType}</div></div><div><div className="text-text-muted">Signal count</div><div className="font-mono text-text-primary">{(data as ChannelNodeData).signalCount}</div></div></div>}</aside>;
+  return <aside className="w-80 overflow-auto border-l border-border bg-card/80 p-4"><div className="mb-3 flex items-center justify-between"><div><p className="technical-label">Graph inspect</p><h2 className="text-sm font-bold text-text-primary">Node Detail</h2></div><button type="button" onClick={onClose} aria-label="Close node detail" className="rounded-sm text-text-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50">Close</button></div>{isFounder ? <div className="space-y-3 text-xs"><div><div className="text-text-muted">Name</div><div className="font-bold text-text-primary">{(data as FounderNodeData).founderName}</div></div><div><div className="text-text-muted">Company</div><div className="text-text-secondary">{(data as FounderNodeData).companyName || "Not disclosed"}</div></div><div><div className="text-text-muted">Recommendation</div><Badge variant="outline">{(data as FounderNodeData).recommendation || "Still processing"}</Badge></div><Button asChild size="sm"><Link href={`/founders/${(data as FounderNodeData).founderId}`}>Open Memo</Link></Button></div> : <div className="space-y-3 text-xs"><div><div className="text-text-muted">Channel</div><div className="font-bold capitalize text-text-primary">{(data as ChannelNodeData).channelType}</div></div><div><div className="text-text-muted">Signal count</div><div className="font-mono text-text-primary">{(data as ChannelNodeData).signalCount}</div></div></div>}</aside>;
 }

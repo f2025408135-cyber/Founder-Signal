@@ -15,17 +15,17 @@ const navItems = [
 export function Sidebar() {
   const pathname = usePathname();
   return (
-    <aside className="w-14 shrink-0 border-r border-border bg-card flex flex-col h-full sm:w-56">
+    <aside className="w-14 shrink-0 border-r border-border bg-card/90 flex flex-col h-full sm:w-56" style={{ boxShadow: "inset -1px 0 0 rgba(0,0,0,.4), 12px 0 32px -24px rgba(0,0,0,.9)" }}>
       <div className="px-5 py-5 border-b border-border">
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-md bg-accent flex items-center justify-center">
-            <Activity className="w-4 h-4 text-white" />
+          <div className="metal-button w-7 h-7 rounded-sm flex items-center justify-center">
+            <Activity className="w-4 h-4" />
           </div>
           <div className="hidden sm:block">
             <div className="text-sm font-bold leading-tight text-text-primary">
               Founder Signal
             </div>
-            <div className="text-[10px] text-text-subtle uppercase tracking-wider">
+            <div className="technical-label text-text-muted">
               VC Brain
             </div>
           </div>
@@ -40,10 +40,10 @@ export function Sidebar() {
               key={item.href}
               href={item.href}
               className={cn(
-                "flex items-center justify-center gap-3 px-3 py-2 rounded-md text-sm transition-colors sm:justify-start",
+                "flex items-center justify-center gap-3 px-3 py-2 rounded-sm border text-sm transition-all sm:justify-start",
                 active
-                  ? "bg-elevated text-text-primary font-medium"
-                  : "text-text-muted hover:text-text-primary hover:bg-elevated"
+                  ? "border-border-accent bg-elevated/90 text-text-primary font-medium shadow-[inset_0_1px_0_rgba(240,244,248,.12)]"
+                  : "border-transparent text-text-muted hover:border-border-strong hover:bg-elevated/70 hover:text-text-primary"
               )}
             >
               <Icon className="w-4 h-4" />

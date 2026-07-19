@@ -9,7 +9,7 @@ export function Card({ className, ...props }: React.HTMLAttributes<HTMLDivElemen
   return (
     <div
       className={cn(
-        "rounded-lg border border-border bg-card text-text-primary",
+        "metal-panel rounded-sm text-text-primary",
         className
       )}
       {...props}
@@ -25,9 +25,9 @@ export function Badge({
   variant?: "default" | "outline" | "secondary" | "success" | "warning" | "error";
 }) {
   const variants = {
-    default: "bg-accent/15 text-text-primary border-border-accent",
-    outline: "border border-border-strong text-text-secondary",
-    secondary: "bg-elevated text-text-secondary",
+    default: "bg-accent/10 text-text-primary border-border-accent",
+    outline: "border border-border-strong bg-canvas-base/30 text-text-secondary",
+    secondary: "bg-elevated/70 text-text-secondary border-border-strong",
     success: "bg-success-bg text-text-primary border-success-border",
     warning: "bg-warning-bg text-text-primary border-warning-border",
     error: "bg-error-bg text-text-primary border-error-border",
@@ -35,7 +35,7 @@ export function Badge({
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium leading-none border",
+        "inline-flex items-center rounded-sm px-2 py-0.5 text-[10px] font-medium leading-none border",
         variants[variant],
         className
       )}
@@ -51,7 +51,7 @@ export const Input = React.forwardRef<
   <input
     ref={ref}
     className={cn(
-      "h-9 w-full rounded-md border border-border-strong bg-card px-3 py-1 text-sm text-text-primary transition-colors placeholder:text-text-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40",
+      "metal-input h-9 w-full rounded-sm border border-border-strong px-3 py-1 text-sm text-text-primary transition-colors placeholder:text-text-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50",
       className
     )}
     {...props}
@@ -66,7 +66,7 @@ export const Textarea = React.forwardRef<
   <textarea
     ref={ref}
     className={cn(
-      "min-h-[80px] w-full rounded-md border border-border-strong bg-card px-3 py-2 text-sm text-text-primary transition-colors placeholder:text-text-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40",
+      "metal-input min-h-[80px] w-full rounded-sm border border-border-strong px-3 py-2 text-sm text-text-primary transition-colors placeholder:text-text-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50",
       className
     )}
     {...props}

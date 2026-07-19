@@ -108,7 +108,7 @@ export default function HeroPage() {
     return (
       <div
         className="min-h-screen flex"
-        style={{ background: "radial-gradient(ellipse at center, #0a0b0d 0%, #07080a 50%, #050608 100%)" }}
+        style={{ background: "radial-gradient(ellipse at 58% -12%, rgba(200,205,212,.13) 0%, transparent 52%), linear-gradient(145deg, #06070a 0%, #020203 58%, #0a0d11 100%)" }}
       >
         {/* Left: chat panel */}
         <div className="flex-1 flex flex-col max-w-2xl mx-auto px-6 py-8">
@@ -116,18 +116,17 @@ export default function HeroPage() {
           <div className="flex items-center gap-2 mb-6">
             <div
               className="w-8 h-8 rounded-full flex items-center justify-center"
-              style={{ background: "linear-gradient(135deg, #5e6ad2, #3d5a80)" }}
+              style={{ background: "linear-gradient(135deg, #6e7681, #f0f4f8 48%, #6e7681)", color: "#06070a" }}
             >
-              <Sparkles className="w-4 h-4 text-white" />
+              <Sparkles className="w-4 h-4" />
             </div>
             <div>
-              <div className="text-sm font-bold" style={{ color: "#e0e6ed" }}>Fin</div>
-              <div className="text-[10px]" style={{ color: "#6b7280" }}>Conversational Sourcing Agent</div>
+              <div className="text-sm font-bold silver-text">Fin</div>
+              <div className="technical-label text-text-muted">Conversational Sourcing Agent</div>
             </div>
             <button
               onClick={() => router.push("/inbox")}
-              className="ml-auto text-xs px-3 py-1 rounded-md border"
-              style={{ borderColor: "#3d5a80", color: "#9ca3af" }}
+              className="ml-auto rounded-sm border border-border-strong bg-canvas-base/40 px-3 py-1 text-xs text-text-muted transition-colors hover:border-accent hover:text-text-primary"
             >
               Skip to dashboard →
             </button>
@@ -141,8 +140,8 @@ export default function HeroPage() {
                   className="max-w-[80%] rounded-lg px-4 py-2.5 text-sm"
                   style={
                     msg.role === "user"
-                      ? { background: "#5e6ad2", color: "#fff" }
-                      : { background: "#14151a", color: "#e0e6ed", border: "1px solid rgba(61,90,128,0.2)" }
+                      ? { background: "linear-gradient(135deg, #6e7681, #c8cdd4 55%, #f0f4f8)", color: "#06070a", border: "1px solid rgba(240,244,248,.35)" }
+                      : { background: "linear-gradient(135deg, rgba(42,47,55,.72), rgba(14,17,22,.9))", color: "#f0f4f8", border: "1px solid rgba(200,205,212,.18)" }
                   }
                 >
                   {msg.content}
@@ -153,7 +152,7 @@ export default function HeroPage() {
               <div className="flex justify-start">
                 <div
                   className="rounded-lg px-4 py-2.5 text-sm flex items-center gap-2"
-                  style={{ background: "#14151a", color: "#6b7280", border: "1px solid rgba(61,90,128,0.2)" }}
+                  style={{ background: "linear-gradient(135deg, rgba(42,47,55,.72), rgba(14,17,22,.9))", color: "#8e96a0", border: "1px solid rgba(200,205,212,.18)" }}
                 >
                   <Loader2 className="w-3.5 h-3.5 animate-spin" />
                   <span className="text-xs">Fin is thinking...</span>
@@ -164,8 +163,7 @@ export default function HeroPage() {
               <div className="flex justify-center mt-4">
                 <button
                   onClick={() => router.push(dashboardUrl)}
-                  className="px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2"
-                  style={{ background: "#5e6ad2", color: "#fff" }}
+                  className="metal-button px-4 py-2 rounded-sm text-sm font-medium flex items-center gap-2"
                 >
                   View results on Dashboard
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -184,37 +182,33 @@ export default function HeroPage() {
               onKeyDown={handleKeyDown}
               placeholder="Ask me anything about your pipeline..."
               disabled={loading || (pipelineStarted && !!dashboardUrl)}
-              className="w-full h-12 pl-4 pr-12 rounded-xl text-sm"
+              className="metal-input w-full h-12 pl-4 pr-12 rounded-sm text-sm"
               style={{
-                background: "rgba(20, 21, 26, 0.6)",
-                border: "1px solid rgba(61, 90, 128, 0.2)",
-                color: "#e0e6ed",
-                backdropFilter: "blur(8px)",
+                color: "#f0f4f8",
               }}
             />
             <button
               onClick={() => handleSend()}
               disabled={!input.trim() || loading}
-              className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-lg flex items-center justify-center disabled:opacity-30"
-              style={{ background: "#5e6ad2" }}
+              className="metal-button absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-sm flex items-center justify-center disabled:opacity-30"
             >
-              <Send className="w-3.5 h-3.5 text-white" />
+              <Send className="w-3.5 h-3.5" />
             </button>
           </div>
         </div>
 
         {/* Right: live thesis summary card */}
-        <div className="w-96 border-l p-6 overflow-y-auto" style={{ borderColor: "rgba(61,90,128,0.15)" }}>
-          <h3 className="text-sm font-bold mb-4" style={{ color: "#e0e6ed" }}>
+        <div className="w-96 border-l border-border p-6 overflow-y-auto" style={{ background: "linear-gradient(180deg, rgba(14,17,22,.72), rgba(2,2,3,.5))" }}>
+          <h3 className="text-sm font-bold mb-4 text-text-primary">
             Thesis Summary
           </h3>
           <ThesisSummaryCard thesis={thesisState} />
 
           {/* Pipeline progress */}
           {pipelineStarted && (
-            <div className="mt-6 p-4 rounded-lg" style={{ background: "#14151a", border: "1px solid rgba(94,106,210,0.2)" }}>
-              <div className="text-xs font-bold mb-2" style={{ color: "#5e6ad2" }}>PIPELINE RUNNING</div>
-              <div className="space-y-1.5 text-xs" style={{ color: "#9ca3af" }}>
+            <div className="metal-panel mt-6 p-4 rounded-sm">
+              <div className="technical-label mb-2">Pipeline Running</div>
+              <div className="space-y-1.5 text-xs text-text-muted">
                 <div>✓ Thesis applied</div>
                 <div>→ Scanning GitHub, arXiv, PH, HN...</div>
                 <div className="opacity-50">○ Screening candidates</div>
@@ -233,7 +227,7 @@ export default function HeroPage() {
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden"
-      style={{ background: "radial-gradient(ellipse at center, #0a0b0d 0%, #07080a 50%, #050608 100%)" }}
+      style={{ background: "radial-gradient(ellipse 58% 48% at 54% 42%, rgba(200,205,212,.14), transparent 65%), linear-gradient(145deg, #06070a, #020203 62%, #0a0d11)" }}
     >
       {/* Particle sphere */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -243,7 +237,7 @@ export default function HeroPage() {
               <div
                 className="w-full h-full rounded-full"
                 style={{
-                  background: "radial-gradient(circle, #c8e8ff 0%, #3d5a80 30%, #1a2438 60%, transparent 80%)",
+                  background: "radial-gradient(circle, #f0f4f8 0%, #c8cdd4 28%, #6e7681 56%, transparent 80%)",
                   filter: "blur(30px)",
                   opacity: 0.4,
                 }}
@@ -259,11 +253,11 @@ export default function HeroPage() {
       <div className="relative z-10 flex flex-col items-center px-6 max-w-2xl w-full">
         <h1
           className="text-4xl md:text-5xl font-bold text-center mb-3"
-          style={{ color: "#e0e6ed", letterSpacing: "-0.04em", textShadow: "0 0 40px rgba(200, 232, 255, 0.15)" }}
+          style={{ letterSpacing: "-0.04em", textShadow: "0 0 44px rgba(200,205,212,.2)" }}
         >
-          Ask the VC Brain anything.
+          <span className="silver-text">Ask the VC Brain anything.</span>
         </h1>
-        <p className="text-sm md:text-base text-center mb-8 max-w-lg" style={{ color: "#6b7280" }}>
+        <p className="text-sm md:text-base text-center mb-8 max-w-lg text-text-muted">
           Tell Fin what you're looking for — sector, stage, geography, traction, funding history. He'll
           interview you, build your thesis, and run the pipeline.
         </p>
@@ -278,13 +272,7 @@ export default function HeroPage() {
             <button
               key={chip}
               onClick={() => handleSend(chip)}
-              className="px-3 py-1.5 rounded-full text-xs border transition-all hover:scale-105"
-              style={{
-                borderColor: "rgba(61, 90, 128, 0.3)",
-                background: "rgba(26, 36, 56, 0.4)",
-                color: "#9ca3af",
-                backdropFilter: "blur(4px)",
-              }}
+              className="metal-panel rounded-sm border-border-strong px-3 py-1.5 text-xs text-text-muted transition-all hover:-translate-y-0.5 hover:border-accent hover:text-text-primary"
             >
               {chip}
             </button>
@@ -294,26 +282,20 @@ export default function HeroPage() {
         {/* Input bar — starts Fin conversation */}
         <div className="w-full max-w-xl">
           <div className="relative">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: "#3d5a80" }} />
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-accent-muted" />
             <input
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder="Ask me anything about your pipeline..."
-              className="w-full h-12 pl-12 pr-32 rounded-xl text-base"
-              style={{
-                background: "rgba(20, 21, 26, 0.6)",
-                border: "1px solid rgba(61, 90, 128, 0.2)",
-                color: "#e0e6ed",
-                backdropFilter: "blur(8px)",
-              }}
+              className="metal-input w-full h-12 pl-12 pr-32 rounded-sm text-base text-text-primary"
             />
             <div className="absolute right-2 top-1/2 -translate-y-1/2">
               <Button
                 onClick={() => handleSend()}
                 disabled={!input.trim() || loading}
-                className="h-9 rounded-lg"
+                className="h-9 rounded-sm"
               >
                 {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : (
                   <>Talk to Fin <ArrowRight className="w-3.5 h-3.5 ml-1.5" /></>
@@ -326,7 +308,7 @@ export default function HeroPage() {
         <button
           onClick={() => router.push("/inbox")}
           className="mt-8 text-xs transition-colors hover:underline"
-          style={{ color: "#3d5a80" }}
+          style={{ color: "#8e96a0" }}
         >
           Skip to dashboard →
         </button>
@@ -335,7 +317,7 @@ export default function HeroPage() {
       {/* Bottom vignette */}
       <div
         className="absolute inset-0 pointer-events-none"
-        style={{ background: "radial-gradient(ellipse at center, transparent 40%, rgba(5, 6, 8, 0.6) 100%)" }}
+        style={{ background: "radial-gradient(ellipse at center, transparent 38%, rgba(2, 2, 3, 0.74) 100%)" }}
       />
     </div>
   );
@@ -353,28 +335,28 @@ function ThesisSummaryCard({ thesis }: { thesis: ThesisState }) {
   ];
 
   return (
-    <Card className="p-4 space-y-3" style={{ background: "#14151a" }}>
+    <Card className="p-4 space-y-3">
       {fields.map((f) => (
         <div key={f.label} className="flex items-center justify-between">
-          <span className="text-xs" style={{ color: "#6b7280" }}>{f.label}</span>
+          <span className="text-xs text-text-muted">{f.label}</span>
           {f.filled ? (
             <Badge variant="success" className="text-[10px]">
               {Array.isArray(f.value) ? f.value.join(", ") : f.value}
             </Badge>
           ) : (
-            <span className="text-[10px]" style={{ color: "#4a3a1a" }}>— not yet discussed</span>
+            <span className="text-[10px] text-text-subtle">— not yet discussed</span>
           )}
         </div>
       ))}
       {thesis.all_filled && !thesis.confirmed && (
-        <div className="pt-2 border-t" style={{ borderColor: "rgba(61,90,128,0.15)" }}>
+        <div className="pt-2 border-t border-border">
           <div className="text-xs" style={{ color: "#d4a843" }}>
             ✓ All fields filled — confirm to start pipeline
           </div>
         </div>
       )}
       {thesis.confirmed && (
-        <div className="pt-2 border-t" style={{ borderColor: "rgba(61,90,128,0.15)" }}>
+        <div className="pt-2 border-t border-border">
           <div className="text-xs" style={{ color: "#3ecf8e" }}>
             ✓ Confirmed — pipeline running
           </div>

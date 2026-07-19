@@ -116,10 +116,10 @@ export default function ThesisPage() {
                           : [...draft.sectors, s],
                       })
                     }
-                    className={`px-2.5 py-1 rounded-full text-xs border transition-colors ${
+                    className={`rounded-sm px-2.5 py-1 text-xs border transition-colors ${
                       selected
-                        ? "bg-accent text-white border-accent"
-                        : "border-border-strong text-text-secondary hover:bg-elevated"
+                        ? "metal-button border-accent"
+                        : "metal-panel border-border-strong text-text-secondary hover:brightness-125"
                     }`}
                   >
                     {s} {selected && <X className="w-2.5 h-2.5 inline ml-1" />}
@@ -146,10 +146,10 @@ export default function ThesisPage() {
                           : [...draft.stage, s],
                       })
                     }
-                    className={`px-2.5 py-1 rounded-full text-xs border transition-colors ${
+                    className={`rounded-sm px-2.5 py-1 text-xs border transition-colors ${
                       selected
-                        ? "bg-accent text-white border-accent"
-                        : "border-border-strong text-text-secondary hover:bg-elevated"
+                        ? "metal-button border-accent"
+                        : "metal-panel border-border-strong text-text-secondary hover:brightness-125"
                     }`}
                   >
                     {s}
@@ -176,10 +176,10 @@ export default function ThesisPage() {
                           : [...draft.geography, g],
                       })
                     }
-                    className={`px-2.5 py-1 rounded-full text-xs border transition-colors ${
+                    className={`rounded-sm px-2.5 py-1 text-xs border transition-colors ${
                       selected
-                        ? "bg-accent text-white border-accent"
-                        : "border-border-strong text-text-secondary hover:bg-elevated"
+                        ? "metal-button border-accent"
+                        : "metal-panel border-border-strong text-text-secondary hover:brightness-125"
                     }`}
                   >
                     {g}

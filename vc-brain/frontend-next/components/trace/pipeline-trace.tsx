@@ -34,7 +34,7 @@ export function PipelineTrace({ traceId }: { traceId: string | null | undefined 
   }
 
   return (
-    <div className="border border-border rounded-md bg-card overflow-hidden">
+    <div className="metal-panel rounded-sm overflow-hidden">
       <div className="flex items-center justify-between px-3 py-2 border-b border-border">
         <div className="flex items-center gap-2 text-xs font-bold text-text-primary">
           <Activity className="w-3.5 h-3.5" />
