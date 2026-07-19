@@ -32,7 +32,7 @@ interface ThesisState {
   confirmed?: boolean;
 }
 
-const FIN_GREETING = "Hey — I'm Fin. Tell me what you're looking for. Sector, stage, geography, check size — whatever's on your mind.";
+const FIN_GREETING = "Hey — I'm Fin Agent. Tell me what you're looking for. Sector, stage, geography, check size — whatever's on your mind.";
 
 export default function HeroPage() {
   const router = useRouter();
@@ -131,7 +131,7 @@ export default function HeroPage() {
               <Sparkles className="w-4 h-4" />
             </div>
             <div>
-              <div className="text-sm font-bold silver-text">Fin</div>
+              <div className="text-sm font-bold silver-text">Fin Agent</div>
               <div className="technical-label text-text-muted">Conversational Sourcing Agent</div>
             </div>
             <button
@@ -166,7 +166,7 @@ export default function HeroPage() {
                   style={{ background: "linear-gradient(135deg, rgba(42,47,55,.72), rgba(14,17,22,.9))", color: "#8e96a0", border: "1px solid rgba(200,205,212,.18)" }}
                 >
                   <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                  <span className="text-xs">Fin is thinking...</span>
+                  <span className="text-xs">Fin Agent is thinking...</span>
                 </div>
               </div>
             )}
@@ -303,7 +303,7 @@ export default function HeroPage() {
                 className="h-9 rounded-sm"
               >
                 {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : (
-                  <>Talk to Fin <ArrowRight className="w-3.5 h-3.5 ml-1.5" /></>
+                  <>Talk to Fin Agent <ArrowRight className="w-3.5 h-3.5 ml-1.5" /></>
                 )}
               </Button>
             </div>

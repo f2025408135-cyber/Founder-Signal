@@ -2,16 +2,17 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
-import { Inbox, Network, Filter, FileText, Activity, Sparkles } from "lucide-react";
+import { Inbox, Network, Filter, FileText, Activity, Sparkles, HelpCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { api } from "@/lib/api";
 
 const navItems = [
-  { href: "/hero", label: "Fin", icon: Sparkles },
+  { href: "/hero", label: "Fin Agent", icon: Sparkles },
   { href: "/inbox", label: "Inbox", icon: Inbox },
   { href: "/network", label: "Network", icon: Network },
   { href: "/funnel", label: "Funnel", icon: Filter },
   { href: "/thesis", label: "Thesis", icon: FileText },
+  { href: "/guide", label: "Guide", icon: HelpCircle },
 ];
 
 export function Sidebar() {
