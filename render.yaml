@@ -2,8 +2,8 @@ services:
   - type: web
     name: founder-signal-api
     runtime: python
-    buildCommand: pip install -r requirements-demo.txt
-    startCommand: uvicorn scripts.demo_api:app --host 0.0.0.0 --port $PORT
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
     envVars:
       - key: PYTHON_VERSION
-        value: 3.12.0
+        value: 3.12.7
