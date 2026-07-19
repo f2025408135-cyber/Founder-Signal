@@ -1,5 +1,0 @@
-[phases.install]
-cmds = ["pip install -r requirements-demo.txt"]
-
-[start]
-cmd = "uvicorn scripts.demo_api:app --host 0.0.0.0 --port $PORT"
