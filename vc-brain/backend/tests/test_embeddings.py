@@ -39,7 +39,14 @@ async def test_cosine_similarity_identical_strings_is_one():
 
 @pytest.mark.asyncio
 async def test_cosine_similarity_unrelated_strings_is_low():
-    """cosine_similarity of unrelated strings is meaningfully lower than identical."""
+    """cosine_similarity of unrelated strings is meaningfully lower than identical.
+
+    Skipped if sentence-transformers is not installed (hash-embedding fallback
+    does not produce semantically meaningful embeddings).
+    """
+    from app.utils.embeddings import _load_attempted, _model
+    if _model is None and _load_attempted:
+        pytest.skip("sentence-transformers not installed — hash-embedding fallback lacks semantic similarity")
     v1 = await embed_text("AI infrastructure")
     v2 = await embed_text("Recipe for chocolate cake")
     sim_unrelated = cosine_similarity(v1, v2)

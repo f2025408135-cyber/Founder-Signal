@@ -266,20 +266,22 @@ async def test_c4_founder_r2_widens_downward_when_high_clamped(founder_id, compa
 
 def test_h7_cold_start_banner_uses_red_border():
     """Spec §9.2: cold-start banner is RED-bordered, not amber."""
-    memo_view_src = (Path(__file__).resolve().parent.parent.parent / "frontend" / "src" / "components" / "MemoView.tsx").read_text()
-    # The cold-start banner block in MemoView.tsx must use --color-contradicted (red), not --color-cold-start (amber)
-    # Find the cold-start banner block
+    memo_view_src = (Path(__file__).resolve().parent.parent.parent / "frontend-next" / "components" / "memo" / "memo-view.tsx").read_text()
+    # The cold-start banner block in memo-view.tsx must use error/red color tokens
+    # In the Next.js frontend, red is represented as "border-error" and "bg-error-bg"
+    # (mapping to --color-error: #d44a5c in globals.css)
     assert "> ⚠️" in memo_view_src or "> ⚠" in memo_view_src
     # Extract the cold-start banner block
     import re
     m = re.search(r'if \(line\.startsWith\("> ⚠️"\).*?return \(\s*<div[^>]*>(.*?)</div>', memo_view_src, re.DOTALL)
-    assert m, "Cold-start banner block not found in MemoView.tsx"
+    assert m, "Cold-start banner block not found in memo-view.tsx"
     banner_block = m.group(0)
-    assert "contradicted" in banner_block, (
-        f"Cold-start banner must use --color-contradicted (red); got: {banner_block}"
+    # Must use error/red color (border-error or --color-error), NOT warning/amber
+    assert "error" in banner_block.lower(), (
+        f"Cold-start banner must use RED color (border-error/bg-error-bg); got: {banner_block}"
     )
-    assert "cold-start" not in banner_block.lower() or "cold_start" not in banner_block.replace("--color-cold-start", ""), (
-        "Banner should not use --color-cold-start (amber)"
+    assert "warning" not in banner_block.lower() or "cold-start" in banner_block.lower(), (
+        "Banner should not use warning/amber color for the border"
     )
 
 
@@ -700,13 +702,15 @@ def test_m24_optional_callout_uses_parens(founder_id, company_id):
 def test_f11_evidence_chip_covers_all_statuses():
     """evidenceChip must handle all 6 ClaimFlag values, not just 4."""
     # Read the frontend source
-    utils_src = (Path(__file__).resolve().parent.parent.parent / "frontend" / "src" / "lib" / "utils.ts").read_text()
+    utils_src = (Path(__file__).resolve().parent.parent.parent / "frontend-next" / "lib" / "utils.ts").read_text()
 
     # All 6 statuses from backend/app/schemas/claim.py ClaimFlag
+    # The frontend-next utils.ts uses a STATE_CONFIG object with keys, not switch/case
     required = ["verified", "unverifiable", "contradicted", "not_disclosed", "low_evidence", "cold_start_inferred"]
     for status in required:
-        assert f'case "{status}"' in utils_src, (
-            f"evidenceChip missing case for {status}"
+        # Check for either `case "status":` (switch) or `status:` (object key)
+        assert f'case "{status}"' in utils_src or f'{status}:' in utils_src or f'{status} :' in utils_src, (
+            f"evidenceChip missing handler for {status}"
         )
 
 
@@ -762,7 +766,7 @@ def test_h8_thesis_post_invalidates_cache():
 def test_h5_no_duplicate_cold_start_banner_on_detail_page():
     """FounderDetailPage must NOT render a standalone cold-start banner div —
     MemoView renders it from memo_markdown."""
-    detail_src = (Path(__file__).resolve().parent.parent.parent / "frontend" / "src" / "pages" / "FounderDetailPage.tsx").read_text()
+    detail_src = (Path(__file__).resolve().parent.parent.parent / "frontend-next" / "app" / "founders" / "[founderId]" / "page.tsx").read_text()
     # The standalone banner block was removed — search for the old pattern
     assert 'border-2 border-[var(--color-cold-start)] bg-[var(--color-cold-start)]/5' not in detail_src or \
            'Cold-start founder. External signals absent.' not in detail_src, (
@@ -777,7 +781,7 @@ def test_h5_no_duplicate_cold_start_banner_on_detail_page():
 
 def test_h6_cold_start_uses_latest_snapshot():
     """FounderDetailPage uses score_history[last] not score_history.some()."""
-    detail_src = (Path(__file__).resolve().parent.parent.parent / "frontend" / "src" / "pages" / "FounderDetailPage.tsx").read_text()
+    detail_src = (Path(__file__).resolve().parent.parent.parent / "frontend-next" / "app" / "founders" / "[founderId]" / "page.tsx").read_text()
     # Check for latest snapshot pattern (using array index or .at(-1))
     assert "latestSnapshot" in detail_src, "FounderDetailPage must use 'latestSnapshot' variable"
     assert "score_history.length - 1" in detail_src or "score_history.at(-1)" in detail_src, (
